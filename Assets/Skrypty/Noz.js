@@ -1,5 +1,10 @@
 ﻿#pragma strict
 
+//stale
+var idle = "oczekiwanie";
+var run = "sprint";
+var lpm = "zamachniecie";
+
 var TheDammage : int = 50;
 var Distance : float;
 var MaxDistance : float = 1.5;
@@ -24,23 +29,23 @@ function Update()
 	//Atak
 	if (Input.GetButtonDown("Fire1"))
 	{
-		animation.Play("Atak");
+		animation.Play(lpm);
 		AttackDammage ();
 	}
 	
 	//Poruszanie sie
 	if (animation.isPlaying == false)
 	{
-		animation.CrossFade("Bieg");
+		animation.CrossFade(idle);
 	}
 	
 	if (Input.GetKey(KeyCode.LeftShift))
 	{
-		animation.CrossFade("Sprint");
+		animation.CrossFade(run);
 	}
 	
 	if (Input.GetKeyUp(KeyCode.LeftShift))
 	{
-		animation.CrossFade("Bieg");
+		animation.CrossFade(idle);
 	}
 }
