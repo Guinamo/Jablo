@@ -46,9 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Skrypty\AI_wrog.js" />
      <Compile Include="Assets\Skrypty\EnemyLogic.js" />
      <Compile Include="Assets\Skrypty\Noz.js" />
+     <Compile Include="Assets\Skrypty\Strzelanie.js" />
      <Compile Include="Assets\Skrypty\WeaponSwitching.js" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/Whitehead/Documents/New Unity Project/Jablo/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

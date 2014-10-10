@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Skrypty\Noz.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Skrypty\Strzelanie.js">
     <Files>
-      <File FileName="Assets\Skrypty\Noz.js" Line="6" Column="24" />
+      <File FileName="Assets\Skrypty\AI_wrog.js" Line="55" Column="2" />
+      <File FileName="Assets\Skrypty\Strzelanie.js" Line="20" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
