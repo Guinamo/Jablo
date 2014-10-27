@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Skrypty\Strzelanie.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Skrypty\Door_logic.js">
     <Files>
-      <File FileName="Assets\Skrypty\AI_wrog.js" Line="55" Column="2" />
-      <File FileName="Assets\Skrypty\Strzelanie.js" Line="20" Column="2" />
+      <File FileName="Assets\Skrypty\Door_logic.js" Line="20" Column="26" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

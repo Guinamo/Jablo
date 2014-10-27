@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Skrypty\AI_wrog.js" />
+     <Compile Include="Assets\Skrypty\Door_logic.js" />
      <Compile Include="Assets\Skrypty\EnemyLogic.js" />
      <Compile Include="Assets\Skrypty\Noz.js" />
      <Compile Include="Assets\Skrypty\Strzelanie.js" />
