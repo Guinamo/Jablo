@@ -10,11 +10,44 @@ var i : int;
 var aktualna : int = 0;
 var weapon;
 var slot : GameObject[];
-var ammo = [-1,-1,0,0,0,0,0,0,0,0];
 var dostepnosc = [1,1,1,1,1,1,1,1,1,1];
 
-//funkcje
+var Effect : Transform;
+var TheDammage = 100;
+var hit : RaycastHit;
+var ray : Ray;
 
+var bron = {
+    nazwa : String,
+    model : Transform,
+    ammoMagaz : int,
+    granatyMagaz : int,
+    ammoSklad : int,
+    granatySklad : int,
+    ammoMax : int,
+    granatyMax : int,
+    dostepnosc : false,
+    
+    lpm : function() {},
+    rpm : function() {},
+    przeladuj : function() {
+    	if (ammoMax > 0 && ammo < ammoMax)
+    	{
+    		if (ammoMax - ammoMagaz >= ammoSklad)
+    		{
+    			ammoMagaz += ammoSklad;
+    			ammoSklad = 0;
+    		}
+    		else
+    		{
+    			ammoMagaz = ammoMax;
+    			ammoSklad -= ammoMax;
+    		}
+    	}
+    }
+}
+
+//funkcje
 function zmienSlot(x : int)
 {
 	slot[aktualna].SetActive(false);
@@ -31,12 +64,7 @@ function uaktywnijNaWejsciu()
 		slot[aktualna].SetActive(true);
 }
 
-//Start
-
-uaktywnijNaWejsciu();
-
-//funkcja Update
-function Update()
+function zmianaBroni()
 {
 	// num 1 - 9, 0
 	if (Input.GetKeyDown(KeyCode.Alpha0) && (aktualna != 0))
@@ -92,4 +120,37 @@ function Update()
 			zmienSlot( ( aktualna + i ) % weaponscount );
 		}
 	}
+}
+
+function strzelanie()
+{
+	ray = Camera.main.ScreenPointToRay(Vector3(Screen.width*0.5, Screen.height*0.5, 0));
+	
+	if (Input.GetMouseButtonDown(0))
+	{
+		if (Physics.Raycast (ray, hit, 100))
+		{
+			var particleClone = Instantiate(Effect, hit.point, Quaternion.LookRotation(hit.normal));
+			Destroy(particleClone.gameObject, 2);
+			hit.transform.SendMessage("ApplyDammage", TheDammage, SendMessageOptions.DontRequireReceiver);
+		}
+	}
+}
+
+function uzyjLPM()
+{
+	if (Input.GetMouseButtonDown(0))
+	{
+		
+	}
+}
+
+//Start
+uaktywnijNaWejsciu();
+
+//funkcja Update
+function Update()
+{
+	zmianaBroni();
+	uzyjLPM();
 }

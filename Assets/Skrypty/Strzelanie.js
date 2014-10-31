@@ -2,11 +2,12 @@
 
 var Effect : Transform;
 var TheDammage = 100;
+var hit : RaycastHit;
+var ray : Ray;
 
 function Update () 
 {
-	var hit : RaycastHit;
-	var ray : Ray = Camera.main.ScreenPointToRay(Vector3(Screen.width*0.5, Screen.height*0.5, 0));
+	ray = Camera.main.ScreenPointToRay(Vector3(Screen.width*0.5, Screen.height*0.5, 0));
 	
 	if (Input.GetMouseButtonDown(0))
 	{
