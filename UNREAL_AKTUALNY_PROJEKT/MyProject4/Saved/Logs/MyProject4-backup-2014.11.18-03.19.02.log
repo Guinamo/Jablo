@@ -1,0 +1,155 @@
+Log file open, 11/18/14 03:16:20
+LogInit:Display: Running engine for game: MyProject4
+Running D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/DotNET/UnrealBuildTool.exe MyProject4 Development Win64 -project="D:/Developer/Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/MyProject4.uproject" -editorrecompile -progress
+Building UnrealHeaderTool...
+Performing 30 actions (max 2 parallel jobs)
+PCH.Shared.Core.h.cpp
+PCH.Core.Core.h.cpp
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Public\HAL\PlatformIncludes.h(8) : fatal error C1083: Cannot open include file: 'new': No such file or directory
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Public\HAL\PlatformIncludes.h(8) : fatal error C1083: Cannot open include file: 'new': No such file or directory
+[4/30] rc.exe PCLaunch.rc
+[3/30] rc.exe ModuleVersionResource.rc.inl
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Resources\Windows\ModuleVersionResource.rc.inl(3) : fatal error RC1015: cannot open include file 'windows.h'.
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime/Launch/Resources/Windows/PCLaunch.rc(13) : fatal error RC1015: cannot open include file 'windows.h'.
+[6/30] rc.exe ModuleVersionResource.rc.inl
+PCH.Shared.CoreUObject.h.cpp
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Resources\Windows\ModuleVersionResource.rc.inl(3) : fatal error RC1015: cannot open include file 'windows.h'.
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Public\HAL\PlatformIncludes.h(8) : fatal error C1083: Cannot open include file: 'new': No such file or directory
+[7/30] rc.exe PCLaunch.rc
+Module.CoreUObject.1_of_4.cpp
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime/Launch/Resources/Windows/PCLaunch.rc(13) : fatal error RC1015: cannot open include file 'windows.h'.
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Public\HAL\PlatformIncludes.h(8) : fatal error C1083: Cannot open include file: 'new': No such file or directory
+Module.CoreUObject.3_of_4.cpp
+Module.CoreUObject.2_of_4.cpp
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Public\HAL\PlatformIncludes.h(8) : fatal error C1083: Cannot open include file: 'new': No such file or directory
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Public\HAL\PlatformIncludes.h(8) : fatal error C1083: Cannot open include file: 'new': No such file or directory
+[12/30] rc.exe ModuleVersionResource.rc.inl
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Resources\Windows\ModuleVersionResource.rc.inl(3) : fatal error RC1015: cannot open include file 'windows.h'.
+Module.CoreUObject.4_of_4.cpp
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Public\HAL\PlatformIncludes.h(8) : fatal error C1083: Cannot open include file: 'new': No such file or directory
+[13/30] rc.exe PCLaunch.rc
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime/Launch/Resources/Windows/PCLaunch.rc(13) : fatal error RC1015: cannot open include file 'windows.h'.
+[14/30] rc.exe ModuleVersionResource.rc.inl
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Resources\Windows\ModuleVersionResource.rc.inl(3) : fatal error RC1015: cannot open include file 'windows.h'.
+[15/30] rc.exe PCLaunch.rc
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Runtime/Launch/Resources/Windows/PCLaunch.rc(13) : fatal error RC1015: cannot open include file 'windows.h'.
+[16/30] rc.exe PCLaunch.rc
+D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Source\Programs\UnrealHeaderTool\Resources\PCLaunch.rc(3) : fatal error RC1015: cannot open include file 'windows.h'.
+-------- End Detailed Actions Stats -----------------------------------------------------------
+ERROR: UBT ERROR: Failed to produce item: D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UnrealHeaderTool-Core.pdb
+Cumulative action seconds (2 processors): 0,00 building projects, 1,68 compiling, 0,00 creating app bundles, 0,00 generating debug info, 0,00 linking, 0,00 other
+UBT execution time: 6,74 seconds
+UnrealHeaderTool failed for target 'MyProject4Editor' (platform: Win64, module info: D:\Developer\Jablo\UNREAL_AKTUALNY_PROJEKT\MyProject4\Intermediate\Build\Win64\MyProject4Editor\Development\UnrealHeaderTool.manifest).
+LogInit: Version: 4.4.3-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Sep 17 2014 07:16:51
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.11.18-02.16.41:521][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.18-02.16.41:551][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.18-02.16.41:561][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.18-02.16.41:570][  0]LogInit: Object subsystem initialized
+[2014.11.18-02.16.41:573][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.18-02.16.41:573][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.18-02.16.41:579][  0]LogInit: Computer: ADAM
+[2014.11.18-02.16.41:579][  0]LogInit: User: Adam
+[2014.11.18-02.16.41:580][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.18-02.16.41:580][  0]LogInit: High frequency timer resolution =3.161619 MHz
+[2014.11.18-02.16.41:581][  0]LogMemory: Memory total: Physical=3.0GB (3GB approx) Virtual=131072.0GB
+[2014.11.18-02.16.41:581][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.18-02.16.41:581][  0]LogMemory: Process Physical Memory: 62.39 MB used, 62.48 MB peak
+[2014.11.18-02.16.41:581][  0]LogMemory: Process Virtual Memory: 36.19 MB used, 36.30 MB peak
+[2014.11.18-02.16.41:581][  0]LogMemory: Physical Memory: 1701.81 MB used, 3071.55 MB total
+[2014.11.18-02.16.41:581][  0]LogMemory: Virtual Memory: 341.13 MB used, 134217728.00 MB total
+[2014.11.18-02.16.41:618][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2014.11.18-02.16.41:618][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 1535MB of shared system memory, 2 output[s]
+[2014.11.18-02.16.41:620][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.18-02.16.41:620][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.18-02.16.41:620][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.18-02.16.41:630][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.18-02.16.41:643][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.18-02.16.41:818][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.18-02.16.43:309][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.18-02.16.43:844][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.18-02.16.43:890][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.18-02.16.44:061][  0]LogDerivedDataCache: Loaded boot cache 0.17s 39MB ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc.
+[2014.11.18-02.16.44:062][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc
+[2014.11.18-02.16.44:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.18-02.16.44:062][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.18-02.16.44:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.18-02.16.44:062][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.11.18-02.16.44:075][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.11.18-02.16.44:075][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.11.18-02.16.44:075][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.11.18-02.16.44:309][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.18-02.16.44:309][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.18-02.16.45:084][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.18-02.16.46:045][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_245c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_bd8_0///////STATCAT_Advanced////
+[2014.11.18-02.16.46:045][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.18-02.16.46:115][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'MyProject4' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.18-02.16.57:000][  0]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.18-02.16.57:001][  0]LogExit: Preparing to exit.
+[2014.11.18-02.16.58:173][  0]LogExit: Object subsystem successfully closed.
+[2014.11.18-02.16.58:228][  0]LogModuleManager: Shutting down and abandoning module ScriptPlugin (60)
+[2014.11.18-02.16.58:228][  0]LogModuleManager: Shutting down and abandoning module UdpMessaging (59)
+[2014.11.18-02.16.58:329][  0]LogModuleManager: Shutting down and abandoning module Paper2D (58)
+[2014.11.18-02.16.58:329][  0]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (57)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (56)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (55)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module FunctionalTesting (54)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (53)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (52)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module MessageLog (51)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module UMGEditor (50)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module UMG (49)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module Slate (48)
+[2014.11.18-02.16.58:330][  0]LogModuleManager: Shutting down and abandoning module EditorStyle (47)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module SessionServices (46)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (45)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (44)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module XAudio2 (43)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module Networking (41)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module Core (40)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module KismetCompiler (39)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module PhysXFormats (38)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module MeshUtilities (37)
+[2014.11.18-02.16.58:333][  0]LogModuleManager: Shutting down and abandoning module DerivedDataCache (36)
+[2014.11.18-02.16.58:578][  0]LogDerivedDataCache: Shutdown
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (35)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (34)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (33)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (32)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (31)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (30)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (29)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (28)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (27)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module Messaging (26)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (25)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2014.11.18-02.16.58:578][  0]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module OculusRift (14)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (13)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.18-02.16.58:579][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.18-02.16.58:579][  0]LogExit: Exiting.
+[2014.11.18-02.16.58:581][  0]Log file closed, 11/18/14 03:16:58

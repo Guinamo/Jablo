@@ -1,0 +1,912 @@
+Log file open, 11/17/14 22:14:43
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.4.3-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Sep 17 2014 07:16:51
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.11.17-21.14.43:472][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.17-21.14.43:501][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.17-21.14.43:509][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.17-21.14.43:519][  0]LogInit: Object subsystem initialized
+[2014.11.17-21.14.43:522][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.17-21.14.43:522][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.17-21.14.43:528][  0]LogInit: Computer: ADAM
+[2014.11.17-21.14.43:528][  0]LogInit: User: Adam
+[2014.11.17-21.14.43:530][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.17-21.14.43:530][  0]LogInit: High frequency timer resolution =3.161619 MHz
+[2014.11.17-21.14.43:530][  0]LogMemory: Memory total: Physical=3.0GB (3GB approx) Virtual=131072.0GB
+[2014.11.17-21.14.43:530][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.17-21.14.43:530][  0]LogMemory: Process Physical Memory: 59.74 MB used, 59.83 MB peak
+[2014.11.17-21.14.43:530][  0]LogMemory: Process Virtual Memory: 35.87 MB used, 35.98 MB peak
+[2014.11.17-21.14.43:530][  0]LogMemory: Physical Memory: 1796.75 MB used, 3071.55 MB total
+[2014.11.17-21.14.43:530][  0]LogMemory: Virtual Memory: 262.07 MB used, 134217728.00 MB total
+[2014.11.17-21.14.43:567][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2014.11.17-21.14.43:567][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 1535MB of shared system memory, 2 output[s]
+[2014.11.17-21.14.43:568][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.17-21.14.43:568][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.17-21.14.43:568][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.17-21.14.43:579][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.17-21.14.43:589][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.17-21.14.43:767][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.17-21.14.45:303][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-21.14.45:956][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-21.14.46:009][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.17-21.14.46:222][  0]LogDerivedDataCache: Loaded boot cache 0.21s 39MB ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc.
+[2014.11.17-21.14.46:222][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc
+[2014.11.17-21.14.46:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.17-21.14.46:223][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.17-21.14.46:223][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.17-21.14.46:223][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.11.17-21.14.46:235][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.11.17-21.14.46:235][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.11.17-21.14.46:235][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.11.17-21.14.46:482][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.17-21.14.46:482][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.17-21.14.47:212][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.17-21.14.48:144][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_c1c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_e5c_0///////STATCAT_Advanced////
+[2014.11.17-21.14.48:144][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.17-21.14.48:250][  0]SourceControl: Info Source control is disabled
+[2014.11.17-21.14.48:251][  0]SourceControl: Info Source control is disabled
+[2014.11.17-21.14.48:257][  0]SourceControl: Info Source control is disabled
+[2014.11.17-21.14.48:453][  0]BlueprintLog: New page: Editor Load
+[2014.11.17-21.14.48:550][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.17-21.14.48:550][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.17-21.14.48:868][  0]LogEngine: Initializing Engine...
+[2014.11.17-21.14.49:121][  0]LogInit: XAudio2 using 'GBo[niki (USB Multi-Channel Audio Device)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x60f)
+[2014.11.17-21.14.49:131][  0]LogInit: FAudioDevice initialized.
+[2014.11.17-21.14.49:151][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.17-21.14.49:224][  0]LogDerivedDataCache: Saved boot cache 0.07s 39MB ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc.
+[2014.11.17-21.14.49:256][  0]LogInit: Texture streaming: Enabled
+[2014.11.17-21.14.49:301][  0]LogInit: Transaction tracking system initialized
+[2014.11.17-21.14.49:424][  0]LogAssetRegistry: FAssetRegistry took 0.0108 seconds to start up
+[2014.11.17-21.14.50:055][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-21.14.50:527][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.17-21.14.50:561][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.17-21.14.50:567][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.17-21.14.50:655][  0]LogConsoleResponse:Display: 
+[2014.11.17-21.14.50:853][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_17c4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_e5c_0///////STATCAT_Advanced////
+[2014.11.17-21.14.50:853][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_14f4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_e5c_0///////STATCAT_Advanced////
+[2014.11.17-21.14.50:853][  0]SourceControl: Info Source control is disabled
+[2014.11.17-21.14.50:853][  0]Cmd: MAP LOAD FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.17-21.14.50:854][  0]LightingResults: New page: Lighting Build
+[2014.11.17-21.14.50:863][  0]MapCheck: New page: Map Check
+[2014.11.17-21.14.50:863][  0]LightingResults: New page: Lighting Build
+[2014.11.17-21.14.50:883][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD6E37C7C0
+[2014.11.17-21.14.51:220][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.17-21.14.51:220][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.14.51:221][  0]Cmd: MAP CHECKDEP
+[2014.11.17-21.14.51:221][  0]MapCheck: New page: Minimal_Default - 17 Nov 2014 23:14:51
+[2014.11.17-21.14.51:291][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [69,79ms] ==========
+[2014.11.17-21.14.51:291][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.437
+[2014.11.17-21.14.51:412][  0]LogCollectionManager: Loaded 0 collections in 0.000975 seconds
+[2014.11.17-21.14.51:537][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.17-21.14.51:566][  0]LogInit: Using libcurl 7.34.0
+[2014.11.17-21.14.51:566][  0]LogInit:  - built for x86_64-pc-win32
+[2014.11.17-21.14.51:566][  0]LogInit:  - supports SSL with WinSSL
+[2014.11.17-21.14.51:566][  0]LogInit:  - other features:
+[2014.11.17-21.14.51:566][  0]LogInit:      CURL_VERSION_SSL
+[2014.11.17-21.14.51:566][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.11.17-21.14.51:566][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.11.17-21.14.51:566][  0]LogInit:      CURL_VERSION_IDN
+[2014.11.17-21.14.51:567][  0]LogInit: Libcurl will NOT reuse connections
+[2014.11.17-21.14.51:598][  0]LogLoad: Full Startup: 10.16 seconds (BP compile: 0.09 seconds)
+[2014.11.17-21.14.51:614][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2014.11.17-21.14.51:813][  0]LogRenderer:Warning: Reallocating scene render targets to support 664x584.
+[2014.11.17-21.14.52:130][  3]LogAssetRegistry: Asset discovery search completed in 2.7173 seconds
+[2014.11.17-21.14.55:320][171]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-21.14.56:164][210]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2014.11.17-21.15.05:291][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:291][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:297][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.05:298][590]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.15.07:691][699]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.15.07:692][699]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.15.07:692][699]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.15.07:692][699]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.15.07:692][699]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.15.07:692][699]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.15.07:692][699]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.15.07:693][699]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.15.07:693][699]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.15.07:693][699]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_10693.EdGraphPin_2532"''
+[2014.11.17-21.15.07:694][699]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_10693.EdGraphPin_2535"''
+[2014.11.17-21.15.07:694][699]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_IfThenElse_5 or K2Node_IfThenElse /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EdGraph_27.K2Node_IfThenElse_5
+[2014.11.17-21.15.07:694][699]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_5.EdGraphPin_2595"''
+[2014.11.17-21.15.07:694][699]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_Event_68 or K2Node_Event /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EdGraph_27.K2Node_Event_68
+[2014.11.17-21.15.07:694][699]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Event_68.EdGraphPin_2480"''
+[2014.11.17-21.15.07:694][699]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_10817.EdGraphPin_2558"''
+[2014.11.17-21.15.07:695][699]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_10817.EdGraphPin_2556"''
+[2014.11.17-21.15.07:696][699]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_IfThenElse_5 or K2Node_IfThenElse /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EdGraph_27.K2Node_IfThenElse_5
+[2014.11.17-21.15.07:696][699]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_5.EdGraphPin_2593"''
+[2014.11.17-21.15.07:696][699]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_2325 or K2Node_CallFunction /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EdGraph_25.K2Node_CallFunction_2325
+[2014.11.17-21.15.07:696][699]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2325.EdGraphPin_2584"''
+[2014.11.17-21.15.07:697][699]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_IfThenElse_5 or K2Node_IfThenElse /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EdGraph_27.K2Node_IfThenElse_5
+[2014.11.17-21.15.07:697][699]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_5.EdGraphPin_2594"''
+[2014.11.17-21.16.08:028][759]BlueprintLog: New page: Compile BP_Pocisk
+[2014.11.17-21.16.08:160][759]BlueprintEditorCompileResults: Info [0086,61] Compile of BP_Pocisk successful! [in 2 ms]
+[2014.11.17-21.16.09:683][798]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Pocisk" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Pocisk.uasset" SILENT=true
+[2014.11.17-21.16.09:747][798]LogSavePackage: Save=44.756817ms
+[2014.11.17-21.16.09:747][798]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Pocisk5E2B690048BA56281E4F86833E84959A.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Pocisk.uasset'
+[2014.11.17-21.16.20:105][257]LogBlueprint:Error: [compiler] Error Spawn node  Spawn Actor from Class  must have a class specified.
+[2014.11.17-21.16.20:110][257]LogBlueprint:Warning: [compiler] Warning [0098,68] Compile of BP_Postac failed. 1 Fatal Issue(s) 0 Warning(s) [in 11 ms]
+[2014.11.17-21.16.38:375][832]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.16.38:684][832]BlueprintEditorCompileResults: Info [0117,07] Compile of BP_Postac successful! [in 61 ms]
+[2014.11.17-21.16.41:210][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.16.41:715][886]LogSavePackage: Save=487.970245ms
+[2014.11.17-21.16.41:715][886]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_PostacE893E22743F7D01D94FC82B4FC9C0308.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.16.47:204][135]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-21.16.47:213][135]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:16:47)
+[2014.11.17-21.16.47:246][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033255s)
+[2014.11.17-21.16.47:249][135]LogPlayLevel: PIE: World Init took: (0.003097s)
+[2014.11.17-21.16.47:250][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.036843s)
+[2014.11.17-21.16.47:505][135]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.16.47:727][135]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.16.47:744][135]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.16.47
+[2014.11.17-21.16.47:759][135]LogWorld: Bringing up level for play took: 0.031495
+[2014.11.17-21.16.48:053][135]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,018
+[2014.11.17-21.16.48:584][136]LogRenderer:Warning: Reallocating scene render targets to support 664x592.
+[2014.11.17-21.16.58:713][614]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.17-21.16.58:744][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD00921B20
+[2014.11.17-21.17.48:478][ 29]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.11.17-21.18.25:536][695]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.18.25:536][695]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.18.25:536][695]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.18.25:536][695]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.18.25:536][695]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.18.25:536][695]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.18.25:536][695]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.18.25:536][695]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.18.25:537][695]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.17-21.18.25:537][695]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_10693 or K2Node_CallFunction /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_10693
+[2014.11.17-21.18.25:537][695]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_10693.EdGraphPin_2493) from referencer (EdGraphPin /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_8098.EdGraphPin_2477).  Import failed...
+[2014.11.17-21.18.25:537][695]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_10693.EdGraphPin_2493"''
+[2014.11.17-21.18.25:538][695]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_10693 or K2Node_CallFunction /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_10693
+[2014.11.17-21.18.25:538][695]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_10693.EdGraphPin_2496) from referencer (EdGraphPin /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_9630.EdGraphPin_2487).  Import failed...
+[2014.11.17-21.18.25:538][695]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_10693.EdGraphPin_2496"''
+[2014.11.17-21.18.25:539][695]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_IfThenElse_5 or K2Node_IfThenElse /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_IfThenElse_5
+[2014.11.17-21.18.25:539][695]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_IfThenElse_5.EdGraphPin_2569) from referencer (EdGraphPin /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_10693.EdGraphPin_2492).  Import failed...
+[2014.11.17-21.18.25:539][695]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_5.EdGraphPin_2569"''
+[2014.11.17-21.18.25:539][695]LogUObjectHash:Warning: Ambiguous search, could be K2Node_Event /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_Event_68 or K2Node_Event /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_Event_68
+[2014.11.17-21.18.25:539][695]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_Event_68.EdGraphPin_2532) from referencer (EdGraphPin /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_10693.EdGraphPin_2494).  Import failed...
+[2014.11.17-21.18.25:539][695]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Event_68.EdGraphPin_2532"''
+[2014.11.17-21.18.25:540][695]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_10817 or K2Node_CallFunction /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_10817
+[2014.11.17-21.18.25:540][695]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_10817.EdGraphPin_2519) from referencer (EdGraphPin /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_10693.EdGraphPin_2495).  Import failed...
+[2014.11.17-21.18.25:540][695]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_10817.EdGraphPin_2519"''
+[2014.11.17-21.18.25:540][695]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_10817 or K2Node_CallFunction /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_10817
+[2014.11.17-21.18.25:540][695]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_10817.EdGraphPin_2517) from referencer (EdGraphPin /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_10729.EdGraphPin_2511).  Import failed...
+[2014.11.17-21.18.25:540][695]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_10817.EdGraphPin_2517"''
+[2014.11.17-21.18.25:543][695]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_IfThenElse_5 or K2Node_IfThenElse /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_IfThenElse_5
+[2014.11.17-21.18.25:543][695]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_IfThenElse_5.EdGraphPin_2567) from referencer (EdGraphPin /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_Event_68.EdGraphPin_2529).  Import failed...
+[2014.11.17-21.18.25:543][695]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_5.EdGraphPin_2567"''
+[2014.11.17-21.18.25:543][695]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_2325 or K2Node_CallFunction /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_2325
+[2014.11.17-21.18.25:543][695]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_CallFunction_2325.EdGraphPin_2558) from referencer (EdGraphPin /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_Event_68.EdGraphPin_2532).  Import failed...
+[2014.11.17-21.18.25:543][695]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_2325.EdGraphPin_2558"''
+[2014.11.17-21.18.25:545][695]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_IfThenElse_5 or K2Node_IfThenElse /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_IfThenElse_5
+[2014.11.17-21.18.25:546][695]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/Mechanika/BP_Pocisk.BP_Pocisk:EventGraph.K2Node_IfThenElse_5.EdGraphPin_2568) from referencer (EdGraphPin /Game/Blueprints/Mechanika/MaterialSphere.MaterialSphere:EventGraph.K2Node_CallFunction_2325.EdGraphPin_2560).  Import failed...
+[2014.11.17-21.18.25:546][695]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_5.EdGraphPin_2568"''
+[2014.11.17-21.18.25:560][695]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.17-21.18.30:800][862]BlueprintLog: New page: Compile MaterialSphere
+[2014.11.17-21.18.30:963][862]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD6CF5B240
+[2014.11.17-21.18.30:986][862]BlueprintEditorCompileResults: Info [0229,40] Compile of MaterialSphere successful! [in 3 ms]
+[2014.11.17-21.18.31:923][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/MaterialSphere" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/MaterialSphere.uasset" SILENT=true
+[2014.11.17-21.18.32:301][879]LogSavePackage: Save=371.843048ms
+[2014.11.17-21.18.32:301][879]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/MaterialSphereEE218E874CD9886348A67290CCF6C78E.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/MaterialSphere.uasset'
+[2014.11.17-21.18.39:648][144]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.17-21.18.50:468][504]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.18.50:755][504]BlueprintEditorCompileResults: Info [0249,16] Compile of BP_Postac successful! [in 58 ms]
+[2014.11.17-21.18.52:303][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.18.52:818][527]LogSavePackage: Save=499.401428ms
+[2014.11.17-21.18.52:818][527]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac6BBD057042A73202E5ED7CA3C889C047.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.18.55:547][657]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-21.18.55:547][657]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-21.18.55:638][657]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.17-21.18.55:679][657]LogPlayLevel: PIE:  Blueprint regeneration took 132 ms (1 blueprints)
+[2014.11.17-21.18.55:679][657]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:18:55)
+[2014.11.17-21.18.55:689][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009252s)
+[2014.11.17-21.18.55:691][657]LogPlayLevel: PIE: World Init took: (0.002314s)
+[2014.11.17-21.18.55:691][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011878s)
+[2014.11.17-21.18.55:762][657]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.18.55:764][657]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.18.55:765][657]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.18.55
+[2014.11.17-21.18.55:766][657]LogWorld: Bringing up level for play took: 0.001960
+[2014.11.17-21.18.55:769][657]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,302
+[2014.11.17-21.19.24:067][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD7F793CE0
+[2014.11.17-21.20.43:176][271]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.20.43:479][271]BlueprintEditorCompileResults: Info [0361,88] Compile of BP_Postac successful! [in 59 ms]
+[2014.11.17-21.20.44:860][290]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.20.45:368][290]LogSavePackage: Save=489.815491ms
+[2014.11.17-21.20.45:368][290]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac6054C61643951B763F79EE84F1E2B873.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.20.48:337][437]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-21.20.48:337][437]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-21.20.48:447][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.17-21.20.48:491][437]LogPlayLevel: PIE:  Blueprint regeneration took 153 ms (1 blueprints)
+[2014.11.17-21.20.48:491][437]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:20:48)
+[2014.11.17-21.20.48:502][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010965s)
+[2014.11.17-21.20.48:505][437]LogPlayLevel: PIE: World Init took: (0.003286s)
+[2014.11.17-21.20.48:506][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014614s)
+[2014.11.17-21.20.48:540][437]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.20.48:542][437]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.20.48:544][437]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.20.48
+[2014.11.17-21.20.48:544][437]LogWorld: Bringing up level for play took: 0.002266
+[2014.11.17-21.20.48:547][437]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,475
+[2014.11.17-21.21.03:248][133]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD03886660
+[2014.11.17-21.21.05:911][265]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-21.21.05:911][265]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:21:05)
+[2014.11.17-21.21.05:920][265]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008938s)
+[2014.11.17-21.21.05:925][265]LogPlayLevel: PIE: World Init took: (0.004999s)
+[2014.11.17-21.21.05:925][265]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014306s)
+[2014.11.17-21.21.05:959][265]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.21.05:960][265]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.21.05:961][265]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.21.05
+[2014.11.17-21.21.05:962][265]LogWorld: Bringing up level for play took: 0.001842
+[2014.11.17-21.21.05:964][265]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,108
+[2014.11.17-21.21.26:989][318]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD03886480
+[2014.11.17-21.22.12:980][943]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.22.13:254][943]BlueprintEditorCompileResults: Info [0451,66] Compile of BP_Postac successful! [in 57 ms]
+[2014.11.17-21.22.14:641][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.22.15:140][962]LogSavePackage: Save=481.061432ms
+[2014.11.17-21.22.15:140][962]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac7D7B50404683B86CEC03C2BFFF3F1A49.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.24.10:014][104]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.17-21.26.09:101][694]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.17-21.26.09:147][694]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.046
+[2014.11.17-21.26.09:193][694]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/BP_Postac] ([1] browsable assets)...
+[2014.11.17-21.26.09:238][694]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/BP_Postac.BP_Postac]
+[2014.11.17-21.26.09:238][694]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_Postac]
+[2014.11.17-21.26.09:841][694]LogSavePackage: Save=542.820923ms
+[2014.11.17-21.26.09:841][694]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac_Auto163EFDA534D1BB0D436AD958D9A4E04C9.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_Postac_Auto1.uasset'
+[2014.11.17-21.26.09:908][694]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/BP_HUD] ([1] browsable assets)...
+[2014.11.17-21.26.09:928][694]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_HUD]
+[2014.11.17-21.26.10:039][694]LogSavePackage: Save=72.209206ms
+[2014.11.17-21.26.10:039][694]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_HUD_Auto1F24C2B0E4F81E6B95C926781151052E1.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_HUD_Auto1.uasset'
+[2014.11.17-21.26.10:059][694]LogFileHelpers: Auto-saving content packages took 0.912
+[2014.11.17-21.27.42:314][228]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.27.42:314][228]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.27.42:314][228]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.27.42:314][228]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.28.38:183][131]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.28.38:183][131]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.28.38:183][131]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.28.38:183][131]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.28.38:183][131]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.28.38:184][131]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.28.38:184][131]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.30.23:429][  5]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.30.23:621][  5]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.17-21.30.23:726][  5]BlueprintEditorCompileResults: Info [0942,13] Compile of BP_Postac successful! [in 64 ms]
+[2014.11.17-21.30.25:349][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.30.25:852][ 30]LogSavePackage: Save=477.486389ms
+[2014.11.17-21.30.25:852][ 30]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac265653FE4D5E76D51B9A10A28FDEAA03.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.30.30:376][224]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-21.30.30:376][224]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-21.30.30:471][224]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.17-21.30.30:512][224]LogPlayLevel: PIE:  Blueprint regeneration took 136 ms (1 blueprints)
+[2014.11.17-21.30.30:514][224]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:30:30)
+[2014.11.17-21.30.30:523][224]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009173s)
+[2014.11.17-21.30.30:526][224]LogPlayLevel: PIE: World Init took: (0.002169s)
+[2014.11.17-21.30.30:526][224]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011609s)
+[2014.11.17-21.30.30:560][224]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.30.30:562][224]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.30.30:565][224]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.30.30
+[2014.11.17-21.30.30:565][224]LogWorld: Bringing up level for play took: 0.003140
+[2014.11.17-21.30.30:567][224]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,496
+[2014.11.17-21.30.32:818][330]LogBlueprintUserMessages: bam
+[2014.11.17-21.30.33:957][385]LogBlueprintUserMessages: bam
+[2014.11.17-21.30.34:644][419]LogBlueprintUserMessages: bam
+[2014.11.17-21.30.35:124][443]LogBlueprintUserMessages: bam
+[2014.11.17-21.30.35:350][454]LogBlueprintUserMessages: bam
+[2014.11.17-21.30.35:549][464]LogBlueprintUserMessages: bam
+[2014.11.17-21.30.36:381][505]LogBlueprintUserMessages: bam
+[2014.11.17-21.30.36:838][528]LogBlueprintUserMessages: bam
+[2014.11.17-21.30.37:493][555]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD075F5580
+[2014.11.17-21.31.24:323][101]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.34.18:500][447]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.34.18:840][447]BlueprintEditorCompileResults: Info [1177,21] Compile of BP_Postac successful! [in 68 ms]
+[2014.11.17-21.34.20:364][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.34.20:868][468]LogSavePackage: Save=486.402374ms
+[2014.11.17-21.34.20:868][468]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac1E6502A544C41D2DD84F778C0CCD57E7.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.34.24:638][627]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-21.34.24:638][627]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-21.34.24:733][627]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.17-21.34.24:780][627]LogPlayLevel: PIE:  Blueprint regeneration took 142 ms (1 blueprints)
+[2014.11.17-21.34.24:780][627]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:34:24)
+[2014.11.17-21.34.24:790][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009935s)
+[2014.11.17-21.34.24:793][627]LogPlayLevel: PIE: World Init took: (0.002449s)
+[2014.11.17-21.34.24:793][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.012642s)
+[2014.11.17-21.34.24:825][627]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.34.24:828][627]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.34.24:829][627]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.34.24
+[2014.11.17-21.34.24:830][627]LogWorld: Bringing up level for play took: 0.001819
+[2014.11.17-21.34.24:832][627]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,76
+[2014.11.17-21.34.26:889][723]LogBlueprintUserMessages: bam
+[2014.11.17-21.34.27:573][755]LogBlueprintUserMessages: bam
+[2014.11.17-21.34.28:199][780]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD075F5760
+[2014.11.17-21.34.35:897][ 22]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.34.36:232][ 22]BlueprintEditorCompileResults: Info [1194,60] Compile of BP_Postac successful! [in 62 ms]
+[2014.11.17-21.34.37:593][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.34.38:093][ 39]LogSavePackage: Save=485.205536ms
+[2014.11.17-21.34.38:093][ 39]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac23CE46FA4D328ACFB7193E871336D894.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.34.41:350][190]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-21.34.41:350][190]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-21.34.41:450][190]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.17-21.34.41:489][190]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (1 blueprints)
+[2014.11.17-21.34.41:490][190]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:34:41)
+[2014.11.17-21.34.41:499][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008818s)
+[2014.11.17-21.34.41:502][190]LogPlayLevel: PIE: World Init took: (0.002397s)
+[2014.11.17-21.34.41:502][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011612s)
+[2014.11.17-21.34.41:537][190]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.34.41:539][190]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.34.41:542][190]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.34.41
+[2014.11.17-21.34.41:543][190]LogWorld: Bringing up level for play took: 0.003802
+[2014.11.17-21.34.41:546][190]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,525
+[2014.11.17-21.34.42:897][255]LogBlueprintUserMessages: bam
+[2014.11.17-21.34.43:732][298]LogBlueprintUserMessages: bam
+[2014.11.17-21.34.46:026][409]LogBlueprintUserMessages: bam
+[2014.11.17-21.34.47:201][465]LogBlueprintUserMessages: bam
+[2014.11.17-21.34.48:613][532]LogBlueprintUserMessages: bam
+[2014.11.17-21.34.52:221][700]LogBlueprintUserMessages: bam
+[2014.11.17-21.35.05:348][344]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD075F54E0
+[2014.11.17-21.36.44:816][248]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.041
+[2014.11.17-21.36.44:834][248]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/BP_HUD] ([1] browsable assets)...
+[2014.11.17-21.36.44:852][248]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_HUD]
+[2014.11.17-21.36.44:978][248]LogSavePackage: Save=72.313583ms
+[2014.11.17-21.36.44:978][248]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_HUD_Auto204FC3A7D405FC89F1983AAA3AB54C767.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_HUD_Auto2.uasset'
+[2014.11.17-21.36.44:994][248]LogFileHelpers: Auto-saving content packages took 0.178
+[2014.11.17-21.39.47:128][325]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.39.47:129][325]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.40.30:394][742]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.40.30:394][742]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.41.20:299][403]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.41.20:610][403]BlueprintEditorCompileResults: Info [1599,00] Compile of BP_Postac successful! [in 61 ms]
+[2014.11.17-21.41.23:436][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.41.23:943][468]LogSavePackage: Save=487.622009ms
+[2014.11.17-21.41.23:943][468]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_PostacA96616574EB7D08ADF212DB99AC11744.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.41.45:071][364]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2014.11.17-21.41.48:582][527]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.17-21.41.52:949][636]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.11.17-21.41.58:679][898]LogTexture:Display: Building textures: T_Frame_M (DXT1)
+[2014.11.17-21.42.01:039][898]LogTexture:Display: Building textures: T_Frame_N (BC5)
+[2014.11.17-21.42.02:465][898]LogMaterial: Missing cached shader map for material M_Frame, compiling.
+[2014.11.17-21.42.02:615][898]LogStaticMesh: Building static mesh SM_CornerFrame...
+[2014.11.17-21.42.02:762][898]LogStaticMesh: Built static mesh [145.841095ms] /Game/Props/SM_CornerFrame.SM_CornerFrame
+[2014.11.17-21.42.09:968][262]LogDestructible:Warning: MainMesh Tris: 444
+[2014.11.17-21.42.11:161][262]LogApexDestructibleAssetImport:Warning: Using default materials for material slot
+[2014.11.17-21.42.11:197][262]LogApexDestructibleAssetImport:Warning: Bones digested - 2  Depth of hierarchy - 2
+[2014.11.17-21.42.11:252][262]LogSkeletalMesh: Chunk 0: 464 rigid vertices, 0 soft vertices, 1 active bones
+[2014.11.17-21.42.11:264][262]LogSkeletalMesh: Section 0: Material=0, Chunk=0, 444 triangles
+[2014.11.17-21.42.11:383][262]LogMaterial:Warning: Material /Game/Props/Materials/M_Frame.M_Frame needed to have new flag set bUsedWithSkeletalMesh !
+[2014.11.17-21.42.11:406][262]LogMaterial: Missing cached shader map for material M_Frame, compiling.
+[2014.11.17-21.42.11:432][262]LogMaterial: 0.000335 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2014.11.17-21.42.11:739][262]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.17-21.42.11:740][262]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.11.17-21.43.11:673][104]LogTexture:Display: Building textures: T_Door_M (DXT1)
+[2014.11.17-21.43.13:701][104]LogTexture:Display: Building textures: T_Door_N (BC5)
+[2014.11.17-21.43.15:221][104]LogMaterial: Missing cached shader map for material M_Door, compiling.
+[2014.11.17-21.43.15:243][104]LogStaticMesh: Building static mesh SM_Door...
+[2014.11.17-21.43.15:299][104]LogStaticMesh: Built static mesh [71.067703ms] /Game/Props/SM_Door.SM_Door
+[2014.11.17-21.43.16:764][168]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.11.17-21.43.36:568][ 88]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.17-21.43.56:489][923]LogRenderer:Warning: Reallocating scene render targets to support 832x592.
+[2014.11.17-21.44.25:925][475]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-21.44.32:402][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD188576A0
+[2014.11.17-21.44.32:425][748]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD07013BA0
+[2014.11.17-21.44.53:679][372]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-21.45.23:795][756]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.11.17-21.46.03:093][811]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-21.46.03:262][811]BlueprintEditorCompileResults: Info [1881,66] Compile of Shape_NarrowCapsule successful! [in 1 ms]
+[2014.11.17-21.46.04:321][872]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-21.46.04:848][872]LogSavePackage: Save=510.699097ms
+[2014.11.17-21.46.04:848][872]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsuleADD78D8C40F8747007B0BDBA5EBA0F83.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-21.46.11:978][210]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-21.46.31:696][814]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.46.32:090][814]BlueprintEditorCompileResults: Info [1910,43] Compile of BP_Postac successful! [in 63 ms]
+[2014.11.17-21.46.33:718][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.46.34:322][832]LogSavePackage: Save=579.235840ms
+[2014.11.17-21.46.34:322][832]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac785A7E5D44DB50E681C9569F1485B540.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.46.41:634][ 95]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.17-21.46.41:853][ 95]LogSavePackage: Save=105.746140ms
+[2014.11.17-21.46.41:853][ 95]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Minimal_Default_Auto3AE7908974BCA459480D2CD853E9C9B16.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Maps/Minimal_Default_Auto3.umap'
+[2014.11.17-21.46.41:882][ 95]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.248
+[2014.11.17-21.46.41:882][ 95]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.248
+[2014.11.17-21.46.41:897][ 95]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/BP_HUD] ([1] browsable assets)...
+[2014.11.17-21.46.41:923][ 95]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_HUD]
+[2014.11.17-21.46.42:087][ 95]LogSavePackage: Save=92.928024ms
+[2014.11.17-21.46.42:087][ 95]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_HUD_Auto3F4E5477C4576E0DBDADC259CAB8836A1.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_HUD_Auto3.uasset'
+[2014.11.17-21.46.42:124][ 95]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/Materials/M_Frame] ([1] browsable assets)...
+[2014.11.17-21.47.05:975][ 95]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Props/Materials/M_Frame.M_Frame]
+[2014.11.17-21.47.05:975][ 95]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/Materials/M_Frame]
+[2014.11.17-21.47.06:503][ 95]LogSavePackage: Save=483.989685ms
+[2014.11.17-21.47.06:503][ 95]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/M_Frame_Auto3011ACE734130F2FC15A7279BCB2195B5.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Props/Materials/M_Frame_Auto3.uasset'
+[2014.11.17-21.47.06:540][ 95]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Props/SM_CornerFrame_DM] ([1] browsable assets)...
+[2014.11.17-21.47.08:535][ 95]OBJ SavePackage:     Rendered thumbnail for [DestructibleMesh /Game/Props/SM_CornerFrame_DM.SM_CornerFrame_DM]
+[2014.11.17-21.47.08:535][ 95]OBJ SavePackage: Finished generating thumbnails for package [/Game/Props/SM_CornerFrame_DM]
+[2014.11.17-21.47.09:087][ 95]LogSavePackage: Save=526.085815ms
+[2014.11.17-21.47.09:087][ 95]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/SM_CornerFrame_DM_Auto35144FB584768ACCEC39502B834E8D8B2.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Props/SM_CornerFrame_DM_Auto3.uasset'
+[2014.11.17-21.47.09:103][ 95]LogFileHelpers: Auto-saving content packages took 27.221
+[2014.11.17-21.47.14:924][267]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-21.47.14:924][267]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-21.47.15:061][267]LogPlayLevel: PIE:  Blueprint regeneration took 137 ms (1 blueprints)
+[2014.11.17-21.47.15:063][267]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:47:15)
+[2014.11.17-21.47.15:074][267]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011344s)
+[2014.11.17-21.47.15:079][267]LogPlayLevel: PIE: World Init took: (0.004609s)
+[2014.11.17-21.47.15:079][267]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016225s)
+[2014.11.17-21.47.15:114][267]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.47.15:116][267]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.47.15:140][267]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.47.15
+[2014.11.17-21.47.15:183][267]LogWorld: Bringing up level for play took: 0.066656
+[2014.11.17-21.47.15:185][267]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 1,113
+[2014.11.17-21.47.21:000][509]LogBlueprintUserMessages: bam
+[2014.11.17-21.47.22:038][554]LogBlueprintUserMessages: bam
+[2014.11.17-21.47.22:756][586]LogBlueprintUserMessages: bam
+[2014.11.17-21.47.23:310][610]LogBlueprintUserMessages: bam
+[2014.11.17-21.47.28:931][849]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD6B1A09A0
+[2014.11.17-21.47.32:892][972]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-21.47.32:893][972]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:47:32)
+[2014.11.17-21.47.32:909][972]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016437s)
+[2014.11.17-21.47.32:915][972]LogPlayLevel: PIE: World Init took: (0.005753s)
+[2014.11.17-21.47.32:915][972]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.022446s)
+[2014.11.17-21.47.32:960][972]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.47.32:962][972]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.47.32:964][972]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.47.32
+[2014.11.17-21.47.32:964][972]LogWorld: Bringing up level for play took: 0.002326
+[2014.11.17-21.47.32:967][972]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,895
+[2014.11.17-21.47.36:229][107]LogBlueprintUserMessages: bam
+[2014.11.17-21.47.38:199][194]LogBlueprintUserMessages: bam
+[2014.11.17-21.48.03:557][252]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD6AD89580
+[2014.11.17-21.48.21:365][769]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.48.21:762][769]BlueprintEditorCompileResults: Info [2020,09] Compile of BP_Postac successful! [in 62 ms]
+[2014.11.17-21.48.24:101][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.48.24:737][796]LogSavePackage: Save=599.224976ms
+[2014.11.17-21.48.24:737][796]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac0B9E1000488B073F2EA066B7774F7CEB.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.48.30:941][985]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-21.48.30:941][985]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-21.48.31:046][985]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.17-21.48.31:091][985]LogPlayLevel: PIE:  Blueprint regeneration took 150 ms (1 blueprints)
+[2014.11.17-21.48.31:092][985]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:48:31)
+[2014.11.17-21.48.31:102][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009856s)
+[2014.11.17-21.48.31:103][985]LogPlayLevel: PIE: World Init took: (0.001692s)
+[2014.11.17-21.48.31:104][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011882s)
+[2014.11.17-21.48.31:144][985]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.48.31:146][985]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.48.31:148][985]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.48.31
+[2014.11.17-21.48.31:148][985]LogWorld: Bringing up level for play took: 0.002459
+[2014.11.17-21.48.31:151][985]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 1,079
+[2014.11.17-21.48.38:084][196]LogBlueprintUserMessages: bam
+[2014.11.17-21.48.41:245][328]LogBlueprintUserMessages: bam
+[2014.11.17-21.48.42:041][357]LogBlueprintUserMessages: bam
+[2014.11.17-21.48.42:282][365]LogBlueprintUserMessages: bam
+[2014.11.17-21.48.42:479][374]LogBlueprintUserMessages: bam
+[2014.11.17-21.48.42:635][381]LogBlueprintUserMessages: bam
+[2014.11.17-21.48.42:798][387]LogBlueprintUserMessages: bam
+[2014.11.17-21.48.46:639][549]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD154AA980
+[2014.11.17-21.49.09:494][177]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.49.09:877][177]BlueprintEditorCompileResults: Info [2068,22] Compile of BP_Postac successful! [in 84 ms]
+[2014.11.17-21.49.11:620][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.49.12:173][194]LogSavePackage: Save=525.285278ms
+[2014.11.17-21.49.12:173][194]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_PostacE49FD25C4198665A2A0326B14689FF52.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.49.17:429][352]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-21.49.17:429][352]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-21.49.17:536][352]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.17-21.49.17:587][352]LogPlayLevel: PIE:  Blueprint regeneration took 158 ms (1 blueprints)
+[2014.11.17-21.49.17:588][352]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:49:17)
+[2014.11.17-21.49.17:597][352]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008812s)
+[2014.11.17-21.49.17:599][352]LogPlayLevel: PIE: World Init took: (0.002604s)
+[2014.11.17-21.49.17:600][352]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011739s)
+[2014.11.17-21.49.17:635][352]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.49.17:637][352]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.49.17:639][352]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.49.17
+[2014.11.17-21.49.17:639][352]LogWorld: Bringing up level for play took: 0.002297
+[2014.11.17-21.49.17:641][352]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,431
+[2014.11.17-21.49.26:260][724]LogBlueprintUserMessages: bam
+[2014.11.17-21.49.27:253][766]LogBlueprintUserMessages: bam
+[2014.11.17-21.49.27:614][781]LogBlueprintUserMessages: bam
+[2014.11.17-21.49.33:103][  4]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD188567A0
+[2014.11.17-21.50.36:336][680]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-21.50.36:789][680]BlueprintEditorCompileResults: Info [2155,12] Compile of BP_Postac successful! [in 99 ms]
+[2014.11.17-21.50.38:752][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-21.50.39:333][705]LogSavePackage: Save=557.225891ms
+[2014.11.17-21.50.39:333][705]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac6C9FDB8C4079F4B99751CA89E2F9650E.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-21.50.45:082][901]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-21.50.45:082][901]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-21.50.45:204][901]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.17-21.50.45:248][901]LogPlayLevel: PIE:  Blueprint regeneration took 166 ms (1 blueprints)
+[2014.11.17-21.50.45:249][901]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:50:45)
+[2014.11.17-21.50.45:262][901]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013520s)
+[2014.11.17-21.50.45:264][901]LogPlayLevel: PIE: World Init took: (0.001706s)
+[2014.11.17-21.50.45:264][901]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015531s)
+[2014.11.17-21.50.45:341][901]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.50.45:343][901]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.50.45:345][901]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.50.45
+[2014.11.17-21.50.45:345][901]LogWorld: Bringing up level for play took: 0.002729
+[2014.11.17-21.50.45:348][901]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,724
+[2014.11.17-21.50.50:891][130]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.51:755][168]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.52:215][188]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.52:635][206]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.52:849][216]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.52:996][222]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.53:184][229]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.53:328][236]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.53:499][243]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.53:656][250]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.53:848][258]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.54:428][280]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.54:577][285]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.54:800][294]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.55:001][303]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.55:234][314]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.55:323][317]LogBlueprintUserMessages: bam
+[2014.11.17-21.50.57:893][411]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD19098AE0
+[2014.11.17-21.51.00:336][498]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-21.51.00:336][498]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:51:00)
+[2014.11.17-21.51.00:347][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011402s)
+[2014.11.17-21.51.00:350][498]LogPlayLevel: PIE: World Init took: (0.002769s)
+[2014.11.17-21.51.00:350][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014448s)
+[2014.11.17-21.51.00:428][498]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.51.00:430][498]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.51.00:432][498]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.51.00
+[2014.11.17-21.51.00:433][498]LogWorld: Bringing up level for play took: 0.002341
+[2014.11.17-21.51.00:435][498]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,363
+[2014.11.17-21.51.16:015][153]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD1A8F2CA0
+[2014.11.17-21.51.48:027][685]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-21.51.48:199][685]BlueprintEditorCompileResults: Info [2226,60] Compile of Shape_NarrowCapsule successful! [in 1 ms]
+[2014.11.17-21.51.49:633][754]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-21.51.50:176][754]LogSavePackage: Save=519.894409ms
+[2014.11.17-21.51.50:176][754]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsule0DFACBDF4DDBD28CA90A91A8784C6EDB.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-21.51.51:565][813]LogRenderer:Warning: Reallocating scene render targets to support 920x592.
+[2014.11.17-21.57.33:273][859]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-21.57.33:478][859]BlueprintEditorCompileResults: Info [2571,85] Compile of Shape_NarrowCapsule successful! [in 1 ms]
+[2014.11.17-21.57.34:926][911]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-21.57.35:413][911]LogSavePackage: Save=468.872131ms
+[2014.11.17-21.57.35:413][911]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsule70127C9543D23387862A9FA49889244C.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-21.58.29:229][535]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-21.58.29:433][535]BlueprintEditorCompileResults: Info [2627,81] Compile of Shape_NarrowCapsule successful! [in 2 ms]
+[2014.11.17-21.58.30:690][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-21.58.31:147][579]LogSavePackage: Save=442.042206ms
+[2014.11.17-21.58.31:147][579]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsuleC2CAC60341538C4F05BCFA91D1116187.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-21.58.53:302][920]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.58.53:302][920]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.58.53:302][920]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.17-21.58.59:109][257]LogSavePackage: Save=67.206078ms
+[2014.11.17-21.58.59:109][257]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Minimal_Default_Auto40C00A78444D82749A7C1FD8C35AA9C14.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Maps/Minimal_Default_Auto4.umap'
+[2014.11.17-21.58.59:121][257]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.186
+[2014.11.17-21.58.59:121][257]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.186
+[2014.11.17-21.58.59:136][257]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/BP_HUD] ([1] browsable assets)...
+[2014.11.17-21.58.59:154][257]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_HUD]
+[2014.11.17-21.58.59:233][257]LogSavePackage: Save=42.737915ms
+[2014.11.17-21.58.59:233][257]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_HUD_Auto47D4162AA4253E0A8E5C892BF581EE19F.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_HUD_Auto4.uasset'
+[2014.11.17-21.58.59:255][257]LogFileHelpers: Auto-saving content packages took 0.134
+[2014.11.17-21.59.04:253][465]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-21.59.04:253][465]PIE: New page: PIE session: Minimal_Default (17 Nov 2014 23:59:04)
+[2014.11.17-21.59.04:266][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012700s)
+[2014.11.17-21.59.04:269][465]LogPlayLevel: PIE: World Init took: (0.002274s)
+[2014.11.17-21.59.04:269][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015593s)
+[2014.11.17-21.59.04:299][465]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-21.59.04:301][465]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-21.59.04:303][465]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-22.59.04
+[2014.11.17-21.59.04:304][465]LogWorld: Bringing up level for play took: 0.002608
+[2014.11.17-21.59.04:306][465]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,235
+[2014.11.17-21.59.16:207][ 66]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD154A8C20
+[2014.11.17-21.59.23:100][359]LogEditorViewport: Clicking on Actor (LMB): Shape_NarrowCapsule_C (Shape_NarrowCapsule)
+[2014.11.17-21.59.23:751][388]Cmd: DELETE
+[2014.11.17-21.59.23:751][388]Cmd: ACTOR DELETE
+[2014.11.17-21.59.23:916][388]LogEditorActor: Deleted Actor: Shape_NarrowCapsule_C
+[2014.11.17-21.59.23:955][388]LogEditorActor: Deleted 1 Actors (0.077 secs)
+[2014.11.17-21.59.30:234][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-21.59.30:298][758]LogSavePackage: Save=37.610477ms
+[2014.11.17-21.59.30:298][758]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsuleA03A278347FEEAA03EE7EEB7F49B42E9.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-22.00.46:581][697]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-22.00.46:721][697]BlueprintEditorCompileResults: Info [2765,16] Compile of Shape_NarrowCapsule successful! [in 3 ms]
+[2014.11.17-22.00.47:677][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-22.00.48:166][733]LogSavePackage: Save=471.780426ms
+[2014.11.17-22.00.48:166][733]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsuleACECA2984EC1293BFDCDA2874396DAC2.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-22.00.53:707][ 32]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-22.00.53:707][ 32]PIE: New page: PIE session: Minimal_Default (18 Nov 2014 00:00:53)
+[2014.11.17-22.00.53:719][ 32]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011531s)
+[2014.11.17-22.00.53:722][ 32]LogPlayLevel: PIE: World Init took: (0.002756s)
+[2014.11.17-22.00.53:722][ 32]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015441s)
+[2014.11.17-22.00.53:754][ 32]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-22.00.53:755][ 32]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-22.00.53:757][ 32]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-23.00.53
+[2014.11.17-22.00.53:758][ 32]LogWorld: Bringing up level for play took: 0.002298
+[2014.11.17-22.00.53:761][ 32]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,311
+[2014.11.17-22.00.56:169][141]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD08F75440
+[2014.11.17-22.01.40:172][ 57]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-22.01.40:172][ 57]PIE: New page: PIE session: Minimal_Default (18 Nov 2014 00:01:40)
+[2014.11.17-22.01.40:183][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011077s)
+[2014.11.17-22.01.40:186][ 57]LogPlayLevel: PIE: World Init took: (0.002501s)
+[2014.11.17-22.01.40:186][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013955s)
+[2014.11.17-22.01.40:237][ 57]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-22.01.40:238][ 57]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-22.01.40:241][ 57]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-23.01.40
+[2014.11.17-22.01.40:241][ 57]LogWorld: Bringing up level for play took: 0.002688
+[2014.11.17-22.01.40:243][ 57]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,171
+[2014.11.17-22.01.42:877][179]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.43:383][204]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.43:941][231]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.44:324][251]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.44:500][260]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.44:707][271]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.44:825][277]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.44:984][285]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.45:190][296]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.45:401][306]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.45:577][315]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.45:734][323]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.45:922][332]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.46:074][340]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.46:254][349]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.46:415][357]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.46:636][368]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.46:834][378]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.47:021][388]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.57:721][911]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.58:383][940]LogBlueprintUserMessages: bam
+[2014.11.17-22.01.59:250][978]LogBlueprintUserMessages: bam
+[2014.11.17-22.02.01:072][ 62]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD1EFFCF40
+[2014.11.17-22.03.28:440][836]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-22.03.28:467][836]LogClass:Warning: Type mismatch in hp of Shape_NarrowCapsule_C - Previous (IntProperty) Current(FloatProperty) for package:  FObjectReader
+[2014.11.17-22.03.28:638][836]BlueprintEditorCompileResults: Info [2927,03] Compile of Shape_NarrowCapsule successful! [in 2 ms]
+[2014.11.17-22.03.29:626][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-22.03.30:113][866]LogSavePackage: Save=468.485596ms
+[2014.11.17-22.03.30:113][866]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsule83502243495FCBE6E7944787BCF0EEF9.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-22.04.49:198][  3]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-22.04.49:389][  3]BlueprintEditorCompileResults: Info [3007,78] Compile of Shape_NarrowCapsule successful! [in 3 ms]
+[2014.11.17-22.04.50:341][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-22.04.50:831][ 31]LogSavePackage: Save=472.790039ms
+[2014.11.17-22.04.50:831][ 31]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsuleF862040B4FF1BE96845D358E387EB729.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-22.04.54:616][162]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-22.04.54:617][162]PIE: New page: PIE session: Minimal_Default (18 Nov 2014 00:04:54)
+[2014.11.17-22.04.54:628][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011584s)
+[2014.11.17-22.04.54:630][162]LogPlayLevel: PIE: World Init took: (0.001997s)
+[2014.11.17-22.04.54:631][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013929s)
+[2014.11.17-22.04.54:666][162]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-22.04.54:668][162]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-22.04.54:670][162]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-23.04.54
+[2014.11.17-22.04.54:670][162]LogWorld: Bringing up level for play took: 0.002327
+[2014.11.17-22.04.54:673][162]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,602
+[2014.11.17-22.04.58:112][326]LogBlueprintUserMessages: bam
+[2014.11.17-22.04.59:537][397]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.00:014][421]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.00:664][453]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.00:844][462]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.01:093][475]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.01:228][482]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.01:404][491]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.01:572][500]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.01:713][507]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.01:876][515]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.03:183][581]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.04:119][628]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.06:649][753]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.07:284][783]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.07:784][807]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.08:003][818]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.09:642][897]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.09:938][911]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.10:386][932]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.10:577][941]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.10:762][950]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.11:613][984]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD1F648B80
+[2014.11.17-22.05.25:004][445]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-22.05.25:334][445]BlueprintEditorCompileResults: Info [3043,71] Compile of BP_Postac successful! [in 65 ms]
+[2014.11.17-22.05.27:067][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-22.05.27:588][470]LogSavePackage: Save=499.298309ms
+[2014.11.17-22.05.27:588][470]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac04CCBB6843E51324E64D4585E58F2713.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-22.05.29:347][534]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.11.17-22.05.31:859][639]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-22.05.31:859][639]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-22.05.31:953][639]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.17-22.05.31:999][639]LogPlayLevel: PIE:  Blueprint regeneration took 139 ms (1 blueprints)
+[2014.11.17-22.05.31:999][639]PIE: New page: PIE session: Minimal_Default (18 Nov 2014 00:05:31)
+[2014.11.17-22.05.32:008][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009007s)
+[2014.11.17-22.05.32:011][639]LogPlayLevel: PIE: World Init took: (0.002561s)
+[2014.11.17-22.05.32:011][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011846s)
+[2014.11.17-22.05.32:044][639]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-22.05.32:046][639]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-22.05.32:048][639]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-23.05.32
+[2014.11.17-22.05.32:049][639]LogWorld: Bringing up level for play took: 0.002764
+[2014.11.17-22.05.32:051][639]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,021
+[2014.11.17-22.05.34:250][740]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.35:219][788]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.36:736][864]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.37:258][890]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.38:070][930]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.39:637][  9]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.41:024][ 78]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.43:122][178]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.43:357][189]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.43:564][200]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.43:751][209]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.43:903][216]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.44:071][224]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.44:400][240]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.44:564][248]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.44:754][257]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.44:922][265]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.45:105][274]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.45:291][282]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.45:476][291]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.45:652][300]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.45:851][309]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.46:000][316]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.46:225][327]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.46:396][335]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.50:782][546]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.50:919][553]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.51:070][561]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.51:270][570]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.51:387][576]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.51:528][583]LogBlueprintUserMessages: bam
+[2014.11.17-22.05.53:347][664]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD16ECF2E0
+[2014.11.17-22.07.57:759][501]BlueprintLog: New page: Compile BP_Postac
+[2014.11.17-22.07.58:111][501]BlueprintEditorCompileResults: Info [3196,47] Compile of BP_Postac successful! [in 62 ms]
+[2014.11.17-22.07.59:500][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.17-22.08.00:013][516]LogSavePackage: Save=493.278931ms
+[2014.11.17-22.08.00:013][516]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac89922608425E17F40B85B78F02E79025.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.17-22.08.53:265][583]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-22.08.53:398][583]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.17-22.08.53:491][583]BlueprintEditorCompileResults: Info [3251,85] Compile of Shape_NarrowCapsule successful! [in 2 ms]
+[2014.11.17-22.08.54:518][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-22.08.55:009][615]LogSavePackage: Save=474.037201ms
+[2014.11.17-22.08.55:009][615]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsule6332C38443F80C6FA682838C222C854C.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-22.09.00:462][830]LogEditorViewport: Clicking Background
+[2014.11.17-22.09.01:447][876]LogEditorViewport: Clicking on Actor (LMB): Shape_NarrowCapsule_C (Shape_NarrowCapsule)
+[2014.11.17-22.09.01:907][895]Cmd: DELETE
+[2014.11.17-22.09.01:907][895]Cmd: ACTOR DELETE
+[2014.11.17-22.09.01:908][895]LogEditorActor: Deleted Actor: Shape_NarrowCapsule_C
+[2014.11.17-22.09.01:955][895]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2014.11.17-22.09.07:590][138]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-22.09.07:590][138]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-22.09.07:718][138]LogPlayLevel: PIE:  Blueprint regeneration took 127 ms (1 blueprints)
+[2014.11.17-22.09.07:718][138]PIE: New page: PIE session: Minimal_Default (18 Nov 2014 00:09:07)
+[2014.11.17-22.09.07:727][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008644s)
+[2014.11.17-22.09.07:729][138]LogPlayLevel: PIE: World Init took: (0.002441s)
+[2014.11.17-22.09.07:730][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.011379s)
+[2014.11.17-22.09.07:765][138]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-22.09.07:768][138]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-22.09.07:770][138]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-23.09.07
+[2014.11.17-22.09.07:771][138]LogWorld: Bringing up level for play took: 0.002918
+[2014.11.17-22.09.07:774][138]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,298
+[2014.11.17-22.09.11:264][306]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.12:950][387]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.13:425][411]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.14:118][443]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.14:511][460]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.14:769][472]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.15:011][482]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.15:207][491]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.15:459][502]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.15:713][515]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.30:517][225]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.31:007][249]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.31:425][269]LogBlueprintUserMessages: bam
+[2014.11.17-22.09.35:343][450]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD1FE37240
+[2014.11.17-22.09.37:968][556]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/BroD'
+[2014.11.17-22.10.47:054][222]LogSavePackage: Save=67.751045ms
+[2014.11.17-22.10.47:054][222]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Minimal_Default_Auto5D319405845C9F9097ED68BA4C36F44FD.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Maps/Minimal_Default_Auto5.umap'
+[2014.11.17-22.10.47:067][222]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.185
+[2014.11.17-22.10.47:067][222]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.185
+[2014.11.17-22.10.47:081][222]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/BP_HUD] ([1] browsable assets)...
+[2014.11.17-22.10.47:097][222]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_HUD]
+[2014.11.17-22.10.47:170][222]LogSavePackage: Save=38.799110ms
+[2014.11.17-22.10.47:170][222]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_HUD_Auto5E65E663C45879A3872F3EB95E435EB7D.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_HUD_Auto5.uasset'
+[2014.11.17-22.10.47:204][222]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/knife] ([1] browsable assets)...
+[2014.11.17-22.10.47:235][222]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/knife.knife]
+[2014.11.17-22.10.47:235][222]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/knife]
+[2014.11.17-22.10.47:239][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/knife" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/knife_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2014.11.17-22.10.47:682][222]LogSavePackage: Save=418.794922ms
+[2014.11.17-22.10.47:682][222]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/knife_Auto5EE604D904FC89E13FA03BDB56763D84D.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/knife_Auto5.uasset'
+[2014.11.17-22.10.47:690][222]LogFileHelpers: Auto-saving content packages took 0.623
+[2014.11.17-22.11.08:041][534]BlueprintLog: New page: Compile knife
+[2014.11.17-22.11.08:167][534]BlueprintEditorCompileResults: Info [3386,61] Compile of knife successful! [in 1 ms]
+[2014.11.17-22.11.08:966][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/knife" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/knife.uasset" SILENT=true
+[2014.11.17-22.11.09:395][585]LogSavePackage: Save=424.417358ms
+[2014.11.17-22.11.09:395][585]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/knife2C6C303149D583E42BCEB4B869811309.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/knife.uasset'
+[2014.11.17-22.11.46:967][894]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.17-22.13.02:551][474]BlueprintLog: New page: Compile knife
+[2014.11.17-22.13.02:743][474]BlueprintEditorCompileResults: Info [3501,13] Compile of knife successful! [in 0 ms]
+[2014.11.17-22.13.03:624][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/knife" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/knife.uasset" SILENT=true
+[2014.11.17-22.13.04:077][502]LogSavePackage: Save=433.561096ms
+[2014.11.17-22.13.04:077][502]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/knife37C079B0480AB1FC9A04EE840E54042B.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/knife.uasset'
+[2014.11.17-22.13.08:568][767]BlueprintLog: New page: Compile knife
+[2014.11.17-22.13.08:689][767]BlueprintEditorCompileResults: Info [3507,14] Compile of knife successful! [in 1 ms]
+[2014.11.17-22.13.09:608][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/knife" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/knife.uasset" SILENT=true
+[2014.11.17-22.13.10:071][803]LogSavePackage: Save=446.883698ms
+[2014.11.17-22.13.10:071][803]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/knifeE812E1CB493F7549F23A27A3E5D4E5BB.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/knife.uasset'
+[2014.11.17-22.13.34:545][153]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-22.13.34:753][153]BlueprintEditorCompileResults: Info [3533,13] Compile of Shape_NarrowCapsule successful! [in 2 ms]
+[2014.11.17-22.13.35:673][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-22.13.36:154][178]LogSavePackage: Save=463.167755ms
+[2014.11.17-22.13.36:154][178]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsuleCBF81AB741B19AA7D9059AA0E006F081.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-22.13.40:629][373]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.17-22.13.40:697][373]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2014.11.17-22.13.40:950][373]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.17-22.13.41:100][373]LogPlayLevel: PIE:  Blueprint regeneration took 471 ms (2 blueprints)
+[2014.11.17-22.13.41:101][373]PIE: New page: PIE session: Minimal_Default (18 Nov 2014 00:13:41)
+[2014.11.17-22.13.41:110][373]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009599s)
+[2014.11.17-22.13.41:114][373]LogPlayLevel: PIE: World Init took: (0.003188s)
+[2014.11.17-22.13.41:114][373]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013142s)
+[2014.11.17-22.13.41:149][373]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-22.13.41:150][373]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-22.13.41:152][373]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-23.13.41
+[2014.11.17-22.13.41:153][373]LogWorld: Bringing up level for play took: 0.002207
+[2014.11.17-22.13.41:155][373]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 1,084
+[2014.11.17-22.13.44:349][516]LogBlueprintUserMessages: bam
+[2014.11.17-22.13.44:368][516]LogBlueprintUserMessages: -5.0
+[2014.11.17-22.13.45:708][582]LogBlueprintUserMessages: bam
+[2014.11.17-22.13.45:709][582]LogBlueprintUserMessages: -10.0
+[2014.11.17-22.13.46:742][633]LogBlueprintUserMessages: bam
+[2014.11.17-22.13.46:743][633]LogBlueprintUserMessages: -15.0
+[2014.11.17-22.13.47:429][667]LogBlueprintUserMessages: bam
+[2014.11.17-22.13.47:429][667]LogBlueprintUserMessages: -20.0
+[2014.11.17-22.13.52:633][905]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD17707380
+[2014.11.17-22.15.06:710][ 15]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-22.15.06:890][ 15]BlueprintEditorCompileResults: Info [3625,29] Compile of Shape_NarrowCapsule successful! [in 4 ms]
+[2014.11.17-22.15.08:636][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-22.15.09:131][ 81]LogSavePackage: Save=472.203949ms
+[2014.11.17-22.15.09:131][ 81]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsule4842A2C14C77C42C7231D58783191B0E.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-22.15.16:015][419]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-22.15.16:015][419]PIE: New page: PIE session: Minimal_Default (18 Nov 2014 00:15:16)
+[2014.11.17-22.15.16:027][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011206s)
+[2014.11.17-22.15.16:029][419]LogPlayLevel: PIE: World Init took: (0.002191s)
+[2014.11.17-22.15.16:029][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.013706s)
+[2014.11.17-22.15.16:065][419]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-22.15.16:067][419]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-22.15.16:070][419]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-23.15.16
+[2014.11.17-22.15.16:070][419]LogWorld: Bringing up level for play took: 0.002237
+[2014.11.17-22.15.16:072][419]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0
+[2014.11.17-22.15.18:718][536]LogBlueprintUserMessages: bam
+[2014.11.17-22.15.18:719][536]LogBlueprintUserMessages: -5.0
+[2014.11.17-22.15.27:717][951]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD7B9A6C00
+[2014.11.17-22.15.56:851][ 91]BlueprintLog: New page: Compile Shape_NarrowCapsule
+[2014.11.17-22.15.57:080][ 91]BlueprintEditorCompileResults: Info [3675,44] Compile of Shape_NarrowCapsule successful! [in 3 ms]
+[2014.11.17-22.15.58:373][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Shape_NarrowCapsule" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset" SILENT=true
+[2014.11.17-22.15.58:896][131]LogSavePackage: Save=505.597290ms
+[2014.11.17-22.15.58:897][131]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Shape_NarrowCapsuleB9BE7251495DFD302F2534824B0B2C4C.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Shape_NarrowCapsule.uasset'
+[2014.11.17-22.16.05:214][400]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.17-22.16.05:214][400]PIE: New page: PIE session: Minimal_Default (18 Nov 2014 00:16:05)
+[2014.11.17-22.16.05:226][400]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011720s)
+[2014.11.17-22.16.05:229][400]LogPlayLevel: PIE: World Init took: (0.002169s)
+[2014.11.17-22.16.05:229][400]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.014256s)
+[2014.11.17-22.16.05:261][400]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.17-22.16.05:262][400]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.17-22.16.05:264][400]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.17-23.16.05
+[2014.11.17-22.16.05:264][400]LogWorld: Bringing up level for play took: 0.002268
+[2014.11.17-22.16.05:267][400]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,805
+[2014.11.17-22.16.07:771][510]LogBlueprintUserMessages: bam
+[2014.11.17-22.16.07:771][510]LogBlueprintUserMessages: 5.0
+[2014.11.17-22.16.08:811][554]LogBlueprintUserMessages: bam
+[2014.11.17-22.16.08:811][554]LogBlueprintUserMessages: 0.0
+[2014.11.17-22.16.14:574][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD067DE660
+[2014.11.17-22.21.21:185][889]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000AD270076A0
+[2014.11.17-22.21.21:356][889]LogSavePackage: Save=99.524323ms
+[2014.11.17-22.21.21:356][889]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Minimal_Default_Auto6B423C5E840BDFBC7CAC6E79CE004F147.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Maps/Minimal_Default_Auto6.umap'
+[2014.11.17-22.21.21:374][889]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.230
+[2014.11.17-22.21.21:375][889]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.230
+[2014.11.17-22.21.21:390][889]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/BP_Postac] ([1] browsable assets)...
+[2014.11.17-22.21.21:434][889]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/BP_Postac.BP_Postac]
+[2014.11.17-22.21.21:434][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_Postac]
+[2014.11.17-22.21.22:046][889]LogSavePackage: Save=547.735168ms
+[2014.11.17-22.21.22:046][889]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac_Auto6A86B213242166E2F690F9DBCDD9EAC1A.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_Postac_Auto6.uasset'
+[2014.11.17-22.21.22:079][889]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/BP_HUD] ([1] browsable assets)...
+[2014.11.17-22.21.22:091][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_HUD]
+[2014.11.17-22.21.22:199][889]LogSavePackage: Save=68.053421ms
+[2014.11.17-22.21.22:199][889]LogSavePac
