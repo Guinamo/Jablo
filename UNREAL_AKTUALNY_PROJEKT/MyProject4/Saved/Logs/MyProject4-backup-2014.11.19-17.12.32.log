@@ -1,0 +1,618 @@
+Log file open, 11/19/14 13:42:51
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.4.3-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Sep 17 2014 07:16:51
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.11.19-12.42.52:010][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.19-12.42.52:042][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.19-12.42.52:053][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.19-12.42.52:062][  0]LogInit: Object subsystem initialized
+[2014.11.19-12.42.52:066][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.19-12.42.52:066][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.19-12.42.52:103][  0]LogInit: Computer: ADAM
+[2014.11.19-12.42.52:103][  0]LogInit: User: Adam
+[2014.11.19-12.42.52:105][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.19-12.42.52:105][  0]LogInit: High frequency timer resolution =3.161623 MHz
+[2014.11.19-12.42.52:105][  0]LogMemory: Memory total: Physical=3.0GB (3GB approx) Virtual=131072.0GB
+[2014.11.19-12.42.52:105][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.19-12.42.52:105][  0]LogMemory: Process Physical Memory: 59.78 MB used, 59.87 MB peak
+[2014.11.19-12.42.52:105][  0]LogMemory: Process Virtual Memory: 35.84 MB used, 35.95 MB peak
+[2014.11.19-12.42.52:105][  0]LogMemory: Physical Memory: 2039.68 MB used, 3071.55 MB total
+[2014.11.19-12.42.52:105][  0]LogMemory: Virtual Memory: 262.09 MB used, 134217728.00 MB total
+[2014.11.19-12.42.52:153][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2014.11.19-12.42.52:153][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 1535MB of shared system memory, 2 output[s]
+[2014.11.19-12.42.52:156][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.19-12.42.52:156][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.19-12.42.52:156][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.19-12.42.52:169][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.19-12.42.52:188][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.19-12.42.52:402][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.19-12.42.54:212][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.19-12.42.54:835][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.19-12.42.54:887][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.19-12.42.56:969][  0]LogDerivedDataCache: Loaded boot cache 2.07s 39MB ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc.
+[2014.11.19-12.42.56:969][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc
+[2014.11.19-12.42.56:969][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.19-12.42.56:969][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.19-12.42.56:970][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.19-12.42.56:970][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.11.19-12.42.56:982][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.11.19-12.42.56:982][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.11.19-12.42.56:982][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.11.19-12.42.57:255][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.19-12.42.57:255][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.19-12.42.58:143][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.19-12.42.59:153][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_44c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_fc4_0///////STATCAT_Advanced////
+[2014.11.19-12.42.59:153][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.19-12.42.59:260][  0]SourceControl: Info Source control is disabled
+[2014.11.19-12.42.59:260][  0]SourceControl: Info Source control is disabled
+[2014.11.19-12.42.59:266][  0]SourceControl: Info Source control is disabled
+[2014.11.19-12.42.59:472][  0]BlueprintLog: New page: Editor Load
+[2014.11.19-12.42.59:578][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.19-12.42.59:578][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.19-12.42.59:910][  0]LogEngine: Initializing Engine...
+[2014.11.19-12.43.00:189][  0]LogInit: XAudio2 using 'GBo[niki (USB Multi-Channel Audio Device)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x60f)
+[2014.11.19-12.43.00:198][  0]LogInit: FAudioDevice initialized.
+[2014.11.19-12.43.00:217][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.19-12.43.00:311][  0]LogDerivedDataCache: Saved boot cache 0.09s 39MB ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc.
+[2014.11.19-12.43.00:347][  0]LogInit: Texture streaming: Enabled
+[2014.11.19-12.43.00:382][  0]LogInit: Transaction tracking system initialized
+[2014.11.19-12.43.00:504][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2014.11.19-12.43.01:130][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.19-12.43.01:646][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.19-12.43.01:682][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.19-12.43.01:688][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.19-12.43.01:776][  0]LogConsoleResponse:Display: 
+[2014.11.19-12.43.02:012][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_14d8_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_fc4_0///////STATCAT_Advanced////
+[2014.11.19-12.43.02:012][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_494_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_fc4_0///////STATCAT_Advanced////
+[2014.11.19-12.43.02:012][  0]SourceControl: Info Source control is disabled
+[2014.11.19-12.43.02:013][  0]Cmd: MAP LOAD FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.19-12.43.02:068][  0]LightingResults: New page: Lighting Build
+[2014.11.19-12.43.02:076][  0]MapCheck: New page: Map Check
+[2014.11.19-12.43.02:076][  0]LightingResults: New page: Lighting Build
+[2014.11.19-12.43.02:100][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE57F547C0
+[2014.11.19-12.43.04:341][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.19-12.43.04:341][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.19-12.43.04:370][  0]Cmd: MAP CHECKDEP
+[2014.11.19-12.43.04:371][  0]MapCheck: New page: Minimal_Default - 19 Nov 2014 14:43:04
+[2014.11.19-12.43.04:443][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [72,076ms] ==========
+[2014.11.19-12.43.04:443][  0]LogFileHelpers: Loading map 'Minimal_Default' took 2.430
+[2014.11.19-12.43.05:372][  0]LogCollectionManager: Loaded 0 collections in 0.001047 seconds
+[2014.11.19-12.43.06:069][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.11.19-12.43.07:491][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.19-12.43.07:790][  0]LogInit: Using libcurl 7.34.0
+[2014.11.19-12.43.07:790][  0]LogInit:  - built for x86_64-pc-win32
+[2014.11.19-12.43.07:790][  0]LogInit:  - supports SSL with WinSSL
+[2014.11.19-12.43.07:790][  0]LogInit:  - other features:
+[2014.11.19-12.43.07:790][  0]LogInit:      CURL_VERSION_SSL
+[2014.11.19-12.43.07:790][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.11.19-12.43.07:790][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.11.19-12.43.07:790][  0]LogInit:      CURL_VERSION_IDN
+[2014.11.19-12.43.07:790][  0]LogInit: Libcurl will NOT reuse connections
+[2014.11.19-12.43.07:841][  0]LogLoad: Full Startup: 18.43 seconds (BP compile: 0.17 seconds)
+[2014.11.19-12.43.11:558][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.19-12.43.12:068][  0]LogRenderer:Warning: Reallocating scene render targets to support 664x584.
+[2014.11.19-12.43.12:892][  3]LogAssetRegistry: Asset discovery search completed in 12.4000 seconds
+[2014.11.19-12.44.01:881][321]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.19-12.44.05:223][464]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2014.11.19-12.45.18:772][776]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2014.11.19-12.46.00:747][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_AI_Mobow" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset" SILENT=true
+[2014.11.19-12.46.01:278][609]LogSavePackage: Save=502.076294ms
+[2014.11.19-12.46.01:278][609]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_MobowCC6683A1453C9B1928DFDE8E7EB03A53.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset'
+[2014.11.19-12.46.26:641][352]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-12.46.34:819][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.19-12.46.34:832][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.19-12.46.43:678][915]BlueprintLog: New page: Compile BP_AI_Mobow
+[2014.11.19-12.46.44:058][915]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.19-12.46.44:330][915]BlueprintEditorCompileResults: Info [0234,35] Compile of BP_AI_Mobow successful! [in 75 ms]
+[2014.11.19-12.46.44:362][915]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-12.46.45:565][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_AI_Mobow" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset" SILENT=true
+[2014.11.19-12.46.46:160][953]LogSavePackage: Save=438.860352ms
+[2014.11.19-12.46.46:160][953]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_Mobow9BFBE6CE4E9E23901F174389265EC0A1.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset'
+[2014.11.19-12.46.49:156][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:156][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:323][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:323][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:323][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:323][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:323][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:323][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.46.49:324][ 33]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-12.48.19:337][130]LogRenderer:Warning: Reallocating scene render targets to support 920x584.
+[2014.11.19-12.48.43:647][811]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.19-12.48.49:781][960]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.19-12.49.11:527][602]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.19-12.49.36:280][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.19-12.50.06:017][185]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.19-12.50.19:498][549]BlueprintLog: New page: Compile BP_AI_Mobow
+[2014.11.19-12.50.19:734][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.19-12.50.19:907][549]BlueprintEditorCompileResults: Info [0450,15] Compile of BP_AI_Mobow successful! [in 58 ms]
+[2014.11.19-12.50.20:893][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_AI_Mobow" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset" SILENT=true
+[2014.11.19-12.50.21:402][571]LogSavePackage: Save=476.010895ms
+[2014.11.19-12.50.21:402][571]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_Mobow182E052A4A914FFF260A85B9CC10EC32.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset'
+[2014.11.19-12.53.10:118][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.19-12.53.10:118][834]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.19-12.53.10:233][834]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.115
+[2014.11.19-12.53.10:310][834]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/BP_Postac] ([1] browsable assets)...
+[2014.11.19-12.53.10:395][834]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/BP_Postac.BP_Postac]
+[2014.11.19-12.53.10:395][834]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_Postac]
+[2014.11.19-12.53.12:055][834]LogSavePackage: Save=1469.513306ms
+[2014.11.19-12.53.12:056][834]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac_Auto1B6CBA4F043CA925BE79C29824DBF1428.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_Postac_Auto1.uasset'
+[2014.11.19-12.53.12:106][834]LogFileHelpers: Auto-saving content packages took 1.873
+[2014.11.19-13.03.33:458][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.19-13.03.33:458][843]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.19-13.03.33:504][843]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.046
+[2014.11.19-13.03.33:521][843]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/BP_AI_Mobow] ([1] browsable assets)...
+[2014.11.19-13.03.33:560][843]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/BP_AI_Mobow.BP_AI_Mobow]
+[2014.11.19-13.03.33:560][843]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_AI_Mobow]
+[2014.11.19-13.03.34:285][843]LogSavePackage: Save=470.019043ms
+[2014.11.19-13.03.34:285][843]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_Mobow_Auto2973ED21149C5C480A5641BAC13DFE4F1.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_AI_Mobow_Auto2.uasset'
+[2014.11.19-13.03.34:307][843]LogFileHelpers: Auto-saving content packages took 0.803
+[2014.11.19-13.07.07:403][843]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.07.07:403][843]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.07.07:403][843]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.07.07:403][843]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.09.59:357][818]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.09.59:357][818]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.09.59:357][818]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.09.59:357][818]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.09.59:357][818]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.09.59:357][818]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.10.45:837][312]BlueprintLog: New page: Compile Minimal_Default
+[2014.11.19-13.10.45:985][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.19-13.10.45:985][312]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.19-13.10.46:074][312]BlueprintEditorCompileResults: Info [1676,47] Compile of Minimal_Default successful! [in 2 ms]
+[2014.11.19-13.10.50:292][487]BlueprintLog: New page: Compile BP_AI_Mobow
+[2014.11.19-13.10.50:756][487]BlueprintEditorCompileResults: Info [1680,95] Compile of BP_AI_Mobow successful! [in 57 ms]
+[2014.11.19-13.10.51:777][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_AI_Mobow" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset" SILENT=true
+[2014.11.19-13.10.52:409][515]LogSavePackage: Save=470.673126ms
+[2014.11.19-13.10.52:410][515]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_Mobow3EB3203A4CC522A63B03959FD4B7C5F2.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset'
+[2014.11.19-13.10.55:391][588]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.19-13.10.55:606][588]LogSavePackage: Save=178.080063ms
+[2014.11.19-13.10.55:606][588]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac65F3F12E49D44A009DCFBD9D3C92F423.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.19-13.11.00:337][737]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.19-13.11.00:343][737]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2014.11.19-13.11.00:456][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.19-13.11.00:560][737]LogPlayLevel: PIE:  Blueprint regeneration took 228 ms (1 blueprints)
+[2014.11.19-13.11.00:593][737]PIE: New page: PIE session: Minimal_Default (19 Nov 2014 15:11:00)
+[2014.11.19-13.11.00:688][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.094259s)
+[2014.11.19-13.11.00:691][737]LogPlayLevel: PIE: World Init took: (0.003062s)
+[2014.11.19-13.11.00:691][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.097657s)
+[2014.11.19-13.11.01:263][737]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.19-13.11.01:516][737]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.19-13.11.01:534][737]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.19-14.11.01
+[2014.11.19-13.11.01:719][737]LogWorld: Bringing up level for play took: 0.198353
+[2014.11.19-13.11.02:033][737]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,961
+[2014.11.19-13.11.02:899][738]LogRenderer:Warning: Reallocating scene render targets to support 920x592.
+[2014.11.19-13.11.04:111][773]LogBlueprintUserMessages: ciach
+[2014.11.19-13.11.15:709][130]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE51C3AD40
+[2014.11.19-13.11.32:758][954]BlueprintLog: New page: Compile Minimal_Default
+[2014.11.19-13.11.32:926][954]BlueprintEditorCompileResults: Info [1723,37] Compile of Minimal_Default successful! [in 2 ms]
+[2014.11.19-13.11.41:431][344]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.11.49:967][809]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.19-13.11.49:973][809]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2014.11.19-13.11.50:120][809]LogPlayLevel: PIE:  Blueprint regeneration took 153 ms (1 blueprints)
+[2014.11.19-13.11.50:121][809]PIE: New page: PIE session: Minimal_Default (19 Nov 2014 15:11:50)
+[2014.11.19-13.11.50:135][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014650s)
+[2014.11.19-13.11.50:138][809]LogPlayLevel: PIE: World Init took: (0.002178s)
+[2014.11.19-13.11.50:138][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017104s)
+[2014.11.19-13.11.50:186][809]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.19-13.11.50:188][809]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.19-13.11.50:190][809]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.19-14.11.50
+[2014.11.19-13.11.50:205][809]LogWorld: Bringing up level for play took: 0.016807
+[2014.11.19-13.11.50:207][809]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 1,135
+[2014.11.19-13.11.51:075][836]LogBlueprintUserMessages: ciach
+[2014.11.19-13.11.52:324][879]Set new viewmode: Wireframe
+[2014.11.19-13.11.54:879][996]Set new viewmode: Wireframe
+[2014.11.19-13.11.55:621][ 31]Set new viewmode: Wireframe
+[2014.11.19-13.11.56:036][ 50]Set new viewmode: Unlit
+[2014.11.19-13.11.57:735][117]Set new viewmode: Wireframe
+[2014.11.19-13.12.01:373][286]LogBlueprintUserMessages: ciach
+[2014.11.19-13.12.02:575][340]LogBlueprintUserMessages: ciach
+[2014.11.19-13.12.05:001][453]Set new viewmode: Lit
+[2014.11.19-13.12.11:393][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE59CF3600
+[2014.11.19-13.13.37:456][ 69]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.19-13.13.37:462][ 69]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2014.11.19-13.13.37:544][ 69]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.19-13.13.37:544][ 69]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.11.19-13.13.37:595][ 69]LogPlayLevel: PIE:  Blueprint regeneration took 138 ms (1 blueprints)
+[2014.11.19-13.13.37:595][ 69]PIE: New page: PIE session: Minimal_Default (19 Nov 2014 15:13:37)
+[2014.11.19-13.13.37:624][ 69]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028798s)
+[2014.11.19-13.13.37:627][ 69]LogPlayLevel: PIE: World Init took: (0.002440s)
+[2014.11.19-13.13.37:627][ 69]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.031554s)
+[2014.11.19-13.13.37:662][ 69]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.19-13.13.37:664][ 69]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.19-13.13.37:666][ 69]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.19-13.13.37:666][ 69]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.19-14.13.37
+[2014.11.19-13.13.37:667][ 69]LogWorld: Bringing up level for play took: 0.002841
+[2014.11.19-13.13.37:670][ 69]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,598
+[2014.11.19-13.13.40:330][160]Set new viewmode: Wireframe
+[2014.11.19-13.13.40:926][184]Set new viewmode: Lit
+[2014.11.19-13.13.47:367][426]Set new viewmode: Wireframe
+[2014.11.19-13.13.47:758][445]Set new viewmode: Lit
+[2014.11.19-13.13.57:067][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE59CF3EC0
+[2014.11.19-13.14.30:269][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.11.19-13.14.30:269][577]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.11.19-13.14.31:080][577]LogSavePackage: Save=306.616577ms
+[2014.11.19-13.14.31:080][577]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Minimal_Default_Auto371A0FA244CF0EB7E766DE0B02E33673B.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Maps/Minimal_Default_Auto3.umap'
+[2014.11.19-13.14.31:143][577]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.874
+[2014.11.19-13.14.31:143][577]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.874
+[2014.11.19-13.14.31:248][577]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/BP_AI_Mobow] ([1] browsable assets)...
+[2014.11.19-13.14.31:258][577]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_AI_Mobow]
+[2014.11.19-13.14.31:536][577]LogSavePackage: Save=112.144615ms
+[2014.11.19-13.14.31:536][577]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_Mobow_Auto30A8F42B64482F8C364AFA9AE1BE8CFD6.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_AI_Mobow_Auto3.uasset'
+[2014.11.19-13.14.31:577][577]LogFileHelpers: Auto-saving content packages took 0.434
+[2014.11.19-13.15.58:662][851]BlueprintLog: New page: Compile Minimal_Default
+[2014.11.19-13.16.00:713][851]BlueprintEditorCompileResults: Info [1989,61] Compile of Minimal_Default successful! [in 2 ms]
+[2014.11.19-13.16.04:880][945]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.17:697][720]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.17:717][720]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.17:717][720]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.17:723][720]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.17:725][720]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.32:120][367]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_AI_Mobow" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset" SILENT=true
+[2014.11.19-13.16.32:900][367]LogSavePackage: Save=661.582336ms
+[2014.11.19-13.16.32:900][367]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_Mobow7B692991402B2964DC0EFCA1419C1125.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset'
+[2014.11.19-13.16.33:478][396]BlueprintLog: New page: Compile BP_AI_Mobow
+[2014.11.19-13.16.34:102][396]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.11.19-13.16.34:482][396]BlueprintEditorCompileResults: Info [2024,52] Compile of BP_AI_Mobow successful! [in 312 ms]
+[2014.11.19-13.16.34:542][396]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.34:565][396]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.34:566][396]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.34:668][396]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.34:706][396]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.55:124][546]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_AI_Mobow" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset" SILENT=true
+[2014.11.19-13.16.55:668][546]LogSavePackage: Save=485.959595ms
+[2014.11.19-13.16.55:668][546]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_MobowDF514DE24BE957EA945BD68D7E1BB502.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset'
+[2014.11.19-13.16.56:197][574]BlueprintLog: New page: Compile BP_AI_Mobow
+[2014.11.19-13.16.56:677][574]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.11.19-13.16.56:861][574]BlueprintEditorCompileResults: Info [2047,16] Compile of BP_AI_Mobow successful! [in 321 ms]
+[2014.11.19-13.16.56:865][574]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.56:866][574]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.56:867][574]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.56:867][574]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.16.56:872][574]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.17.02:008][726]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.19-13.17.02:013][726]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2014.11.19-13.17.02:109][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.11.19-13.17.02:163][726]LogPlayLevel: PIE:  Blueprint regeneration took 163 ms (1 blueprints)
+[2014.11.19-13.17.02:305][726]PIE: New page: PIE session: Minimal_Default (19 Nov 2014 15:17:02)
+[2014.11.19-13.17.02:573][726]LogPlayLevel: PIE: StaticDuplicateObject took: (0.249384s)
+[2014.11.19-13.17.02:902][726]LogPlayLevel: PIE: World Init took: (0.329045s)
+[2014.11.19-13.17.02:902][726]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.590669s)
+[2014.11.19-13.17.03:033][726]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.19-13.17.03:167][726]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.19-13.17.03:245][726]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.19-13.17.03:249][726]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.19-14.17.03
+[2014.11.19-13.17.03:385][726]LogWorld: Bringing up level for play took: 0.217829
+[2014.11.19-13.17.03:598][726]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 2,526
+[2014.11.19-13.17.05:607][777]LogBlueprintUserMessages: ciach
+[2014.11.19-13.17.29:639][618]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE6DA8E700
+[2014.11.19-13.19.51:135][783]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.19-13.19.51:139][783]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2014.11.19-13.19.51:268][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.11.19-13.19.51:268][783]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.11.19-13.19.51:415][783]LogPlayLevel: PIE:  Blueprint regeneration took 280 ms (1 blueprints)
+[2014.11.19-13.19.51:416][783]PIE: New page: PIE session: Minimal_Default (19 Nov 2014 15:19:51)
+[2014.11.19-13.19.51:429][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012934s)
+[2014.11.19-13.19.51:432][783]LogPlayLevel: PIE: World Init took: (0.002226s)
+[2014.11.19-13.19.51:432][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.015706s)
+[2014.11.19-13.19.51:488][783]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.19-13.19.51:490][783]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.19-13.19.51:495][783]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.19-13.19.51:495][783]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.19-14.19.51
+[2014.11.19-13.19.51:496][783]LogWorld: Bringing up level for play took: 0.005208
+[2014.11.19-13.19.51:498][783]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,425
+[2014.11.19-13.19.52:530][807]LogBlueprintUserMessages: ciach
+[2014.11.19-13.21.35:445][562]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE6DA8CD60
+[2014.11.19-13.27.08:199][ 61]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000FE69F82080. 
+[2014.11.19-13.27.08:199][ 61]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000FE69F82080. 
+[2014.11.19-13.27.10:081][104]LogSavePackage: Save=129.556564ms
+[2014.11.19-13.27.10:081][104]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Minimal_Default_Auto4302664BC44162F65DB6DB7B42679D1C1.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Maps/Minimal_Default_Auto4.umap'
+[2014.11.19-13.27.10:098][104]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.456
+[2014.11.19-13.27.10:098][104]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.456
+[2014.11.19-13.27.10:123][104]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/BP_AI_Mobow] ([1] browsable assets)...
+[2014.11.19-13.27.10:164][104]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/BP_AI_Mobow.BP_AI_Mobow]
+[2014.11.19-13.27.10:164][104]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_AI_Mobow]
+[2014.11.19-13.27.10:706][104]LogSavePackage: Save=445.483215ms
+[2014.11.19-13.27.10:706][104]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_Mobow_Auto4EE48A77B4CAB12144B0824A5726101E9.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_AI_Mobow_Auto4.uasset'
+[2014.11.19-13.27.10:734][104]LogFileHelpers: Auto-saving content packages took 0.636
+[2014.11.19-13.41.01:622][922]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.41.01:633][922]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.41.01:643][922]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.41.01:643][922]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.41.01:644][922]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.43.08:211][718]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000FE66DE1280. 
+[2014.11.19-13.43.08:211][718]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000FE66DE1280. 
+[2014.11.19-13.50.02:252][819]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.11.19-13.50.02:746][819]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.494
+[2014.11.19-13.50.02:787][819]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/BP_Postac] ([1] browsable assets)...
+[2014.11.19-13.50.02:867][819]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/BP_Postac.BP_Postac]
+[2014.11.19-13.50.02:867][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_Postac]
+[2014.11.19-13.50.04:192][819]LogSavePackage: Save=1077.747437ms
+[2014.11.19-13.50.04:192][819]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac_Auto515B7B1E549F5E2056CC1B4B78238F9C4.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_Postac_Auto5.uasset'
+[2014.11.19-13.50.04:240][819]LogFileHelpers: Auto-saving content packages took 1.494
+[2014.11.19-13.50.11:511][978]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.50.11:577][978]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.50.11:577][978]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.19-13.51.22:562][453]BlueprintLog: New page: Compile BP_Postac
+[2014.11.19-13.51.23:551][453]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.11.19-13.51.23:752][453]BlueprintEditorCompileResults: Info [4114,06] Compile of BP_Postac successful! [in 436 ms]
+[2014.11.19-13.51.26:194][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.19-13.51.26:945][475]LogSavePackage: Save=709.162659ms
+[2014.11.19-13.51.26:945][475]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac80DF94C7441387E9122D9EB4F589662C.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.19-13.51.31:726][588]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.19-13.51.31:726][588]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.19-13.51.32:383][588]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
+[2014.11.19-13.51.32:568][588]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2014.11.19-13.51.32:627][588]LogPlayLevel: PIE:  Blueprint regeneration took 900 ms (2 blueprints)
+[2014.11.19-13.51.32:627][588]PIE: New page: PIE session: Minimal_Default (19 Nov 2014 15:51:32)
+[2014.11.19-13.51.32:744][588]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116165s)
+[2014.11.19-13.51.32:746][588]LogPlayLevel: PIE: World Init took: (0.002345s)
+[2014.11.19-13.51.32:746][588]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.118813s)
+[2014.11.19-13.51.32:786][588]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.19-13.51.32:788][588]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.19-13.51.32:790][588]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.19-13.51.32:790][588]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.19-14.51.32
+[2014.11.19-13.51.32:791][588]LogWorld: Bringing up level for play took: 0.003074
+[2014.11.19-13.51.32:806][588]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 1,734
+[2014.11.19-13.51.34:274][625]LogBlueprintUserMessages: ciach
+[2014.11.19-13.51.36:388][701]Cmd: RestartLevel.
+[2014.11.19-13.51.36:656][701]Command not recognized: RestartLevel.
+[2014.11.19-13.51.39:707][811]Cmd: RestartLevel.
+[2014.11.19-13.51.39:707][811]Command not recognized: RestartLevel.
+[2014.11.19-13.51.44:903][  3]Cmd: RestartLevel.
+[2014.11.19-13.51.44:903][  3]Command not recognized: RestartLevel.
+[2014.11.19-13.51.45:609][ 29]Cmd: RestartLevel.
+[2014.11.19-13.51.45:610][ 29]Command not recognized: RestartLevel.
+[2014.11.19-13.51.45:878][ 38]Cmd: RestartLevel.
+[2014.11.19-13.51.45:878][ 38]Command not recognized: RestartLevel.
+[2014.11.19-13.51.46:070][ 45]Cmd: RestartLevel.
+[2014.11.19-13.51.46:070][ 45]Command not recognized: RestartLevel.
+[2014.11.19-13.51.46:198][ 49]Cmd: RestartLevel.
+[2014.11.19-13.51.46:198][ 49]Command not recognized: RestartLevel.
+[2014.11.19-13.51.46:327][ 54]Cmd: RestartLevel.
+[2014.11.19-13.51.46:327][ 54]Command not recognized: RestartLevel.
+[2014.11.19-13.51.46:486][ 60]Cmd: RestartLevel.
+[2014.11.19-13.51.46:487][ 60]Command not recognized: RestartLevel.
+[2014.11.19-13.51.46:619][ 65]Cmd: RestartLevel.
+[2014.11.19-13.51.46:619][ 65]Command not recognized: RestartLevel.
+[2014.11.19-13.51.46:778][ 71]Cmd: RestartLevel.
+[2014.11.19-13.51.46:778][ 71]Command not recognized: RestartLevel.
+[2014.11.19-13.51.48:072][118]LogBlueprintUserMessages: ciach
+[2014.11.19-13.51.49:385][165]Cmd: RestartLevel.
+[2014.11.19-13.51.49:385][165]Command not recognized: RestartLevel.
+[2014.11.19-13.51.49:986][189]Cmd: RestartLevel.
+[2014.11.19-13.51.49:987][189]Command not recognized: RestartLevel.
+[2014.11.19-13.51.51:076][220]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE737B2B60
+[2014.11.19-13.56.51:479][370]BlueprintLog: New page: Compile BP_Postac
+[2014.11.19-13.56.52:272][370]BlueprintEditorCompileResults: Info [4442,46] Compile of BP_Postac successful! [in 149 ms]
+[2014.11.19-13.56.55:032][384]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.19-13.56.55:794][384]LogSavePackage: Save=592.362549ms
+[2014.11.19-13.56.55:794][384]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac26ACF51C4F7A96B3C5CBC7B43CF5DF01.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.19-13.56.58:561][433]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.56.58:562][433]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.56.58:563][433]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.56.58:564][433]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.56.58:564][433]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.19-13.57.01:535][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_AI_Mobow" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset" SILENT=true
+[2014.11.19-13.57.01:669][600]LogSavePackage: Save=63.918755ms
+[2014.11.19-13.57.01:670][600]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_AI_MobowC7FBCD804D61DEF4D1632082F7D5BF28.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_AI_Mobow.uasset'
+[2014.11.19-14.00.23:818][492]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2014.11.19-14.00.23:898][492]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE62DEB740
+[2014.11.19-14.00.24:555][492]LogSavePackage: Save=157.859741ms
+[2014.11.19-14.00.24:555][492]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Minimal_Default_Auto694B7105F4F47AE1F925D789050A16455.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Maps/Minimal_Default_Auto6.umap'
+[2014.11.19-14.00.24:591][492]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.774
+[2014.11.19-14.00.24:591][492]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.774
+[2014.11.19-14.00.24:702][492]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/BP_HUD] ([1] browsable assets)...
+[2014.11.19-14.00.24:717][492]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_HUD]
+[2014.11.19-14.00.24:965][492]LogSavePackage: Save=138.651260ms
+[2014.11.19-14.00.24:965][492]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_HUD_Auto6D1ABECB642BE101487CD1D87AED2CC92.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_HUD_Auto6.uasset'
+[2014.11.19-14.00.24:997][492]LogFileHelpers: Auto-saving content packages took 0.405
+[2014.11.19-14.06.08:209][500]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000FE71811980. 
+[2014.11.19-14.06.08:209][500]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 000000FE71811980. 
+[2014.11.19-14.10.56:676][197]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.152
+[2014.11.19-14.10.56:718][197]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/BP_Postac] ([1] browsable assets)...
+[2014.11.19-14.10.56:814][197]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/BP_Postac.BP_Postac]
+[2014.11.19-14.10.56:814][197]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_Postac]
+[2014.11.19-14.10.57:709][197]LogSavePackage: Save=608.322693ms
+[2014.11.19-14.10.57:709][197]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac_Auto7D951CBDC4927E908ACB7BABC0DA9E3BA.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_Postac_Auto7.uasset'
+[2014.11.19-14.10.57:759][197]LogFileHelpers: Auto-saving content packages took 1.083
+[2014.11.19-14.19.35:774][443]BlueprintLog: New page: Compile BP_Postac
+[2014.11.19-14.19.58:936][443]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2014.11.19-14.20.10:051][443]BlueprintEditorCompileResults: Info [5821,78] Compile of BP_Postac successful! [in 10.430 ms]
+[2014.11.19-14.20.27:051][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.19-14.20.29:181][586]LogSavePackage: Save=1733.374023ms
+[2014.11.19-14.20.29:181][586]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_PostacC2BF658F444C928926B444AB7CF3AE64.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.19-14.20.58:432][ 45]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2014.11.19-14.20.58:703][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE5960F560
+[2014.11.19-14.20.59:741][ 45]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 1.310
+[2014.11.19-14.20.59:831][ 45]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/BP_HUD] ([1] browsable assets)...
+[2014.11.19-14.20.59:845][ 45]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_HUD]
+[2014.11.19-14.21.00:268][ 45]LogSavePackage: Save=237.470123ms
+[2014.11.19-14.21.00:268][ 45]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_HUD_Auto856958BB040655AC2E32D1CA4C70850F8.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_HUD_Auto8.uasset'
+[2014.11.19-14.21.00:304][ 45]LogFileHelpers: Auto-saving content packages took 0.562
+[2014.11.19-14.21.04:879][119]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_31) Not registered. Aborting.
+[2014.11.19-14.21.06:473][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.19-14.21.07:387][119]LogSavePackage: Save=592.280945ms
+[2014.11.19-14.21.07:387][119]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Minimal_Default3F4344824BFA586B7D203E8FD837D0EA.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Maps/Minimal_Default.umap'
+[2014.11.19-14.21.07:616][119]LogFileHelpers: Saving map 'Minimal_Default' took 1.718
+[2014.11.19-14.21.07:622][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_HUD" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_HUD.uasset" SILENT=true
+[2014.11.19-14.21.07:796][119]LogSavePackage: Save=142.491379ms
+[2014.11.19-14.21.07:796][119]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_HUDE2F0FC1A4BE37DCB8E9616B9F7E772A6.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_HUD.uasset'
+[2014.11.19-14.24.04:885][136]Cmd: QUIT_EDITOR
+[2014.11.19-14.24.16:254][136]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.19-14.24.23:036][136]LogExit: Preparing to exit.
+[2014.11.19-14.24.29:548][136]LogExit: Editor shut down
+[2014.11.19-14.24.29:801][136]LogExit: Transaction tracking system shut down
+[2014.11.19-14.24.30:937][136]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE626D1080
+[2014.11.19-14.24.37:044][136]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE63253240
+[2014.11.19-14.24.37:045][136]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE62FAF240
+[2014.11.19-14.24.37:045][136]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE5F22ADE0
+[2014.11.19-14.24.37:045][136]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000FE69602980
+[2014.11.19-14.24.37:045][136]LogExit: Object subsystem successfully closed.
+[2014.11.19-14.24.45:159][136]LogModuleManager: Shutting down and abandoning module HTTP (153)
+[2014.11.19-14.24.45:203][136]LogModuleManager: Shutting down and abandoning module CrashTracker (152)
+[2014.11.19-14.24.45:203][136]LogModuleManager: Shutting down and abandoning module SuperSearch (151)
+[2014.11.19-14.24.45:221][136]LogModuleManager: Shutting down and abandoning module SceneOutliner (150)
+[2014.11.19-14.24.45:221][136]LogModuleManager: Shutting down and abandoning module EditorWidgets (149)
+[2014.11.19-14.24.45:221][136]LogModuleManager: Shutting down and abandoning module CollectionManager (148)
+[2014.11.19-14.24.45:241][136]LogModuleManager: Shutting down and abandoning module StatsViewer (147)
+[2014.11.19-14.24.45:273][136]LogModuleManager: Shutting down and abandoning module FoliageEdit (146)
+[2014.11.19-14.24.45:273][136]LogModuleManager: Shutting down and abandoning module LandscapeEditor (145)
+[2014.11.19-14.24.45:296][136]LogModuleManager: Shutting down and abandoning module MeshPaint (144)
+[2014.11.19-14.24.45:303][136]LogModuleManager: Shutting down and abandoning module ActorPickerMode (143)
+[2014.11.19-14.24.45:303][136]LogModuleManager: Shutting down and abandoning module GeometryMode (142)
+[2014.11.19-14.24.45:303][136]LogModuleManager: Shutting down and abandoning module TextureAlignMode (141)
+[2014.11.19-14.24.45:303][136]LogModuleManager: Shutting down and abandoning module BspMode (140)
+[2014.11.19-14.24.45:303][136]LogModuleManager: Shutting down and abandoning module PlacementMode (139)
+[2014.11.19-14.24.45:304][136]LogModuleManager: Shutting down and abandoning module DesktopPlatform (138)
+[2014.11.19-14.24.45:336][136]LogModuleManager: Shutting down and abandoning module AutomationWorker (137)
+[2014.11.19-14.24.45:336][136]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (136)
+[2014.11.19-14.24.45:381][136]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (135)
+[2014.11.19-14.24.45:446][136]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (134)
+[2014.11.19-14.24.45:460][136]LogModuleManager: Shutting down and abandoning module UndoHistory (133)
+[2014.11.19-14.24.45:460][136]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (132)
+[2014.11.19-14.24.45:473][136]LogModuleManager: Shutting down and abandoning module UserFeedback (131)
+[2014.11.19-14.24.45:473][136]LogModuleManager: Shutting down and abandoning module XmlParser (130)
+[2014.11.19-14.24.45:480][136]LogModuleManager: Shutting down and abandoning module Blutility (129)
+[2014.11.19-14.24.45:480][136]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (128)
+[2014.11.19-14.24.45:659][136]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (127)
+[2014.11.19-14.24.45:659][136]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (124)
+[2014.11.19-14.24.45:702][136]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (123)
+[2014.11.19-14.24.45:906][136]LogModuleManager: Shutting down and abandoning module InputBindingEditor (122)
+[2014.11.19-14.24.45:956][136]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (121)
+[2014.11.19-14.24.46:052][136]LogModuleManager: Shutting down and abandoning module SettingsEditor (120)
+[2014.11.19-14.24.46:090][136]LogModuleManager: Shutting down and abandoning module SessionLauncher (119)
+[2014.11.19-14.24.46:137][136]LogModuleManager: Shutting down and abandoning module SessionFrontend (118)
+[2014.11.19-14.24.46:194][136]LogModuleManager: Shutting down and abandoning module ProfilerClient (117)
+[2014.11.19-14.24.46:221][136]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (116)
+[2014.11.19-14.24.46:221][136]LogModuleManager: Shutting down and abandoning module DeviceManager (115)
+[2014.11.19-14.24.46:296][136]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2014.11.19-14.24.46:393][136]LogModuleManager: Shutting down and abandoning module AutomationWindow (113)
+[2014.11.19-14.24.46:409][136]LogModuleManager: Shutting down and abandoning module Layers (112)
+[2014.11.19-14.24.46:516][136]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (111)
+[2014.11.19-14.24.46:516][136]LogModuleManager: Shutting down and abandoning module DetailCustomizations (110)
+[2014.11.19-14.24.46:592][136]LogModuleManager: Shutting down and abandoning module PackagesDialog (109)
+[2014.11.19-14.24.46:599][136]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2014.11.19-14.24.46:773][136]LogModuleManager: Shutting down and abandoning module AssetRegistry (107)
+[2014.11.19-14.24.47:781][136]LogModuleManager: Shutting down and abandoning module Persona (106)
+[2014.11.19-14.24.47:828][136]LogModuleManager: Shutting down and abandoning module GraphEditor (105)
+[2014.11.19-14.24.47:878][136]LogModuleManager: Shutting down and abandoning module ClassViewer (104)
+[2014.11.19-14.24.47:878][136]LogModuleManager: Shutting down and abandoning module Toolbox (103)
+[2014.11.19-14.24.47:878][136]LogModuleManager: Shutting down and abandoning module ModuleUI (102)
+[2014.11.19-14.24.47:896][136]LogModuleManager: Shutting down and abandoning module Sequencer (101)
+[2014.11.19-14.24.47:981][136]LogModuleManager: Shutting down and abandoning module MovieSceneTools (100)
+[2014.11.19-14.24.48:036][136]LogModuleManager: Shutting down and abandoning module OutputLog (99)
+[2014.11.19-14.24.48:059][136]LogModuleManager: Shutting down and abandoning module GammaUI (98)
+[2014.11.19-14.24.48:080][136]LogModuleManager: Shutting down and abandoning module Documentation (97)
+[2014.11.19-14.24.48:080][136]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2014.11.19-14.24.48:099][136]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (95)
+[2014.11.19-14.24.48:129][136]LogModuleManager: Shutting down and abandoning module AnalyticsET (94)
+[2014.11.19-14.24.48:129][136]LogModuleManager: Shutting down and abandoning module Analytics (93)
+[2014.11.19-14.24.48:129][136]LogModuleManager: Shutting down and abandoning module GameplayDebugger (92)
+[2014.11.19-14.24.48:129][136]LogModuleManager: Shutting down and abandoning module AIModule (91)
+[2014.11.19-14.24.48:149][136]LogModuleManager: Shutting down and abandoning module ProfilerService (90)
+[2014.11.19-14.24.50:120][136]LogModuleManager: Shutting down and abandoning module TaskGraph (89)
+[2014.11.19-14.24.50:156][136]LogModuleManager: Shutting down and abandoning module SlateRemote (88)
+[2014.11.19-14.24.50:156][136]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (87)
+[2014.11.19-14.24.50:156][136]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (86)
+[2014.11.19-14.24.50:156][136]LogModuleManager: Shutting down and abandoning module CableComponent (85)
+[2014.11.19-14.24.50:156][136]LogModuleManager: Shutting down and abandoning module MessagingDebugger (84)
+[2014.11.19-14.24.50:188][136]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2014.11.19-14.24.50:188][136]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2014.11.19-14.24.50:188][136]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2014.11.19-14.24.50:188][136]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2014.11.19-14.24.50:188][136]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (79)
+[2014.11.19-14.24.50:188][136]LogModuleManager: Shutting down and abandoning module Matinee (78)
+[2014.11.19-14.24.50:206][136]LogModuleManager: Shutting down and abandoning module Kismet (77)
+[2014.11.19-14.24.50:270][136]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
+[2014.11.19-14.24.50:284][136]LogModuleManager: Shutting down and abandoning module LevelEditor (75)
+[2014.11.19-14.24.50:636][136]LogModuleManager: Shutting down and abandoning module IntroTutorials (74)
+[2014.11.19-14.24.50:670][136]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.11.19-14.24.50:671][136]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.11.19-14.24.50:671][136]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2014.11.19-14.24.50:721][136]LogModuleManager: Shutting down and abandoning module Paper2DEditor (70)
+[2014.11.19-14.24.50:759][136]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (69)
+[2014.11.19-14.24.50:764][136]LogModuleManager: Shutting down and abandoning module PluginsEditor (68)
+[2014.11.19-14.24.50:774][136]LogModuleManager: Shutting down and abandoning module MainFrame (67)
+[2014.11.19-14.24.50:791][136]LogModuleManager: Shutting down and abandoning module EpicSurvey (66)
+[2014.11.19-14.24.50:820][136]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (65)
+[2014.11.19-14.24.50:825][136]LogModuleManager: Shutting down and abandoning module UObjectPlugin (64)
+[2014.11.19-14.24.50:825][136]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (63)
+[2014.11.19-14.24.50:841][136]LogModuleManager: Shutting down and abandoning module SourceControl (62)
+[2014.11.19-14.24.50:870][136]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (61)
+[2014.11.19-14.24.50:891][136]LogModuleManager: Shutting down and abandoning module BlankPlugin (60)
+[2014.11.19-14.24.50:891][136]LogModuleManager: Shutting down and abandoning module ScriptPlugin (59)
+[2014.11.19-14.24.50:907][136]LogModuleManager: Shutting down and abandoning module UdpMessaging (58)
+[2014.11.19-14.24.51:018][136]LogModuleManager: Shutting down and abandoning module Paper2D (57)
+[2014.11.19-14.24.51:018][136]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (56)
+[2014.11.19-14.24.51:491][136]LogModuleManager: Shutting down and abandoning module ImageWrapper (55)
+[2014.11.19-14.24.51:491][136]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
+[2014.11.19-14.24.51:491][136]LogModuleManager: Shutting down and abandoning module FunctionalTesting (53)
+[2014.11.19-14.24.51:500][136]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (52)
+[2014.11.19-14.24.51:525][136]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (51)
+[2014.11.19-14.24.51:551][136]LogModuleManager: Shutting down and abandoning module MessageLog (50)
+[2014.11.19-14.24.51:556][136]LogModuleManager: Shutting down and abandoning module UMGEditor (49)
+[2014.11.19-14.24.51:563][136]LogModuleManager: Shutting down and abandoning module UMG (48)
+[2014.11.19-14.24.51:584][136]LogModuleManager: Shutting down and abandoning module Slate (47)
+[2014.11.19-14.24.51:584][136]LogModuleManager: Shutting down and abandoning module EditorStyle (46)
+[2014.11.19-14.24.51:840][136]LogModuleManager: Shutting down and abandoning module SessionServices (45)
+[2014.11.19-14.24.51:840][136]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (44)
+[2014.11.19-14.24.51:840][136]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (43)
+[2014.11.19-14.24.51:844][136]LogModuleManager: Shutting down and abandoning module XAudio2 (42)
+[2014.11.19-14.24.51:844][136]LogModuleManager: Shutting down and abandoning module Networking (40)
+[2014.11.19-14.24.51:844][136]LogModuleManager: Shutting down and abandoning module Core (39)
+[2014.11.19-14.24.51:844][136]LogModuleManager: Shutting down and abandoning module KismetCompiler (38)
+[2014.11.19-14.24.51:844][136]LogModuleManager: Shutting down and abandoning module PhysXFormats (37)
+[2014.11.19-14.24.51:844][136]LogModuleManager: Shutting down and abandoning module MeshUtilities (36)
+[2014.11.19-14.24.51:884][136]LogModuleManager: Shutting down and abandoning module DerivedDataCache (35)
+[2014.11.19-14.24.51:975][136]LogDerivedDataCache: Shutdown
+[2014.11.19-14.24.51:975][136]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (34)
+[2014.11.19-14.24.52:069][136]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (33)
+[2014.11.19-14.24.52:118][136]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (32)
+[2014.11.19-14.24.52:161][136]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (31)
+[2014.11.19-14.24.52:192][136]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (30)
+[2014.11.19-14.24.52:220][136]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (29)
+[2014.11.19-14.24.52:245][136]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (28)
+[2014.11.19-14.24.52:284][136]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (27)
+[2014.11.19-14.24.52:322][136]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (26)
+[2014.11.19-14.24.52:365][136]LogModuleManager: Shutting down and abandoning module Messaging (25)
+[2014.11.19-14.24.52:365][136]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (24)
+[2014.11.19-14.24.52:368][136]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.19-14.24.52:435][136]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.19-14.24.52:465][136]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.19-14.24.52:506][136]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.19-14.24.52:525][136]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.19-14.24.52:555][136]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.19-14.24.52:555][136]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.19-14.24.52:628][136]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.19-14.24.52:645][136]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.19-14.24.52:655][136]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.19-14.24.52:806][136]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.19-14.24.52:806][136]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.19-14.24.52:814][136]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.19-14.24.52:814][136]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.19-14.24.52:814][136]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.19-14.24.52:845][136]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.19-14.24.52:845][136]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.19-14.24.52:845][136]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.19-14.24.52:858][136]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.19-14.24.52:885][136]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.19-14.24.52:898][136]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.19-14.24.53:314][136]LogExit: Exiting.
+[2014.11.19-14.24.54:765][136]Log file closed, 11/19/14 15:24:54
