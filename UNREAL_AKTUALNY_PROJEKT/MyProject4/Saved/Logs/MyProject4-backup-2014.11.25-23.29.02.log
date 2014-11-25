@@ -1,0 +1,517 @@
+Log file open, 11/24/14 16:52:49
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.4.3-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Sep 17 2014 07:16:51
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.11.24-15.52.49:984][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.24-15.52.50:014][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.24-15.52.50:024][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.24-15.52.50:033][  0]LogInit: Object subsystem initialized
+[2014.11.24-15.52.50:036][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.24-15.52.50:037][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.24-15.52.50:935][  0]LogInit: Computer: ADAM
+[2014.11.24-15.52.50:935][  0]LogInit: User: Adam
+[2014.11.24-15.52.50:937][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.24-15.52.50:937][  0]LogInit: High frequency timer resolution =3.161618 MHz
+[2014.11.24-15.52.50:937][  0]LogMemory: Memory total: Physical=3.0GB (3GB approx) Virtual=131072.0GB
+[2014.11.24-15.52.50:937][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.24-15.52.50:937][  0]LogMemory: Process Physical Memory: 60.18 MB used, 60.18 MB peak
+[2014.11.24-15.52.50:937][  0]LogMemory: Process Virtual Memory: 36.11 MB used, 36.11 MB peak
+[2014.11.24-15.52.50:937][  0]LogMemory: Physical Memory: 1566.26 MB used, 3071.55 MB total
+[2014.11.24-15.52.50:937][  0]LogMemory: Virtual Memory: 268.48 MB used, 134217728.00 MB total
+[2014.11.24-15.52.50:976][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2014.11.24-15.52.50:976][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 1535MB of shared system memory, 2 output[s]
+[2014.11.24-15.52.50:978][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.24-15.52.50:978][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.24-15.52.50:978][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.24-15.52.50:988][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.24-15.52.51:004][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.24-15.52.51:198][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.24-15.52.54:187][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.24-15.52.54:979][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.24-15.52.55:038][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.24-15.52.57:997][  0]LogDerivedDataCache: Loaded boot cache 2.96s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.24-15.52.57:997][  0]LogDerivedDataCache:Display: Loaded Boot cache: I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc
+[2014.11.24-15.52.57:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.24-15.52.57:997][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.24-15.52.57:997][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.24-15.52.57:997][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.11.24-15.52.58:010][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.11.24-15.52.58:010][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.11.24-15.52.58:010][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.11.24-15.52.58:285][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.24-15.52.58:285][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.24-15.52.59:128][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.24-15.53.02:099][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_e5c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_6c0_0///////STATCAT_Advanced////
+[2014.11.24-15.53.02:099][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.24-15.53.02:511][  0]SourceControl: Info Source control is disabled
+[2014.11.24-15.53.02:511][  0]SourceControl: Info Source control is disabled
+[2014.11.24-15.53.02:519][  0]SourceControl: Info Source control is disabled
+[2014.11.24-15.53.02:957][  0]BlueprintLog: New page: Editor Load
+[2014.11.24-15.53.03:260][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.24-15.53.03:260][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.24-15.53.03:839][  0]LogEngine: Initializing Engine...
+[2014.11.24-15.53.04:513][  0]LogInit: XAudio2 using 'GBo[niki (SB Audigy)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2014.11.24-15.53.04:537][  0]LogInit: FAudioDevice initialized.
+[2014.11.24-15.53.04:561][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.24-15.53.28:586][  0]LogDerivedDataCache: Saved boot cache 24.02s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.24-15.53.36:958][  0]LogInit: Texture streaming: Enabled
+[2014.11.24-15.53.37:003][  0]LogInit: Transaction tracking system initialized
+[2014.11.24-15.53.37:165][  0]LogAssetRegistry: FAssetRegistry took 0.0117 seconds to start up
+[2014.11.24-15.53.38:012][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.24-15.53.38:651][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.24-15.53.38:695][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.24-15.53.38:703][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.24-15.53.38:832][  0]LogConsoleResponse:Display: 
+[2014.11.24-15.53.39:089][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1568_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_6c0_0///////STATCAT_Advanced////
+[2014.11.24-15.53.39:090][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1100_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_6c0_0///////STATCAT_Advanced////
+[2014.11.24-15.53.39:090][  0]SourceControl: Info Source control is disabled
+[2014.11.24-15.53.39:091][  0]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.24-15.53.39:108][  0]LightingResults: New page: Lighting Build
+[2014.11.24-15.53.39:121][  0]MapCheck: New page: Map Check
+[2014.11.24-15.53.39:121][  0]LightingResults: New page: Lighting Build
+[2014.11.24-15.53.39:147][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092D673C360
+[2014.11.24-15.53.44:482][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.24-15.53.44:496][  0]LogAIModule: Creating AISystem for world Level1
+[2014.11.24-15.53.44:496][  0]Cmd: MAP CHECKDEP
+[2014.11.24-15.53.44:497][  0]MapCheck: New page: Level1 - 24 Nov 2014 17:53:44
+[2014.11.24-15.53.44:634][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [136,875ms] ==========
+[2014.11.24-15.53.44:634][  0]LogFileHelpers: Loading map 'Level1' took 5.543
+[2014.11.24-15.53.45:041][  0]LogCollectionManager: Loaded 0 collections in 0.002510 seconds
+[2014.11.24-15.53.49:291][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.24-15.53.52:977][  0]LogInit: Using libcurl 7.34.0
+[2014.11.24-15.53.52:977][  0]LogInit:  - built for x86_64-pc-win32
+[2014.11.24-15.53.52:977][  0]LogInit:  - supports SSL with WinSSL
+[2014.11.24-15.53.52:977][  0]LogInit:  - other features:
+[2014.11.24-15.53.52:977][  0]LogInit:      CURL_VERSION_SSL
+[2014.11.24-15.53.52:977][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.11.24-15.53.52:977][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.11.24-15.53.52:977][  0]LogInit:      CURL_VERSION_IDN
+[2014.11.24-15.53.52:977][  0]LogInit: Libcurl will NOT reuse connections
+[2014.11.24-15.53.53:006][  0]LogLoad: Full Startup: 100.38 seconds (BP compile: 0.31 seconds)
+[2014.11.24-15.53.53:060][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.24-15.53.54:146][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.24-15.53.54:633][  0]LogRenderer:Warning: Reallocating scene render targets to support 664x584.
+[2014.11.24-15.53.55:350][  4]LogAssetRegistry: Asset discovery search completed in 18.1961 seconds
+[2014.11.24-16.01.05:422][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2014.11.24-16.01.05:422][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:433][600]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip
+[2014.11.24-16.01.05:434][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2014.11.24-16.01.05:435][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:436][600]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Idle_Rifle_Hip
+[2014.11.24-16.01.05:437][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2014.11.24-16.01.05:438][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:438][600]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Jog
+[2014.11.24-16.01.05:439][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2014.11.24-16.01.05:442][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:442][600]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Stand
+[2014.11.24-16.01.05:443][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2014.11.24-16.01.05:444][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:444][600]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/R_CrouchWalk
+[2014.11.24-16.01.05:444][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2014.11.24-16.01.05:445][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:445][600]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/R_Jog
+[2014.11.24-16.01.05:446][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:447][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:447][600]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/ASP_Character
+[2014.11.24-16.01.05:448][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:448][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:449][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:450][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:453][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:454][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:455][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.24-16.01.05:456][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:456][600]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/HeroTPP_Skeleton
+[2014.11.24-16.01.05:457][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2014.11.24-16.01.05:458][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:459][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2014.11.24-16.01.05:460][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:460][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2014.11.24-16.01.05:461][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:462][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2014.11.24-16.01.05:462][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:463][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2014.11.24-16.01.05:464][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:464][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2014.11.24-16.01.05:466][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:467][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.24-16.01.05:467][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.24-16.01.05:478][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.24-16.01.05:478][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimBlueprintGeneratedClass:TargetSkeleton
+[2014.11.24-16.01.05:479][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:479][600]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/HeroTPP_Skeleton
+[2014.11.24-16.01.05:483][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:483][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_AsASP_Character_C
+[2014.11.24-16.01.05:484][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:484][600]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/ASP_Character
+[2014.11.24-16.01.05:485][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:485][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_AsASP_Character_C2
+[2014.11.24-16.01.05:486][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:487][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2014.11.24-16.01.05:487][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_CrouchWalk.R_CrouchWalk Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_BlendSpacePlayer:BlendSpace
+[2014.11.24-16.01.05:488][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:488][600]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/R_CrouchWalk
+[2014.11.24-16.01.05:489][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2014.11.24-16.01.05:489][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.24-16.01.05:490][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:491][600]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip
+[2014.11.24-16.01.05:492][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2014.11.24-16.01.05:492][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.24-16.01.05:493][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:493][600]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Idle_Rifle_Hip
+[2014.11.24-16.01.05:494][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2014.11.24-16.01.05:494][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.24-16.01.05:495][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:495][600]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Jog
+[2014.11.24-16.01.05:496][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2014.11.24-16.01.05:496][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.24-16.01.05:497][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:497][600]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Stand
+[2014.11.24-16.01.05:498][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2014.11.24-16.01.05:498][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_Jog.R_Jog Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_BlendSpacePlayer:BlendSpace
+[2014.11.24-16.01.05:499][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:499][600]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/R_Jog
+[2014.11.24-16.01.05:500][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.24-16.01.05:500][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by ASP_HeroTPP_AnimBlueprint Property /Script/Engine.AnimBlueprint:TargetSkeleton
+[2014.11.24-16.01.05:501][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:505][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:506][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_38 Property /Script/BlueprintGraph.K2Node_DynamicCast:TargetType
+[2014.11.24-16.01.05:506][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:508][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:508][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5026 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.24-16.01.05:509][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:510][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:510][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableGet_350 Property /Script/BlueprintGraph.K2Node:MemberReference.MemberParentClass
+[2014.11.24-16.01.05:511][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:512][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:512][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5038 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.24-16.01.05:513][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:516][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:517][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableGet_645 Property /Script/BlueprintGraph.K2Node:MemberReference.MemberParentClass
+[2014.11.24-16.01.05:517][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:518][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:518][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5044 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.24-16.01.05:519][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:520][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:520][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_338 Property /Script/BlueprintGraph.K2Node_DynamicCast:TargetType
+[2014.11.24-16.01.05:521][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:522][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:523][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5053 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.24-16.01.05:524][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:525][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:526][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableSet_997 Property /Script/BlueprintGraph.K2Node:MemberReference.MemberParentClass
+[2014.11.24-16.01.05:526][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:528][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.24-16.01.05:529][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5067 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.24-16.01.05:530][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:532][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2014.11.24-16.01.05:533][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_Jog.R_Jog Referenced by AnimGraphNode_BlendSpacePlayer_12 Property /Script/Engine.AnimNode_BlendSpacePlayer:BlendSpace
+[2014.11.24-16.01.05:534][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:535][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2014.11.24-16.01.05:536][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand Referenced by AnimGraphNode_SequencePlayer_100 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.24-16.01.05:537][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:538][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2014.11.24-16.01.05:538][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog Referenced by AnimGraphNode_SequencePlayer_222 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.24-16.01.05:539][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:543][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2014.11.24-16.01.05:543][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip Referenced by AnimGraphNode_SequencePlayer_39 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.24-16.01.05:544][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:548][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2014.11.24-16.01.05:548][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip Referenced by AnimGraphNode_SequencePlayer_170 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.24-16.01.05:549][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:552][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2014.11.24-16.01.05:552][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_CrouchWalk.R_CrouchWalk Referenced by AnimGraphNode_BlendSpacePlayer_67 Property /Script/Engine.AnimNode_BlendSpacePlayer:BlendSpace
+[2014.11.24-16.01.05:552][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.24-16.01.05:655][600]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Jump Button Down' variable not found. Base class was probably changed.
+[2014.11.24-16.01.05:658][600]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Crouch Button Down' variable not found. Base class was probably changed.
+[2014.11.24-16.01.05:658][600]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Jump Button Down' variable not found. Base class was probably changed.
+[2014.11.24-16.01.05:712][600]LogBlueprint:Error: [compiler] Error  Blendspace Player'(None)'  references an unknown blend space
+[2014.11.24-16.01.05:712][600]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.11.24-16.01.05:713][600]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.11.24-16.01.05:713][600]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.11.24-16.01.05:713][600]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.11.24-16.01.05:714][600]LogBlueprint:Error: [compiler] Error  Blendspace Player'(None)'  references an unknown blend space
+[2014.11.24-16.01.05:717][600]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2014.11.24-16.01.05:718][600]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2014.11.24-16.01.05:720][600]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Jump Button Down' for  Set Jump Button Down 
+[2014.11.24-16.01.05:720][600]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Crouch Button Down' for  Get Crouch Button Down 
+[2014.11.24-16.01.05:721][600]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Jump Button Down' for  Get Jump Button Down 
+[2014.11.24-16.01.05:726][600]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2014.11.24-16.01.05:726][600]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2014.11.24-16.01.05:727][600]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2014.11.24-16.01.05:728][600]LogBlueprint:Error: [compiler] Error The property associated with  Jump Button Down  could not be found
+[2014.11.24-16.01.05:728][600]LogBlueprint:Error: [compiler] Error The property associated with  Crouch Button Down  could not be found
+[2014.11.24-16.01.05:729][600]LogBlueprint:Error: [compiler] Error The property associated with  Jump Button Down  could not be found
+[2014.11.24-16.01.05:730][600]LogBlueprint:Warning: [compiler] Warning [0533,10] Compile of ASP_HeroTPP_AnimBlueprint failed. 14 Fatal Issue(s) 3 Warning(s) [in 45 ms]
+[2014.11.24-16.02.03:700][600]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2014.11.24-16.02.04:580][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip'
+[2014.11.24-16.02.04:581][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.04:581][600]LoadErrors:Error: Error /Game/Blueprints/Posta/R_CrouchWalk : Can't find file for asset. /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip
+[2014.11.24-16.02.04:582][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip'
+[2014.11.24-16.02.04:583][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.04:583][600]LoadErrors:Error: Error /Game/Blueprints/Posta/R_CrouchWalk : Can't find file for asset. /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip
+[2014.11.24-16.02.04:584][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip'
+[2014.11.24-16.02.04:584][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.04:584][600]LoadErrors:Error: Error /Game/Blueprints/Posta/R_CrouchWalk : Can't find file for asset. /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip
+[2014.11.24-16.02.04:585][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip'
+[2014.11.24-16.02.04:586][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.04:586][600]LoadErrors:Error: Error /Game/Blueprints/Posta/R_CrouchWalk : Can't find file for asset. /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip
+[2014.11.24-16.02.04:587][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.24-16.02.04:588][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.04:588][600]LoadErrors:Error: Error /Game/Blueprints/Posta/R_CrouchWalk : Can't find file for asset. /Game/AnimStarterPack/Character/HeroTPP_Skeleton
+[2014.11.24-16.02.04:589][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip'
+[2014.11.24-16.02.04:590][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.04:590][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip'
+[2014.11.24-16.02.04:591][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.04:592][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip'
+[2014.11.24-16.02.04:592][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.04:593][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip'
+[2014.11.24-16.02.04:594][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.04:595][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.24-16.02.05:491][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/R_CrouchWalk.uasset.
+[2014.11.24-16.02.05:492][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip'
+[2014.11.24-16.02.05:493][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip.Crouch_Walk_Bwd_Rifle_Hip Referenced by R_CrouchWalk Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.11.24-16.02.05:497][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:498][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip'
+[2014.11.24-16.02.05:498][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:499][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip'
+[2014.11.24-16.02.05:500][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip.Crouch_Walk_Lt_Rifle_Hip Referenced by R_CrouchWalk Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.11.24-16.02.05:501][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:501][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip'
+[2014.11.24-16.02.05:503][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Lt_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:503][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip'
+[2014.11.24-16.02.05:504][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip.Crouch_Walk_Fwd_Rifle_Hip Referenced by R_CrouchWalk Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.11.24-16.02.05:505][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:506][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip'
+[2014.11.24-16.02.05:507][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Fwd_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:508][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip'
+[2014.11.24-16.02.05:508][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip.Crouch_Walk_Rt_Rifle_Hip Referenced by R_CrouchWalk Property /Script/Engine.BlendSpaceBase:BlendSample.Animation
+[2014.11.24-16.02.05:509][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:512][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip'
+[2014.11.24-16.02.05:512][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Rt_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:513][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip'
+[2014.11.24-16.02.05:514][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:515][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip'
+[2014.11.24-16.02.05:516][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Walk_Bwd_Rifle_Hip' while loading NULL.
+[2014.11.24-16.02.05:517][600]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.24-16.02.05:517][600]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by R_CrouchWalk Property /Script/Engine.AnimationAsset:Skeleton
+[2014.11.24-16.02.05:518][600]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading NULL.
+[2014.11.24-16.04.04:772][950]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.24-16.04.04:914][950]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092E4D0A700
+[2014.11.24-16.04.04:914][950]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 0.157
+[2014.11.24-16.04.04:978][950]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.24-16.04.05:052][950]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Posta/BP_Postac.BP_Postac]
+[2014.11.24-16.04.05:052][950]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.24-16.04.05:061][950]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.24-16.04.14:462][950]LogSavePackage: Save=6819.439453ms
+[2014.11.24-16.04.14:463][950]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto191FC176D4197A2AC0A35C596D5695899.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto1.uasset'
+[2014.11.24-16.04.14:503][950]LogFileHelpers: Auto-saving content packages took 9.588
+[2014.11.24-16.05.24:475][287]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.24-16.05.24:475][287]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.24-16.05.24:475][287]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.24-16.13.35:670][792]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.24-16.13.44:164][160]LogRenderer:Warning: Reallocating scene render targets to support 920x584.
+[2014.11.24-16.13.52:740][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.24-16.13.52:740][705]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2014.11.24-16.14.03:528][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.24-16.14.14:579][147]LogSavePackage: Save=9526.303711ms
+[2014.11.24-16.14.14:582][147]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac2CDF662848685CA09A6275A3F90BE332.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.24-16.14.23:115][274]BlueprintLog: New page: Compile BP_Postac
+[2014.11.24-16.14.23:513][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.24-16.14.23:513][274]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2014.11.24-16.14.24:594][274]BlueprintEditorCompileResults: Info [1330,68] Compile of BP_Postac successful! [in 86 ms]
+[2014.11.24-16.14.43:109][176]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.24-16.14.48:290][176]PIE: New page: PIE session: Level1 (24 Nov 2014 18:14:48)
+[2014.11.24-16.14.48:370][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.080590s)
+[2014.11.24-16.14.48:373][176]LogPlayLevel: PIE: World Init took: (0.002476s)
+[2014.11.24-16.14.48:373][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.083357s)
+[2014.11.24-16.14.48:838][176]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.24-16.14.48:862][176]LogAIModule: Creating AISystem for world Level1
+[2014.11.24-16.14.48:867][176]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.24-16.14.48:867][176]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.24-17.14.48
+[2014.11.24-16.14.49:007][176]LogWorld: Bringing up level for play took: 0.133438
+[2014.11.24-16.14.49:354][176]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 6,282
+[2014.11.24-16.14.49:861][177]LogRenderer:Warning: Reallocating scene render targets to support 920x592.
+[2014.11.24-16.19.22:781][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092D7704900
+[2014.11.24-16.38.53:454][147]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 00000092D36C2240. 
+[2014.11.24-16.38.53:455][147]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 00000092D36C2240. 
+[2014.11.24-16.48.57:904][340]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.24-16.49.10:439][340]LogSavePackage: Save=11005.550781ms
+[2014.11.24-16.49.10:440][340]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac1072BA554ACEA74CC3211E8E3DE44FDD.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.24-16.49.40:857][341]Cmd: QUIT_EDITOR
+[2014.11.24-16.49.41:067][341]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.24-16.49.41:067][341]LogExit: Preparing to exit.
+[2014.11.24-16.49.42:416][341]LogExit: Editor shut down
+[2014.11.24-16.49.42:417][341]LogExit: Transaction tracking system shut down
+[2014.11.24-16.49.42:418][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092DAB60D60
+[2014.11.24-16.49.42:420][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092D0FD1120
+[2014.11.24-16.49.42:421][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092D0FD0D60
+[2014.11.24-16.49.42:421][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092E199F6A0
+[2014.11.24-16.49.42:421][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092E199F600
+[2014.11.24-16.49.42:423][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092CFF21940
+[2014.11.24-16.49.42:423][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092D36B65C0
+[2014.11.24-16.49.42:478][341]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000092D36B5A80
+[2014.11.24-16.49.42:478][341]LogExit: Object subsystem successfully closed.
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module HTTP (153)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module CrashTracker (152)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module SuperSearch (151)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module SceneOutliner (150)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module EditorWidgets (149)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module CollectionManager (148)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module StatsViewer (147)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module FoliageEdit (146)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module LandscapeEditor (145)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module MeshPaint (144)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module ActorPickerMode (143)
+[2014.11.24-16.49.42:516][341]LogModuleManager: Shutting down and abandoning module GeometryMode (142)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module TextureAlignMode (141)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module BspMode (140)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module PlacementMode (139)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module DesktopPlatform (138)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module AutomationWorker (137)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (136)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (135)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (134)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module UndoHistory (133)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (132)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module UserFeedback (131)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module XmlParser (130)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module Blutility (129)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (128)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (127)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (124)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (123)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module InputBindingEditor (122)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (121)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module SettingsEditor (120)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module SessionLauncher (119)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module SessionFrontend (118)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module ProfilerClient (117)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (116)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module DeviceManager (115)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module AutomationWindow (113)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module Layers (112)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (111)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module DetailCustomizations (110)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module PackagesDialog (109)
+[2014.11.24-16.49.42:517][341]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2014.11.24-16.49.42:520][341]LogModuleManager: Shutting down and abandoning module AssetRegistry (107)
+[2014.11.24-16.49.43:631][341]LogModuleManager: Shutting down and abandoning module Persona (106)
+[2014.11.24-16.49.43:631][341]LogModuleManager: Shutting down and abandoning module GraphEditor (105)
+[2014.11.24-16.49.43:631][341]LogModuleManager: Shutting down and abandoning module ClassViewer (104)
+[2014.11.24-16.49.43:631][341]LogModuleManager: Shutting down and abandoning module Toolbox (103)
+[2014.11.24-16.49.43:631][341]LogModuleManager: Shutting down and abandoning module ModuleUI (102)
+[2014.11.24-16.49.43:631][341]LogModuleManager: Shutting down and abandoning module MovieSceneTools (101)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module OutputLog (100)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module GammaUI (99)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module Documentation (98)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (97)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (96)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module AnalyticsET (95)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module Analytics (94)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module GameplayDebugger (93)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module AIModule (92)
+[2014.11.24-16.49.43:647][341]LogModuleManager: Shutting down and abandoning module ProfilerService (91)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module TaskGraph (90)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module SlateRemote (89)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (88)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (87)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module CableComponent (86)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module MessagingDebugger (85)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module ViewportSnapping (84)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module SmartSnapping (83)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (82)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (81)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (80)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module Matinee (79)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module Kismet (78)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module SlateReflector (77)
+[2014.11.24-16.49.43:819][341]LogModuleManager: Shutting down and abandoning module LevelEditor (76)
+[2014.11.24-16.49.43:820][341]LogModuleManager: Shutting down and abandoning module IntroTutorials (75)
+[2014.11.24-16.49.43:820][341]LogModuleManager: Shutting down and abandoning module ContentBrowser (74)
+[2014.11.24-16.49.43:821][341]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2014.11.24-16.49.43:821][341]LogModuleManager: Shutting down and abandoning module Paper2DEditor (72)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (71)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module PluginsEditor (70)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module MainFrame (69)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module EpicSurvey (68)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (67)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module UObjectPlugin (66)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (65)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module SourceControl (64)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (63)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module BlankPlugin (62)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module ScriptPlugin (61)
+[2014.11.24-16.49.43:837][341]LogModuleManager: Shutting down and abandoning module UdpMessaging (60)
+[2014.11.24-16.49.43:938][341]LogModuleManager: Shutting down and abandoning module Paper2D (59)
+[2014.11.24-16.49.43:938][341]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (58)
+[2014.11.24-16.49.43:944][341]LogModuleManager: Shutting down and abandoning module ImageWrapper (57)
+[2014.11.24-16.49.43:944][341]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (56)
+[2014.11.24-16.49.43:944][341]LogModuleManager: Shutting down and abandoning module FunctionalTesting (55)
+[2014.11.24-16.49.43:944][341]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (54)
+[2014.11.24-16.49.43:944][341]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (53)
+[2014.11.24-16.49.43:945][341]LogModuleManager: Shutting down and abandoning module MessageLog (52)
+[2014.11.24-16.49.43:945][341]LogModuleManager: Shutting down and abandoning module Sequencer (51)
+[2014.11.24-16.49.43:945][341]LogModuleManager: Shutting down and abandoning module AssetTools (50)
+[2014.11.24-16.49.43:945][341]LogModuleManager: Shutting down and abandoning module UMGEditor (49)
+[2014.11.24-16.49.43:945][341]LogModuleManager: Shutting down and abandoning module UMG (48)
+[2014.11.24-16.49.43:945][341]LogModuleManager: Shutting down and abandoning module Slate (47)
+[2014.11.24-16.49.43:945][341]LogModuleManager: Shutting down and abandoning module EditorStyle (46)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module SessionServices (45)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (44)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (43)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module XAudio2 (42)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module Networking (40)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module Core (39)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module KismetCompiler (38)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module PhysXFormats (37)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module MeshUtilities (36)
+[2014.11.24-16.49.43:947][341]LogModuleManager: Shutting down and abandoning module DerivedDataCache (35)
+[2014.11.24-16.49.44:030][341]LogDerivedDataCache: Shutdown
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (34)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (33)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (32)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (31)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (30)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (29)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (28)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (27)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (26)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module Messaging (25)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (24)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.24-16.49.44:030][341]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.24-16.49.44:031][341]LogExit: Exiting.
+[2014.11.24-16.49.44:930][341]Log file closed, 11/24/14 17:49:44

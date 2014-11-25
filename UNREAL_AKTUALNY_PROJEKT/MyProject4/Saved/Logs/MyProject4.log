@@ -1,4 +1,4 @@
-Log file open, 11/20/14 19:36:51
+Log file open, 11/25/14 23:29:02
 LogInit:Display: Running engine for game: MyProject4
 LogInit: Version: 4.4.3-0+UE4
 LogInit: API Version: 0
@@ -8,290 +8,623 @@ LogInit: Branch Name: UE4
 LogInit: Command line: 
 LogInit: Base directory: D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/
 LogInit: Rocket: 0
-[2014.11.20-18.36.51:979][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2014.11.20-18.36.52:010][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2014.11.20-18.36.52:019][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2014.11.20-18.36.52:032][  0]LogInit: Object subsystem initialized
-[2014.11.20-18.36.52:035][  0]LogInit: Selected Device Profile: [Windows]
-[2014.11.20-18.36.52:035][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2014.11.20-18.36.52:064][  0]LogInit: Computer: ADAM
-[2014.11.20-18.36.52:064][  0]LogInit: User: Adam
-[2014.11.20-18.36.52:066][  0]LogInit: CPU Page size=4096, Cores=2
-[2014.11.20-18.36.52:066][  0]LogInit: High frequency timer resolution =3.161622 MHz
-[2014.11.20-18.36.52:066][  0]LogMemory: Memory total: Physical=3.0GB (3GB approx) Virtual=131072.0GB
-[2014.11.20-18.36.52:067][  0]LogMemory: Platform Memory Stats for Windows
-[2014.11.20-18.36.52:067][  0]LogMemory: Process Physical Memory: 60.14 MB used, 60.14 MB peak
-[2014.11.20-18.36.52:067][  0]LogMemory: Process Virtual Memory: 36.13 MB used, 36.13 MB peak
-[2014.11.20-18.36.52:067][  0]LogMemory: Physical Memory: 2415.40 MB used, 3071.55 MB total
-[2014.11.20-18.36.52:067][  0]LogMemory: Virtual Memory: 277.54 MB used, 134217728.00 MB total
-[2014.11.20-18.36.52:107][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
-[2014.11.20-18.36.52:107][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 1535MB of shared system memory, 2 output[s]
-[2014.11.20-18.36.52:110][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
-[2014.11.20-18.36.52:110][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
-[2014.11.20-18.36.52:110][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2014.11.20-18.36.52:122][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2014.11.20-18.36.52:150][  0]LogD3D11RHI: Async texture creation enabled
-[2014.11.20-18.36.52:426][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2014.11.20-18.36.54:328][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.20-18.36.55:086][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.20-18.36.55:149][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2014.11.20-18.36.57:313][  0]LogDerivedDataCache: Loaded boot cache 2.14s 39MB ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc.
-[2014.11.20-18.36.57:313][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc
-[2014.11.20-18.36.57:313][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.11.20-18.36.57:313][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2014.11.20-18.36.57:336][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2014.11.20-18.36.57:336][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
-[2014.11.20-18.36.57:358][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
-[2014.11.20-18.36.57:358][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2014.11.20-18.36.57:358][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2014.11.20-18.36.57:672][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2014.11.20-18.36.57:672][  0]LogMeshUtilities: No automatic mesh merging module available
-[2014.11.20-18.36.58:718][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2014.11.20-18.36.59:861][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1c98_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_f38_0///////STATCAT_Advanced////
-[2014.11.20-18.36.59:861][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2014.11.20-18.36.59:986][  0]SourceControl: Info Source control is disabled
-[2014.11.20-18.36.59:986][  0]SourceControl: Info Source control is disabled
-[2014.11.20-18.36.59:993][  0]SourceControl: Info Source control is disabled
-[2014.11.20-18.37.00:238][  0]BlueprintLog: New page: Editor Load
-[2014.11.20-18.37.00:353][  0]LogObj: 21438 objects as part of root set at end of initial load.
-[2014.11.20-18.37.00:353][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
-[2014.11.20-18.37.00:740][  0]LogEngine: Initializing Engine...
-[2014.11.20-18.37.01:031][  0]LogInit: XAudio2 using 'GBo[niki (USB Multi-Channel Audio Device)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x60f)
-[2014.11.20-18.37.01:043][  0]LogInit: FAudioDevice initialized.
-[2014.11.20-18.37.01:064][  0]LogAIModule: Creating AISystem for world NewWorld
-[2014.11.20-18.37.01:156][  0]LogDerivedDataCache: Saved boot cache 0.09s 39MB ../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/DerivedDataCache/Boot.ddc.
-[2014.11.20-18.37.01:192][  0]LogInit: Texture streaming: Enabled
-[2014.11.20-18.37.01:228][  0]LogInit: Transaction tracking system initialized
-[2014.11.20-18.37.01:356][  0]LogAssetRegistry: FAssetRegistry took 0.0132 seconds to start up
-[2014.11.20-18.37.02:164][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.20-18.37.02:720][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2014.11.20-18.37.02:762][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
-[2014.11.20-18.37.02:781][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
-[2014.11.20-18.37.02:880][  0]LogConsoleResponse:Display: 
-[2014.11.20-18.37.03:137][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_ddc_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_f38_0///////STATCAT_Advanced////
-[2014.11.20-18.37.03:137][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_128_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_f38_0///////STATCAT_Advanced////
-[2014.11.20-18.37.03:137][  0]SourceControl: Info Source control is disabled
-[2014.11.20-18.37.03:137][  0]Cmd: MAP LOAD FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
-[2014.11.20-18.37.03:155][  0]LightingResults: New page: Lighting Build
-[2014.11.20-18.37.03:165][  0]MapCheck: New page: Map Check
-[2014.11.20-18.37.03:165][  0]LightingResults: New page: Lighting Build
-[2014.11.20-18.37.03:189][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B86FA87C0
-[2014.11.20-18.37.06:515][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2014.11.20-18.37.06:850][  0]LogAIModule: Creating AISystem for world Minimal_Default
-[2014.11.20-18.37.07:184][  0]Cmd: MAP CHECKDEP
-[2014.11.20-18.37.07:184][  0]MapCheck: New page: Minimal_Default - 20 Nov 2014 20:37:07
-[2014.11.20-18.37.07:260][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [75,085ms] ==========
-[2014.11.20-18.37.07:260][  0]LogFileHelpers: Loading map 'Minimal_Default' took 4.123
-[2014.11.20-18.37.08:499][  0]LogCollectionManager: Loaded 0 collections in 0.000967 seconds
-[2014.11.20-18.37.12:663][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2014.11.20-18.37.13:018][  0]LogInit: Using libcurl 7.34.0
-[2014.11.20-18.37.13:018][  0]LogInit:  - built for x86_64-pc-win32
-[2014.11.20-18.37.13:018][  0]LogInit:  - supports SSL with WinSSL
-[2014.11.20-18.37.13:018][  0]LogInit:  - other features:
-[2014.11.20-18.37.13:018][  0]LogInit:      CURL_VERSION_SSL
-[2014.11.20-18.37.13:018][  0]LogInit:      CURL_VERSION_ASYNCHDNS
-[2014.11.20-18.37.13:018][  0]LogInit:      CURL_VERSION_LARGEFILE
-[2014.11.20-18.37.13:018][  0]LogInit:      CURL_VERSION_IDN
-[2014.11.20-18.37.13:018][  0]LogInit: Libcurl will NOT reuse connections
-[2014.11.20-18.37.13:061][  0]LogLoad: Full Startup: 24.01 seconds (BP compile: 0.24 seconds)
-[2014.11.20-18.37.13:086][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
-[2014.11.20-18.37.14:105][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
-[2014.11.20-18.37.15:188][  0]LogRenderer:Warning: Reallocating scene render targets to support 664x584.
-[2014.11.20-18.37.16:053][  4]LogAssetRegistry: Asset discovery search completed in 14.7106 seconds
-[2014.11.20-18.37.18:609][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
-[2014.11.20-18.37.35:497][472]BlueprintLog: New page: Pre-PIE auto-recompile
-[2014.11.20-18.37.35:498][472]LogPlayLevel: [PIE] Compiling Minimal_Default before PIE...
-[2014.11.20-18.37.35:889][472]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
-[2014.11.20-18.37.36:029][472]LogPlayLevel: PIE:  Blueprint regeneration took 523 ms (1 blueprints)
-[2014.11.20-18.37.36:038][472]PIE: New page: PIE session: Minimal_Default (20 Nov 2014 20:37:36)
-[2014.11.20-18.37.36:073][472]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035188s)
-[2014.11.20-18.37.36:078][472]LogPlayLevel: PIE: World Init took: (0.004091s)
-[2014.11.20-18.37.36:078][472]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.039587s)
-[2014.11.20-18.37.38:036][472]LogWorld: Game class is 'BP_TrybGry_C'
-[2014.11.20-18.37.38:226][472]LogAIModule: Creating AISystem for world Minimal_Default
-[2014.11.20-18.37.38:228][472]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
-[2014.11.20-18.37.38:228][472]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.20-19.37.38
-[2014.11.20-18.37.38:420][472]LogWorld: Bringing up level for play took: 0.194527
-[2014.11.20-18.37.38:668][472]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 2,918
-[2014.11.20-18.37.39:202][473]LogRenderer:Warning: Reallocating scene render targets to support 664x592.
-[2014.11.20-18.38.08:221][191]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
-[2014.11.20-18.38.08:301][191]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005BF59BAF20
-[2014.11.20-18.39.57:377][666]LogRenderer:Warning: Reallocating scene render targets to support 920x592.
-[2014.11.20-18.48.07:360][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
-[2014.11.20-18.48.07:362][117]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
-[2014.11.20-18.48.07:740][117]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B833325C0
-[2014.11.20-18.48.07:761][117]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.401
-[2014.11.20-18.48.08:010][117]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/BP_Postac] ([1] browsable assets)...
-[2014.11.20-18.48.08:235][117]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/BP_Postac.BP_Postac]
-[2014.11.20-18.48.08:235][117]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_Postac]
-[2014.11.20-18.48.11:819][117]LogSavePackage: Save=2621.181396ms
-[2014.11.20-18.48.11:820][117]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac_Auto107442CBC47998C0C7FA5F9994F0BDC31.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Autosaves/Game/Blueprints/Mechanika/BP_Postac_Auto1.uasset'
-[2014.11.20-18.48.11:902][117]LogFileHelpers: Auto-saving content packages took 4.141
-[2014.11.20-18.49.26:521][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2014.11.20-18.49.26:571][726]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
-[2014.11.20-18.49.26:979][726]LogSavePackage: Save=219.010681ms
-[2014.11.20-18.49.26:979][726]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/Minimal_DefaultA96141CC46695060B3D913995542E7C8.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Maps/Minimal_Default.umap'
-[2014.11.20-18.49.31:700][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
-[2014.11.20-18.49.32:087][819]LogSavePackage: Save=279.742157ms
-[2014.11.20-18.49.32:087][819]LogSavePackage: Moving '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Saved/BP_Postac4FF2B4F6405B5B15D105048270F17BC2.tmp' to '../../../../../Jablo/UNREAL_AKTUALNY_PROJEKT/MyProject4/Content/Blueprints/Mechanika/BP_Postac.uasset'
-[2014.11.20-18.50.03:752][519]Cmd: QUIT_EDITOR
-[2014.11.20-18.50.06:584][519]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
-[2014.11.20-18.50.06:643][519]LogExit: Preparing to exit.
-[2014.11.20-18.50.07:268][519]LogExit: Editor shut down
-[2014.11.20-18.50.07:269][519]LogExit: Transaction tracking system shut down
-[2014.11.20-18.50.07:270][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B84403BA0
-[2014.11.20-18.50.07:274][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005BFD640AE0
-[2014.11.20-18.50.07:275][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005BFD640EA0
-[2014.11.20-18.50.07:275][519]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005B8DEDB560
-[2014.11.20-18.50.07:966][519]LogExit: Object subsystem successfully closed.
-[2014.11.20-18.50.08:466][519]LogModuleManager: Shutting down and abandoning module HTTP (153)
-[2014.11.20-18.50.08:488][519]LogModuleManager: Shutting down and abandoning module CrashTracker (152)
-[2014.11.20-18.50.08:488][519]LogModuleManager: Shutting down and abandoning module SuperSearch (151)
-[2014.11.20-18.50.08:499][519]LogModuleManager: Shutting down and abandoning module SceneOutliner (150)
-[2014.11.20-18.50.08:499][519]LogModuleManager: Shutting down and abandoning module EditorWidgets (149)
-[2014.11.20-18.50.08:499][519]LogModuleManager: Shutting down and abandoning module CollectionManager (148)
-[2014.11.20-18.50.08:514][519]LogModuleManager: Shutting down and abandoning module StatsViewer (147)
-[2014.11.20-18.50.08:529][519]LogModuleManager: Shutting down and abandoning module FoliageEdit (146)
-[2014.11.20-18.50.08:529][519]LogModuleManager: Shutting down and abandoning module LandscapeEditor (145)
-[2014.11.20-18.50.08:554][519]LogModuleManager: Shutting down and abandoning module MeshPaint (144)
-[2014.11.20-18.50.08:560][519]LogModuleManager: Shutting down and abandoning module ActorPickerMode (143)
-[2014.11.20-18.50.08:560][519]LogModuleManager: Shutting down and abandoning module GeometryMode (142)
-[2014.11.20-18.50.08:560][519]LogModuleManager: Shutting down and abandoning module TextureAlignMode (141)
-[2014.11.20-18.50.08:560][519]LogModuleManager: Shutting down and abandoning module BspMode (140)
-[2014.11.20-18.50.08:560][519]LogModuleManager: Shutting down and abandoning module PlacementMode (139)
-[2014.11.20-18.50.08:560][519]LogModuleManager: Shutting down and abandoning module DesktopPlatform (138)
-[2014.11.20-18.50.08:584][519]LogModuleManager: Shutting down and abandoning module AutomationWorker (137)
-[2014.11.20-18.50.08:584][519]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (136)
-[2014.11.20-18.50.08:591][519]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (135)
-[2014.11.20-18.50.08:624][519]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (134)
-[2014.11.20-18.50.08:634][519]LogModuleManager: Shutting down and abandoning module UndoHistory (133)
-[2014.11.20-18.50.08:634][519]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (132)
-[2014.11.20-18.50.08:634][519]LogModuleManager: Shutting down and abandoning module UserFeedback (131)
-[2014.11.20-18.50.08:634][519]LogModuleManager: Shutting down and abandoning module XmlParser (130)
-[2014.11.20-18.50.08:647][519]LogModuleManager: Shutting down and abandoning module Blutility (129)
-[2014.11.20-18.50.08:647][519]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (128)
-[2014.11.20-18.50.08:647][519]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (127)
-[2014.11.20-18.50.08:647][519]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (124)
-[2014.11.20-18.50.08:647][519]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (123)
-[2014.11.20-18.50.08:647][519]LogModuleManager: Shutting down and abandoning module InputBindingEditor (122)
-[2014.11.20-18.50.08:673][519]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (121)
-[2014.11.20-18.50.08:674][519]LogModuleManager: Shutting down and abandoning module SettingsEditor (120)
-[2014.11.20-18.50.08:687][519]LogModuleManager: Shutting down and abandoning module SessionLauncher (119)
-[2014.11.20-18.50.08:698][519]LogModuleManager: Shutting down and abandoning module SessionFrontend (118)
-[2014.11.20-18.50.08:709][519]LogModuleManager: Shutting down and abandoning module ProfilerClient (117)
-[2014.11.20-18.50.08:720][519]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (116)
-[2014.11.20-18.50.08:727][519]LogModuleManager: Shutting down and abandoning module DeviceManager (115)
-[2014.11.20-18.50.08:741][519]LogModuleManager: Shutting down and abandoning module AutomationController (114)
-[2014.11.20-18.50.08:751][519]LogModuleManager: Shutting down and abandoning module AutomationWindow (113)
-[2014.11.20-18.50.08:758][519]LogModuleManager: Shutting down and abandoning module Layers (112)
-[2014.11.20-18.50.08:769][519]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (111)
-[2014.11.20-18.50.08:769][519]LogModuleManager: Shutting down and abandoning module DetailCustomizations (110)
-[2014.11.20-18.50.08:784][519]LogModuleManager: Shutting down and abandoning module PackagesDialog (109)
-[2014.11.20-18.50.08:784][519]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
-[2014.11.20-18.50.08:786][519]LogModuleManager: Shutting down and abandoning module AssetRegistry (107)
-[2014.11.20-18.50.08:840][519]LogModuleManager: Shutting down and abandoning module Persona (106)
-[2014.11.20-18.50.08:874][519]LogModuleManager: Shutting down and abandoning module GraphEditor (105)
-[2014.11.20-18.50.08:874][519]LogModuleManager: Shutting down and abandoning module ClassViewer (104)
-[2014.11.20-18.50.08:874][519]LogModuleManager: Shutting down and abandoning module Toolbox (103)
-[2014.11.20-18.50.08:874][519]LogModuleManager: Shutting down and abandoning module ModuleUI (102)
-[2014.11.20-18.50.08:883][519]LogModuleManager: Shutting down and abandoning module Sequencer (101)
-[2014.11.20-18.50.08:909][519]LogModuleManager: Shutting down and abandoning module MovieSceneTools (100)
-[2014.11.20-18.50.08:949][519]LogModuleManager: Shutting down and abandoning module OutputLog (99)
-[2014.11.20-18.50.08:949][519]LogModuleManager: Shutting down and abandoning module GammaUI (98)
-[2014.11.20-18.50.08:963][519]LogModuleManager: Shutting down and abandoning module Documentation (97)
-[2014.11.20-18.50.08:963][519]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
-[2014.11.20-18.50.08:977][519]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (95)
-[2014.11.20-18.50.08:986][519]LogModuleManager: Shutting down and abandoning module AnalyticsET (94)
-[2014.11.20-18.50.08:986][519]LogModuleManager: Shutting down and abandoning module Analytics (93)
-[2014.11.20-18.50.08:986][519]LogModuleManager: Shutting down and abandoning module GameplayDebugger (92)
-[2014.11.20-18.50.08:986][519]LogModuleManager: Shutting down and abandoning module AIModule (91)
-[2014.11.20-18.50.08:998][519]LogModuleManager: Shutting down and abandoning module ProfilerService (90)
-[2014.11.20-18.50.09:257][519]LogModuleManager: Shutting down and abandoning module TaskGraph (89)
-[2014.11.20-18.50.09:271][519]LogModuleManager: Shutting down and abandoning module SlateRemote (88)
-[2014.11.20-18.50.09:271][519]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (87)
-[2014.11.20-18.50.09:271][519]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (86)
-[2014.11.20-18.50.09:271][519]LogModuleManager: Shutting down and abandoning module CableComponent (85)
-[2014.11.20-18.50.09:271][519]LogModuleManager: Shutting down and abandoning module MessagingDebugger (84)
-[2014.11.20-18.50.09:302][519]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
-[2014.11.20-18.50.09:302][519]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
-[2014.11.20-18.50.09:302][519]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
-[2014.11.20-18.50.09:302][519]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
-[2014.11.20-18.50.09:302][519]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (79)
-[2014.11.20-18.50.09:303][519]LogModuleManager: Shutting down and abandoning module Matinee (78)
-[2014.11.20-18.50.09:321][519]LogModuleManager: Shutting down and abandoning module Kismet (77)
-[2014.11.20-18.50.09:349][519]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
-[2014.11.20-18.50.09:365][519]LogModuleManager: Shutting down and abandoning module LevelEditor (75)
-[2014.11.20-18.50.09:389][519]LogModuleManager: Shutting down and abandoning module IntroTutorials (74)
-[2014.11.20-18.50.09:409][519]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
-[2014.11.20-18.50.09:409][519]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
-[2014.11.20-18.50.09:409][519]LogModuleManager: Shutting down and abandoning module AssetTools (71)
-[2014.11.20-18.50.09:455][519]LogModuleManager: Shutting down and abandoning module Paper2DEditor (70)
-[2014.11.20-18.50.09:484][519]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (69)
-[2014.11.20-18.50.09:489][519]LogModuleManager: Shutting down and abandoning module PluginsEditor (68)
-[2014.11.20-18.50.09:500][519]LogModuleManager: Shutting down and abandoning module MainFrame (67)
-[2014.11.20-18.50.09:500][519]LogModuleManager: Shutting down and abandoning module EpicSurvey (66)
-[2014.11.20-18.50.09:510][519]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (65)
-[2014.11.20-18.50.09:517][519]LogModuleManager: Shutting down and abandoning module UObjectPlugin (64)
-[2014.11.20-18.50.09:517][519]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (63)
-[2014.11.20-18.50.09:535][519]LogModuleManager: Shutting down and abandoning module SourceControl (62)
-[2014.11.20-18.50.09:551][519]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (61)
-[2014.11.20-18.50.09:567][519]LogModuleManager: Shutting down and abandoning module BlankPlugin (60)
-[2014.11.20-18.50.09:567][519]LogModuleManager: Shutting down and abandoning module ScriptPlugin (59)
-[2014.11.20-18.50.09:580][519]LogModuleManager: Shutting down and abandoning module UdpMessaging (58)
-[2014.11.20-18.50.09:681][519]LogModuleManager: Shutting down and abandoning module Paper2D (57)
-[2014.11.20-18.50.09:692][519]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (56)
-[2014.11.20-18.50.09:721][519]LogModuleManager: Shutting down and abandoning module ImageWrapper (55)
-[2014.11.20-18.50.09:721][519]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
-[2014.11.20-18.50.09:721][519]LogModuleManager: Shutting down and abandoning module FunctionalTesting (53)
-[2014.11.20-18.50.09:735][519]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (52)
-[2014.11.20-18.50.09:760][519]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (51)
-[2014.11.20-18.50.09:760][519]LogModuleManager: Shutting down and abandoning module MessageLog (50)
-[2014.11.20-18.50.09:760][519]LogModuleManager: Shutting down and abandoning module UMGEditor (49)
-[2014.11.20-18.50.09:785][519]LogModuleManager: Shutting down and abandoning module UMG (48)
-[2014.11.20-18.50.09:794][519]LogModuleManager: Shutting down and abandoning module Slate (47)
-[2014.11.20-18.50.09:794][519]LogModuleManager: Shutting down and abandoning module EditorStyle (46)
-[2014.11.20-18.50.09:796][519]LogModuleManager: Shutting down and abandoning module SessionServices (45)
-[2014.11.20-18.50.09:796][519]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (44)
-[2014.11.20-18.50.09:796][519]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (43)
-[2014.11.20-18.50.09:796][519]LogModuleManager: Shutting down and abandoning module XAudio2 (42)
-[2014.11.20-18.50.09:796][519]LogModuleManager: Shutting down and abandoning module Networking (40)
-[2014.11.20-18.50.09:796][519]LogModuleManager: Shutting down and abandoning module Core (39)
-[2014.11.20-18.50.09:796][519]LogModuleManager: Shutting down and abandoning module KismetCompiler (38)
-[2014.11.20-18.50.09:796][519]LogModuleManager: Shutting down and abandoning module PhysXFormats (37)
-[2014.11.20-18.50.09:796][519]LogModuleManager: Shutting down and abandoning module MeshUtilities (36)
-[2014.11.20-18.50.09:820][519]LogModuleManager: Shutting down and abandoning module DerivedDataCache (35)
-[2014.11.20-18.50.09:859][519]LogDerivedDataCache: Shutdown
-[2014.11.20-18.50.09:859][519]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (34)
-[2014.11.20-18.50.09:868][519]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (33)
-[2014.11.20-18.50.09:872][519]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (32)
-[2014.11.20-18.50.09:880][519]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (31)
-[2014.11.20-18.50.09:880][519]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (30)
-[2014.11.20-18.50.09:887][519]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (29)
-[2014.11.20-18.50.09:895][519]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (28)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (27)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (26)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module Messaging (25)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (24)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module InputCore (18)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module Settings (17)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2014.11.20-18.50.09:902][519]LogModuleManager: Shutting down and abandoning module OculusRift (13)
-[2014.11.20-18.50.09:911][519]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
-[2014.11.20-18.50.09:921][519]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
-[2014.11.20-18.50.09:922][519]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2014.11.20-18.50.09:929][519]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2014.11.20-18.50.09:929][519]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
-[2014.11.20-18.50.09:929][519]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2014.11.20-18.50.09:929][519]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2014.11.20-18.50.09:929][519]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2014.11.20-18.50.09:929][519]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2014.11.20-18.50.09:940][519]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2014.11.20-18.50.09:951][519]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2014.11.20-18.50.09:956][519]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2014.11.20-18.50.09:969][519]LogExit: Exiting.
-[2014.11.20-18.50.09:979][519]Log file closed, 11/20/14 19:50:09
+[2014.11.25-22.29.03:048][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.25-22.29.03:079][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.25-22.29.03:090][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.25-22.29.03:099][  0]LogInit: Object subsystem initialized
+[2014.11.25-22.29.03:101][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.25-22.29.03:101][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.25-22.29.04:999][  0]LogInit: Computer: ADAM
+[2014.11.25-22.29.04:999][  0]LogInit: User: Adam
+[2014.11.25-22.29.05:001][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.25-22.29.05:001][  0]LogInit: High frequency timer resolution =3.161618 MHz
+[2014.11.25-22.29.05:001][  0]LogMemory: Memory total: Physical=3.0GB (3GB approx) Virtual=131072.0GB
+[2014.11.25-22.29.05:001][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.25-22.29.05:001][  0]LogMemory: Process Physical Memory: 60.07 MB used, 60.16 MB peak
+[2014.11.25-22.29.05:001][  0]LogMemory: Process Virtual Memory: 36.06 MB used, 36.17 MB peak
+[2014.11.25-22.29.05:001][  0]LogMemory: Physical Memory: 1684.69 MB used, 3071.55 MB total
+[2014.11.25-22.29.05:001][  0]LogMemory: Virtual Memory: 268.48 MB used, 134217728.00 MB total
+[2014.11.25-22.29.05:047][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2014.11.25-22.29.05:047][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 1535MB of shared system memory, 2 output[s]
+[2014.11.25-22.29.05:049][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.25-22.29.05:049][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.25-22.29.05:049][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.25-22.29.05:060][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.25-22.29.05:077][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.25-22.29.05:287][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.25-22.29.07:726][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.25-22.29.08:249][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.25-22.29.08:295][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.25-22.29.11:845][  0]LogDerivedDataCache: Loaded boot cache 3.55s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.25-22.29.11:845][  0]LogDerivedDataCache:Display: Loaded Boot cache: I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc
+[2014.11.25-22.29.11:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.25-22.29.11:846][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.25-22.29.11:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.25-22.29.11:846][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.11.25-22.29.11:858][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.11.25-22.29.11:858][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.11.25-22.29.11:858][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.11.25-22.29.12:127][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.25-22.29.12:127][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.25-22.29.13:944][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.25-22.29.15:559][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1a50_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1688_0///////STATCAT_Advanced////
+[2014.11.25-22.29.15:559][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.25-22.29.16:595][  0]SourceControl: Info Source control is disabled
+[2014.11.25-22.29.16:595][  0]SourceControl: Info Source control is disabled
+[2014.11.25-22.29.16:603][  0]SourceControl: Info Source control is disabled
+[2014.11.25-22.29.16:809][  0]BlueprintLog: New page: Editor Load
+[2014.11.25-22.29.16:936][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.25-22.29.16:936][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.25-22.29.17:301][  0]LogEngine: Initializing Engine...
+[2014.11.25-22.29.17:939][  0]LogInit: XAudio2 using 'GBo[niki (SB Audigy)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2014.11.25-22.29.17:951][  0]LogInit: FAudioDevice initialized.
+[2014.11.25-22.29.17:978][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.25-22.29.44:381][  0]LogDerivedDataCache: Saved boot cache 26.40s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.25-22.29.51:770][  0]LogInit: Texture streaming: Enabled
+[2014.11.25-22.29.51:807][  0]LogInit: Transaction tracking system initialized
+[2014.11.25-22.29.51:925][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2014.11.25-22.29.52:696][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.25-22.29.55:043][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.25-22.29.55:077][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.25-22.29.55:083][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.25-22.29.56:072][  0]LogConsoleResponse:Display: 
+[2014.11.25-22.29.56:301][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_50c_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1688_0///////STATCAT_Advanced////
+[2014.11.25-22.29.56:301][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_16f0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1688_0///////STATCAT_Advanced////
+[2014.11.25-22.29.56:301][  0]SourceControl: Info Source control is disabled
+[2014.11.25-22.29.56:301][  0]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.25-22.29.56:314][  0]LightingResults: New page: Lighting Build
+[2014.11.25-22.29.56:324][  0]MapCheck: New page: Map Check
+[2014.11.25-22.29.56:324][  0]LightingResults: New page: Lighting Build
+[2014.11.25-22.29.56:345][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F1E5D9300
+[2014.11.25-22.30.01:591][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.25-22.30.01:620][  0]LogAIModule: Creating AISystem for world Level1
+[2014.11.25-22.30.01:620][  0]Cmd: MAP CHECKDEP
+[2014.11.25-22.30.01:621][  0]MapCheck: New page: Level1 - 26 Nov 2014 00:30:01
+[2014.11.25-22.30.01:812][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [191,201ms] ==========
+[2014.11.25-22.30.01:812][  0]LogFileHelpers: Loading map 'Level1' took 5.511
+[2014.11.25-22.30.02:232][  0]LogCollectionManager: Loaded 0 collections in 0.001842 seconds
+[2014.11.25-22.30.05:754][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.25-22.30.08:565][  0]LogInit: Using libcurl 7.34.0
+[2014.11.25-22.30.08:565][  0]LogInit:  - built for x86_64-pc-win32
+[2014.11.25-22.30.08:565][  0]LogInit:  - supports SSL with WinSSL
+[2014.11.25-22.30.08:565][  0]LogInit:  - other features:
+[2014.11.25-22.30.08:565][  0]LogInit:      CURL_VERSION_SSL
+[2014.11.25-22.30.08:565][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.11.25-22.30.08:565][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.11.25-22.30.08:565][  0]LogInit:      CURL_VERSION_IDN
+[2014.11.25-22.30.08:566][  0]LogInit: Libcurl will NOT reuse connections
+[2014.11.25-22.30.08:599][  0]LogLoad: Full Startup: 85.22 seconds (BP compile: 0.25 seconds)
+[2014.11.25-22.30.08:614][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.25-22.30.09:177][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.25-22.30.09:814][  0]LogRenderer:Warning: Reallocating scene render targets to support 664x584.
+[2014.11.25-22.30.10:676][  3]LogAssetRegistry: Asset discovery search completed in 18.7620 seconds
+[2014.11.25-22.32.38:635][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2014.11.25-22.32.38:635][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:636][663]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip
+[2014.11.25-22.32.38:636][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2014.11.25-22.32.38:637][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:637][663]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Idle_Rifle_Hip
+[2014.11.25-22.32.38:638][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2014.11.25-22.32.38:639][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:639][663]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Jog
+[2014.11.25-22.32.38:640][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2014.11.25-22.32.38:640][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:640][663]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Stand
+[2014.11.25-22.32.38:641][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2014.11.25-22.32.38:642][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:642][663]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/R_CrouchWalk
+[2014.11.25-22.32.38:644][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2014.11.25-22.32.38:645][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:645][663]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/R_Jog
+[2014.11.25-22.32.38:646][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:647][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:647][663]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/ASP_Character
+[2014.11.25-22.32.38:648][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:648][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:649][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:650][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:652][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:652][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:653][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.25-22.32.38:654][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:654][663]LoadErrors:Error: Error /Game/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/HeroTPP_Skeleton
+[2014.11.25-22.32.38:655][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2014.11.25-22.32.38:656][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:656][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2014.11.25-22.32.38:657][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:658][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2014.11.25-22.32.38:658][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:659][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2014.11.25-22.32.38:661][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:661][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2014.11.25-22.32.38:662][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:663][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2014.11.25-22.32.38:663][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:664][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.25-22.32.38:665][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/ASP_HeroTPP_AnimBlueprint.uasset.
+[2014.11.25-22.32.38:677][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.25-22.32.38:677][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimBlueprintGeneratedClass:TargetSkeleton
+[2014.11.25-22.32.38:678][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:678][663]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/HeroTPP_Skeleton
+[2014.11.25-22.32.38:682][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:682][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_AsASP_Character_C
+[2014.11.25-22.32.38:684][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:684][663]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/ASP_Character
+[2014.11.25-22.32.38:685][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:685][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_AsASP_Character_C2
+[2014.11.25-22.32.38:686][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:687][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2014.11.25-22.32.38:687][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_CrouchWalk.R_CrouchWalk Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_BlendSpacePlayer:BlendSpace
+[2014.11.25-22.32.38:688][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:688][663]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/R_CrouchWalk
+[2014.11.25-22.32.38:689][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2014.11.25-22.32.38:689][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.25-22.32.38:690][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:690][663]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip
+[2014.11.25-22.32.38:691][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2014.11.25-22.32.38:692][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.25-22.32.38:694][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:695][663]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Idle_Rifle_Hip
+[2014.11.25-22.32.38:695][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2014.11.25-22.32.38:696][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.25-22.32.38:697][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:697][663]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Jog
+[2014.11.25-22.32.38:698][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2014.11.25-22.32.38:698][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.25-22.32.38:698][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:699][663]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Stand
+[2014.11.25-22.32.38:700][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2014.11.25-22.32.38:700][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_Jog.R_Jog Referenced by ASP_HeroTPP_AnimBlueprint_C Property /Script/Engine.AnimNode_BlendSpacePlayer:BlendSpace
+[2014.11.25-22.32.38:700][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:701][663]LoadErrors:Error: Error /Game/Blueprints/Posta/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/R_Jog
+[2014.11.25-22.32.38:701][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2014.11.25-22.32.38:702][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by ASP_HeroTPP_AnimBlueprint Property /Script/Engine.AnimBlueprint:TargetSkeleton
+[2014.11.25-22.32.38:702][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:708][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:708][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_38 Property /Script/BlueprintGraph.K2Node_DynamicCast:TargetType
+[2014.11.25-22.32.38:709][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:710][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:710][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5026 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.25-22.32.38:712][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:713][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:714][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableGet_350 Property /Script/BlueprintGraph.K2Node:MemberReference.MemberParentClass
+[2014.11.25-22.32.38:714][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:716][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:716][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5038 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.25-22.32.38:717][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:720][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:721][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableGet_645 Property /Script/BlueprintGraph.K2Node:MemberReference.MemberParentClass
+[2014.11.25-22.32.38:722][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:723][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:723][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5044 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.25-22.32.38:724][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:727][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:728][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_338 Property /Script/BlueprintGraph.K2Node_DynamicCast:TargetType
+[2014.11.25-22.32.38:729][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:730][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:730][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5053 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.25-22.32.38:731][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:732][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:732][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableSet_997 Property /Script/BlueprintGraph.K2Node:MemberReference.MemberParentClass
+[2014.11.25-22.32.38:734][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:735][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2014.11.25-22.32.38:735][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5067 Property /Script/Engine.EdGraphPin:PinType
+[2014.11.25-22.32.38:736][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:740][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2014.11.25-22.32.38:740][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_Jog.R_Jog Referenced by AnimGraphNode_BlendSpacePlayer_12 Property /Script/Engine.AnimNode_BlendSpacePlayer:BlendSpace
+[2014.11.25-22.32.38:742][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:746][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2014.11.25-22.32.38:746][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand Referenced by AnimGraphNode_SequencePlayer_100 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.25-22.32.38:747][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:748][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2014.11.25-22.32.38:749][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog Referenced by AnimGraphNode_SequencePlayer_222 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.25-22.32.38:750][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:754][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2014.11.25-22.32.38:754][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip Referenced by AnimGraphNode_SequencePlayer_39 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.25-22.32.38:755][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:767][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2014.11.25-22.32.38:768][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip Referenced by AnimGraphNode_SequencePlayer_170 Property /Script/Engine.AnimNode_SequencePlayer:Sequence
+[2014.11.25-22.32.38:770][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:774][663]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2014.11.25-22.32.38:774][663]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_CrouchWalk.R_CrouchWalk Referenced by AnimGraphNode_BlendSpacePlayer_67 Property /Script/Engine.AnimNode_BlendSpacePlayer:BlendSpace
+[2014.11.25-22.32.38:775][663]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset.
+[2014.11.25-22.32.38:850][663]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Jump Button Down' variable not found. Base class was probably changed.
+[2014.11.25-22.32.38:851][663]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Crouch Button Down' variable not found. Base class was probably changed.
+[2014.11.25-22.32.38:851][663]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Jump Button Down' variable not found. Base class was probably changed.
+[2014.11.25-22.32.38:897][663]LogBlueprint:Error: [compiler] Error  Blendspace Player'(None)'  references an unknown blend space
+[2014.11.25-22.32.38:898][663]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.11.25-22.32.38:898][663]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.11.25-22.32.38:899][663]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.11.25-22.32.38:899][663]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2014.11.25-22.32.38:900][663]LogBlueprint:Error: [compiler] Error  Blendspace Player'(None)'  references an unknown blend space
+[2014.11.25-22.32.38:904][663]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2014.11.25-22.32.38:905][663]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2014.11.25-22.32.38:907][663]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Jump Button Down' for  Set Jump Button Down 
+[2014.11.25-22.32.38:907][663]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Crouch Button Down' for  Get Crouch Button Down 
+[2014.11.25-22.32.38:908][663]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Jump Button Down' for  Get Jump Button Down 
+[2014.11.25-22.32.38:913][663]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2014.11.25-22.32.38:913][663]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2014.11.25-22.32.38:913][663]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2014.11.25-22.32.38:914][663]LogBlueprint:Error: [compiler] Error The property associated with  Jump Button Down  could not be found
+[2014.11.25-22.32.38:915][663]LogBlueprint:Error: [compiler] Error The property associated with  Crouch Button Down  could not be found
+[2014.11.25-22.32.38:915][663]LogBlueprint:Error: [compiler] Error The property associated with  Jump Button Down  could not be found
+[2014.11.25-22.32.38:916][663]LogBlueprint:Warning: [compiler] Warning [0235,54] Compile of ASP_HeroTPP_AnimBlueprint failed. 14 Fatal Issue(s) 3 Warning(s) [in 29 ms]
+[2014.11.25-22.34.24:683][166]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.25-22.34.24:683][166]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.25-22.34.24:683][166]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_5:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.25-22.34.44:406][980]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.25-22.36.22:865][472]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Adam/Desktop/drewniana_skrzynia.FBX)
+[2014.11.25-22.36.23:134][472]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2014.11.25-22.36.23:134][472]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2014.11.25-22.36.23:134][472]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2014.11.25-22.36.23:134][472]LogFbx: ItemName: Model, ItemCount : 1
+[2014.11.25-22.36.23:134][472]LogFbx: ItemName: Geometry, ItemCount : 1
+[2014.11.25-22.36.34:067][472]LogFbx: Loading FBX Scene from C:/Users/Adam/Desktop/drewniana_skrzynia.FBX
+[2014.11.25-22.36.34:139][472]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.25-22.36.34:155][472]LogFbx: == Initial material list:
+[2014.11.25-22.36.34:155][472]LogFbx: 0: None
+[2014.11.25-22.36.34:155][472]LogFbx: == After sorting:
+[2014.11.25-22.36.34:155][472]LogFbx: 0: None
+[2014.11.25-22.36.34:155][472]LogFbx: == Mapping table:
+[2014.11.25-22.36.34:155][472]LogFbx:   sort 0 -> 0
+[2014.11.25-22.36.34:168][472]LogStaticMesh: Building static mesh drewniana_skrzynia...
+[2014.11.25-22.36.34:180][472]LogStaticMesh: Built static mesh [13.678756ms] /Game/Architecture/drewniana_skrzynia.drewniana_skrzynia
+[2014.11.25-22.36.35:259][472]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Adam/Desktop/drewniana_skrzynia2.FBX)
+[2014.11.25-22.36.35:301][472]LogFbx: Loading FBX Scene from C:/Users/Adam/Desktop/drewniana_skrzynia2.FBX
+[2014.11.25-22.36.35:312][472]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.25-22.36.35:318][472]LogFbx: == Initial material list:
+[2014.11.25-22.36.35:318][472]LogFbx: 0: None
+[2014.11.25-22.36.35:318][472]LogFbx: == After sorting:
+[2014.11.25-22.36.35:318][472]LogFbx: 0: None
+[2014.11.25-22.36.35:318][472]LogFbx: == Mapping table:
+[2014.11.25-22.36.35:318][472]LogFbx:   sort 0 -> 0
+[2014.11.25-22.36.35:340][472]LogStaticMesh: Building static mesh drewniana_skrzynia2...
+[2014.11.25-22.36.35:349][472]LogStaticMesh: Built static mesh [30.302523ms] /Game/Architecture/drewniana_skrzynia2.drewniana_skrzynia2
+[2014.11.25-22.36.35:405][472]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Adam/Desktop/paleta.FBX)
+[2014.11.25-22.36.35:426][472]LogFbx: Loading FBX Scene from C:/Users/Adam/Desktop/paleta.FBX
+[2014.11.25-22.36.35:436][472]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.25-22.36.35:440][472]LogFbx: == Initial material list:
+[2014.11.25-22.36.35:440][472]LogFbx: 0: None
+[2014.11.25-22.36.35:440][472]LogFbx: == After sorting:
+[2014.11.25-22.36.35:440][472]LogFbx: 0: None
+[2014.11.25-22.36.35:440][472]LogFbx: == Mapping table:
+[2014.11.25-22.36.35:440][472]LogFbx:   sort 0 -> 0
+[2014.11.25-22.36.35:441][472]LogStaticMesh: Building static mesh paleta...
+[2014.11.25-22.36.35:443][472]LogStaticMesh: Built static mesh [2.686599ms] /Game/Architecture/paleta.paleta
+[2014.11.25-22.36.35:503][472]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Adam/Desktop/polka.FBX)
+[2014.11.25-22.36.35:539][472]LogFbx: Loading FBX Scene from C:/Users/Adam/Desktop/polka.FBX
+[2014.11.25-22.36.35:653][472]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.25-22.36.35:785][472]LogFbx: == Initial material list:
+[2014.11.25-22.36.35:785][472]LogFbx: 0: None
+[2014.11.25-22.36.35:785][472]LogFbx: == After sorting:
+[2014.11.25-22.36.35:785][472]LogFbx: 0: None
+[2014.11.25-22.36.35:785][472]LogFbx: == Mapping table:
+[2014.11.25-22.36.35:785][472]LogFbx:   sort 0 -> 0
+[2014.11.25-22.36.35:874][472]LogStaticMesh: Building static mesh polka...
+[2014.11.25-22.37.18:405][472]LogStaticMesh: Built static mesh [42532.652344ms] /Game/Architecture/polka.polka
+[2014.11.25-22.37.20:148][472]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 C:/Users/Adam/Desktop/swietlowka.FBX)
+[2014.11.25-22.37.20:205][472]LogFbx: Loading FBX Scene from C:/Users/Adam/Desktop/swietlowka.FBX
+[2014.11.25-22.37.20:216][472]LogFbx: FBX Scene Loaded Succesfully
+[2014.11.25-22.37.20:224][472]LogFbx: == Initial material list:
+[2014.11.25-22.37.20:225][472]LogFbx: 0: None
+[2014.11.25-22.37.20:225][472]LogFbx: == After sorting:
+[2014.11.25-22.37.20:225][472]LogFbx: 0: None
+[2014.11.25-22.37.20:225][472]LogFbx: == Mapping table:
+[2014.11.25-22.37.20:225][472]LogFbx:   sort 0 -> 0
+[2014.11.25-22.37.20:229][472]LogStaticMesh: Building static mesh swietlowka...
+[2014.11.25-22.37.20:230][472]LogStaticMesh: Built static mesh [4.774138ms] /Game/Architecture/swietlowka.swietlowka
+[2014.11.25-22.37.20:287][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2014.11.25-22.37.20:287][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.25-22.37.20:288][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.25-22.37.20:288][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.25-22.37.20:288][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.25-22.37.20:288][472]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.25-22.37.36:284][111]LogActorFactory: Actor Factory created drewniana_skrzynia
+[2014.11.25-22.37.36:285][111]LogActorFactory: Actor Factory created drewniana_skrzynia2
+[2014.11.25-22.37.36:285][111]LogActorFactory: Actor Factory created paleta
+[2014.11.25-22.37.36:286][111]LogActorFactory: Actor Factory created polka
+[2014.11.25-22.37.36:286][111]LogActorFactory: Actor Factory created swietlowka
+[2014.11.25-22.37.37:064][131]LogActorFactory: Actor Factory created drewniana_skrzynia
+[2014.11.25-22.37.37:134][131]LogActorFactory: Actor Factory created drewniana_skrzynia2
+[2014.11.25-22.37.37:155][131]LogActorFactory: Actor Factory created paleta
+[2014.11.25-22.37.37:178][131]LogActorFactory: Actor Factory created polka
+[2014.11.25-22.37.37:203][131]LogActorFactory: Actor Factory created swietlowka
+[2014.11.25-22.37.59:509][947]Cmd: DELETE
+[2014.11.25-22.37.59:509][947]Cmd: ACTOR DELETE
+[2014.11.25-22.37.59:596][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.25-22.37.59:611][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.25-22.37.59:611][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.25-22.37.59:611][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.25-22.37.59:611][947]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.25-22.37.59:611][947]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.25-22.37.59:711][947]LogEditorActor: Deleted 5 Actors (0.133 secs)
+[2014.11.25-22.38.02:064][ 25]LogActorFactory: Actor Factory created polka
+[2014.11.25-22.38.03:528][ 82]LogActorFactory: Actor Factory created polka
+[2014.11.25-22.38.11:013][364]Cmd: DELETE
+[2014.11.25-22.38.11:013][364]Cmd: ACTOR DELETE
+[2014.11.25-22.38.11:033][364]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.25-22.38.11:033][364]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.25-22.38.11:066][364]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2014.11.25-22.38.14:298][493]LogActorFactory: Actor Factory created paleta
+[2014.11.25-22.38.17:450][612]LogActorFactory: Actor Factory created paleta
+[2014.11.25-22.38.25:830][904]Cmd: DELETE
+[2014.11.25-22.38.25:830][904]Cmd: ACTOR DELETE
+[2014.11.25-22.38.25:839][904]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.25-22.38.25:840][904]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.25-22.38.25:871][904]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2014.11.25-22.38.45:319][677]LogActorFactory: Actor Factory created drewniana_skrzynia2
+[2014.11.25-22.38.46:003][701]LogActorFactory: Actor Factory created drewniana_skrzynia2
+[2014.11.25-22.39.15:406][802]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Textures'
+[2014.11.25-22.39.18:080][875]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.11.25-22.39.55:131][325]LogTexture:Display: Building textures: T_Wood_Pine_D (AutoDXT)
+[2014.11.25-22.40.10:253][325]LogTexture:Display: Building textures: T_Wood_Pine_N (BC5)
+[2014.11.25-22.40.11:945][325]LogMaterial: Missing cached shader map for material M_Wood_Pine, compiling.
+[2014.11.25-22.40.32:481][633]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.25-22.40.32:594][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.25-22.41.22:597][633]LogSavePackage: Save=41361.101563ms
+[2014.11.25-22.41.22:603][633]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto14CD0696247387F3E4DAF81BBB454E580.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto1.umap'
+[2014.11.25-22.41.38:789][633]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 66.307
+[2014.11.25-22.41.38:789][633]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 66.307
+[2014.11.25-22.41.38:832][633]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.25-22.41.38:944][633]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Posta/BP_Postac.BP_Postac]
+[2014.11.25-22.41.38:944][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.25-22.41.38:951][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-22.41.53:123][633]LogSavePackage: Save=9690.574219ms
+[2014.11.25-22.41.53:126][633]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto19179A5CE41836D2D56A0559CEDDE207F.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto1.uasset'
+[2014.11.25-22.42.04:844][633]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/drewniana_skrzynia] ([1] browsable assets)...
+[2014.11.25-22.42.04:890][633]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Architecture/drewniana_skrzynia.drewniana_skrzynia]
+[2014.11.25-22.42.04:890][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/drewniana_skrzynia]
+[2014.11.25-22.42.04:900][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/drewniana_skrzynia" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Architecture/drewniana_skrzynia_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-22.42.20:299][633]LogSavePackage: Save=10901.409180ms
+[2014.11.25-22.42.20:300][633]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/drewniana_skrzynia_Auto18B8F7F964CA5AFA686D1D290897459D5.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Architecture/drewniana_skrzynia_Auto1.uasset'
+[2014.11.25-22.42.26:597][633]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/drewniana_skrzynia2] ([1] browsable assets)...
+[2014.11.25-22.42.26:629][633]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Architecture/drewniana_skrzynia2.drewniana_skrzynia2]
+[2014.11.25-22.42.26:629][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/drewniana_skrzynia2]
+[2014.11.25-22.42.45:762][633]LogSavePackage: Save=11055.400391ms
+[2014.11.25-22.42.45:763][633]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/drewniana_skrzynia2_Auto1FC3BF183454F1B7007C0299732A4EA3D.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Architecture/drewniana_skrzynia2_Auto1.uasset'
+[2014.11.25-22.42.51:235][633]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/paleta] ([1] browsable assets)...
+[2014.11.25-22.42.51:282][633]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Architecture/paleta.paleta]
+[2014.11.25-22.42.51:282][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/paleta]
+[2014.11.25-22.42.51:297][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/paleta" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Architecture/paleta_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-22.43.04:828][633]LogSavePackage: Save=8141.336914ms
+[2014.11.25-22.43.04:829][633]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/paleta_Auto1AAFD4A2D43E4C8304BDA318DE9B1F11E.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Architecture/paleta_Auto1.uasset'
+[2014.11.25-22.43.18:332][633]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/polka] ([1] browsable assets)...
+[2014.11.25-22.43.18:369][633]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Architecture/polka.polka]
+[2014.11.25-22.43.18:369][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/polka]
+[2014.11.25-22.43.18:376][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/polka" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Architecture/polka_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-22.43.41:971][633]LogSavePackage: Save=15586.884766ms
+[2014.11.25-22.43.41:972][633]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/polka_Auto1DC57D41F45EC10D1F6FF7783DEF90A5F.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Architecture/polka_Auto1.uasset'
+[2014.11.25-22.43.45:574][633]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Architecture/swietlowka] ([1] browsable assets)...
+[2014.11.25-22.43.45:612][633]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Architecture/swietlowka.swietlowka]
+[2014.11.25-22.43.45:612][633]OBJ SavePackage: Finished generating thumbnails for package [/Game/Architecture/swietlowka]
+[2014.11.25-22.43.45:619][633]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/swietlowka" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Architecture/swietlowka_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.25-22.43.50:535][633]LogSavePackage: Save=2214.331055ms
+[2014.11.25-22.43.50:536][633]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/swietlowka_Auto18F1D224348879D204F95B985CEE54157.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Architecture/swietlowka_Auto1.uasset'
+[2014.11.25-22.43.50:558][633]LogFileHelpers: Auto-saving content packages took 131.770
+[2014.11.25-22.43.51:544][635]LogHttp:Warning: Timeout processing Http request. 0000009F1F7C9280 url=http://etsource.epicgames.com/ET2/CollectData.1?SessionID=%7B9B499DC2-47CD-D540-834B-AFAEDA2659B4%7D&AppID=UnrealEngine.Release&AppVersion=4.4.3-0%2BUE4&UserID=3b892707e909502cd7b976a4ea5efdf2&IsEditor=1
+[2014.11.25-22.43.51:583][636]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000009F1F7C9280. 
+[2014.11.25-22.43.51:583][636]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000009F1F7C9280. 
+[2014.11.25-22.43.51:583][636]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000009F1F7C9280. 
+[2014.11.25-22.43.51:583][636]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000009F1F7C9280. 
+[2014.11.25-22.44.31:313][ 83]Cmd: DELETE
+[2014.11.25-22.44.31:313][ 83]Cmd: ACTOR DELETE
+[2014.11.25-22.44.31:327][ 83]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.25-22.44.31:327][ 83]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.25-22.44.31:327][ 83]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2014.11.25-22.44.31:362][ 83]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2014.11.25-22.44.38:274][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.25-22.45.12:033][347]LogSavePackage: Save=33112.671875ms
+[2014.11.25-22.45.12:034][347]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level12C31C79E4208B60B92EFDD8501D3E5FF.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap'
+[2014.11.25-22.45.18:134][347]LogFileHelpers: Saving map 'Level1' took 40.028
+[2014.11.25-22.45.18:142][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.25-22.45.27:896][347]LogSavePackage: Save=6489.589355ms
+[2014.11.25-22.45.27:899][347]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_PostacA982300D4525A35F1861F890BDCD8631.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.25-22.45.29:770][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/drewniana_skrzynia" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/drewniana_skrzynia.uasset" SILENT=true
+[2014.11.25-22.45.31:960][347]LogSavePackage: Save=2174.637451ms
+[2014.11.25-22.45.31:961][347]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/drewniana_skrzynia3EC6604042CE3B78B4EA73AABFDA9C5A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/drewniana_skrzynia.uasset'
+[2014.11.25-22.45.32:922][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/drewniana_skrzynia2" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/drewniana_skrzynia2.uasset" SILENT=true
+[2014.11.25-22.45.40:245][347]LogSavePackage: Save=7297.403320ms
+[2014.11.25-22.45.40:246][347]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/drewniana_skrzynia25959373C412AE04336EF7FA8EEA6FA8A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/drewniana_skrzynia2.uasset'
+[2014.11.25-22.45.41:203][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/paleta" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/paleta.uasset" SILENT=true
+[2014.11.25-22.45.43:408][347]LogSavePackage: Save=2190.846924ms
+[2014.11.25-22.45.43:409][347]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/paletaAB45DBF24924BEB8BD377FBFAAADE07C.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/paleta.uasset'
+[2014.11.25-22.45.45:261][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/polka" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/polka.uasset" SILENT=true
+[2014.11.25-22.45.55:668][347]LogSavePackage: Save=9506.875000ms
+[2014.11.25-22.45.55:669][347]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/polka8948C99F483FE25C8042948669B4EAFC.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/polka.uasset'
+[2014.11.25-22.45.58:412][347]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Architecture/swietlowka" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/swietlowka.uasset" SILENT=true
+[2014.11.25-22.46.01:506][347]LogSavePackage: Save=2202.287598ms
+[2014.11.25-22.46.01:507][347]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/swietlowkaCDE10C5F420D32BA921242BDE37545B4.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Architecture/swietlowka.uasset'
+[2014.11.25-22.46.06:723][499]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.25-22.46.18:859][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/polka" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/polka.uasset" SILENT=true
+[2014.11.25-22.46.29:519][961]LogSavePackage: Save=9742.255859ms
+[2014.11.25-22.46.29:519][961]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/polkaE32865D74224F6DF741E1BB5C0AF98BC.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/polka.uasset'
+[2014.11.25-22.46.59:051][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/drewniana_skrzynia" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/drewniana_skrzynia.uasset" SILENT=true
+[2014.11.25-22.47.02:090][ 29]LogSavePackage: Save=3024.413086ms
+[2014.11.25-22.47.02:091][ 29]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/drewniana_skrzynia28A3FF2B410DF45FE46873AEAF61DEA7.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/drewniana_skrzynia.uasset'
+[2014.11.25-22.47.02:146][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/drewniana_skrzynia2" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/drewniana_skrzynia2.uasset" SILENT=true
+[2014.11.25-22.47.06:994][ 29]LogSavePackage: Save=3043.901855ms
+[2014.11.25-22.47.06:994][ 29]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/drewniana_skrzynia2862EF31448AA33ACAFA92E91DBA042E4.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/drewniana_skrzynia2.uasset'
+[2014.11.25-22.47.09:732][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/paleta" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/paleta.uasset" SILENT=true
+[2014.11.25-22.47.11:933][ 29]LogSavePackage: Save=397.947815ms
+[2014.11.25-22.47.11:934][ 29]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/paleta8FAA1007476CB03C7CA779BCB7EC5652.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/paleta.uasset'
+[2014.11.25-22.47.12:900][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Props/swietlowka" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/swietlowka.uasset" SILENT=true
+[2014.11.25-22.47.13:344][ 29]LogSavePackage: Save=428.299683ms
+[2014.11.25-22.47.13:345][ 29]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/swietlowka0C09AB6244DD68E23DBB3DA95150695A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Props/swietlowka.uasset'
+[2014.11.25-22.47.13:413][ 29]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.25-22.47.16:760][131]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.11.25-22.47.56:105][858]LogRenderer:Warning: Reallocating scene render targets to support 1064x720.
+[2014.11.25-22.49.13:043][308]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Podloga)
+[2014.11.25-22.49.28:900][914]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.25-22.49.28:932][914]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F1E06DB20
+[2014.11.25-22.50.27:976][663]Cmd: QUIT_EDITOR
+[2014.11.25-22.50.31:699][663]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.25-22.50.31:700][663]LogExit: Preparing to exit.
+[2014.11.25-22.50.34:193][663]LogExit: Editor shut down
+[2014.11.25-22.50.34:194][663]LogExit: Transaction tracking system shut down
+[2014.11.25-22.50.34:195][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F290E59E0
+[2014.11.25-22.50.34:197][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F1F731BC0
+[2014.11.25-22.50.34:197][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F1F731800
+[2014.11.25-22.50.34:197][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F2FBBAE80
+[2014.11.25-22.50.34:197][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F2FAA8EA0
+[2014.11.25-22.50.34:199][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F20355940
+[2014.11.25-22.50.34:199][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F2F706980
+[2014.11.25-22.50.34:308][663]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009F2F7076A0
+[2014.11.25-22.50.34:308][663]LogExit: Object subsystem successfully closed.
+[2014.11.25-22.50.34:346][663]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (154)
+[2014.11.25-22.50.34:346][663]LogModuleManager: Shutting down and abandoning module HTTP (153)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module CrashTracker (152)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module SuperSearch (151)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module SceneOutliner (150)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module EditorWidgets (149)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module CollectionManager (148)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module StatsViewer (147)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module FoliageEdit (146)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module LandscapeEditor (145)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module MeshPaint (144)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module ActorPickerMode (143)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module GeometryMode (142)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module TextureAlignMode (141)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module BspMode (140)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module PlacementMode (139)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module DesktopPlatform (138)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module AutomationWorker (137)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (136)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (135)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (134)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module UndoHistory (133)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (132)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module UserFeedback (131)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module XmlParser (130)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module Blutility (129)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (128)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (127)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (124)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (123)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module InputBindingEditor (122)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (121)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module SettingsEditor (120)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module SessionLauncher (119)
+[2014.11.25-22.50.34:347][663]LogModuleManager: Shutting down and abandoning module SessionFrontend (118)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module ProfilerClient (117)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (116)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module DeviceManager (115)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module AutomationWindow (113)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module Layers (112)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (111)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module DetailCustomizations (110)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module PackagesDialog (109)
+[2014.11.25-22.50.34:348][663]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2014.11.25-22.50.34:349][663]LogModuleManager: Shutting down and abandoning module AssetRegistry (107)
+[2014.11.25-22.50.36:321][663]LogModuleManager: Shutting down and abandoning module Persona (106)
+[2014.11.25-22.50.36:322][663]LogModuleManager: Shutting down and abandoning module GraphEditor (105)
+[2014.11.25-22.50.36:322][663]LogModuleManager: Shutting down and abandoning module ClassViewer (104)
+[2014.11.25-22.50.36:322][663]LogModuleManager: Shutting down and abandoning module Toolbox (103)
+[2014.11.25-22.50.36:324][663]LogModuleManager: Shutting down and abandoning module ModuleUI (102)
+[2014.11.25-22.50.36:324][663]LogModuleManager: Shutting down and abandoning module MovieSceneTools (101)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module OutputLog (100)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module GammaUI (99)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module Documentation (98)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (97)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (96)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module AnalyticsET (95)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module Analytics (94)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module GameplayDebugger (93)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module AIModule (92)
+[2014.11.25-22.50.36:345][663]LogModuleManager: Shutting down and abandoning module ProfilerService (91)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module TaskGraph (90)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module SlateRemote (89)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (88)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (87)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module CableComponent (86)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module MessagingDebugger (85)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module ViewportSnapping (84)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module SmartSnapping (83)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (82)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (81)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (80)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module Matinee (79)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module Kismet (78)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module SlateReflector (77)
+[2014.11.25-22.50.36:360][663]LogModuleManager: Shutting down and abandoning module LevelEditor (76)
+[2014.11.25-22.50.36:361][663]LogModuleManager: Shutting down and abandoning module IntroTutorials (75)
+[2014.11.25-22.50.36:363][663]LogModuleManager: Shutting down and abandoning module ContentBrowser (74)
+[2014.11.25-22.50.36:363][663]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2014.11.25-22.50.36:363][663]LogModuleManager: Shutting down and abandoning module Paper2DEditor (72)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (71)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module PluginsEditor (70)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module MainFrame (69)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module EpicSurvey (68)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (67)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module UObjectPlugin (66)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (65)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module SourceControl (64)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (63)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module BlankPlugin (62)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module ScriptPlugin (61)
+[2014.11.25-22.50.36:377][663]LogModuleManager: Shutting down and abandoning module UdpMessaging (60)
+[2014.11.25-22.50.36:478][663]LogModuleManager: Shutting down and abandoning module Paper2D (59)
+[2014.11.25-22.50.36:478][663]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (58)
+[2014.11.25-22.50.36:484][663]LogModuleManager: Shutting down and abandoning module ImageWrapper (57)
+[2014.11.25-22.50.36:484][663]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (56)
+[2014.11.25-22.50.36:484][663]LogModuleManager: Shutting down and abandoning module FunctionalTesting (55)
+[2014.11.25-22.50.36:484][663]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (54)
+[2014.11.25-22.50.36:484][663]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (53)
+[2014.11.25-22.50.36:484][663]LogModuleManager: Shutting down and abandoning module MessageLog (52)
+[2014.11.25-22.50.36:485][663]LogModuleManager: Shutting down and abandoning module Sequencer (51)
+[2014.11.25-22.50.36:485][663]LogModuleManager: Shutting down and abandoning module AssetTools (50)
+[2014.11.25-22.50.36:485][663]LogModuleManager: Shutting down and abandoning module UMGEditor (49)
+[2014.11.25-22.50.36:500][663]LogModuleManager: Shutting down and abandoning module UMG (48)
+[2014.11.25-22.50.36:500][663]LogModuleManager: Shutting down and abandoning module Slate (47)
+[2014.11.25-22.50.36:500][663]LogModuleManager: Shutting down and abandoning module EditorStyle (46)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module SessionServices (45)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (44)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (43)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module XAudio2 (42)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module Networking (40)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module Core (39)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module KismetCompiler (38)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module PhysXFormats (37)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module MeshUtilities (36)
+[2014.11.25-22.50.36:501][663]LogModuleManager: Shutting down and abandoning module DerivedDataCache (35)
+[2014.11.25-22.50.36:591][663]LogDerivedDataCache: Shutdown
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (34)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (33)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (32)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (31)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (30)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (29)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (28)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (27)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (26)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module Messaging (25)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (24)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.25-22.50.36:591][663]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.25-22.50.36:592][663]LogExit: Exiting.
+[2014.11.25-22.50.42:878][663]Log file closed, 11/25/14 23:50:42

@@ -1,0 +1,878 @@
+Log file open, 11/22/14 15:11:55
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.4.3-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Sep 17 2014 07:16:51
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.11.22-14.11.55:237][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.22-14.11.55:270][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.22-14.11.55:284][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.22-14.11.55:293][  0]LogInit: Object subsystem initialized
+[2014.11.22-14.11.55:296][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.22-14.11.55:296][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.22-14.11.58:029][  0]LogInit: Computer: ADAM
+[2014.11.22-14.11.58:029][  0]LogInit: User: Adam
+[2014.11.22-14.11.58:031][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.22-14.11.58:031][  0]LogInit: High frequency timer resolution =3.161623 MHz
+[2014.11.22-14.11.58:031][  0]LogMemory: Memory total: Physical=3.0GB (3GB approx) Virtual=131072.0GB
+[2014.11.22-14.11.58:031][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.22-14.11.58:031][  0]LogMemory: Process Physical Memory: 60.03 MB used, 60.12 MB peak
+[2014.11.22-14.11.58:031][  0]LogMemory: Process Virtual Memory: 35.99 MB used, 36.09 MB peak
+[2014.11.22-14.11.58:031][  0]LogMemory: Physical Memory: 1515.34 MB used, 3071.55 MB total
+[2014.11.22-14.11.58:031][  0]LogMemory: Virtual Memory: 268.48 MB used, 134217728.00 MB total
+[2014.11.22-14.11.58:078][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2014.11.22-14.11.58:078][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 1535MB of shared system memory, 2 output[s]
+[2014.11.22-14.11.58:080][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.22-14.11.58:080][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.22-14.11.58:080][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.22-14.11.58:092][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.22-14.11.58:112][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.22-14.11.58:341][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.22-14.12.00:284][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-14.12.01:714][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-14.12.01:764][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.22-14.12.05:023][  0]LogDerivedDataCache: Loaded boot cache 3.26s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.22-14.12.05:023][  0]LogDerivedDataCache:Display: Loaded Boot cache: I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc
+[2014.11.22-14.12.05:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.22-14.12.05:024][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.22-14.12.05:024][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.22-14.12.05:024][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.11.22-14.12.05:036][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.11.22-14.12.05:036][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.11.22-14.12.05:036][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.11.22-14.12.07:258][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.22-14.12.07:258][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.22-14.12.09:992][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.22-14.12.11:210][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_8c0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_10b8_0///////STATCAT_Advanced////
+[2014.11.22-14.12.11:210][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.22-14.12.13:146][  0]SourceControl: Info Source control is disabled
+[2014.11.22-14.12.13:146][  0]SourceControl: Info Source control is disabled
+[2014.11.22-14.12.13:153][  0]SourceControl: Info Source control is disabled
+[2014.11.22-14.12.13:425][  0]BlueprintLog: New page: Editor Load
+[2014.11.22-14.12.13:561][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.22-14.12.13:561][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.22-14.12.13:926][  0]LogEngine: Initializing Engine...
+[2014.11.22-14.12.14:271][  0]LogInit: XAudio2 using 'GBo[niki (USB Multi-Channel Audio Device)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x60f)
+[2014.11.22-14.12.14:284][  0]LogInit: FAudioDevice initialized.
+[2014.11.22-14.12.14:305][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.22-14.12.28:956][  0]LogDerivedDataCache: Saved boot cache 14.65s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.22-14.12.39:852][  0]LogInit: Texture streaming: Enabled
+[2014.11.22-14.12.39:898][  0]LogInit: Transaction tracking system initialized
+[2014.11.22-14.12.40:050][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2014.11.22-14.12.40:843][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-14.12.41:358][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-14.12.41:400][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.22-14.12.41:407][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.22-14.12.43:357][  0]LogConsoleResponse:Display: 
+[2014.11.22-14.12.43:587][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_e68_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_10b8_0///////STATCAT_Advanced////
+[2014.11.22-14.12.43:587][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1598_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_10b8_0///////STATCAT_Advanced////
+[2014.11.22-14.12.43:587][  0]SourceControl: Info Source control is disabled
+[2014.11.22-14.12.43:587][  0]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.22-14.12.43:600][  0]LightingResults: New page: Lighting Build
+[2014.11.22-14.12.43:610][  0]MapCheck: New page: Map Check
+[2014.11.22-14.12.43:610][  0]LightingResults: New page: Lighting Build
+[2014.11.22-14.12.43:631][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EF72D9300
+[2014.11.22-14.12.46:722][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.22-14.12.46:823][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-14.12.46:851][  0]Cmd: MAP CHECKDEP
+[2014.11.22-14.12.46:851][  0]MapCheck: New page: Minimal_Default - 22 Nov 2014 16:12:46
+[2014.11.22-14.12.46:967][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [116,068ms] ==========
+[2014.11.22-14.12.46:967][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.380
+[2014.11.22-14.12.48:716][  0]LogCollectionManager: Loaded 0 collections in 0.001795 seconds
+[2014.11.22-14.12.52:432][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.22-14.12.54:664][  0]LogInit: Using libcurl 7.34.0
+[2014.11.22-14.12.54:664][  0]LogInit:  - built for x86_64-pc-win32
+[2014.11.22-14.12.54:664][  0]LogInit:  - supports SSL with WinSSL
+[2014.11.22-14.12.54:664][  0]LogInit:  - other features:
+[2014.11.22-14.12.54:664][  0]LogInit:      CURL_VERSION_SSL
+[2014.11.22-14.12.54:664][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.11.22-14.12.54:664][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.11.22-14.12.54:664][  0]LogInit:      CURL_VERSION_IDN
+[2014.11.22-14.12.54:664][  0]LogInit: Libcurl will NOT reuse connections
+[2014.11.22-14.12.54:705][  0]LogLoad: Full Startup: 83.74 seconds (BP compile: 0.34 seconds)
+[2014.11.22-14.12.57:910][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.22-14.12.58:477][  0]LogRenderer:Warning: Reallocating scene render targets to support 664x584.
+[2014.11.22-14.12.58:930][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Particles'
+[2014.11.22-14.13.00:014][  4]LogAssetRegistry: Asset discovery search completed in 19.9761 seconds
+[2014.11.22-14.15.44:264][466]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2014.11.22-14.15.46:470][571]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Interfejs'
+[2014.11.22-14.16.25:659][819]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Interfejs'
+[2014.11.22-14.17.17:976][228]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/Interfejs/UI_HP_Widget" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Interfejs/UI_HP_Widget.uasset" SILENT=true
+[2014.11.22-14.17.18:974][228]LogSavePackage: Save=960.728699ms
+[2014.11.22-14.17.18:975][228]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/UI_HP_Widget339A5F2D4867ABDD8458279D986EBB8A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Interfejs/UI_HP_Widget.uasset'
+[2014.11.22-14.18.55:045][841]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000005EF6CDF740. 
+[2014.11.22-14.18.55:045][841]LogHttp:Warning: InternetStatusCallbackWinInet: on invalid request 0000005EF6CDF740. 
+[2014.11.22-14.23.03:914][510]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Interfejs'
+[2014.11.22-14.23.05:249][563]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/Blueprints/Mechanika/Interfejs/NewBlueprint
+[2014.11.22-14.23.16:879][795]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.22-14.23.17:054][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.198
+[2014.11.22-14.23.17:103][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.22-14.23.17:272][795]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Posta/BP_Postac.BP_Postac]
+[2014.11.22-14.23.17:272][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.22-14.23.18:133][795]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-14.23.30:865][795]LogSavePackage: Save=9390.246094ms
+[2014.11.22-14.23.30:868][795]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto1680131734822EAC0184AB080ABEEAB0C.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto1.uasset'
+[2014.11.22-14.23.32:710][795]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/Interfejs/NewBlueprint] ([1] browsable assets)...
+[2014.11.22-14.23.32:718][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Interfejs/NewBlueprint]
+[2014.11.22-14.23.34:648][795]LogSavePackage: Save=1875.364624ms
+[2014.11.22-14.23.34:649][795]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/NewBlueprint_Auto124DFFD61407486EF95C63DA2A845EEC0.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/Interfejs/NewBlueprint_Auto1.uasset'
+[2014.11.22-14.23.34:672][795]LogFileHelpers: Auto-saving content packages took 17.618
+[2014.11.22-14.23.44:626][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.22-14.23.44:626][ 79]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2014.11.22-14.24.12:419][850]LogPropertyNode:Warning: UI Min (0) >= UI Max () for Ranged Numeric
+[2014.11.22-14.26.18:308][853]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Interfejs'
+[2014.11.22-14.26.37:423][704]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/Blueprints/Mechanika/Interfejs/BB_HP_Widget
+[2014.11.22-14.33.41:275][968]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.22-14.33.41:343][968]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.068
+[2014.11.22-14.33.41:367][968]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/Interfejs/BB_HP_Widget] ([1] browsable assets)...
+[2014.11.22-14.33.41:383][968]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Interfejs/BB_HP_Widget]
+[2014.11.22-14.33.42:359][968]LogSavePackage: Save=933.565430ms
+[2014.11.22-14.33.42:360][968]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BB_HP_Widget_Auto2330E7E7544344EEC4337289333066B76.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/Interfejs/BB_HP_Widget_Auto2.uasset'
+[2014.11.22-14.33.42:385][968]LogFileHelpers: Auto-saving content packages took 1.042
+[2014.11.22-14.42.15:987][630]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/wrogowie'
+[2014.11.22-14.42.28:776][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-14.42.37:557][953]LogSavePackage: Save=6487.775879ms
+[2014.11.22-14.42.37:559][953]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_PostacA746198D4E1D57936FA2C5850AA06569.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-14.44.09:180][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.22-14.44.09:218][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E853FA980
+[2014.11.22-14.44.09:218][979]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E847572E0
+[2014.11.22-14.44.09:270][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/Interfejs/BB_HP_Widget" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Interfejs/BB_HP_Widget.uasset" SILENT=true
+[2014.11.22-14.44.10:208][979]LogSavePackage: Save=920.791931ms
+[2014.11.22-14.44.10:212][979]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BB_HP_Widget103F190C4896311B6FDC4F876E0ED9E1.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Interfejs/BB_HP_Widget.uasset'
+[2014.11.22-14.44.15:660][980]LogPackageName: SearchForPackageOnDisk took   0.002s to resolve /Game/Blueprints/Mechanika/Interfejs/BB_HP_Widget
+[2014.11.22-14.45.13:697][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:697][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:872][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:872][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:872][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:872][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:872][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.13:873][120]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-14.45.16:071][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:071][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:072][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:072][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:072][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:072][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:072][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:072][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:072][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:072][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:073][242]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.45.16:076][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableSet_833 or K2Node_VariableSet /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableSet_833
+[2014.11.22-14.45.16:076][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableSet_833.EdGraphPin_3885) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_Event_3330.EdGraphPin_3827).  Import failed...
+[2014.11.22-14.45.16:076][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_833.EdGraphPin_3885"''
+[2014.11.22-14.45.16:076][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_200776 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_200776
+[2014.11.22-14.45.16:076][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_200776.EdGraphPin_3875) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_Event_3330.EdGraphPin_3828).  Import failed...
+[2014.11.22-14.45.16:076][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_200776.EdGraphPin_3875"''
+[2014.11.22-14.45.16:077][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_174030 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_174030
+[2014.11.22-14.45.16:077][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_174030.EdGraphPin_3897) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_Event_3330.EdGraphPin_3830).  Import failed...
+[2014.11.22-14.45.16:077][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_174030.EdGraphPin_3897"''
+[2014.11.22-14.45.16:080][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_IfThenElse_517 or K2Node_IfThenElse /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_IfThenElse_517
+[2014.11.22-14.45.16:080][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_IfThenElse_517.EdGraphPin_3950) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_192006.EdGraphPin_3864).  Import failed...
+[2014.11.22-14.45.16:080][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_517.EdGraphPin_3950"''
+[2014.11.22-14.45.16:080][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableGet_893 or K2Node_VariableGet /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableGet_893
+[2014.11.22-14.45.16:080][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableGet_893.EdGraphPin_3903) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_200776.EdGraphPin_3874).  Import failed...
+[2014.11.22-14.45.16:080][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_893.EdGraphPin_3903"''
+[2014.11.22-14.45.16:081][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableSet_833 or K2Node_VariableSet /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableSet_833
+[2014.11.22-14.45.16:081][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableSet_833.EdGraphPin_3887) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_200776.EdGraphPin_3876).  Import failed...
+[2014.11.22-14.45.16:081][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_833.EdGraphPin_3887"''
+[2014.11.22-14.45.16:081][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231876 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231876
+[2014.11.22-14.45.16:081][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231876.EdGraphPin_3909) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableSet_833.EdGraphPin_3886).  Import failed...
+[2014.11.22-14.45.16:081][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_231876.EdGraphPin_3909"''
+[2014.11.22-14.45.16:082][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_IfThenElse_517 or K2Node_IfThenElse /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_IfThenElse_517
+[2014.11.22-14.45.16:082][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_IfThenElse_517.EdGraphPin_3948) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231876.EdGraphPin_3910).  Import failed...
+[2014.11.22-14.45.16:082][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_517.EdGraphPin_3948"''
+[2014.11.22-14.45.16:082][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231878 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231878
+[2014.11.22-14.45.16:082][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231878.EdGraphPin_3941) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231876.EdGraphPin_3913).  Import failed...
+[2014.11.22-14.45.16:082][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_231878.EdGraphPin_3941"''
+[2014.11.22-14.45.16:083][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231878 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231878
+[2014.11.22-14.45.16:083][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231878.EdGraphPin_3940) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableGet_1038.EdGraphPin_3933).  Import failed...
+[2014.11.22-14.45.16:083][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_231878.EdGraphPin_3940"''
+[2014.11.22-14.45.16:083][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_289430 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_289430
+[2014.11.22-14.45.16:083][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_289430.EdGraphPin_3961) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableGet_1038.EdGraphPin_3933).  Import failed...
+[2014.11.22-14.45.16:083][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_289430.EdGraphPin_3961"''
+[2014.11.22-14.45.16:083][242]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_289430 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_289430
+[2014.11.22-14.45.16:083][242]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_289430.EdGraphPin_3963) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_IfThenElse_517.EdGraphPin_3949).  Import failed...
+[2014.11.22-14.45.16:083][242]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_289430.EdGraphPin_3963"''
+[2014.11.22-14.45.16:103][242]LogBlueprint:Warning: [BP_Wrog1] CreatePinForVariable: 'hp' variable not found. Base class was probably changed.
+[2014.11.22-14.45.16:103][242]LogBlueprint:Warning: [BP_Wrog1] CreatePinForVariable: 'hp' variable not found. Base class was probably changed.
+[2014.11.22-14.45.16:104][242]LogBlueprint:Warning: [BP_Wrog1] CreatePinForVariable: 'hp' variable not found. Base class was probably changed.
+[2014.11.22-14.45.18:981][242]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.22-14.45.25:654][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Minimal_Default_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.22-14.45.39:232][243]LogSavePackage: Save=11960.752930ms
+[2014.11.22-14.45.39:233][243]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Minimal_Default_Auto39A45ACB448207BA12F2584A5A7041664.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Minimal_Default_Auto3.umap'
+[2014.11.22-14.45.41:099][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 15.579
+[2014.11.22-14.45.41:099][243]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 15.579
+[2014.11.22-14.45.41:116][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/wrogowie/BP_Wrog1] ([1] browsable assets)...
+[2014.11.22-14.45.41:148][243]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1]
+[2014.11.22-14.45.41:148][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/wrogowie/BP_Wrog1]
+[2014.11.22-14.45.41:155][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BP_Wrog1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/wrogowie/BP_Wrog1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-14.45.46:556][243]LogSavePackage: Save=3991.788086ms
+[2014.11.22-14.45.46:557][243]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Wrog1_Auto386F11C1640D44B5C8BA1B4A2D532CAE0.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/wrogowie/BP_Wrog1_Auto3.uasset'
+[2014.11.22-14.45.48:388][243]LogFileHelpers: Auto-saving content packages took 7.290
+[2014.11.22-14.47.12:841][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.22-14.47.36:056][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:057][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:057][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:057][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:057][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:057][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:057][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:058][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:058][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:058][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:058][718]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.22-14.47.36:059][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableSet_833 or K2Node_VariableSet /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableSet_833
+[2014.11.22-14.47.36:059][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableSet_833.EdGraphPin_3885) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_Event_3330.EdGraphPin_3827).  Import failed...
+[2014.11.22-14.47.36:059][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_833.EdGraphPin_3885"''
+[2014.11.22-14.47.36:059][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_200776 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_200776
+[2014.11.22-14.47.36:059][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_200776.EdGraphPin_3875) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_Event_3330.EdGraphPin_3828).  Import failed...
+[2014.11.22-14.47.36:060][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_200776.EdGraphPin_3875"''
+[2014.11.22-14.47.36:060][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_174030 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_174030
+[2014.11.22-14.47.36:060][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_174030.EdGraphPin_3897) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_Event_3330.EdGraphPin_3830).  Import failed...
+[2014.11.22-14.47.36:060][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_174030.EdGraphPin_3897"''
+[2014.11.22-14.47.36:060][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_IfThenElse_517 or K2Node_IfThenElse /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_IfThenElse_517
+[2014.11.22-14.47.36:060][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_IfThenElse_517.EdGraphPin_3950) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_192006.EdGraphPin_3864).  Import failed...
+[2014.11.22-14.47.36:061][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_517.EdGraphPin_3950"''
+[2014.11.22-14.47.36:061][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableGet_893 or K2Node_VariableGet /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableGet_893
+[2014.11.22-14.47.36:061][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableGet_893.EdGraphPin_3903) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_200776.EdGraphPin_3874).  Import failed...
+[2014.11.22-14.47.36:061][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_893.EdGraphPin_3903"''
+[2014.11.22-14.47.36:061][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableSet_833 or K2Node_VariableSet /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableSet_833
+[2014.11.22-14.47.36:061][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_VariableSet_833.EdGraphPin_3887) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_200776.EdGraphPin_3876).  Import failed...
+[2014.11.22-14.47.36:061][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableSet_833.EdGraphPin_3887"''
+[2014.11.22-14.47.36:062][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231876 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231876
+[2014.11.22-14.47.36:062][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231876.EdGraphPin_3909) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableSet_833.EdGraphPin_3886).  Import failed...
+[2014.11.22-14.47.36:062][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_231876.EdGraphPin_3909"''
+[2014.11.22-14.47.36:063][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_IfThenElse_517 or K2Node_IfThenElse /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_IfThenElse_517
+[2014.11.22-14.47.36:063][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_IfThenElse_517.EdGraphPin_3948) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231876.EdGraphPin_3910).  Import failed...
+[2014.11.22-14.47.36:063][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_IfThenElse_517.EdGraphPin_3948"''
+[2014.11.22-14.47.36:063][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231878 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231878
+[2014.11.22-14.47.36:063][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231878.EdGraphPin_3941) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231876.EdGraphPin_3913).  Import failed...
+[2014.11.22-14.47.36:063][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_231878.EdGraphPin_3941"''
+[2014.11.22-14.47.36:063][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_231878 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231878
+[2014.11.22-14.47.36:064][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_231878.EdGraphPin_3940) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableGet_1038.EdGraphPin_3933).  Import failed...
+[2014.11.22-14.47.36:064][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_231878.EdGraphPin_3940"''
+[2014.11.22-14.47.36:064][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_289430 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_289430
+[2014.11.22-14.47.36:064][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_289430.EdGraphPin_3961) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_VariableGet_1038.EdGraphPin_3933).  Import failed...
+[2014.11.22-14.47.36:064][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_289430.EdGraphPin_3961"''
+[2014.11.22-14.47.36:064][718]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_CallFunction_289430 or K2Node_CallFunction /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_289430
+[2014.11.22-14.47.36:064][718]LogProperty:Warning: Illegal TEXT reference to a private object in external package (EdGraphPin /Game/Blueprints/wrogowie/Shape_NarrowCapsule.Shape_NarrowCapsule:EventGraph.K2Node_CallFunction_289430.EdGraphPin_3963) from referencer (EdGraphPin /Game/Blueprints/wrogowie/BP_Wrog1.BP_Wrog1:EventGraph.K2Node_IfThenElse_517.EdGraphPin_3949).  Import failed...
+[2014.11.22-14.47.36:064][718]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_289430.EdGraphPin_3963"''
+[2014.11.22-14.47.36:067][718]LogBlueprint:Warning: [BP_Wrog1] CreatePinForVariable: 'hp' variable not found. Base class was probably changed.
+[2014.11.22-14.47.36:067][718]LogBlueprint:Warning: [BP_Wrog1] CreatePinForVariable: 'hp' variable not found. Base class was probably changed.
+[2014.11.22-14.47.36:068][718]LogBlueprint:Warning: [BP_Wrog1] CreatePinForVariable: 'hp' variable not found. Base class was probably changed.
+[2014.11.22-14.47.50:354][363]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BP_Wrog1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset" SILENT=true
+[2014.11.22-14.47.53:925][363]LogSavePackage: Save=3114.335205ms
+[2014.11.22-14.47.53:927][363]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Wrog181466BB84469A57FAEE937BADD050CAD.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset'
+[2014.11.22-14.47.58:042][425]BlueprintLog: New page: Compile BP_Wrog1
+[2014.11.22-14.47.58:317][425]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.22-14.47.59:382][425]BlueprintEditorCompileResults: Info [2187,16] Compile of BP_Wrog1 successful! [in 49 ms]
+[2014.11.22-14.48.20:978][484]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BP_Wrog1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset" SILENT=true
+[2014.11.22-14.48.24:525][484]LogSavePackage: Save=3080.944824ms
+[2014.11.22-14.48.24:527][484]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Wrog1C91149EA40D2A4E15D4572BE08931D35.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset'
+[2014.11.22-14.48.27:171][560]BlueprintLog: New page: Compile BP_Wrog1
+[2014.11.22-14.48.28:197][560]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.22-14.48.32:582][560]BlueprintEditorCompileResults: Info [2217,15] Compile of BP_Wrog1 successful! [in 50 ms]
+[2014.11.22-14.50.11:106][317]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BP_Wrog1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset" SILENT=true
+[2014.11.22-14.50.14:737][317]LogSavePackage: Save=3132.715088ms
+[2014.11.22-14.50.14:738][317]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Wrog1D2DE304747556AF84E56769472E13B2A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset'
+[2014.11.22-14.50.29:456][739]LogEditorViewport: Clicking on Actor (LMB): Shape_NarrowCapsule_C (Shape_NarrowCapsule)
+[2014.11.22-14.50.30:628][772]Cmd: DELETE
+[2014.11.22-14.50.30:628][772]Cmd: ACTOR DELETE
+[2014.11.22-14.50.30:807][772]LogEditorActor: Deleted Actor: Shape_NarrowCapsule_C
+[2014.11.22-14.50.30:839][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.22-14.50.30:894][772]LogEditorActor: Deleted 1 Actors (0.119 secs)
+[2014.11.22-14.50.35:050][918]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.22-14.50.48:147][918]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SKEL_Shape_NarrowCapsule_C' or package '/Game/Blueprints/wrogowie/Shape_NarrowCapsule'.
+[2014.11.22-14.50.52:191][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E87D17600
+[2014.11.22-14.50.52:233][918]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E874EB4C0
+[2014.11.22-14.51.34:492][513]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-14.51.49:842][ 74]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-14.52.02:685][406]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-14.52.02:710][406]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 16:52:02)
+[2014.11.22-14.52.03:633][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.922626s)
+[2014.11.22-14.52.03:635][406]LogPlayLevel: PIE: World Init took: (0.002195s)
+[2014.11.22-14.52.03:635][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.925064s)
+[2014.11.22-14.52.03:932][406]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-14.52.04:146][406]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-14.52.04:148][406]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-14.52.04:148][406]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-15.52.04
+[2014.11.22-14.52.04:295][406]LogWorld: Bringing up level for play took: 0.148633
+[2014.11.22-14.52.04:567][406]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 2,494
+[2014.11.22-14.52.05:128][407]LogRenderer:Warning: Reallocating scene render targets to support 664x592.
+[2014.11.22-14.52.30:053][572]LogBlueprintUserMessages: Przeladuj
+[2014.11.22-14.53.04:721][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.22-14.53.25:102][173]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E87522C00
+[2014.11.22-14.53.28:133][296]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/AI'
+[2014.11.22-14.53.54:477][158]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2014.11.22-14.53.57:503][218]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-14.53.57:503][218]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 16:53:57)
+[2014.11.22-14.53.57:517][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013624s)
+[2014.11.22-14.53.57:519][218]LogPlayLevel: PIE: World Init took: (0.002616s)
+[2014.11.22-14.53.57:520][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016567s)
+[2014.11.22-14.53.57:570][218]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-14.53.57:572][218]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-14.53.57:574][218]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-14.53.57:574][218]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-15.53.57
+[2014.11.22-14.53.57:575][218]LogWorld: Bringing up level for play took: 0.002455
+[2014.11.22-14.53.57:578][218]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,494
+[2014.11.22-14.54.39:891][463]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.22-14.54.39:928][463]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E845A96C0
+[2014.11.22-14.55.46:259][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/AI/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BT_AI_Wrog.uasset" SILENT=true
+[2014.11.22-14.55.50:420][441]LogSavePackage: Save=3644.458984ms
+[2014.11.22-14.55.50:422][441]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_Wrog82BA1CD74A53BA0AFB2BEFBAF06CB657.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BT_AI_Wrog.uasset'
+[2014.11.22-14.55.53:173][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/AI/BB_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BB_AI_Wrog.uasset" SILENT=true
+[2014.11.22-14.55.54:576][441]LogSavePackage: Save=30.635847ms
+[2014.11.22-14.55.54:576][441]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BB_AI_Wrog5AE7E4FC4B3E34B3D7662CA90BF0C7D4.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BB_AI_Wrog.uasset'
+[2014.11.22-14.56.01:430][611]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-14.56.01:431][611]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 16:56:01)
+[2014.11.22-14.56.01:445][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014690s)
+[2014.11.22-14.56.01:447][611]LogPlayLevel: PIE: World Init took: (0.002002s)
+[2014.11.22-14.56.01:448][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017014s)
+[2014.11.22-14.56.01:484][611]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-14.56.01:486][611]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-14.56.01:488][611]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-14.56.01:488][611]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-15.56.01
+[2014.11.22-14.56.01:489][611]LogWorld: Bringing up level for play took: 0.002689
+[2014.11.22-14.56.01:493][611]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,579
+[2014.11.22-14.56.41:772][808]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E8519B240
+[2014.11.22-14.56.51:262][ 28]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-14.56.51:262][ 28]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 16:56:51)
+[2014.11.22-14.56.51:277][ 28]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014025s)
+[2014.11.22-14.56.51:279][ 28]LogPlayLevel: PIE: World Init took: (0.001977s)
+[2014.11.22-14.56.51:279][ 28]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.016345s)
+[2014.11.22-14.56.51:318][ 28]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-14.56.51:320][ 28]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-14.56.51:322][ 28]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-14.56.51:322][ 28]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-15.56.51
+[2014.11.22-14.56.51:323][ 28]LogWorld: Bringing up level for play took: 0.002533
+[2014.11.22-14.56.51:326][ 28]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,746
+[2014.11.22-14.57.12:214][640]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E8C819B20
+[2014.11.22-14.57.20:415][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/AI/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BT_AI_Wrog.uasset" SILENT=true
+[2014.11.22-14.57.23:613][861]LogSavePackage: Save=2734.793701ms
+[2014.11.22-14.57.23:614][861]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_Wrog3EF4013C49A808A9081B6B8574AE6483.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BT_AI_Wrog.uasset'
+[2014.11.22-14.57.25:452][861]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/AI/BB_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BB_AI_Wrog.uasset" SILENT=true
+[2014.11.22-14.57.26:846][861]LogSavePackage: Save=926.800598ms
+[2014.11.22-14.57.26:848][861]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BB_AI_WrogD991056C45E50A6BD410E5AFDC2CC3E1.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BB_AI_Wrog.uasset'
+[2014.11.22-14.57.53:551][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.22-14.58.01:496][603]LogSavePackage: Save=3729.163086ms
+[2014.11.22-14.58.01:497][603]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Minimal_DefaultE2A785E643C8466F01BCA689C11D6E1D.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap'
+[2014.11.22-14.58.06:993][603]LogFileHelpers: Saving map 'Minimal_Default' took 13.609
+[2014.11.22-14.58.16:410][764]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-14.58.16:410][764]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 16:58:16)
+[2014.11.22-14.58.16:425][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014715s)
+[2014.11.22-14.58.16:428][764]LogPlayLevel: PIE: World Init took: (0.002258s)
+[2014.11.22-14.58.16:428][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.017256s)
+[2014.11.22-14.58.17:352][764]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-14.58.17:354][764]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-14.58.17:356][764]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-14.58.17:356][764]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-15.58.17
+[2014.11.22-14.58.17:357][764]LogWorld: Bringing up level for play took: 0.003042
+[2014.11.22-14.58.17:361][764]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 1,289
+[2014.11.22-14.59.04:755][177]LogBlueprintUserMessages: 50.0
+[2014.11.22-14.59.05:738][206]LogBlueprintUserMessages: 0.0
+[2014.11.22-14.59.15:673][496]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E93761260
+[2014.11.22-14.59.20:270][572]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-14.59.20:270][572]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 16:59:20)
+[2014.11.22-14.59.20:286][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015846s)
+[2014.11.22-14.59.20:288][572]LogPlayLevel: PIE: World Init took: (0.001886s)
+[2014.11.22-14.59.20:289][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018611s)
+[2014.11.22-14.59.20:322][572]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-14.59.20:324][572]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-14.59.20:326][572]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-14.59.20:326][572]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-15.59.20
+[2014.11.22-14.59.20:327][572]LogWorld: Bringing up level for play took: 0.002631
+[2014.11.22-14.59.20:331][572]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,259
+[2014.11.22-15.00.03:168][827]LogBlueprintUserMessages: ciach
+[2014.11.22-15.00.16:654][228]LogBlueprintUserMessages: 50.0
+[2014.11.22-15.00.20:736][339]LogBlueprintUserMessages: 0.0
+[2014.11.22-15.00.26:210][497]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E8B31EC00
+[2014.11.22-15.01.04:456][548]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/wrogowie'
+[2014.11.22-15.01.08:907][654]LogRenderer:Warning: Reallocating scene render targets to support 920x592.
+[2014.11.22-15.02.27:991][178]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.22-15.03.20:084][749]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BP_Wrog1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset" SILENT=true
+[2014.11.22-15.03.29:611][749]LogSavePackage: Save=8142.946289ms
+[2014.11.22-15.03.29:612][749]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Wrog19D7453D94B41AF7B06E1059139F2B23A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset'
+[2014.11.22-15.03.31:791][788]BlueprintLog: New page: Compile BP_Wrog1
+[2014.11.22-15.03.31:978][788]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.22-15.03.32:991][788]BlueprintEditorCompileResults: Info [3120,93] Compile of BP_Wrog1 successful! [in 82 ms]
+[2014.11.22-15.03.46:027][946]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-15.03.46:027][946]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 17:03:46)
+[2014.11.22-15.03.46:924][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.897215s)
+[2014.11.22-15.03.46:928][946]LogPlayLevel: PIE: World Init took: (0.003269s)
+[2014.11.22-15.03.46:928][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.900798s)
+[2014.11.22-15.03.48:689][946]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-15.03.48:691][946]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-15.03.48:693][946]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-15.03.48:693][946]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-16.03.48
+[2014.11.22-15.03.48:695][946]LogWorld: Bringing up level for play took: 0.003449
+[2014.11.22-15.03.48:699][946]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 2,628
+[2014.11.22-15.03.56:402][174]LogBlueprintUserMessages: 50.0
+[2014.11.22-15.04.06:946][490]LogBlueprintUserMessages: 0.0
+[2014.11.22-15.04.48:439][721]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.22-15.04.53:335][856]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E95759120
+[2014.11.22-15.05.01:587][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.22-15.05.14:969][ 54]LogSavePackage: Save=6472.109863ms
+[2014.11.22-15.05.14:970][ 54]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Minimal_Default2B48465242C1DA5A0E563FB602B6ED69.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap'
+[2014.11.22-15.05.22:275][ 54]LogFileHelpers: Saving map 'Minimal_Default' took 20.840
+[2014.11.22-15.05.45:431][626]LogEditorViewport: Clicking on Actor (LMB): BP_Wrog1_C (BP_Wrog1)
+[2014.11.22-15.06.20:677][458]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-15.06.43:571][117]Cmd: DELETE
+[2014.11.22-15.06.43:571][117]Cmd: ACTOR DELETE
+[2014.11.22-15.06.43:584][117]LogEditorActor: Deleted Actor: Brush
+[2014.11.22-15.06.43:656][117]LogEditorActor: Deleted 1 Actors (0.084 secs)
+[2014.11.22-15.06.58:153][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.22-15.07.04:235][481]LogSavePackage: Save=3794.348877ms
+[2014.11.22-15.07.04:237][481]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Minimal_DefaultE1B70CB545C087985E87A88CA3B2F96A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap'
+[2014.11.22-15.07.10:614][481]LogFileHelpers: Saving map 'Minimal_Default' took 12.620
+[2014.11.22-15.07.59:927][777]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Architecture'
+[2014.11.22-15.08.21:226][378]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-15.14.47:662][105]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-15.15.05:911][489]Cmd: DUPLICATE
+[2014.11.22-15.15.05:911][489]Cmd: ACTOR DUPLICATE
+[2014.11.22-15.17.51:536][508]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.22-15.17.51:769][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Minimal_Default" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.22-15.18.05:108][508]LogSavePackage: Save=8174.327637ms
+[2014.11.22-15.18.05:110][508]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Minimal_Default949CF09B400D3645343D99A68BD32D3A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap'
+[2014.11.22-15.18.11:521][508]LogFileHelpers: Saving map 'Minimal_Default' took 19.909
+[2014.11.22-16.09.12:451][802]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BP_Wrog1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset" SILENT=true
+[2014.11.22-16.09.19:837][802]LogSavePackage: Save=5927.386230ms
+[2014.11.22-16.09.19:839][802]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Wrog1595D51E94C99B5FAEB1D3C83BF1CCAD5.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset'
+[2014.11.22-16.11.05:750][369]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-16.11.05:751][369]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 18:11:05)
+[2014.11.22-16.11.05:844][369]LogPlayLevel: PIE: StaticDuplicateObject took: (0.093004s)
+[2014.11.22-16.11.05:846][369]LogPlayLevel: PIE: World Init took: (0.002553s)
+[2014.11.22-16.11.05:847][369]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.096149s)
+[2014.11.22-16.11.05:879][369]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-16.11.05:896][369]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-16.11.05:899][369]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-16.11.05:899][369]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-17.11.05
+[2014.11.22-16.11.05:899][369]LogWorld: Bringing up level for play took: 0.003078
+[2014.11.22-16.11.05:904][369]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,169
+[2014.11.22-16.11.31:515][ 89]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.22-16.11.31:549][ 89]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E8CC81760
+[2014.11.22-16.11.31:626][ 90]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E8322C360
+[2014.11.22-16.11.38:331][270]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Posta'
+[2014.11.22-16.16.12:933][844]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2014.11.22-16.16.33:038][732]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika'
+[2014.11.22-16.16.56:819][503]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.11.22-16.16.56:819][503]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2014.11.22-16.16.56:876][503]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.056
+[2014.11.22-16.16.56:894][503]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/Spis_Broni] ([1] browsable assets)...
+[2014.11.22-16.16.56:903][503]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Spis_Broni]
+[2014.11.22-16.16.56:909][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/Spis_Broni" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/Spis_Broni_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-16.16.57:882][503]LogSavePackage: Save=922.228577ms
+[2014.11.22-16.16.57:884][503]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Spis_Broni_Auto48DFE86B4440AF8E2963B3485B03678B6.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/Spis_Broni_Auto4.uasset'
+[2014.11.22-16.16.57:923][503]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.22-16.16.57:934][503]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.22-16.16.57:938][503]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-16.17.04:083][503]LogSavePackage: Save=4708.109863ms
+[2014.11.22-16.17.04:084][503]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto42F3FBB7A4CFC19D95EB40BB134A13FDB.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto4.uasset'
+[2014.11.22-16.17.04:111][503]LogFileHelpers: Auto-saving content packages took 7.234
+[2014.11.22-16.17.11:457][869]LogEnum:Warning: Enum Text Spis_Broni::NewEnumerator0 for Enum Spis_Broni failed to resolve to any value
+[2014.11.22-16.17.24:027][874]LogEnum:Warning: Enum Text Spis_Broni::NewEnumerator1 for Enum Spis_Broni failed to resolve to any value
+[2014.11.22-16.17.33:679][663]LogEnum:Warning: Enum Text Spis_Broni::NewEnumerator2 for Enum Spis_Broni failed to resolve to any value
+[2014.11.22-16.17.42:306][343]LogEnum:Warning: Enum Text Spis_Broni::NewEnumerator3 for Enum Spis_Broni failed to resolve to any value
+[2014.11.22-16.17.52:329][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/Spis_Broni" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Spis_Broni.uasset" SILENT=true
+[2014.11.22-16.17.53:309][127]LogSavePackage: Save=914.228577ms
+[2014.11.22-16.17.53:311][127]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Spis_Broni68F0E6164E3E1A11A07D0D88188E446D.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Spis_Broni.uasset'
+[2014.11.22-16.21.54:617][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-16.22.00:903][597]LogSavePackage: Save=5814.085938ms
+[2014.11.22-16.22.00:905][597]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_PostacE8B1D49A44380B5645FC9AAC726B757F.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-16.22.08:794][791]BlueprintLog: New page: Compile BP_Postac
+[2014.11.22-16.22.09:822][791]LogBlueprint:Warning: [BP_HUD] CreatePinForVariable: 'Wybrana_Bron' variable not found. Base class was probably changed.
+[2014.11.22-16.22.09:822][791]LogBlueprint:Warning: [BP_HUD] CreatePinForVariable: 'Amunicja_2' variable not found. Base class was probably changed.
+[2014.11.22-16.22.09:823][791]LogBlueprint:Warning: [BP_HUD] CreatePinForVariable: 'Amunicja_3' variable not found. Base class was probably changed.
+[2014.11.22-16.22.09:823][791]LogBlueprint:Warning: [BP_HUD] CreatePinForVariable: 'Amunicja_4' variable not found. Base class was probably changed.
+[2014.11.22-16.22.09:883][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.11.22-16.22.09:883][791]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_2) Not registered. Aborting.
+[2014.11.22-16.22.09:993][791]BlueprintEditorCompileResults: Info [7838,86] Compile of BP_Postac successful! [in 970 ms]
+[2014.11.22-16.27.08:931][551]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.059
+[2014.11.22-16.27.09:837][551]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.22-16.27.09:880][551]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Posta/BP_Postac.BP_Postac]
+[2014.11.22-16.27.09:880][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.22-16.27.09:887][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-16.27.18:166][551]LogSavePackage: Save=6773.448242ms
+[2014.11.22-16.27.18:168][551]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto572B0389A4DA73BD816B1C28BF252AEC0.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto5.uasset'
+[2014.11.22-16.27.18:204][551]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/Interfejs/BP_HUD] ([1] browsable assets)...
+[2014.11.22-16.27.18:213][551]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Interfejs/BP_HUD]
+[2014.11.22-16.27.24:251][551]LogSavePackage: Save=3659.529053ms
+[2014.11.22-16.27.24:253][551]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_HUD_Auto59B75A028473E4745E3F4A5BFE5027D7B.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/Interfejs/BP_HUD_Auto5.uasset'
+[2014.11.22-16.27.24:271][551]LogFileHelpers: Auto-saving content packages took 15.340
+[2014.11.22-16.27.26:183][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_19) Not registered. Aborting.
+[2014.11.22-16.27.26:183][573]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_3) Not registered. Aborting.
+[2014.11.22-16.31.34:924][380]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.31.34:924][380]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.31.34:925][380]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.31.34:925][380]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.32.50:194][295]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-16.32.57:468][295]LogSavePackage: Save=4952.169434ms
+[2014.11.22-16.32.57:469][295]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac4EF2CCA445915CA48C2BACA0F0DDD45B.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-16.44.44:256][715]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.44.44:257][715]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.44.44:257][715]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.44.44:257][715]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.44.44:257][715]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.44.44:257][715]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.44.44:257][715]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.45.01:132][460]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_20) Not registered. Aborting.
+[2014.11.22-16.45.01:132][460]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_4) Not registered. Aborting.
+[2014.11.22-16.45.01:276][460]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.164
+[2014.11.22-16.45.01:322][460]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.22-16.45.01:372][460]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Posta/BP_Postac.BP_Postac]
+[2014.11.22-16.45.01:372][460]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.22-16.45.01:377][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-16.45.10:647][460]LogSavePackage: Save=6829.260254ms
+[2014.11.22-16.45.10:650][460]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto6081AC9724E9390C1E9E871AAA86F479C.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto6.uasset'
+[2014.11.22-16.45.10:667][460]LogFileHelpers: Auto-saving content packages took 9.391
+[2014.11.22-16.53.39:788][443]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Posta'
+[2014.11.22-16.55.15:654][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_21) Not registered. Aborting.
+[2014.11.22-16.55.15:654][677]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_5) Not registered. Aborting.
+[2014.11.22-16.55.25:636][969]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.106
+[2014.11.22-16.55.25:804][969]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.22-16.55.25:852][969]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Posta/BP_Postac.BP_Postac]
+[2014.11.22-16.55.25:852][969]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.22-16.55.25:857][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-16.55.33:252][969]LogSavePackage: Save=6853.956055ms
+[2014.11.22-16.55.33:254][969]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto70498001044CAC1D7C11249AE178343B0.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto7.uasset'
+[2014.11.22-16.55.33:284][969]LogFileHelpers: Auto-saving content packages took 7.648
+[2014.11.22-16.55.41:616][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_22) Not registered. Aborting.
+[2014.11.22-16.55.41:617][300]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_6) Not registered. Aborting.
+[2014.11.22-16.57.21:204][330]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-16.57.21:205][330]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.22-17.01.15:569][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-17.01.22:867][928]LogSavePackage: Save=5001.594727ms
+[2014.11.22-17.01.22:869][928]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac212404AB4CFA992FA58DF5B3BA2A0750.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-17.01.38:136][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_23) Not registered. Aborting.
+[2014.11.22-17.01.38:136][362]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_7) Not registered. Aborting.
+[2014.11.22-17.05.38:664][ 52]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.343
+[2014.11.22-17.05.38:698][ 52]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.22-17.05.38:756][ 52]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Posta/BP_Postac.BP_Postac]
+[2014.11.22-17.05.38:756][ 52]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.22-17.05.38:766][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto8.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-17.05.42:805][ 52]LogSavePackage: Save=3247.839111ms
+[2014.11.22-17.05.42:806][ 52]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto8BCA14867454BF58F97786698E40B335F.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto8.uasset'
+[2014.11.22-17.05.43:851][ 52]LogFileHelpers: Auto-saving content packages took 5.188
+[2014.11.22-17.06.36:651][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_24) Not registered. Aborting.
+[2014.11.22-17.06.36:651][675]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_8) Not registered. Aborting.
+[2014.11.22-17.06.44:827][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-17.06.53:036][997]LogSavePackage: Save=5888.950195ms
+[2014.11.22-17.06.53:037][997]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac451756F14C079F01064F7792C1A21731.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-17.06.56:623][ 39]BlueprintLog: New page: Compile BP_Postac
+[2014.11.22-17.06.57:156][ 39]LogBlueprint:Warning: [BP_HUD] CreatePinForVariable: 'Wybrana_Bron' variable not found. Base class was probably changed.
+[2014.11.22-17.06.57:156][ 39]LogBlueprint:Warning: [BP_HUD] CreatePinForVariable: 'Amunicja_2' variable not found. Base class was probably changed.
+[2014.11.22-17.06.57:156][ 39]LogBlueprint:Warning: [BP_HUD] CreatePinForVariable: 'Amunicja_3' variable not found. Base class was probably changed.
+[2014.11.22-17.06.57:156][ 39]LogBlueprint:Warning: [BP_HUD] CreatePinForVariable: 'Amunicja_4' variable not found. Base class was probably changed.
+[2014.11.22-17.06.57:500][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_25) Not registered. Aborting.
+[2014.11.22-17.06.57:500][ 39]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_9) Not registered. Aborting.
+[2014.11.22-17.06.57:760][ 39]BlueprintEditorCompileResults: Info [0526,19] Compile of BP_Postac successful! [in 284 ms]
+[2014.11.22-17.15.57:031][178]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 3.399
+[2014.11.22-17.15.59:109][178]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/Interfejs/BP_HUD] ([1] browsable assets)...
+[2014.11.22-17.15.59:657][178]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Interfejs/BP_HUD]
+[2014.11.22-17.16.04:218][178]LogSavePackage: Save=2637.995850ms
+[2014.11.22-17.16.04:233][178]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_HUD_Auto9508404284FDF637760F92F8BB4F5306B.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/Interfejs/BP_HUD_Auto9.uasset'
+[2014.11.22-17.16.04:309][178]LogFileHelpers: Auto-saving content packages took 7.214
+[2014.11.22-17.20.23:105][468]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.22-17.20.23:182][468]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.22-17.20.25:342][468]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Amunicja_4' for  Get Amunicja_4 
+[2014.11.22-17.20.25:348][468]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Amunicja_3' for  Get Amunicja_3 
+[2014.11.22-17.20.25:348][468]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Amunicja_2' for  Get Amunicja_2 
+[2014.11.22-17.20.25:348][468]LogBlueprint:Warning: [compiler] Warning Unable to find variable with name 'Wybrana_Bron' for  Get Wybrana_Bron 
+[2014.11.22-17.20.25:350][468]LogBlueprint:Error: [compiler] Error The property associated with  Amunicja_4  could not be found
+[2014.11.22-17.20.25:350][468]LogBlueprint:Error: [compiler] Error The property associated with  Amunicja_3  could not be found
+[2014.11.22-17.20.25:350][468]LogBlueprint:Error: [compiler] Error The property associated with  Amunicja_2  could not be found
+[2014.11.22-17.20.25:351][468]LogBlueprint:Error: [compiler] Error The property associated with  Wybrana_Bron  could not be found
+[2014.11.22-17.20.25:363][468]LogBlueprint:Warning: [compiler] Warning [1334,40] Compile of BP_HUD failed. 4 Fatal Issue(s) 4 Warning(s) [in 46 ms]
+[2014.11.22-17.20.30:784][468]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_26) Not registered. Aborting.
+[2014.11.22-17.20.30:814][468]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_10) Not registered. Aborting.
+[2014.11.22-17.20.31:735][468]LogPlayLevel: PIE:  Blueprint regeneration took 8711 ms (1 blueprints)
+[2014.11.22-17.21.03:426][468]BlueprintLog: Info Blueprint BP_HUD failed to compile
+[2014.11.22-17.21.03:673][468]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 19:21:03)
+[2014.11.22-17.21.04:940][468]LogPlayLevel: PIE: StaticDuplicateObject took: (1.230622s)
+[2014.11.22-17.21.05:732][468]LogPlayLevel: PIE: World Init took: (0.792403s)
+[2014.11.22-17.21.05:749][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (2.045307s)
+[2014.11.22-17.21.06:325][468]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-17.21.06:610][468]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-17.21.06:874][468]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-17.21.06:874][468]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-18.21.06
+[2014.11.22-17.21.07:024][468]LogWorld: Bringing up level for play took: 0.396325
+[2014.11.22-17.21.07:653][468]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
+[2014.11.22-17.21.09:705][468]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 49,633
+[2014.11.22-17.21.32:948][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EAD97A7A0
+[2014.11.22-17.23.00:146][920]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Interfejs'
+[2014.11.22-17.23.33:476][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/Interfejs/BP_HUD" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Interfejs/BP_HUD.uasset" SILENT=true
+[2014.11.22-17.23.37:027][780]LogSavePackage: Save=2041.387939ms
+[2014.11.22-17.23.37:028][780]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_HUDB58BE6BD4A8F0D70A80CC186BEE1627F.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Interfejs/BP_HUD.uasset'
+[2014.11.22-17.23.44:935][826]BlueprintLog: New page: Compile BP_HUD
+[2014.11.22-17.23.45:285][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_27) Not registered. Aborting.
+[2014.11.22-17.23.45:285][826]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_11) Not registered. Aborting.
+[2014.11.22-17.23.45:826][826]BlueprintEditorCompileResults: Info [1534,16] Compile of BP_HUD successful! [in 13 ms]
+[2014.11.22-17.24.06:141][270]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-17.24.06:148][270]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 19:24:06)
+[2014.11.22-17.24.06:301][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.153567s)
+[2014.11.22-17.24.06:314][270]LogPlayLevel: PIE: World Init took: (0.012379s)
+[2014.11.22-17.24.06:314][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.166198s)
+[2014.11.22-17.24.06:399][270]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-17.24.06:414][270]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-17.24.06:416][270]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-17.24.06:416][270]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-18.24.06
+[2014.11.22-17.24.06:417][270]LogWorld: Bringing up level for play took: 0.002885
+[2014.11.22-17.24.06:426][270]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,354
+[2014.11.22-17.25.10:828][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E93763100
+[2014.11.22-17.27.54:526][824]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-17.28.08:462][824]LogSavePackage: Save=7951.689453ms
+[2014.11.22-17.28.08:463][824]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac3832E98F400A656095B073949D0D6A16.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-17.28.09:318][849]BlueprintLog: New page: Compile BP_Postac
+[2014.11.22-17.28.10:491][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_28) Not registered. Aborting.
+[2014.11.22-17.28.10:491][849]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_12) Not registered. Aborting.
+[2014.11.22-17.28.12:128][849]BlueprintEditorCompileResults: Info [1799,40] Compile of BP_Postac successful! [in 669 ms]
+[2014.11.22-17.28.43:036][664]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.115
+[2014.11.22-17.28.43:106][664]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.22-17.28.43:183][664]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Posta/BP_Postac.BP_Postac]
+[2014.11.22-17.28.43:183][664]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.22-17.28.43:188][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto0.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-17.28.47:915][664]LogSavePackage: Save=3303.437500ms
+[2014.11.22-17.28.47:917][664]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto04B411D8F49FB776249758D8530D081F9.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto0.uasset'
+[2014.11.22-17.28.47:955][664]LogFileHelpers: Auto-saving content packages took 4.919
+[2014.11.22-17.29.09:701][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-17.29.16:043][230]LogSavePackage: Save=4080.069580ms
+[2014.11.22-17.29.16:044][230]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac5C2BCFF349208B2F47ACB38E7C3AD48B.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-17.29.22:938][276]BlueprintLog: New page: Compile BP_Postac
+[2014.11.22-17.29.23:259][276]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_29) Not registered. Aborting.
+[2014.11.22-17.29.23:259][276]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_13) Not registered. Aborting.
+[2014.11.22-17.29.24:404][276]BlueprintEditorCompileResults: Info [1872,22] Compile of BP_Postac successful! [in 187 ms]
+[2014.11.22-17.30.03:394][418]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-17.30.03:394][418]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 19:30:03)
+[2014.11.22-17.30.03:429][418]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034620s)
+[2014.11.22-17.30.03:451][418]LogPlayLevel: PIE: World Init took: (0.022382s)
+[2014.11.22-17.30.03:451][418]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.057301s)
+[2014.11.22-17.30.03:499][418]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-17.30.03:509][418]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-17.30.03:511][418]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-17.30.03:511][418]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-18.30.03
+[2014.11.22-17.30.03:512][418]LogWorld: Bringing up level for play took: 0.002845
+[2014.11.22-17.30.03:515][418]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,557
+[2014.11.22-17.30.15:846][960]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EA0F50C20
+[2014.11.22-17.30.20:608][ 73]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-17.30.20:609][ 73]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 19:30:20)
+[2014.11.22-17.30.20:625][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016352s)
+[2014.11.22-17.30.20:649][ 73]LogPlayLevel: PIE: World Init took: (0.023814s)
+[2014.11.22-17.30.20:649][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.040528s)
+[2014.11.22-17.30.20:698][ 73]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-17.30.20:781][ 73]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-17.30.20:784][ 73]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-17.30.20:784][ 73]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-18.30.20
+[2014.11.22-17.30.20:785][ 73]LogWorld: Bringing up level for play took: 0.004082
+[2014.11.22-17.30.20:788][ 73]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,716
+[2014.11.22-17.30.32:385][532]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E93760B80
+[2014.11.22-17.30.37:909][654]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-17.30.37:909][654]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 19:30:37)
+[2014.11.22-17.30.37:924][654]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014830s)
+[2014.11.22-17.30.37:941][654]LogPlayLevel: PIE: World Init took: (0.016658s)
+[2014.11.22-17.30.37:941][654]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.031837s)
+[2014.11.22-17.30.37:975][654]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-17.30.37:977][654]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-17.30.37:979][654]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-17.30.37:979][654]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-18.30.37
+[2014.11.22-17.30.37:980][654]LogWorld: Bringing up level for play took: 0.003425
+[2014.11.22-17.30.37:984][654]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,088
+[2014.11.22-17.30.43:289][875]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EA101B880
+[2014.11.22-17.31.01:959][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-17.31.09:134][559]LogSavePackage: Save=6699.858887ms
+[2014.11.22-17.31.09:136][559]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_PostacB26C9D474F3BDBC5D05E93A1000C515C.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-17.31.23:268][798]BlueprintLog: New page: Compile BP_Postac
+[2014.11.22-17.31.24:334][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_30) Not registered. Aborting.
+[2014.11.22-17.31.24:334][798]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_14) Not registered. Aborting.
+[2014.11.22-17.31.26:239][798]BlueprintEditorCompileResults: Info [1993,30] Compile of BP_Postac successful! [in 100 ms]
+[2014.11.22-17.31.54:503][477]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-17.31.54:504][477]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 19:31:54)
+[2014.11.22-17.31.54:520][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015739s)
+[2014.11.22-17.31.54:522][477]LogPlayLevel: PIE: World Init took: (0.002386s)
+[2014.11.22-17.31.54:522][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.018397s)
+[2014.11.22-17.31.54:560][477]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-17.31.54:562][477]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-17.31.54:565][477]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-17.31.54:565][477]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-18.31.54
+[2014.11.22-17.31.54:566][477]LogWorld: Bringing up level for play took: 0.004198
+[2014.11.22-17.31.54:569][477]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 0,497
+[2014.11.22-17.32.13:164][268]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E8E2FC220
+[2014.11.22-17.32.54:001][524]Cmd: QUIT_EDITOR
+[2014.11.22-17.32.58:429][524]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.22-17.33.01:134][524]LogExit: Preparing to exit.
+[2014.11.22-17.33.05:790][524]LogExit: Editor shut down
+[2014.11.22-17.33.05:815][524]LogExit: Transaction tracking system shut down
+[2014.11.22-17.33.05:850][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EF34E9DA0
+[2014.11.22-17.33.08:623][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EF2903920
+[2014.11.22-17.33.08:623][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EF2903740
+[2014.11.22-17.33.08:623][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E9FCCF4C0
+[2014.11.22-17.33.08:623][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EFBC3DF80
+[2014.11.22-17.33.08:623][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005EFBC3E7A0
+[2014.11.22-17.33.08:623][524]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000005E95E61C60
+[2014.11.22-17.33.08:623][524]LogExit: Object subsystem successfully closed.
+[2014.11.22-17.33.12:447][524]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (154)
+[2014.11.22-17.33.12:447][524]LogModuleManager: Shutting down and abandoning module HTTP (153)
+[2014.11.22-17.33.12:510][524]LogModuleManager: Shutting down and abandoning module CrashTracker (152)
+[2014.11.22-17.33.12:510][524]LogModuleManager: Shutting down and abandoning module SuperSearch (151)
+[2014.11.22-17.33.12:522][524]LogModuleManager: Shutting down and abandoning module SceneOutliner (150)
+[2014.11.22-17.33.12:522][524]LogModuleManager: Shutting down and abandoning module EditorWidgets (149)
+[2014.11.22-17.33.12:522][524]LogModuleManager: Shutting down and abandoning module CollectionManager (148)
+[2014.11.22-17.33.12:536][524]LogModuleManager: Shutting down and abandoning module StatsViewer (147)
+[2014.11.22-17.33.12:576][524]LogModuleManager: Shutting down and abandoning module FoliageEdit (146)
+[2014.11.22-17.33.12:593][524]LogModuleManager: Shutting down and abandoning module LandscapeEditor (145)
+[2014.11.22-17.33.12:663][524]LogModuleManager: Shutting down and abandoning module MeshPaint (144)
+[2014.11.22-17.33.12:673][524]LogModuleManager: Shutting down and abandoning module ActorPickerMode (143)
+[2014.11.22-17.33.12:673][524]LogModuleManager: Shutting down and abandoning module GeometryMode (142)
+[2014.11.22-17.33.12:674][524]LogModuleManager: Shutting down and abandoning module TextureAlignMode (141)
+[2014.11.22-17.33.12:674][524]LogModuleManager: Shutting down and abandoning module BspMode (140)
+[2014.11.22-17.33.12:674][524]LogModuleManager: Shutting down and abandoning module PlacementMode (139)
+[2014.11.22-17.33.12:674][524]LogModuleManager: Shutting down and abandoning module DesktopPlatform (138)
+[2014.11.22-17.33.12:697][524]LogModuleManager: Shutting down and abandoning module AutomationWorker (137)
+[2014.11.22-17.33.12:705][524]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (136)
+[2014.11.22-17.33.12:738][524]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (135)
+[2014.11.22-17.33.12:757][524]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (134)
+[2014.11.22-17.33.12:764][524]LogModuleManager: Shutting down and abandoning module UndoHistory (133)
+[2014.11.22-17.33.12:764][524]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (132)
+[2014.11.22-17.33.12:764][524]LogModuleManager: Shutting down and abandoning module UserFeedback (131)
+[2014.11.22-17.33.12:764][524]LogModuleManager: Shutting down and abandoning module XmlParser (130)
+[2014.11.22-17.33.12:777][524]LogModuleManager: Shutting down and abandoning module Blutility (129)
+[2014.11.22-17.33.12:777][524]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (128)
+[2014.11.22-17.33.12:777][524]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (127)
+[2014.11.22-17.33.12:777][524]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (124)
+[2014.11.22-17.33.12:803][524]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (123)
+[2014.11.22-17.33.12:807][524]LogModuleManager: Shutting down and abandoning module InputBindingEditor (122)
+[2014.11.22-17.33.12:854][524]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (121)
+[2014.11.22-17.33.12:854][524]LogModuleManager: Shutting down and abandoning module SettingsEditor (120)
+[2014.11.22-17.33.12:854][524]LogModuleManager: Shutting down and abandoning module SessionLauncher (119)
+[2014.11.22-17.33.12:861][524]LogModuleManager: Shutting down and abandoning module SessionFrontend (118)
+[2014.11.22-17.33.12:864][524]LogModuleManager: Shutting down and abandoning module ProfilerClient (117)
+[2014.11.22-17.33.12:874][524]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (116)
+[2014.11.22-17.33.12:884][524]LogModuleManager: Shutting down and abandoning module DeviceManager (115)
+[2014.11.22-17.33.12:904][524]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2014.11.22-17.33.12:912][524]LogModuleManager: Shutting down and abandoning module AutomationWindow (113)
+[2014.11.22-17.33.12:921][524]LogModuleManager: Shutting down and abandoning module Layers (112)
+[2014.11.22-17.33.12:970][524]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (111)
+[2014.11.22-17.33.12:970][524]LogModuleManager: Shutting down and abandoning module DetailCustomizations (110)
+[2014.11.22-17.33.12:988][524]LogModuleManager: Shutting down and abandoning module PackagesDialog (109)
+[2014.11.22-17.33.12:999][524]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2014.11.22-17.33.13:027][524]LogModuleManager: Shutting down and abandoning module AssetRegistry (107)
+[2014.11.22-17.33.15:220][524]LogModuleManager: Shutting down and abandoning module Persona (106)
+[2014.11.22-17.33.15:254][524]LogModuleManager: Shutting down and abandoning module GraphEditor (105)
+[2014.11.22-17.33.15:262][524]LogModuleManager: Shutting down and abandoning module ClassViewer (104)
+[2014.11.22-17.33.15:262][524]LogModuleManager: Shutting down and abandoning module Toolbox (103)
+[2014.11.22-17.33.15:262][524]LogModuleManager: Shutting down and abandoning module ModuleUI (102)
+[2014.11.22-17.33.15:271][524]LogModuleManager: Shutting down and abandoning module Sequencer (101)
+[2014.11.22-17.33.15:302][524]LogModuleManager: Shutting down and abandoning module MovieSceneTools (100)
+[2014.11.22-17.33.15:346][524]LogModuleManager: Shutting down and abandoning module OutputLog (99)
+[2014.11.22-17.33.15:360][524]LogModuleManager: Shutting down and abandoning module GammaUI (98)
+[2014.11.22-17.33.15:368][524]LogModuleManager: Shutting down and abandoning module Documentation (97)
+[2014.11.22-17.33.15:375][524]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (96)
+[2014.11.22-17.33.15:386][524]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (95)
+[2014.11.22-17.33.15:399][524]LogModuleManager: Shutting down and abandoning module AnalyticsET (94)
+[2014.11.22-17.33.15:399][524]LogModuleManager: Shutting down and abandoning module Analytics (93)
+[2014.11.22-17.33.15:399][524]LogModuleManager: Shutting down and abandoning module GameplayDebugger (92)
+[2014.11.22-17.33.15:399][524]LogModuleManager: Shutting down and abandoning module AIModule (91)
+[2014.11.22-17.33.15:399][524]LogModuleManager: Shutting down and abandoning module ProfilerService (90)
+[2014.11.22-17.33.15:502][524]LogModuleManager: Shutting down and abandoning module TaskGraph (89)
+[2014.11.22-17.33.15:518][524]LogModuleManager: Shutting down and abandoning module SlateRemote (88)
+[2014.11.22-17.33.15:518][524]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (87)
+[2014.11.22-17.33.15:518][524]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (86)
+[2014.11.22-17.33.15:518][524]LogModuleManager: Shutting down and abandoning module CableComponent (85)
+[2014.11.22-17.33.15:529][524]LogModuleManager: Shutting down and abandoning module MessagingDebugger (84)
+[2014.11.22-17.33.15:567][524]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2014.11.22-17.33.15:567][524]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2014.11.22-17.33.15:567][524]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2014.11.22-17.33.15:567][524]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2014.11.22-17.33.15:567][524]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (79)
+[2014.11.22-17.33.15:567][524]LogModuleManager: Shutting down and abandoning module Matinee (78)
+[2014.11.22-17.33.15:587][524]LogModuleManager: Shutting down and abandoning module Kismet (77)
+[2014.11.22-17.33.15:604][524]LogModuleManager: Shutting down and abandoning module SlateReflector (76)
+[2014.11.22-17.33.15:620][524]LogModuleManager: Shutting down and abandoning module LevelEditor (75)
+[2014.11.22-17.33.15:763][524]LogModuleManager: Shutting down and abandoning module IntroTutorials (74)
+[2014.11.22-17.33.15:781][524]LogModuleManager: Shutting down and abandoning module ContentBrowser (73)
+[2014.11.22-17.33.15:781][524]LogModuleManager: Shutting down and abandoning module PropertyEditor (72)
+[2014.11.22-17.33.15:781][524]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2014.11.22-17.33.15:817][524]LogModuleManager: Shutting down and abandoning module Paper2DEditor (70)
+[2014.11.22-17.33.15:864][524]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (69)
+[2014.11.22-17.33.15:868][524]LogModuleManager: Shutting down and abandoning module PluginsEditor (68)
+[2014.11.22-17.33.15:879][524]LogModuleManager: Shutting down and abandoning module MainFrame (67)
+[2014.11.22-17.33.15:891][524]LogModuleManager: Shutting down and abandoning module EpicSurvey (66)
+[2014.11.22-17.33.15:905][524]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (65)
+[2014.11.22-17.33.15:912][524]LogModuleManager: Shutting down and abandoning module UObjectPlugin (64)
+[2014.11.22-17.33.15:912][524]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (63)
+[2014.11.22-17.33.15:928][524]LogModuleManager: Shutting down and abandoning module SourceControl (62)
+[2014.11.22-17.33.15:945][524]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (61)
+[2014.11.22-17.33.15:962][524]LogModuleManager: Shutting down and abandoning module BlankPlugin (60)
+[2014.11.22-17.33.15:962][524]LogModuleManager: Shutting down and abandoning module ScriptPlugin (59)
+[2014.11.22-17.33.15:974][524]LogModuleManager: Shutting down and abandoning module UdpMessaging (58)
+[2014.11.22-17.33.16:075][524]LogModuleManager: Shutting down and abandoning module Paper2D (57)
+[2014.11.22-17.33.16:087][524]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (56)
+[2014.11.22-17.33.16:217][524]LogModuleManager: Shutting down and abandoning module ImageWrapper (55)
+[2014.11.22-17.33.16:217][524]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (54)
+[2014.11.22-17.33.16:217][524]LogModuleManager: Shutting down and abandoning module FunctionalTesting (53)
+[2014.11.22-17.33.16:230][524]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (52)
+[2014.11.22-17.33.16:255][524]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (51)
+[2014.11.22-17.33.16:294][524]LogModuleManager: Shutting down and abandoning module MessageLog (50)
+[2014.11.22-17.33.16:294][524]LogModuleManager: Shutting down and abandoning module UMGEditor (49)
+[2014.11.22-17.33.16:314][524]LogModuleManager: Shutting down and abandoning module UMG (48)
+[2014.11.22-17.33.16:325][524]LogModuleManager: Shutting down and abandoning module Slate (47)
+[2014.11.22-17.33.16:325][524]LogModuleManager: Shutting down and abandoning module EditorStyle (46)
+[2014.11.22-17.33.16:556][524]LogModuleManager: Shutting down and abandoning module SessionServices (45)
+[2014.11.22-17.33.16:556][524]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (44)
+[2014.11.22-17.33.16:556][524]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (43)
+[2014.11.22-17.33.16:562][524]LogModuleManager: Shutting down and abandoning module XAudio2 (42)
+[2014.11.22-17.33.16:562][524]LogModuleManager: Shutting down and abandoning module Networking (40)
+[2014.11.22-17.33.16:562][524]LogModuleManager: Shutting down and abandoning module Core (39)
+[2014.11.22-17.33.16:562][524]LogModuleManager: Shutting down and abandoning module KismetCompiler (38)
+[2014.11.22-17.33.16:562][524]LogModuleManager: Shutting down and abandoning module PhysXFormats (37)
+[2014.11.22-17.33.16:562][524]LogModuleManager: Shutting down and abandoning module MeshUtilities (36)
+[2014.11.22-17.33.16:589][524]LogModuleManager: Shutting down and abandoning module DerivedDataCache (35)
+[2014.11.22-17.33.16:642][524]LogDerivedDataCache: Shutdown
+[2014.11.22-17.33.16:642][524]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (34)
+[2014.11.22-17.33.16:668][524]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (33)
+[2014.11.22-17.33.16:675][524]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (32)
+[2014.11.22-17.33.16:688][524]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (31)
+[2014.11.22-17.33.16:688][524]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (30)
+[2014.11.22-17.33.16:698][524]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (29)
+[2014.11.22-17.33.16:706][524]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (28)
+[2014.11.22-17.33.16:711][524]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (27)
+[2014.11.22-17.33.16:712][524]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (26)
+[2014.11.22-17.33.16:713][524]LogModuleManager: Shutting down and abandoning module Messaging (25)
+[2014.11.22-17.33.16:713][524]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (24)
+[2014.11.22-17.33.16:714][524]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.22-17.33.16:735][524]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.22-17.33.16:748][524]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.22-17.33.16:749][524]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.22-17.33.16:749][524]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.22-17.33.16:756][524]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.22-17.33.16:756][524]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.22-17.33.16:796][524]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.22-17.33.16:796][524]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.22-17.33.16:805][524]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.22-17.33.16:836][524]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.22-17.33.16:836][524]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.22-17.33.16:847][524]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.22-17.33.16:847][524]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.22-17.33.16:847][524]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.22-17.33.16:851][524]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.22-17.33.16:851][524]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.22-17.33.16:851][524]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.22-17.33.16:860][524]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.22-17.33.16:869][524]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.22-17.33.16:876][524]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.22-17.33.17:020][524]LogExit: Exiting.
+[2014.11.22-17.33.17:378][524]Log file closed, 11/22/14 18:33:17

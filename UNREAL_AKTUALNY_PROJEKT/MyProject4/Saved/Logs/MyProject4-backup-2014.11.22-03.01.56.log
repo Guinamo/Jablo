@@ -1,0 +1,1042 @@
+Log file open, 11/21/14 22:30:22
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.4.3-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Sep 17 2014 07:16:51
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.11.21-21.30.22:794][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.21-21.30.22:825][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.21-21.30.22:893][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.21-21.30.22:907][  0]LogInit: Object subsystem initialized
+[2014.11.21-21.30.22:909][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.21-21.30.22:909][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.21-21.30.24:742][  0]LogInit: Computer: ADAM
+[2014.11.21-21.30.24:742][  0]LogInit: User: Adam
+[2014.11.21-21.30.24:744][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.21-21.30.24:744][  0]LogInit: High frequency timer resolution =3.161621 MHz
+[2014.11.21-21.30.24:744][  0]LogMemory: Memory total: Physical=3.0GB (3GB approx) Virtual=131072.0GB
+[2014.11.21-21.30.24:744][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.21-21.30.24:744][  0]LogMemory: Process Physical Memory: 60.15 MB used, 60.15 MB peak
+[2014.11.21-21.30.24:744][  0]LogMemory: Process Virtual Memory: 36.19 MB used, 36.19 MB peak
+[2014.11.21-21.30.24:744][  0]LogMemory: Physical Memory: 2541.53 MB used, 3071.55 MB total
+[2014.11.21-21.30.24:744][  0]LogMemory: Virtual Memory: 268.48 MB used, 134217728.00 MB total
+[2014.11.21-21.30.25:720][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2014.11.21-21.30.25:720][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 1535MB of shared system memory, 2 output[s]
+[2014.11.21-21.30.25:722][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.21-21.30.25:722][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.21-21.30.25:722][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.21-21.30.25:732][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.21-21.30.25:749][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.21-21.30.26:126][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.21-21.30.31:948][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.21-21.30.32:719][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.21-21.30.32:786][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.21-21.30.35:822][  0]LogDerivedDataCache: Loaded boot cache 3.03s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.21-21.30.35:822][  0]LogDerivedDataCache:Display: Loaded Boot cache: I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc
+[2014.11.21-21.30.35:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.21-21.30.35:823][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.21-21.30.35:823][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.21-21.30.35:823][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.11.21-21.30.35:835][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.11.21-21.30.35:835][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.11.21-21.30.35:835][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.11.21-21.30.40:255][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.21-21.30.40:255][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.21-21.30.42:108][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.21-21.30.49:918][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_2764_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1194_0///////STATCAT_Advanced////
+[2014.11.21-21.30.49:918][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.21-21.30.50:137][  0]SourceControl: Info Source control is disabled
+[2014.11.21-21.30.50:137][  0]SourceControl: Info Source control is disabled
+[2014.11.21-21.30.50:143][  0]SourceControl: Info Source control is disabled
+[2014.11.21-21.30.50:750][  0]BlueprintLog: New page: Editor Load
+[2014.11.21-21.30.51:149][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.21-21.30.51:149][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.21-21.30.51:635][  0]LogEngine: Initializing Engine...
+[2014.11.21-21.30.52:081][  0]LogInit: XAudio2 using 'GBo[niki (SB Audigy)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2014.11.21-21.30.52:111][  0]LogInit: FAudioDevice initialized.
+[2014.11.21-21.30.52:162][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.21-21.31.10:358][  0]LogDerivedDataCache: Saved boot cache 18.19s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.21-21.31.20:329][  0]LogInit: Texture streaming: Enabled
+[2014.11.21-21.31.20:421][  0]LogInit: Transaction tracking system initialized
+[2014.11.21-21.31.20:713][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2014.11.21-21.31.22:138][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.21-21.31.24:485][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.21-21.31.24:524][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.21-21.31.24:530][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.21-21.31.24:788][  0]LogConsoleResponse:Display: 
+[2014.11.21-21.31.25:649][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1678_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1194_0///////STATCAT_Advanced////
+[2014.11.21-21.31.25:649][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_ab4_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_1194_0///////STATCAT_Advanced////
+[2014.11.21-21.31.25:649][  0]SourceControl: Info Source control is disabled
+[2014.11.21-21.31.25:649][  0]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.21-21.31.25:663][  0]LightingResults: New page: Lighting Build
+[2014.11.21-21.31.25:672][  0]MapCheck: New page: Map Check
+[2014.11.21-21.31.25:672][  0]LightingResults: New page: Lighting Build
+[2014.11.21-21.31.25:693][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009EF0F10360
+[2014.11.21-21.31.30:288][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.21-21.31.30:381][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.21-21.31.30:408][  0]Cmd: MAP CHECKDEP
+[2014.11.21-21.31.30:409][  0]MapCheck: New page: Minimal_Default - 21 Nov 2014 23:31:30
+[2014.11.21-21.31.31:726][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [1.317,251ms] ==========
+[2014.11.21-21.31.31:726][  0]LogFileHelpers: Loading map 'Minimal_Default' took 6.076
+[2014.11.21-21.31.32:857][  0]LogCollectionManager: Loaded 0 collections in 0.001837 seconds
+[2014.11.21-21.31.33:194][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game'
+[2014.11.21-21.31.37:007][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.21-21.31.39:167][  0]LogInit: Using libcurl 7.34.0
+[2014.11.21-21.31.39:167][  0]LogInit:  - built for x86_64-pc-win32
+[2014.11.21-21.31.39:167][  0]LogInit:  - supports SSL with WinSSL
+[2014.11.21-21.31.39:167][  0]LogInit:  - other features:
+[2014.11.21-21.31.39:167][  0]LogInit:      CURL_VERSION_SSL
+[2014.11.21-21.31.39:167][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.11.21-21.31.39:167][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.11.21-21.31.39:167][  0]LogInit:      CURL_VERSION_IDN
+[2014.11.21-21.31.39:167][  0]LogInit: Libcurl will NOT reuse connections
+[2014.11.21-21.31.39:209][  0]LogLoad: Full Startup: 97.36 seconds (BP compile: 0.31 seconds)
+[2014.11.21-21.31.40:269][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.21-21.31.41:357][  0]LogRenderer:Warning: Reallocating scene render targets to support 664x584.
+[2014.11.21-21.31.42:796][  4]LogAssetRegistry: Asset discovery search completed in 22.0946 seconds
+[2014.11.21-21.34.52:185][163]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-21.34.52:751][163]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-21.34.52:885][163]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_Self_20.EdGraphPin_2987"''
+[2014.11.21-21.35.48:053][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:053][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:270][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:270][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:270][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:270][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:270][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:270][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:270][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:271][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:272][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.35.48:272][880]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.38.10:285][277]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BP_AI_Controller" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_AI_Controller.uasset" SILENT=true
+[2014.11.21-21.38.21:590][277]LogSavePackage: Save=6002.395996ms
+[2014.11.21-21.38.21:592][277]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_AI_Controller8A1F01784ACABA003BEBAEA60D9AA338.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_AI_Controller.uasset'
+[2014.11.21-21.38.22:897][316]BlueprintLog: New page: Compile BP_AI_Controller
+[2014.11.21-21.38.24:311][316]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.21-21.38.29:331][316]BlueprintEditorCompileResults: Info [0501,39] Compile of BP_AI_Controller successful! [in 135 ms]
+[2014.11.21-21.39.53:635][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BP_AI_Controller" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_AI_Controller.uasset" SILENT=true
+[2014.11.21-21.39.59:592][369]LogSavePackage: Save=5511.932129ms
+[2014.11.21-21.39.59:594][369]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_AI_Controller77D7EF1F40238E4B258BE6BAF58D43D8.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BP_AI_Controller.uasset'
+[2014.11.21-21.40.05:270][412]BlueprintLog: New page: Compile BP_AI_Controller
+[2014.11.21-21.40.08:279][412]BlueprintEditorCompileResults: Info [0603,50] Compile of BP_AI_Controller successful! [in 5 ms]
+[2014.11.21-21.41.41:875][494]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.060
+[2014.11.21-21.41.41:955][494]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/wrogowie/BT_AI_Wrog] ([1] browsable assets)...
+[2014.11.21-21.41.41:974][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/wrogowie/BT_AI_Wrog]
+[2014.11.21-21.41.41:996][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/wrogowie/BT_AI_Wrog_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.21-21.41.48:167][494]LogSavePackage: Save=4604.953125ms
+[2014.11.21-21.41.48:169][494]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_Wrog_Auto16EAFFC384BD5B1B929DC55ACE5D4B6EC.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/wrogowie/BT_AI_Wrog_Auto1.uasset'
+[2014.11.21-21.41.49:155][494]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Mechanika/BP_Postac] ([1] browsable assets)...
+[2014.11.21-21.41.50:298][494]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Mechanika/BP_Postac.BP_Postac]
+[2014.11.21-21.41.50:298][494]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/BP_Postac]
+[2014.11.21-21.41.50:314][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/BP_Postac_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.21-21.41.59:662][494]LogSavePackage: Save=7937.703125ms
+[2014.11.21-21.41.59:664][494]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto1B973AC4B45B42AFF2ECAE2AEC2799324.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/BP_Postac_Auto1.uasset'
+[2014.11.21-21.41.59:694][494]LogFileHelpers: Auto-saving content packages took 17.819
+[2014.11.21-21.42.05:255][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset" SILENT=true
+[2014.11.21-21.42.11:148][545]LogSavePackage: Save=1853.902832ms
+[2014.11.21-21.42.11:149][545]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_WrogCD51AF024D53FDF2AAAA37838882F368.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset'
+[2014.11.21-21.42.11:191][545]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BB_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset" SILENT=true
+[2014.11.21-21.42.13:475][545]LogSavePackage: Save=40.441597ms
+[2014.11.21-21.42.13:475][545]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BB_AI_Wrog4BD91BAD44DB0254D85EE9B910E9970B.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset'
+[2014.11.21-21.45.38:164][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset" SILENT=true
+[2014.11.21-21.45.42:320][528]LogSavePackage: Save=3675.229248ms
+[2014.11.21-21.45.42:322][528]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_Wrog99E74AE24D75893A48C2ACA6FB5B89B4.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset'
+[2014.11.21-21.45.44:149][528]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BB_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset" SILENT=true
+[2014.11.21-21.45.45:557][528]LogSavePackage: Save=946.372742ms
+[2014.11.21-21.45.45:559][528]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BB_AI_WrogF8E63B004EDA0A521F8D12AA44DA2DBE.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset'
+[2014.11.21-21.45.55:793][783]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.21-21.45.55:990][783]PIE: New page: PIE session: Minimal_Default (21 Nov 2014 23:45:55)
+[2014.11.21-21.45.57:838][783]LogPlayLevel: PIE: StaticDuplicateObject took: (1.812190s)
+[2014.11.21-21.45.58:573][783]LogPlayLevel: PIE: World Init took: (0.735081s)
+[2014.11.21-21.45.58:584][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (2.563616s)
+[2014.11.21-21.46.00:801][783]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.21-21.46.01:318][783]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.21-21.46.01:715][783]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.21-21.46.01:724][783]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.21-22.46.01
+[2014.11.21-21.46.02:027][783]LogWorld: Bringing up level for play took: 0.700698
+[2014.11.21-21.46.02:561][783]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 7,071
+[2014.11.21-21.46.03:914][784]LogRenderer:Warning: Reallocating scene render targets to support 664x592.
+[2014.11.21-21.46.40:028][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.21-21.46.40:029][287]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2014.11.21-21.46.40:235][287]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009EEB1C6660
+[2014.11.21-21.47.56:569][985]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.21-21.48.01:848][985]LogPackageName: SearchForPackageOnDisk took   0.003s to resolve /Game/Blueprints/wrogowie/BTTask_BlueprintBase_New
+[2014.11.21-21.48.17:906][547]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.21-21.48.18:623][550]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.18:624][550]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.18:624][550]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:178][703]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:178][703]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:178][703]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:179][703]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:180][703]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:180][703]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:228][705]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:228][705]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:228][705]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:229][705]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:229][705]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:229][705]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:258][706]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:258][706]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:258][706]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:259][706]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:259][706]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:259][706]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:348][707]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:348][707]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:348][707]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:348][707]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:348][707]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:348][707]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:381][708]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:381][708]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:381][708]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:381][708]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:381][708]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:381][708]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:441][709]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:441][709]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:443][709]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:443][709]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:443][709]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:443][709]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:490][711]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:490][711]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:490][711]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.22:490][711]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-21.48.22:490][711]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-21.48.22:490][711]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-21.48.26:387][874]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/wrogowie'
+[2014.11.21-21.49.14:233][269]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.21-21.49.16:001][269]LogMetaData: Removing '/Game/Blueprints/wrogowie/BTT_Set_BB_Actor.SKEL_BTT_Set_BB_Actor_C' ref from Metadata '/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New.PackageMetaData'
+[2014.11.21-21.49.16:001][269]LogMetaData: Removing '/Game/Blueprints/wrogowie/BTT_Set_BB_Actor.BTT_Set_BB_Actor_C' ref from Metadata '/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New.PackageMetaData'
+[2014.11.21-21.49.16:160][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BTT_Set_BB_Actor" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset" SILENT=true
+[2014.11.21-21.49.19:804][269]LogSavePackage: Save=1826.070190ms
+[2014.11.21-21.49.19:805][269]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTT_Set_BB_Actor3BD94ECF415CF2E6C53347A913EB148B.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset'
+[2014.11.21-21.49.21:946][270]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/Blueprints/wrogowie/BTT_Set_BB_Actor
+[2014.11.21-21.50.03:038][452]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.50.03:038][452]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.50.03:039][452]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.51.24:459][893]LogClass:Warning: Type mismatch in NewVar of SKEL_BTT_Set_BB_Actor_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2014.11.21-21.51.43:589][718]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.51.43:589][718]LogSlate:Warning: GetFontFace failed to load or process 'Roboto-Regular'
+[2014.11.21-21.51.57:492][369]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BTT_Set_BB_Actor" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset" SILENT=true
+[2014.11.21-21.52.02:541][369]LogSavePackage: Save=2761.326172ms
+[2014.11.21-21.52.02:544][369]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTT_Set_BB_ActorB2DCC22E41ADCE862456EA9769C306FA.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset'
+[2014.11.21-21.52.04:458][449]BlueprintLog: New page: Compile BTT_Set_BB_Actor
+[2014.11.21-21.52.04:567][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.21-21.52.04:567][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2014.11.21-21.52.04:567][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.21-21.52.07:396][449]BlueprintEditorCompileResults: Info [1322,65] Compile of BTT_Set_BB_Actor successful! [in 2 ms]
+[2014.11.21-21.52.15:308][777]BlueprintLog: New page: Compile BTT_Set_BB_Actor
+[2014.11.21-21.52.15:535][777]BlueprintEditorCompileResults: Info [1333,52] Compile of BTT_Set_BB_Actor successful! [in 2 ms]
+[2014.11.21-21.52.16:704][809]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BTT_Set_BB_Actor" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset" SILENT=true
+[2014.11.21-21.52.23:601][809]LogSavePackage: Save=2740.641357ms
+[2014.11.21-21.52.23:602][809]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTT_Set_BB_Actor598522AD49AE1FB4333C30AC2AE4402A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset'
+[2014.11.21-21.52.47:734][460]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.084
+[2014.11.21-21.52.47:831][460]LogSavePackage: Save=31.798561ms
+[2014.11.21-21.52.47:834][460]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTTask_BlueprintBase_New_Auto2831CB21546CFF5D7791225978557FA5A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New_Auto2.uasset'
+[2014.11.21-21.52.47:882][460]LogFileHelpers: Auto-saving content packages took 0.148
+[2014.11.21-21.53.39:319][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset" SILENT=true
+[2014.11.21-21.53.41:703][148]LogSavePackage: Save=960.397217ms
+[2014.11.21-21.53.41:705][148]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_Wrog38E4C7E044DCC51E97D2EFA4580772F5.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset'
+[2014.11.21-21.53.41:749][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BB_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset" SILENT=true
+[2014.11.21-21.53.43:189][148]LogSavePackage: Save=934.135986ms
+[2014.11.21-21.53.43:192][148]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BB_AI_Wrog3CF4E7324E5C3D6E9A1E50B03EF73875.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset'
+[2014.11.21-22.02.52:611][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-22.02.52:612][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-22.02.52:612][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-22.02.52:612][373]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-22.02.52:628][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_279.EdGraphPin_7633"''
+[2014.11.21-22.02.52:628][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_277.EdGraphPin_7631"''
+[2014.11.21-22.02.52:630][373]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_57187.EdGraphPin_7635"''
+[2014.11.21-22.02.53:878][376]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.21-22.02.54:027][376]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.150
+[2014.11.21-22.02.54:045][376]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/wrogowie/BTT_Set_BB_Actor] ([1] browsable assets)...
+[2014.11.21-22.02.54:058][376]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/wrogowie/BTT_Set_BB_Actor]
+[2014.11.21-22.03.04:583][376]LogSavePackage: Save=3615.999756ms
+[2014.11.21-22.03.04:584][376]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTT_Set_BB_Actor_Auto3FD227EEA41BF089CBE23E4AE7A0431DB.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/wrogowie/BTT_Set_BB_Actor_Auto3.uasset'
+[2014.11.21-22.03.04:604][376]LogFileHelpers: Auto-saving content packages took 10.577
+[2014.11.21-22.04.19:776][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BTT_Set_BB_Actor" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset" SILENT=true
+[2014.11.21-22.04.27:490][445]LogSavePackage: Save=3646.018555ms
+[2014.11.21-22.04.27:491][445]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTT_Set_BB_Actor7CB3F2E7472894DF5A9FE38AB63E56F2.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset'
+[2014.11.21-22.04.30:275][528]BlueprintLog: New page: Compile BTT_Set_BB_Actor
+[2014.11.21-22.04.31:509][528]BlueprintEditorCompileResults: Info [2068,50] Compile of BTT_Set_BB_Actor successful! [in 38 ms]
+[2014.11.21-22.04.42:034][870]LogPropertyNode: Object is invalid AllowedTypes
+[2014.11.21-22.05.33:535][590]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-22.05.33:536][590]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-22.05.33:536][590]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-22.05.33:536][590]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-22.05.33:549][590]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_CallFunction_194973.EdGraphPin_2830"''
+[2014.11.21-22.05.33:550][590]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_558.EdGraphPin_2818"''
+[2014.11.21-22.05.33:550][590]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/wrogowie/BTT_Set_BB_Bool.BTT_Set_BB_Bool:EventGraph.K2Node_VariableGet_560 or K2Node_VariableGet /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere:UserConstructionScript.K2Node_VariableGet_560
+[2014.11.21-22.05.33:550][590]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'"K2Node_VariableGet_560.EdGraphPin_2824"''
+[2014.11.21-22.06.07:102][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BTT_Set_BB_Actor" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset" SILENT=true
+[2014.11.21-22.06.12:092][723]LogSavePackage: Save=3643.475830ms
+[2014.11.21-22.06.12:093][723]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTT_Set_BB_Actor1343FBBA4ADD73811C82BC822B694085.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Actor.uasset'
+[2014.11.21-22.06.16:020][874]BlueprintLog: New page: Compile BTT_Set_BB_Actor
+[2014.11.21-22.06.16:195][874]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.21-22.06.18:079][874]BlueprintEditorCompileResults: Info [2174,25] Compile of BTT_Set_BB_Actor successful! [in 24 ms]
+[2014.11.21-22.06.22:048][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BTT_Set_BB_Bool" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Bool.uasset" SILENT=true
+[2014.11.21-22.06.27:935][ 27]LogSavePackage: Save=2729.171631ms
+[2014.11.21-22.06.27:937][ 27]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTT_Set_BB_BoolD6E0C6E1423EEA6595F0A99F64728B48.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_Set_BB_Bool.uasset'
+[2014.11.21-22.06.32:038][ 91]BlueprintLog: New page: Compile BTT_Set_BB_Bool
+[2014.11.21-22.06.33:118][ 91]BlueprintEditorCompileResults: Info [2190,22] Compile of BTT_Set_BB_Bool successful! [in 4 ms]
+[2014.11.21-22.11.00:935][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/BP_Postac.uasset" SILENT=true
+[2014.11.21-22.11.08:076][115]LogSavePackage: Save=5748.660645ms
+[2014.11.21-22.11.08:077][115]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_PostacA21FE9E6497F72080A46458E5C5B71B2.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/BP_Postac.uasset'
+[2014.11.21-22.11.10:837][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTTask_BlueprintBase_New.uasset" SILENT=true
+[2014.11.21-22.11.10:875][115]LogSavePackage: Save=17.170938ms
+[2014.11.21-22.11.10:876][115]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTTask_BlueprintBase_NewFAE7A93343B9C0D561C989B3FB31DBB1.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTTask_BlueprintBase_New.uasset'
+[2014.11.21-22.25.36:191][707]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Props'
+[2014.11.21-22.25.48:722][201]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints'
+[2014.11.21-22.25.48:939][205]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.48:939][205]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.48:939][205]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.48:939][205]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.48:939][205]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.48:939][205]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:238][212]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:238][212]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:238][212]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:240][212]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:240][212]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:241][212]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:271][213]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:272][213]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:272][213]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:272][213]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:272][213]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:272][213]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:325][214]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:325][214]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:325][214]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:325][214]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:326][214]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:326][214]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:365][215]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:365][215]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:365][215]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:365][215]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:365][215]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:365][215]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:402][216]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:403][216]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:403][216]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:403][216]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:403][216]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:403][216]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:437][217]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:437][217]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:438][217]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:439][217]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:439][217]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:439][217]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:475][218]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:475][218]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:476][218]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:482][218]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:482][218]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:482][218]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:539][220]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:539][220]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:539][220]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:539][220]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:539][220]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:540][220]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:586][221]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:586][221]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:586][221]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:587][221]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:588][221]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:588][221]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:622][222]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:622][222]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:622][222]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:622][222]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:622][222]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:622][222]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:662][223]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:662][223]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:663][223]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:663][223]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:663][223]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:663][223]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:700][224]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:700][224]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:700][224]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:702][224]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:702][224]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:703][224]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:738][225]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:738][225]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:739][225]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:740][225]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:741][225]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:741][225]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:804][227]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:804][227]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:804][227]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:806][227]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:806][227]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:806][227]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:847][228]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:847][228]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:847][228]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:848][228]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:848][228]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:848][228]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:879][229]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:879][229]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:879][229]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:880][229]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:880][229]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:880][229]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:912][230]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:912][230]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:912][230]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:912][230]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:913][230]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:913][230]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:946][231]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:946][231]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:947][231]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:947][231]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:947][231]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:947][231]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:990][232]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:990][232]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:990][232]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.49:990][232]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.49:990][232]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.49:990][232]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:023][233]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:023][233]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:023][233]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:023][233]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:023][233]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:023][233]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:064][234]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:064][234]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:064][234]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:064][234]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:064][234]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:064][234]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:132][236]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:132][236]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:132][236]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:133][236]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:133][236]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:133][236]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:197][238]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:197][238]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:199][238]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:200][238]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:200][238]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:200][238]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:233][239]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:233][239]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:233][239]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:233][239]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:233][239]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:233][239]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:259][240]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:259][240]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:259][240]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:261][240]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:261][240]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:262][240]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:302][241]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:302][241]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:304][241]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:304][241]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:304][241]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:304][241]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:336][242]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:336][242]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:338][242]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:339][242]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:339][242]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:339][242]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:372][243]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:372][243]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:372][243]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:373][243]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:373][243]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:374][243]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:407][244]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:407][244]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:408][244]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:408][244]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:408][244]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:408][244]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:443][245]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:443][245]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:443][245]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:443][245]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:444][245]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:444][245]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:482][246]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:482][246]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:482][246]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.25.50:482][246]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:00FA
+[2014.11.21-22.25.50:483][246]LogScript:Warning: Accessed None 'CallFunc_GetMovementComponent_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0125
+[2014.11.21-22.25.50:483][246]LogScript:Warning: Accessed None 'CallFunc_GetPlayerPawn_ReturnValue'
+	HeroTPP_AnimBlueprint_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_1.SkeletalMeshComponent0.HeroTPP_AnimBlueprint_C_0
+	Function /Game/Blueprints/HeroTPP_AnimBlueprint.HeroTPP_AnimBlueprint_C:ExecuteUbergraph_HeroTPP_AnimBlueprint:0054
+[2014.11.21-22.26.30:892][965]LogMaterial: Missing cached shader map for material M_Lamp, compiling.
+[2014.11.21-22.36.36:949][155]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Shapes'
+[2014.11.21-22.51.34:010][199]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.21-22.51.34:133][199]PIE: New page: PIE session: Minimal_Default (22 Nov 2014 00:51:34)
+[2014.11.21-22.51.34:377][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.223129s)
+[2014.11.21-22.51.34:502][199]LogPlayLevel: PIE: World Init took: (0.125093s)
+[2014.11.21-22.51.34:502][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.348557s)
+[2014.11.21-22.51.34:633][199]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.21-22.51.34:712][199]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.21-22.51.34:808][199]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.21-22.51.34:808][199]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.21-23.51.34
+[2014.11.21-22.51.34:853][199]LogWorld: Bringing up level for play took: 0.141040
+[2014.11.21-22.51.34:995][199]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 1,505
+[2014.11.21-22.52.17:637][625]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.21-22.52.17:799][626]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000009EF2368E00
+[2014.11.21-22.54.55:768][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset" SILENT=true
+[2014.11.21-22.54.58:118][739]LogSavePackage: Save=1875.873169ms
+[2014.11.21-22.54.58:120][739]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_WrogD3629E46410CEA23F36037B74DAEB032.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset'
+[2014.11.21-22.54.59:950][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BB_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset" SILENT=true
+[2014.11.21-22.55.03:170][739]LogSavePackage: Save=921.063293ms
+[2014.11.21-22.55.03:172][739]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BB_AI_WrogF70B4A2F4439C02ADAEC218DACB51A2D.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset'
+[2014.11.21-22.58.03:529][171]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2014.11.21-22.58.36:553][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset" SILENT=true
+[2014.11.21-22.58.40:711][234]LogSavePackage: Save=3698.596924ms
+[2014.11.21-22.58.40:713][234]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_WrogD3D981294BA85C868E4B5E952696B717.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset'
+[2014.11.21-22.58.43:446][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BB_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset" SILENT=true
+[2014.11.21-22.58.43:933][234]LogSavePackage: Save=31.609419ms
+[2014.11.21-22.58.43:933][234]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BB_AI_Wrog8AD51F4A40772F87B323D8A262834F0C.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset'
+[2014.11.22-01.14.44:122][486]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.073
+[2014.11.22-01.14.44:146][486]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/wrogowie/BT_AI_Wrog] ([1] browsable assets)...
+[2014.11.22-01.14.44:162][486]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/wrogowie/BT_AI_Wrog]
+[2014.11.22-01.14.44:171][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/wrogowie/BT_AI_Wrog_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-01.14.48:456][486]LogSavePackage: Save=3751.237793ms
+[2014.11.22-01.14.48:458][486]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_Wrog_Auto4C775877043F7497B8A849B87BEED20A2.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/wrogowie/BT_AI_Wrog_Auto4.uasset'
+[2014.11.22-01.14.48:483][486]LogFileHelpers: Auto-saving content packages took 4.360
+[2014.11.22-01.39.48:885][ 41]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.22-01.39.52:483][202]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2014.11.22-01.39.57:322][202]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/Blueprints/wrogowie/BTTask_BlueprintBase_New
+[2014.11.22-01.40.01:931][421]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Minimal_Default' took 0.127
+[2014.11.22-01.40.01:973][421]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New] ([1] browsable assets)...
+[2014.11.22-01.40.01:990][421]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New]
+[2014.11.22-01.40.02:523][421]LogSavePackage: Save=66.642715ms
+[2014.11.22-01.40.02:523][421]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTTask_BlueprintBase_New_Auto5B6EE320647C707CCC42ED7815613C214.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New_Auto5.uasset'
+[2014.11.22-01.40.02:557][421]LogFileHelpers: Auto-saving content packages took 0.626
+[2014.11.22-01.45.41:839][581]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2014.11.22-01.46.24:877][760]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTTask_BlueprintBase_New.uasset" SILENT=true
+[2014.11.22-01.46.28:084][760]LogSavePackage: Save=2749.474121ms
+[2014.11.22-01.46.28:085][760]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTTask_BlueprintBase_New26E6BEAF4CFD855E0C33CF8A7DF49F87.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTTask_BlueprintBase_New.uasset'
+[2014.11.22-01.46.30:904][807]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/Blueprints/wrogowie/BTTask_BlueprintBase_New
+[2014.11.22-01.46.31:573][843]BlueprintLog: New page: Compile BTTask_BlueprintBase_New
+[2014.11.22-01.46.33:335][843]BlueprintEditorCompileResults: Info [5390,35] Compile of BTTask_BlueprintBase_New successful! [in 32 ms]
+[2014.11.22-01.46.40:053][121]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/wrogowie'
+[2014.11.22-01.50.31:364][141]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.22-01.50.31:458][141]LogMetaData: Removing '/Game/Blueprints/wrogowie/BTT_AI_Obrazenia.BTT_AI_Obrazenia_C' ref from Metadata '/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New.PackageMetaData'
+[2014.11.22-01.50.31:458][141]LogMetaData: Removing '/Game/Blueprints/wrogowie/BTT_AI_Obrazenia.SKEL_BTT_AI_Obrazenia_C' ref from Metadata '/Game/Blueprints/wrogowie/BTTask_BlueprintBase_New.PackageMetaData'
+[2014.11.22-01.50.31:538][141]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BTT_AI_Obrazenia" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_AI_Obrazenia.uasset" SILENT=true
+[2014.11.22-01.50.33:403][141]LogSavePackage: Save=1847.268555ms
+[2014.11.22-01.50.33:404][141]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BTT_AI_ObrazeniaA0314E7D42C9594D3F27698EBA15070B.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BTT_AI_Obrazenia.uasset'
+[2014.11.22-01.50.41:913][145]LogPackageName: SearchForPackageOnDisk took   0.001s to resolve /Game/Blueprints/wrogowie/BTT_AI_Obrazenia
+[2014.11.22-01.51.21:158][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset" SILENT=true
+[2014.11.22-01.51.23:437][556]LogSavePackage: Save=1846.611572ms
+[2014.11.22-01.51.23:439][556]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_Wrog378660F94B0210EDB717678F25984582.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BT_AI_Wrog.uasset'
+[2014.11.22-01.51.24:381][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/wrogowie/BB_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/wrogowie/BB_AI_Wrog.uasset" SILENT=true
+[2014.11.22-01.51.28:452][556]LogSavePackage: Save=925.151367ms
+[2014.11.22-01.51.28:453][556]LogSavePackage: Moving 'I:/UNR

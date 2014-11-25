@@ -1,0 +1,1250 @@
+Log file open, 11/22/14 23:05:52
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.4.3-0+UE4
+LogInit: API Version: 0
+LogInit: Compiled (64-bit): Sep 17 2014 07:16:51
+LogInit: Build Configuration: Development
+LogInit: Branch Name: UE4
+LogInit: Command line: 
+LogInit: Base directory: D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/
+LogInit: Rocket: 0
+[2014.11.22-22.05.52:130][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2014.11.22-22.05.52:161][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2014.11.22-22.05.52:175][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2014.11.22-22.05.52:185][  0]LogInit: Object subsystem initialized
+[2014.11.22-22.05.52:189][  0]LogInit: Selected Device Profile: [Windows]
+[2014.11.22-22.05.52:189][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2014.11.22-22.05.52:217][  0]LogInit: Computer: ADAM
+[2014.11.22-22.05.52:218][  0]LogInit: User: Adam
+[2014.11.22-22.05.52:219][  0]LogInit: CPU Page size=4096, Cores=2
+[2014.11.22-22.05.52:219][  0]LogInit: High frequency timer resolution =3.161624 MHz
+[2014.11.22-22.05.52:219][  0]LogMemory: Memory total: Physical=3.0GB (3GB approx) Virtual=131072.0GB
+[2014.11.22-22.05.52:220][  0]LogMemory: Platform Memory Stats for Windows
+[2014.11.22-22.05.52:220][  0]LogMemory: Process Physical Memory: 60.13 MB used, 60.13 MB peak
+[2014.11.22-22.05.52:220][  0]LogMemory: Process Virtual Memory: 36.07 MB used, 36.07 MB peak
+[2014.11.22-22.05.52:220][  0]LogMemory: Physical Memory: 1400.40 MB used, 3071.55 MB total
+[2014.11.22-22.05.52:220][  0]LogMemory: Virtual Memory: 268.48 MB used, 134217728.00 MB total
+[2014.11.22-22.05.52:263][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 780 (Feature Level 11_0)
+[2014.11.22-22.05.52:263][  0]LogD3D11RHI: Adapter has 2988MB of dedicated video memory, 0MB of dedicated system memory, and 1535MB of shared system memory, 2 output[s]
+[2014.11.22-22.05.52:265][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2014.11.22-22.05.52:265][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2014.11.22-22.05.52:265][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2014.11.22-22.05.52:277][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2014.11.22-22.05.52:295][  0]LogD3D11RHI: Async texture creation enabled
+[2014.11.22-22.05.52:509][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2014.11.22-22.05.54:422][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-22.05.55:104][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-22.05.55:157][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2014.11.22-22.05.58:237][  0]LogDerivedDataCache: Loaded boot cache 3.08s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.22-22.05.58:237][  0]LogDerivedDataCache:Display: Loaded Boot cache: I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc
+[2014.11.22-22.05.58:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.22-22.05.58:238][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2014.11.22-22.05.58:238][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2014.11.22-22.05.58:238][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2014.11.22-22.05.58:250][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2014.11.22-22.05.58:250][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2014.11.22-22.05.58:251][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2014.11.22-22.05.58:552][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2014.11.22-22.05.58:552][  0]LogMeshUtilities: No automatic mesh merging module available
+[2014.11.22-22.06.02:035][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2014.11.22-22.06.07:834][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_1088_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_cc0_0///////STATCAT_Advanced////
+[2014.11.22-22.06.07:834][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2014.11.22-22.06.08:873][  0]SourceControl: Info Source control is disabled
+[2014.11.22-22.06.08:873][  0]SourceControl: Info Source control is disabled
+[2014.11.22-22.06.08:880][  0]SourceControl: Info Source control is disabled
+[2014.11.22-22.06.09:126][  0]BlueprintLog: New page: Editor Load
+[2014.11.22-22.06.10:194][  0]LogObj: 21438 objects as part of root set at end of initial load.
+[2014.11.22-22.06.10:194][  0]LogUObjectAllocator: 4218656 out of 0 bytes used by permanent object pool.
+[2014.11.22-22.06.10:608][  0]LogEngine: Initializing Engine...
+[2014.11.22-22.06.10:955][  0]LogInit: XAudio2 using 'GBo[niki (SB Audigy)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2014.11.22-22.06.10:974][  0]LogInit: FAudioDevice initialized.
+[2014.11.22-22.06.10:997][  0]LogAIModule: Creating AISystem for world NewWorld
+[2014.11.22-22.06.33:059][  0]LogDerivedDataCache: Saved boot cache 22.06s 39MB I:/UNREAL_AKTUALNY_PROJEKT/Jablo/DerivedDataCache/Boot.ddc.
+[2014.11.22-22.06.42:252][  0]LogInit: Texture streaming: Enabled
+[2014.11.22-22.06.42:297][  0]LogInit: Transaction tracking system initialized
+[2014.11.22-22.06.42:442][  0]LogAssetRegistry: FAssetRegistry took 0.0109 seconds to start up
+[2014.11.22-22.06.44:257][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-22.06.44:911][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2014.11.22-22.06.44:957][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidRuntimeSettings' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.22-22.06.44:966][  0]LogModuleManager:Warning: ModuleManager: Unable to load module 'AndroidPlatformEditor' because the file 'D:/Developer/UnrealEngine-4.4.3-release/UnrealEngine-4.4.3-release/Engine/Binaries/Win64/' was not found.
+[2014.11.22-22.06.45:087][  0]LogConsoleResponse:Display: 
+[2014.11.22-22.06.45:380][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_b58_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_cc0_0///////STATCAT_Advanced////
+[2014.11.22-22.06.45:380][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//FMonitoredProcess///Thread_b0_0///////STATCAT_Advanced//// old //STATGROUP_Threads//FMonitoredProcess///Thread_cc0_0///////STATCAT_Advanced////
+[2014.11.22-22.06.45:380][  0]SourceControl: Info Source control is disabled
+[2014.11.22-22.06.45:381][  0]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.22-22.06.45:394][  0]LightingResults: New page: Lighting Build
+[2014.11.22-22.06.45:406][  0]MapCheck: New page: Map Check
+[2014.11.22-22.06.45:406][  0]LightingResults: New page: Lighting Build
+[2014.11.22-22.06.51:641][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004863701300
+[2014.11.22-22.06.53:676][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.22-22.06.53:769][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-22.06.53:796][  0]Cmd: MAP CHECKDEP
+[2014.11.22-22.06.53:796][  0]MapCheck: New page: Minimal_Default - 23 Nov 2014 00:06:53
+[2014.11.22-22.06.53:928][  0]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [132,165ms] ==========
+[2014.11.22-22.06.53:928][  0]LogFileHelpers: Loading map 'Minimal_Default' took 8.548
+[2014.11.22-22.06.56:647][  0]LogCollectionManager: Loaded 0 collections in 0.002063 seconds
+[2014.11.22-22.07.00:538][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2014.11.22-22.07.04:506][  0]LogInit: Using libcurl 7.34.0
+[2014.11.22-22.07.04:506][  0]LogInit:  - built for x86_64-pc-win32
+[2014.11.22-22.07.04:506][  0]LogInit:  - supports SSL with WinSSL
+[2014.11.22-22.07.04:506][  0]LogInit:  - other features:
+[2014.11.22-22.07.04:506][  0]LogInit:      CURL_VERSION_SSL
+[2014.11.22-22.07.04:506][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2014.11.22-22.07.04:506][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2014.11.22-22.07.04:506][  0]LogInit:      CURL_VERSION_IDN
+[2014.11.22-22.07.04:506][  0]LogInit: Libcurl will NOT reuse connections
+[2014.11.22-22.07.04:548][  0]LogLoad: Full Startup: 87.76 seconds (BP compile: 0.35 seconds)
+[2014.11.22-22.07.06:265][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32.
+[2014.11.22-22.07.07:159][  0]LogRenderer:Warning: Reallocating scene render targets to support 664x584.
+[2014.11.22-22.07.07:635][  1]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/Interfejs'
+[2014.11.22-22.07.08:437][  3]LogAssetRegistry: Asset discovery search completed in 26.0057 seconds
+[2014.11.22-22.07.12:967][105]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2014.11.22-22.07.58:038][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2014.11.22-22.08.00:448][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-22.08.07:905][689]LogSavePackage: Save=5013.384766ms
+[2014.11.22-22.08.07:907][689]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac513AE8A74823817F1BC50D8F1EB449D1.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-22.08.08:898][689]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.22-22.08.08:911][689]LightingResults: New page: Lighting Build
+[2014.11.22-22.08.08:932][689]LoadErrors: New page: Loading map: Level1.umap
+[2014.11.22-22.08.09:006][689]MapCheck: New page: Map Check
+[2014.11.22-22.08.09:006][689]LightingResults: New page: Lighting Build
+[2014.11.22-22.08.09:014][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2014.11.22-22.08.09:014][689]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2014.11.22-22.08.09:048][689]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000485E507920
+[2014.11.22-22.08.09:978][689]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.11.22-22.08.10:768][689]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.11.22-22.08.10:910][689]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.11.22-22.08.10:969][689]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.11.22-22.08.11:029][689]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.11.22-22.08.11:165][689]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.11.22-22.08.11:776][689]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.22-22.08.11:776][689]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-22.08.19:033][689]Cmd: MAP CHECKDEP
+[2014.11.22-22.08.19:033][689]MapCheck: New page: Level1 - 23 Nov 2014 00:08:19
+[2014.11.22-22.08.22:708][689]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [3.675,796ms] ==========
+[2014.11.22-22.08.22:709][689]LogFileHelpers: Loading map 'Level1' took 13.846
+[2014.11.22-22.08.53:854][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sufit1)
+[2014.11.22-22.09.24:253][397]Cmd: TRANSACTION UNDO
+[2014.11.22-22.09.24:262][397]LogEditorTransaction: Undo Scale Actors
+[2014.11.22-22.09.25:339][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2014.11.22-22.09.42:317][ 84]Cmd: TRANSACTION UNDO
+[2014.11.22-22.09.42:317][ 84]LogEditorTransaction: Undo Scale Actors
+[2014.11.22-22.10.20:087][657]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sufit1)
+[2014.11.22-22.10.21:437][706]Cmd: DELETE
+[2014.11.22-22.10.21:437][706]Cmd: ACTOR DELETE
+[2014.11.22-22.10.21:611][706]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-22.10.21:686][706]LogEditorActor: Deleted 1 Actors (0.114 secs)
+[2014.11.22-22.10.23:047][771]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sufit2)
+[2014.11.22-22.10.23:573][790]Cmd: DELETE
+[2014.11.22-22.10.23:573][790]Cmd: ACTOR DELETE
+[2014.11.22-22.10.23:581][790]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-22.10.23:612][790]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2014.11.22-22.10.47:628][895]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga)
+[2014.11.22-22.10.49:882][985]Cmd: DUPLICATE
+[2014.11.22-22.10.49:882][985]Cmd: ACTOR DUPLICATE
+[2014.11.22-22.10.59:049][333]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_2)
+[2014.11.22-22.11.45:006][429]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2014.11.22-22.11.59:414][958]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_2)
+[2014.11.22-22.12.00:770][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_2)
+[2014.11.22-22.12.08:806][377]Cmd: TRANSACTION UNDO
+[2014.11.22-22.12.08:806][377]LogEditorTransaction: Undo Clicking on Actors
+[2014.11.22-22.12.08:894][377]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2014.11.22-22.12.10:778][441]Cmd: TRANSACTION UNDO
+[2014.11.22-22.12.10:778][441]LogEditorTransaction: Undo Clicking on Actors
+[2014.11.22-22.12.12:268][495]Cmd: TRANSACTION UNDO
+[2014.11.22-22.12.12:268][495]LogEditorTransaction: Undo Move Actors
+[2014.11.22-22.12.15:456][538]Cmd: TRANSACTION UNDO
+[2014.11.22-22.12.15:456][538]LogEditorTransaction: Undo Brush Subtract
+[2014.11.22-22.13.02:875][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_2)
+[2014.11.22-22.13.18:168][290]MapCheck: New page: Map Check
+[2014.11.22-22.13.18:421][290]LightingResults: New page: Lighting Build - 23 Nov 2014 00:13:18
+[2014.11.22-22.13.34:220][290]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.22-22.13.34:285][290]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.22-22.13.34:285][290]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.22-22.13.34:285][290]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.22-22.13.34:285][290]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.22-22.13.34:285][290]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.22-22.13.34:697][290]LogEditorBuildUtils: Build time 0:00:16
+[2014.11.22-22.13.35:132][295]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2014.11.22-22.14.40:240][993]Job is a success!
+[2014.11.22-22.14.40:884][994]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.11.22-22.14.41:243][994]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.11.22-22.14.41:256][994]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.11.22-22.14.41:267][994]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.11.22-22.14.41:305][994]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.11.22-22.14.41:377][994]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.11.22-22.14.41:418][994]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.11.22-22.14.41:471][994]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.22-22.14.41:546][994]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.11.22-22.14.41:657][994]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.11.22-22.14.41:717][994]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.11.22-22.14.41:885][994]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.11.22-22.14.41:958][994]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.11.22-22.14.42:070][994]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.11.22-22.14.42:121][994]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.11.22-22.14.42:190][994]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.11.22-22.14.42:231][994]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.11.22-22.14.42:275][994]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.11.22-22.14.42:335][994]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.22-22.14.42:521][994]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.11.22-22.14.42:976][994]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2014.11.22-22.14.43:133][994]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2014.11.22-22.14.43:156][994]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2014.11.22-22.14.43:191][994]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2014.11.22-22.14.43:217][994]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2014.11.22-22.14.43:271][994]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2014.11.22-22.14.43:293][994]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2014.11.22-22.14.43:344][994]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2014.11.22-22.14.43:378][994]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2014.11.22-22.14.43:391][994]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2014.11.22-22.14.43:588][994]Lightmass on ADAM: 1:03 min total, 608 ms importing, 8 ms setup, 23.6 sec photons, 37.7 sec processing, 0 ms extra exporting [285/285 mappings]. Threads: 1:53 min total, 1:04 min processing.
+[2014.11.22-22.14.43:679][994]LogStaticLightingSystem:Warning: Illumination: 1:25 min (2.86 sec encoding lightmaps)
+[2014.11.22-22.14.43:679][994]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 20 textures
+[2014.11.22-22.14.43:679][994]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 10 textures
+[2014.11.22-22.14.44:314][995]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.22-22.14.44:315][995]MapCheck: New page: Level1 - 23 Nov 2014 00:14:44
+[2014.11.22-22.14.44:591][995]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [277,023ms] ==========
+[2014.11.22-22.14.51:327][125]BlueprintLog: New page: Pre-PIE auto-recompile
+[2014.11.22-22.14.51:388][125]LogPlayLevel: [PIE] Compiling BP_Postac before PIE...
+[2014.11.22-22.14.51:738][125]LogPlayLevel: [PIE] Compiling BP_HUD before PIE...
+[2014.11.22-22.14.51:875][125]LogPlayLevel: PIE:  Blueprint regeneration took 548 ms (2 blueprints)
+[2014.11.22-22.14.51:884][125]PIE: New page: PIE session: Level1 (23 Nov 2014 00:14:51)
+[2014.11.22-22.14.51:941][125]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056635s)
+[2014.11.22-22.14.51:943][125]LogPlayLevel: PIE: World Init took: (0.002150s)
+[2014.11.22-22.14.51:943][125]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.059058s)
+[2014.11.22-22.14.52:126][125]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-22.14.52:331][125]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-22.14.52:335][125]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.22-23.14.52
+[2014.11.22-22.14.52:347][125]LogWorld: Bringing up level for play took: 0.015316
+[2014.11.22-22.14.52:495][125]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0,423
+[2014.11.22-22.14.54:989][240]LogRenderer:Warning: Reallocating scene render targets to support 664x592.
+[2014.11.22-22.15.31:182][920]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004879594B80
+[2014.11.22-22.16.57:349][509]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-22.16.57:351][509]PIE: New page: PIE session: Level1 (23 Nov 2014 00:16:57)
+[2014.11.22-22.16.57:404][509]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052865s)
+[2014.11.22-22.16.57:408][509]LogPlayLevel: PIE: World Init took: (0.003827s)
+[2014.11.22-22.16.57:408][509]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.057030s)
+[2014.11.22-22.16.57:449][509]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-22.16.57:453][509]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-22.16.57:456][509]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.22-23.16.57
+[2014.11.22-22.16.57:458][509]LogWorld: Bringing up level for play took: 0.004916
+[2014.11.22-22.16.57:463][509]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0,609
+[2014.11.22-22.17.20:509][ 82]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048794CF2E0
+[2014.11.22-22.17.35:888][454]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight1)
+[2014.11.22-22.17.39:879][547]Cmd: DELETE
+[2014.11.22-22.17.39:882][547]Cmd: ACTOR DELETE
+[2014.11.22-22.17.39:896][547]LogEditorActor: Deleted Actor: DirectionalLight
+[2014.11.22-22.17.39:988][547]LogEditorActor: Deleted 1 Actors (0.104 secs)
+[2014.11.22-22.17.52:590][911]MapCheck: New page: Map Check
+[2014.11.22-22.17.52:626][911]LightingResults: New page: Lighting Build - 23 Nov 2014 00:17:52
+[2014.11.22-22.17.58:302][911]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.22-22.17.58:391][911]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.22-22.17.58:391][911]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.22-22.17.58:391][911]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.22-22.17.58:391][911]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.22-22.17.58:391][911]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.22-22.17.58:558][911]LogEditorBuildUtils: Build time 0:00:05
+[2014.11.22-22.19.06:400][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.22-22.19.27:731][724]LogSavePackage: Save=18395.273438ms
+[2014.11.22-22.19.27:734][724]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto188C67CE442E7B85EBF39239F805F31C7.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto1.umap'
+[2014.11.22-22.19.31:360][724]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 25.062
+[2014.11.22-22.19.31:361][724]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 25.062
+[2014.11.22-22.19.31:397][724]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/Interfejs/BP_HUD] ([1] browsable assets)...
+[2014.11.22-22.19.31:404][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/Interfejs/BP_HUD]
+[2014.11.22-22.19.39:302][724]LogSavePackage: Save=2774.454834ms
+[2014.11.22-22.19.39:304][724]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_HUD_Auto1794E717E4FB6750ECCC5CA9E73E7473C.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/Interfejs/BP_HUD_Auto1.uasset'
+[2014.11.22-22.19.43:782][724]Job is a success!
+[2014.11.22-22.19.43:816][724]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Posta/BP_Postac] ([1] browsable assets)...
+[2014.11.22-22.19.43:907][724]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Posta/BP_Postac.BP_Postac]
+[2014.11.22-22.19.43:907][724]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Posta/BP_Postac]
+[2014.11.22-22.19.43:916][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2014.11.22-22.19.48:087][724]LogSavePackage: Save=2552.700439ms
+[2014.11.22-22.19.48:088][724]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac_Auto14E9A393840042EE8FAB64B805906F45F.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Posta/BP_Postac_Auto1.uasset'
+[2014.11.22-22.19.48:118][724]LogFileHelpers: Auto-saving content packages took 16.757
+[2014.11.22-22.19.50:787][725]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.22-22.19.51:217][725]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2014.11.22-22.19.51:230][725]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2014.11.22-22.19.51:237][725]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.11.22-22.19.51:299][725]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.11.22-22.19.51:375][725]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.11.22-22.19.51:452][725]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.11.22-22.19.51:565][725]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.11.22-22.19.51:651][725]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.11.22-22.19.51:805][725]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.11.22-22.19.51:819][725]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.11.22-22.19.51:864][725]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.11.22-22.19.51:963][725]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.11.22-22.19.52:099][725]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.11.22-22.19.52:152][725]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.11.22-22.19.52:201][725]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.11.22-22.19.52:259][725]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.11.22-22.19.52:324][725]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.11.22-22.19.52:375][725]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.11.22-22.19.52:402][725]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.22-22.19.53:121][725]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2014.11.22-22.19.53:342][725]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2014.11.22-22.19.53:385][725]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2014.11.22-22.19.53:462][725]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2014.11.22-22.19.53:515][725]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2014.11.22-22.19.53:560][725]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2014.11.22-22.19.53:619][725]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2014.11.22-22.19.53:645][725]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2014.11.22-22.19.53:719][725]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2014.11.22-22.19.53:761][725]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2014.11.22-22.19.53:791][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2014.11.22-22.19.53:791][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_1) Not registered. Aborting.
+[2014.11.22-22.19.53:991][725]LogStaticLightingSystem:Warning: Illumination: 2:01 min (3.54 sec encoding lightmaps)
+[2014.11.22-22.19.53:991][725]LogStaticLightingSystem: Lightmap texture memory:  2.0 MB (0.7 MB streaming, 1.3 MB non-streaming), 20 textures
+[2014.11.22-22.19.53:991][725]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 20 textures
+[2014.11.22-22.19.54:973][726]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.22-22.19.54:973][726]MapCheck: New page: Level1 - 23 Nov 2014 00:19:54
+[2014.11.22-22.19.55:212][726]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [238,509ms] ==========
+[2014.11.22-22.20.26:690][449]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-22.20.26:691][449]PIE: New page: PIE session: Level1 (23 Nov 2014 00:20:26)
+[2014.11.22-22.20.26:735][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043520s)
+[2014.11.22-22.20.26:738][449]LogPlayLevel: PIE: World Init took: (0.002950s)
+[2014.11.22-22.20.26:738][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.047011s)
+[2014.11.22-22.20.26:806][449]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-22.20.26:808][449]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-22.20.26:811][449]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.22-23.20.26
+[2014.11.22-22.20.26:813][449]LogWorld: Bringing up level for play took: 0.004079
+[2014.11.22-22.20.26:815][449]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 0,743
+[2014.11.22-22.21.28:008][934]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004873631A80
+[2014.11.22-22.22.58:188][791]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Mechanika/AI'
+[2014.11.22-22.31.00:257][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.22-22.31.16:453][631]LogSavePackage: Save=10695.582031ms
+[2014.11.22-22.31.16:456][631]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto2F0189E8D43E9E7594750B29186AF884D.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto2.umap'
+[2014.11.22-22.31.17:414][631]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 17.272
+[2014.11.22-22.31.17:414][631]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 17.272
+[2014.11.22-22.31.17:448][631]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Mechanika/AI/BT_AI_Wrog] ([1] browsable assets)...
+[2014.11.22-22.31.17:459][631]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Mechanika/AI/BT_AI_Wrog]
+[2014.11.22-22.31.25:408][631]LogSavePackage: Save=1867.528809ms
+[2014.11.22-22.31.25:410][631]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_Wrog_Auto2DBF7B6104EAA73CF0F6A5881F68737FC.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Blueprints/Mechanika/AI/BT_AI_Wrog_Auto2.uasset'
+[2014.11.22-22.31.25:463][631]LogFileHelpers: Auto-saving content packages took 8.048
+[2014.11.22-22.31.54:248][383]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_2)
+[2014.11.22-22.32.34:525][304]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.22-22.32.34:527][304]LightingResults: New page: Lighting Build
+[2014.11.22-22.32.34:563][304]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2014.11.22-22.32.34:568][304]MapCheck: New page: Map Check
+[2014.11.22-22.32.34:568][304]LightingResults: New page: Lighting Build
+[2014.11.22-22.32.34:632][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004865221800
+[2014.11.22-22.32.35:016][304]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2014.11.22-22.32.35:016][304]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-22.32.40:477][304]Cmd: MAP CHECKDEP
+[2014.11.22-22.32.40:477][304]MapCheck: New page: Minimal_Default - 23 Nov 2014 00:32:40
+[2014.11.22-22.32.40:687][304]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [208,895ms] ==========
+[2014.11.22-22.32.40:687][304]LogFileHelpers: Loading map 'Minimal_Default' took 6.168
+[2014.11.22-22.32.55:560][574]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-22.32.55:560][574]PIE: New page: PIE session: Minimal_Default (23 Nov 2014 00:32:55)
+[2014.11.22-22.32.55:585][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024498s)
+[2014.11.22-22.32.55:589][574]LogPlayLevel: PIE: World Init took: (0.003530s)
+[2014.11.22-22.32.55:589][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.028344s)
+[2014.11.22-22.32.55:642][574]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-22.32.55:644][574]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-22.32.55:649][574]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-22.32.55:649][574]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.22-23.32.55
+[2014.11.22-22.32.55:740][574]LogWorld: Bringing up level for play took: 0.096214
+[2014.11.22-22.32.55:802][574]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default -0,27
+[2014.11.22-22.33.54:016][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2014.11.22-22.33.54:070][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000485E324EA0
+[2014.11.22-22.41.23:957][856]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2014.11.22-22.42.03:214][571]Cmd: DELETE
+[2014.11.22-22.42.03:418][571]Cmd: ACTOR DELETE
+[2014.11.22-22.42.03:426][571]LogEditorActor: Deleted Actor: Brush
+[2014.11.22-22.42.03:468][571]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2014.11.22-22.43.06:336][537]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.22-22.43.06:339][537]LightingResults: New page: Lighting Build
+[2014.11.22-22.43.06:370][537]LoadErrors: New page: Loading map: Level1.umap
+[2014.11.22-22.43.06:372][537]MapCheck: New page: Map Check
+[2014.11.22-22.43.06:372][537]LightingResults: New page: Lighting Build
+[2014.11.22-22.43.06:410][537]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000485F9B7380
+[2014.11.22-22.43.06:508][537]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.22-22.43.06:854][537]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.11.22-22.43.06:996][537]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.11.22-22.43.07:014][537]LogTexture:Display: Building textures: HQ_Lightmap2_2 (AutoDXT)
+[2014.11.22-22.43.07:446][537]LogTexture:Display: Building textures: HQ_Lightmap2_3 (AutoDXT)
+[2014.11.22-22.43.07:638][537]LogTexture:Display: Building textures: HQ_Lightmap2_4 (AutoDXT)
+[2014.11.22-22.43.07:692][537]LogTexture:Display: Building textures: HQ_Lightmap2_5 (AutoDXT)
+[2014.11.22-22.43.07:748][537]LogTexture:Display: Building textures: HQ_Lightmap2_6 (AutoDXT)
+[2014.11.22-22.43.07:796][537]LogTexture:Display: Building textures: HQ_Lightmap2_7 (AutoDXT)
+[2014.11.22-22.43.07:872][537]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.22-22.43.08:042][537]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.11.22-22.43.08:281][537]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.11.22-22.43.08:371][537]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.11.22-22.43.08:404][537]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.11.22-22.43.08:445][537]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.11.22-22.43.08:476][537]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.11.22-22.43.08:510][537]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.11.22-22.43.08:554][537]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.11.22-22.43.08:788][537]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.22-22.43.08:789][537]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-22.43.13:394][537]Cmd: MAP CHECKDEP
+[2014.11.22-22.43.13:395][537]MapCheck: New page: Level1 - 23 Nov 2014 00:43:13
+[2014.11.22-22.43.13:581][537]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [186,504ms] ==========
+[2014.11.22-22.43.13:581][537]LogFileHelpers: Loading map 'Level1' took 7.247
+[2014.11.22-22.43.46:047][988]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sufit1)
+[2014.11.22-22.43.47:313][ 38]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Sufit2)
+[2014.11.22-22.43.49:098][112]Cmd: DELETE
+[2014.11.22-22.43.49:099][112]Cmd: ACTOR DELETE
+[2014.11.22-22.43.49:109][112]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-22.43.49:110][112]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-22.43.49:111][112]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2014.11.22-22.43.49:148][112]LogEditorActor: Deleted 2 Actors (0.050 secs)
+[2014.11.22-22.44.14:599][364]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga)
+[2014.11.22-22.44.17:058][468]Cmd: DUPLICATE
+[2014.11.22-22.44.17:058][468]Cmd: ACTOR DUPLICATE
+[2014.11.22-22.48.02:121][297]Cmd: DUPLICATE
+[2014.11.22-22.48.02:121][297]Cmd: ACTOR DUPLICATE
+[2014.11.22-22.49.09:099][ 74]Cmd: DUPLICATE
+[2014.11.22-22.49.09:100][ 74]Cmd: ACTOR DUPLICATE
+[2014.11.22-22.50.21:427][ 30]Cmd: DUPLICATE
+[2014.11.22-22.50.21:428][ 30]Cmd: ACTOR DUPLICATE
+[2014.11.22-22.50.44:876][957]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x203)
+[2014.11.22-22.50.56:068][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x201)
+[2014.11.22-22.50.59:045][513]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x202)
+[2014.11.22-22.51.15:476][181]LogEditorActor: Deleted Actor: DirectionalLight
+[2014.11.22-22.51.15:477][181]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2014.11.22-22.51.15:512][181]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2014.11.22-22.51.35:705][231]MapCheck: New page: Map Check
+[2014.11.22-22.51.35:742][231]Cmd: MAP REBUILD ALLVISIBLE
+[2014.11.22-22.51.35:757][231]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2014.11.22-22.51.36:155][231]LightingResults: New page: Lighting Build - 23 Nov 2014 00:51:36
+[2014.11.22-22.51.40:820][231]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.22-22.51.40:874][231]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.22-22.51.40:874][231]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.22-22.51.40:874][231]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.22-22.51.40:874][231]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.22-22.51.40:874][231]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.22-22.51.40:980][231]LogEditorBuildUtils: Build time 0:00:05
+[2014.11.22-22.53.04:716][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.22-22.53.31:964][593]Job is a success!
+[2014.11.22-22.53.31:964][593]LogSavePackage: Save=19253.574219ms
+[2014.11.22-22.53.31:966][593]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto393B600E843E871E8EAC0FEA1C862A1A6.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto3.umap'
+[2014.11.22-22.53.36:461][593]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 31.807
+[2014.11.22-22.53.36:461][593]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 31.807
+[2014.11.22-22.53.39:641][594]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.22-22.53.39:902][594]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2014.11.22-22.53.39:910][594]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2014.11.22-22.53.39:920][594]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2014.11.22-22.53.39:959][594]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2014.11.22-22.53.40:006][594]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2014.11.22-22.53.40:065][594]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2014.11.22-22.53.40:165][594]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2014.11.22-22.53.40:204][594]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2014.11.22-22.53.40:247][594]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.11.22-22.53.40:287][594]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.11.22-22.53.40:395][594]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.11.22-22.53.40:436][594]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.11.22-22.53.40:487][594]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.22-22.53.40:515][594]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.11.22-22.53.40:560][594]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.11.22-22.53.40:597][594]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.11.22-22.53.40:644][594]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.11.22-22.53.40:700][594]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.11.22-22.53.40:789][594]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.11.22-22.53.40:832][594]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.11.22-22.53.40:893][594]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.11.22-22.53.40:939][594]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.11.22-22.53.40:982][594]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.11.22-22.53.41:036][594]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.22-22.53.41:148][594]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.22-22.53.41:285][594]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2014.11.22-22.53.41:324][594]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2014.11.22-22.53.41:349][594]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2014.11.22-22.53.41:392][594]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2014.11.22-22.53.41:421][594]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2014.11.22-22.53.41:447][594]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (BGRA8)
+[2014.11.22-22.53.41:476][594]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (BGRA8)
+[2014.11.22-22.53.41:501][594]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (BGRA8)
+[2014.11.22-22.53.41:527][594]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (BGRA8)
+[2014.11.22-22.53.41:551][594]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (BGRA8)
+[2014.11.22-22.53.41:577][594]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (BGRA8)
+[2014.11.22-22.53.41:602][594]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (BGRA8)
+[2014.11.22-22.53.41:613][594]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (BGRA8)
+[2014.11.22-22.53.41:754][594]LogStaticLightingSystem:Warning: Illumination: 2:05 min (2.25 sec encoding lightmaps)
+[2014.11.22-22.53.41:754][594]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.9 MB streaming, 0.3 MB non-streaming), 26 textures
+[2014.11.22-22.53.41:754][594]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 33 textures
+[2014.11.22-22.53.47:351][594]Lightmass on ADAM: 1:59 min total, 2.27 sec importing, 21 ms setup, 1:21 min photons, 35.5 sec processing, 0 ms extra exporting [288/288 mappings]. Threads: 1:46 min total, 20.1 sec processing.
+[2014.11.22-22.53.47:360][595]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.22-22.53.47:360][595]MapCheck: New page: Level1 - 23 Nov 2014 00:53:47
+[2014.11.22-22.53.47:524][595]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [164,009ms] ==========
+[2014.11.22-22.54.27:786][538]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-22.54.27:786][538]PIE: New page: PIE session: Level1 (23 Nov 2014 00:54:27)
+[2014.11.22-22.54.27:827][538]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040729s)
+[2014.11.22-22.54.27:829][538]LogPlayLevel: PIE: World Init took: (0.002346s)
+[2014.11.22-22.54.27:830][538]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.043367s)
+[2014.11.22-22.54.27:867][538]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-22.54.27:868][538]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-22.54.27:875][538]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.22-23.54.27
+[2014.11.22-22.54.27:877][538]LogWorld: Bringing up level for play took: 0.008606
+[2014.11.22-22.54.27:880][538]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0,191
+[2014.11.22-22.56.13:563][928]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000487018D3A0
+[2014.11.22-22.56.15:566][ 22]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_5)
+[2014.11.22-22.56.16:752][ 69]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Podloga_2)
+[2014.11.22-22.56.19:445][179]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Podloga_4)
+[2014.11.22-22.56.20:026][202]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Podloga_3)
+[2014.11.22-22.56.38:930][976]LogMaterial: Missing cached shader map for material M_Brick_Clay_Beveled, compiling.
+[2014.11.22-22.57.10:919][ 85]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-22.57.10:919][ 85]PIE: New page: PIE session: Level1 (23 Nov 2014 00:57:10)
+[2014.11.22-22.57.10:963][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043785s)
+[2014.11.22-22.57.10:965][ 85]LogPlayLevel: PIE: World Init took: (0.001924s)
+[2014.11.22-22.57.10:965][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.046010s)
+[2014.11.22-22.57.14:568][ 85]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-22.57.14:571][ 85]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-22.57.14:574][ 85]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.22-23.57.14
+[2014.11.22-22.57.14:575][ 85]LogWorld: Bringing up level for play took: 0.004250
+[2014.11.22-22.57.14:577][ 85]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 4,506
+[2014.11.22-22.57.42:679][273]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000481B1AB1A0
+[2014.11.22-22.57.53:481][706]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Materials'
+[2014.11.22-22.58.19:840][444]LogMaterial: Missing cached shader map for material M_Concrete_Grime, compiling.
+[2014.11.22-22.58.29:406][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga)
+[2014.11.22-22.58.29:435][576]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (Podloga)
+[2014.11.22-22.58.35:116][714]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.22-22.58.35:195][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_11) Not registered. Aborting.
+[2014.11.22-22.58.38:156][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_11) Not registered. Aborting.
+[2014.11.22-22.58.38:156][714]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.11.22-22.58.38:157][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_11) Not registered. Aborting.
+[2014.11.22-22.58.38:157][714]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2014.11.22-22.58.38:189][714]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling.
+[2014.11.22-22.58.38:231][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_21, compiling.
+[2014.11.22-22.58.38:243][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_22, compiling.
+[2014.11.22-22.58.38:245][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_11, compiling.
+[2014.11.22-22.58.38:247][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling.
+[2014.11.22-22.58.38:251][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_13, compiling.
+[2014.11.22-22.58.38:254][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_7, compiling.
+[2014.11.22-22.58.38:256][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_14, compiling.
+[2014.11.22-22.58.38:259][714]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_15, compiling.
+[2014.11.22-22.59.59:373][165]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_5)
+[2014.11.22-23.00.04:394][344]Cmd: MODE GRID=1
+[2014.11.22-23.00.28:997][105]Cmd: MODE SCALEGRID=1
+[2014.11.22-23.00.32:514][134]Cmd: MODE ROTGRID=1
+[2014.11.22-23.00.51:611][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_3)
+[2014.11.22-23.01.00:001][ 44]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_2)
+[2014.11.22-23.01.48:943][624]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-23.01.48:943][624]PIE: New page: PIE session: Level1 (23 Nov 2014 01:01:48)
+[2014.11.22-23.01.52:546][624]LogPlayLevel: PIE: StaticDuplicateObject took: (3.602623s)
+[2014.11.22-23.01.52:548][624]LogPlayLevel: PIE: World Init took: (0.002175s)
+[2014.11.22-23.01.52:548][624]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (3.605095s)
+[2014.11.22-23.01.54:338][624]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-23.01.54:340][624]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-23.01.54:343][624]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.23-00.01.54
+[2014.11.22-23.01.54:345][624]LogWorld: Bringing up level for play took: 0.004955
+[2014.11.22-23.01.54:348][624]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 6,276
+[2014.11.22-23.02.13:860][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004819B30A40
+[2014.11.22-23.02.13:862][404]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000481D00ACA0
+[2014.11.22-23.02.18:199][581]MapCheck: New page: Map Check
+[2014.11.22-23.02.18:217][581]LightingResults: New page: Lighting Build - 23 Nov 2014 01:02:18
+[2014.11.22-23.02.23:752][581]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2014.11.22-23.02.23:798][581]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.22-23.02.23:798][581]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.22-23.02.23:798][581]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.22-23.02.23:798][581]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.22-23.02.23:798][581]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.22-23.02.23:884][581]LogEditorBuildUtils: Build time 0:00:05
+[2014.11.22-23.02.23:889][581]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Grime, compiling.
+[2014.11.22-23.02.23:909][581]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Grime, compiling.
+[2014.11.22-23.02.23:911][581]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Concrete_Grime, compiling.
+[2014.11.22-23.04.32:957][ 90]Job is a success!
+[2014.11.22-23.04.33:591][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.11.22-23.04.33:848][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2014.11.22-23.04.33:862][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2014.11.22-23.04.33:881][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1)
+[2014.11.22-23.04.33:938][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT)
+[2014.11.22-23.04.34:058][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1)
+[2014.11.22-23.04.34:141][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT)
+[2014.11.22-23.04.34:307][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1)
+[2014.11.22-23.04.34:432][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT)
+[2014.11.22-23.04.34:513][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.11.22-23.04.34:605][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.11.22-23.04.34:784][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.11.22-23.04.34:843][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.11.22-23.04.34:912][ 91]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.22-23.04.34:949][ 91]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.11.22-23.04.35:024][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.11.22-23.04.35:087][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.11.22-23.04.35:143][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.11.22-23.04.35:211][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.11.22-23.04.35:337][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.11.22-23.04.35:375][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.11.22-23.04.35:453][ 91]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.11.22-23.04.35:493][ 91]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.11.22-23.04.35:564][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.11.22-23.04.35:621][ 91]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.11.22-23.04.35:757][ 91]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.11.22-23.04.35:907][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (BGRA8)
+[2014.11.22-23.04.35:971][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (BGRA8)
+[2014.11.22-23.04.36:004][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (BGRA8)
+[2014.11.22-23.04.36:033][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (BGRA8)
+[2014.11.22-23.04.36:055][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (BGRA8)
+[2014.11.22-23.04.36:085][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (BGRA8)
+[2014.11.22-23.04.36:119][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (BGRA8)
+[2014.11.22-23.04.36:148][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (BGRA8)
+[2014.11.22-23.04.36:176][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (BGRA8)
+[2014.11.22-23.04.36:204][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (BGRA8)
+[2014.11.22-23.04.36:233][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (BGRA8)
+[2014.11.22-23.04.36:261][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (BGRA8)
+[2014.11.22-23.04.36:284][ 91]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (BGRA8)
+[2014.11.22-23.04.36:431][ 91]Lightmass on ADAM: 1:58 min total, 1.23 sec importing, 10 ms setup, 1:09 min photons, 47.9 sec processing, 0 ms extra exporting [288/288 mappings]. Threads: 2:23 min total, 1:24 min processing.
+[2014.11.22-23.04.36:525][ 91]LogStaticLightingSystem:Warning: Illumination: 2:18 min (3.04 sec encoding lightmaps)
+[2014.11.22-23.04.36:525][ 91]LogStaticLightingSystem: Lightmap texture memory:  1.3 MB (0.9 MB streaming, 0.3 MB non-streaming), 26 textures
+[2014.11.22-23.04.36:525][ 91]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 46 textures
+[2014.11.22-23.04.37:101][ 92]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.22-23.04.37:101][ 92]MapCheck: New page: Level1 - 23 Nov 2014 01:04:37
+[2014.11.22-23.04.37:297][ 92]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [195,642ms] ==========
+[2014.11.22-23.05.20:831][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_3)
+[2014.11.22-23.05.21:690][533]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Podloga_5)
+[2014.11.22-23.05.22:724][572]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Podloga_2)
+[2014.11.22-23.05.25:146][663]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Podloga_4)
+[2014.11.22-23.05.27:045][735]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Podloga_3)
+[2014.11.22-23.05.29:079][814]Cmd: DELETE
+[2014.11.22-23.05.29:079][814]Cmd: ACTOR DELETE
+[2014.11.22-23.05.29:089][814]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-23.05.29:090][814]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-23.05.29:091][814]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-23.05.29:092][814]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-23.05.29:126][814]LogEditorActor: Deleted 4 Actors (0.046 secs)
+[2014.11.22-23.05.42:808][374]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga)
+[2014.11.22-23.05.44:722][447]Cmd: DUPLICATE
+[2014.11.22-23.05.44:722][447]Cmd: ACTOR DUPLICATE
+[2014.11.22-23.06.25:945][ 36]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2014.11.22-23.06.45:321][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.22-23.06.56:251][689]LogSavePackage: Save=8267.814453ms
+[2014.11.22-23.06.56:254][689]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto428869BA2472C45D3F84B078C7CEDE98C.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto4.umap'
+[2014.11.22-23.06.57:178][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 11.919
+[2014.11.22-23.06.57:178][689]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 11.919
+[2014.11.22-23.07.40:700][958]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-23.07.40:700][958]PIE: New page: PIE session: Level1 (23 Nov 2014 01:07:40)
+[2014.11.22-23.07.41:641][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.940663s)
+[2014.11.22-23.07.41:643][958]LogPlayLevel: PIE: World Init took: (0.002296s)
+[2014.11.22-23.07.41:644][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.943264s)
+[2014.11.22-23.07.41:679][958]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-23.07.41:680][958]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-23.07.41:683][958]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.23-00.07.41
+[2014.11.22-23.07.41:684][958]LogWorld: Bringing up level for play took: 0.003585
+[2014.11.22-23.07.41:687][958]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1,615
+[2014.11.22-23.07.49:542][258]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004879CBB100
+[2014.11.22-23.09.28:189][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/AI/BT_AI_Wrog" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BT_AI_Wrog.uasset" SILENT=true
+[2014.11.22-23.09.34:973][ 15]LogSavePackage: Save=5386.437988ms
+[2014.11.22-23.09.34:974][ 15]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BT_AI_WrogAA1ED3224348FAE6FB33689139BA303F.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/AI/BT_AI_Wrog.uasset'
+[2014.11.22-23.09.35:910][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mechanika/Interfejs/BP_HUD" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Interfejs/BP_HUD.uasset" SILENT=true
+[2014.11.22-23.09.39:180][ 15]LogSavePackage: Save=50.036942ms
+[2014.11.22-23.09.39:180][ 15]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_HUD8F622BFC4BBA52B6182899942D0B3F7D.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Mechanika/Interfejs/BP_HUD.uasset'
+[2014.11.22-23.09.39:301][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Posta/BP_Postac" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset" SILENT=true
+[2014.11.22-23.09.42:878][ 15]LogSavePackage: Save=1041.112793ms
+[2014.11.22-23.09.42:884][ 15]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/BP_Postac48B0669F434EA7E35389AC862CC77C4C.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Blueprints/Posta/BP_Postac.uasset'
+[2014.11.22-23.09.43:425][ 15]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.22-23.09.50:316][ 15]LogSavePackage: Save=5935.555176ms
+[2014.11.22-23.09.50:317][ 15]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level16B245AF7433D501FF31669820AD3771F.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap'
+[2014.11.22-23.10.00:183][ 15]LogFileHelpers: Saving map 'Level1' took 17.221
+[2014.11.22-23.10.00:186][ 15]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.22-23.10.00:188][ 15]LightingResults: New page: Lighting Build
+[2014.11.22-23.10.00:215][ 15]LoadErrors: New page: Loading map: Minimal_Default.umap
+[2014.11.22-23.10.00:217][ 15]MapCheck: New page: Map Check
+[2014.11.22-23.10.00:217][ 15]LightingResults: New page: Lighting Build
+[2014.11.22-23.10.00:253][ 15]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004874CDD620
+[2014.11.22-23.10.00:692][ 15]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.22-23.10.00:692][ 15]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-23.10.03:454][ 15]Cmd: MAP CHECKDEP
+[2014.11.22-23.10.03:454][ 15]MapCheck: New page: Minimal_Default - 23 Nov 2014 01:10:03
+[2014.11.22-23.10.06:298][ 15]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [2.844,023ms] ==========
+[2014.11.22-23.10.06:298][ 15]LogFileHelpers: Loading map 'Minimal_Default' took 6.113
+[2014.11.22-23.10.17:505][465]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-23.11.33:627][629]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2014.11.22-23.11.34:963][677]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2014.11.22-23.11.35:692][704]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2014.11.22-23.12.15:620][232]Cmd: ACTOR ALIGN VERTS
+[2014.11.22-23.12.27:170][691]Cmd: MAP SETBRUSH CLEARFLAGS=40 SETFLAGS=0
+[2014.11.22-23.12.52:442][749]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-23.12.52:443][749]PIE: New page: PIE session: Minimal_Default (23 Nov 2014 01:12:52)
+[2014.11.22-23.12.52:462][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019154s)
+[2014.11.22-23.12.52:467][749]LogPlayLevel: PIE: World Init took: (0.004665s)
+[2014.11.22-23.12.52:467][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Minimal_Default.Minimal_Default to /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.024165s)
+[2014.11.22-23.12.53:395][749]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-23.12.53:397][749]LogAIModule: Creating AISystem for world Minimal_Default
+[2014.11.22-23.12.53:400][749]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2014.11.22-23.12.53:400][749]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2014.11.23-00.12.53
+[2014.11.22-23.12.53:401][749]LogWorld: Bringing up level for play took: 0.003567
+[2014.11.22-23.12.53:406][749]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Minimal_Default 1,334
+[2014.11.22-23.13.03:871][214]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2014.11.22-23.13.03:911][214]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000481CBA8400
+[2014.11.22-23.13.09:814][414]Cmd: DELETE
+[2014.11.22-23.13.10:259][414]Cmd: ACTOR DELETE
+[2014.11.22-23.13.10:259][414]LogEditorActor: Deleted Actor: Brush
+[2014.11.22-23.13.10:322][414]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2014.11.22-23.16.25:079][738]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2014.11.22-23.16.37:238][145]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-23.16.49:249][490]Cmd: DELETE
+[2014.11.22-23.16.49:249][490]Cmd: ACTOR DELETE
+[2014.11.22-23.16.49:250][490]LogEditorActor: Deleted Actor: Brush
+[2014.11.22-23.16.49:250][490]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2014.11.22-23.16.49:295][490]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2014.11.22-23.16.51:825][561]LogEditorActor: Deleted Actor: Brush
+[2014.11.22-23.16.51:867][561]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2014.11.22-23.16.55:905][687]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-23.17.07:650][ 73]Cmd: BRUSH SUBTRACT SELECTNEWBRUSH
+[2014.11.22-23.17.31:419][705]Cmd: MAP LOAD FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2014.11.22-23.17.31:421][705]LightingResults: New page: Lighting Build
+[2014.11.22-23.17.31:454][705]LoadErrors: New page: Loading map: Level1.umap
+[2014.11.22-23.17.31:457][705]MapCheck: New page: Map Check
+[2014.11.22-23.17.31:457][705]LightingResults: New page: Lighting Build
+[2014.11.22-23.17.31:496][705]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004821BFA020
+[2014.11.22-23.17.32:228][705]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2014.11.22-23.17.32:228][705]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-23.17.35:038][705]Cmd: MAP CHECKDEP
+[2014.11.22-23.17.35:038][705]MapCheck: New page: Level1 - 23 Nov 2014 01:17:35
+[2014.11.22-23.17.35:203][705]MapCheck: Info ========== Map Check: 0 Error(s), 0 Warning(s), [164,614ms] ==========
+[2014.11.22-23.17.35:203][705]LogFileHelpers: Loading map 'Level1' took 3.790
+[2014.11.22-23.17.39:611][894]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga_2)
+[2014.11.22-23.17.40:651][933]Cmd: DELETE
+[2014.11.22-23.17.40:651][933]Cmd: ACTOR DELETE
+[2014.11.22-23.17.40:664][933]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-23.17.40:667][933]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2014.11.22-23.17.40:702][933]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2014.11.22-23.18.06:106][ 48]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-23.18.08:079][ 96]Cmd: DELETE
+[2014.11.22-23.18.08:079][ 96]Cmd: ACTOR DELETE
+[2014.11.22-23.18.08:089][ 96]LogEditorActor: Deleted Actor: Brush
+[2014.11.22-23.18.08:166][ 96]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2014.11.22-23.18.21:134][618]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-23.22.17:935][714]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2014.11.22-23.25.12:090][166]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x202)
+[2014.11.22-23.25.13:843][232]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x200)
+[2014.11.22-23.25.14:912][271]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x201)
+[2014.11.22-23.25.17:689][374]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Wall_400x203)
+[2014.11.22-23.25.20:000][459]Cmd: DELETE
+[2014.11.22-23.25.20:000][459]Cmd: ACTOR DELETE
+[2014.11.22-23.25.20:012][459]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-23.25.20:013][459]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-23.25.20:014][459]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-23.25.20:014][459]LogEditorActor: Deleted Actor: StaticMeshActor
+[2014.11.22-23.25.20:014][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2014.11.22-23.25.20:079][459]LogEditorActor: Deleted 4 Actors (0.076 secs)
+[2014.11.22-23.26.02:446][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.22-23.26.19:744][136]LogSavePackage: Save=15597.199219ms
+[2014.11.22-23.26.19:747][136]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1233C5F71483D3AB2393A8E9E21423CC9.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap'
+[2014.11.22-23.26.38:295][343]MapCheck: New page: Map Check
+[2014.11.22-23.26.38:329][343]LightingResults: New page: Lighting Build - 23 Nov 2014 01:26:38
+[2014.11.22-23.26.43:929][343]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.22-23.26.43:994][343]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.22-23.26.43:994][343]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.22-23.26.43:994][343]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.22-23.26.43:994][343]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.22-23.26.43:994][343]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.22-23.26.44:087][343]LogEditorBuildUtils: Build time 0:00:05
+[2014.11.22-23.34.06:049][103]Job is a success!
+[2014.11.22-23.34.07:765][104]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.22-23.34.08:530][104]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.11.22-23.34.08:551][104]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.11.22-23.34.08:587][104]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.11.22-23.34.08:657][104]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.11.22-23.34.08:755][104]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.22-23.34.08:820][104]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.11.22-23.34.08:906][104]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.11.22-23.34.08:988][104]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.11.22-23.34.09:078][104]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.11.22-23.34.09:132][104]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.11.22-23.34.09:215][104]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.11.22-23.34.09:322][104]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.11.22-23.34.09:477][104]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.11.22-23.34.09:536][104]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.11.22-23.34.09:763][104]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.11.22-23.34.10:562][104]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.22-23.34.11:521][104]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.22-23.34.12:964][104]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (BGRA8)
+[2014.11.22-23.34.13:982][104]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (BGRA8)
+[2014.11.22-23.34.14:028][104]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (BGRA8)
+[2014.11.22-23.34.14:096][104]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (BGRA8)
+[2014.11.22-23.34.14:141][104]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (BGRA8)
+[2014.11.22-23.34.14:182][104]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (BGRA8)
+[2014.11.22-23.34.14:247][104]LogTexture:Display: Building textures: ShadowMapTexture2D_59 (BGRA8)
+[2014.11.22-23.34.14:291][104]LogTexture:Display: Building textures: ShadowMapTexture2D_60 (BGRA8)
+[2014.11.22-23.34.15:329][104]Lightmass on ADAM: 7:17 min total, 2.95 sec importing, 73 ms setup, 2:14 min photons, 4:58 min processing, 0 ms extra exporting [308/308 mappings]. Threads: 14:56 min total, 9:33 min processing.
+[2014.11.22-23.34.16:457][104]LogStaticLightingSystem:Warning: Illumination: 7:38 min (6.91 sec encoding lightmaps)
+[2014.11.22-23.34.16:457][104]LogStaticLightingSystem: Lightmap texture memory:  3.2 MB (0.5 MB streaming, 2.7 MB non-streaming), 18 textures
+[2014.11.22-23.34.16:457][104]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 54 textures
+[2014.11.22-23.34.25:623][105]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.22-23.34.25:689][105]MapCheck: New page: Level1 - 23 Nov 2014 01:34:25
+[2014.11.22-23.34.25:718][105]MapCheck:Warning: Warning Run 'Clean BSP Materials' to clear 2 unnecessary materal references 
+[2014.11.22-23.34.26:062][105]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [421,963ms] ==========
+[2014.11.22-23.36.10:423][889]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.22-23.36.10:457][889]PIE: New page: PIE session: Level1 (23 Nov 2014 01:36:10)
+[2014.11.22-23.36.10:719][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.214661s)
+[2014.11.22-23.36.10:773][889]LogPlayLevel: PIE: World Init took: (0.053478s)
+[2014.11.22-23.36.10:773][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.279521s)
+[2014.11.22-23.36.10:890][889]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.22-23.36.10:967][889]LogAIModule: Creating AISystem for world Level1
+[2014.11.22-23.36.11:002][889]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.23-00.36.11
+[2014.11.22-23.36.11:022][889]LogWorld: Bringing up level for play took: 0.038357
+[2014.11.22-23.36.11:093][889]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1,022
+[2014.11.22-23.37.16:541][772]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000482B7362A0
+[2014.11.22-23.37.57:608][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.22-23.38.11:426][ 24]LogSavePackage: Save=11054.288086ms
+[2014.11.22-23.38.11:427][ 24]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto569557E854475760265BBC39FE50FD442.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto5.umap'
+[2014.11.22-23.38.12:337][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 14.817
+[2014.11.22-23.38.12:337][ 24]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 14.817
+[2014.11.22-23.38.29:074][615]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Podloga)
+[2014.11.22-23.39.05:392][171]LogTexture:Display: Building textures: T_Metal_Steel_D (AutoDXT)
+[2014.11.22-23.39.15:400][171]LogTexture:Display: Building textures: T_Metal_Steel_N (BC5)
+[2014.11.22-23.39.17:438][171]LogMaterial: Missing cached shader map for material M_Metal_Steel, compiling.
+[2014.11.22-23.41.13:819][443]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.11.22-23.41.17:024][542]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.11.22-23.41.24:661][771]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.11.22-23.41.31:496][977]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.11.22-23.41.33:709][ 41]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2014.11.22-23.43.03:586][ 25]Cmd: DELETE
+[2014.11.22-23.43.03:586][ 25]Cmd: ACTOR DELETE
+[2014.11.22-23.43.03:762][ 25]LogEditorActor: Deleted Actor: SkyLight
+[2014.11.22-23.43.03:789][ 25]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2014.11.22-23.43.03:851][ 25]LogEditorActor: Deleted 1 Actors (0.116 secs)
+[2014.11.22-23.44.55:237][915]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight1)
+[2014.11.22-23.45.55:164][934]MapCheck: New page: Map Check
+[2014.11.22-23.45.55:252][934]LightingResults: New page: Lighting Build - 23 Nov 2014 01:45:55
+[2014.11.22-23.46.01:086][934]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.22-23.46.01:156][934]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.22-23.46.01:156][934]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.22-23.46.01:156][934]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.22-23.46.01:156][934]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.22-23.46.01:156][934]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.22-23.46.01:324][934]LogEditorBuildUtils: Build time 0:00:06
+[2014.11.22-23.46.01:559][937]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling.
+[2014.11.22-23.46.01:597][937]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling.
+[2014.11.22-23.46.01:600][937]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Steel, compiling.
+[2014.11.22-23.46.30:687][942]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2014.11.22-23.48.14:820][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.22-23.48.26:166][106]LogSavePackage: Save=9026.928711ms
+[2014.11.22-23.48.26:167][106]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto63B771485437A4C677B00DBAB9220FB37.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto6.umap'
+[2014.11.22-23.48.27:944][106]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 13.445
+[2014.11.22-23.48.27:944][106]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.445
+[2014.11.22-23.49.21:634][938]Job has failed! Job is closed while Tasks are still PENDING
+[2014.11.22-23.49.37:662][556]LogEditorActor: Deleted Actor: SpotLight
+[2014.11.22-23.49.37:697][556]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2014.11.22-23.51.09:573][853]Cmd: DELETE
+[2014.11.22-23.51.09:573][853]Cmd: ACTOR DELETE
+[2014.11.22-23.51.09:583][853]LogEditorActor: Deleted Actor: PointLight
+[2014.11.22-23.51.09:583][853]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2014.11.22-23.51.09:619][853]LogEditorActor: Deleted 1 Actors (0.046 secs)
+[2014.11.22-23.53.22:920][459]MapCheck: New page: Map Check
+[2014.11.22-23.53.22:964][459]LightingResults: New page: Lighting Build - 23 Nov 2014 01:53:22
+[2014.11.22-23.53.29:432][459]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.22-23.53.29:485][459]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.22-23.53.29:485][459]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.22-23.53.29:485][459]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.22-23.53.29:485][459]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.22-23.53.29:485][459]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.22-23.53.29:577][459]LogEditorBuildUtils: Build time 0:00:06
+[2014.11.22-23.53.29:606][460]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2014.11.22-23.58.32:182][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto7.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.22-23.58.43:300][213]LogSavePackage: Save=8795.199219ms
+[2014.11.22-23.58.43:325][213]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto7C96F61F34FE680FDF526AC9FD900EE76.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto7.umap'
+[2014.11.22-23.58.44:357][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 12.274
+[2014.11.22-23.58.44:357][213]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.274
+[2014.11.23-00.00.29:966][595]Job is a success!
+[2014.11.23-00.00.33:905][596]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.11.23-00.00.35:024][596]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.11.23-00.00.35:065][596]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.11.23-00.00.35:101][596]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.11.23-00.00.35:154][596]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.11.23-00.00.35:254][596]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.11.23-00.00.35:324][596]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.11.23-00.00.35:429][596]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.11.23-00.00.35:486][596]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.11.23-00.00.35:572][596]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.11.23-00.00.35:647][596]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.11.23-00.00.35:767][596]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.11.23-00.00.35:820][596]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.11.23-00.00.35:903][596]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.11.23-00.00.36:022][596]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.11.23-00.00.36:235][596]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.11.23-00.00.37:057][596]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.11.23-00.00.38:519][596]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.11.23-00.00.40:821][596]LogTexture:Display: Building textures: ShadowMapTexture2D_61 (BGRA8)
+[2014.11.23-00.00.42:185][596]LogTexture:Display: Building textures: ShadowMapTexture2D_62 (BGRA8)
+[2014.11.23-00.00.42:233][596]LogTexture:Display: Building textures: ShadowMapTexture2D_63 (BGRA8)
+[2014.11.23-00.00.42:339][596]LogTexture:Display: Building textures: ShadowMapTexture2D_64 (BGRA8)
+[2014.11.23-00.00.42:454][596]LogTexture:Display: Building textures: ShadowMapTexture2D_65 (BGRA8)
+[2014.11.23-00.00.42:579][596]LogTexture:Display: Building textures: ShadowMapTexture2D_66 (BGRA8)
+[2014.11.23-00.00.42:763][596]LogTexture:Display: Building textures: ShadowMapTexture2D_67 (BGRA8)
+[2014.11.23-00.00.42:819][596]LogTexture:Display: Building textures: ShadowMapTexture2D_68 (BGRA8)
+[2014.11.23-00.00.45:177][596]Lightmass on ADAM: 7:12 min total, 625 ms importing, 19 ms setup, 1:23 min photons, 5:48 min processing, 0 ms extra exporting [308/308 mappings]. Threads: 17:24 min total, 10:55 min processing.
+[2014.11.23-00.00.45:202][596]LogStaticLightingSystem:Warning: Illumination: 7:22 min (10.2 sec encoding lightmaps)
+[2014.11.23-00.00.45:202][596]LogStaticLightingSystem: Lightmap texture memory:  3.2 MB (0.5 MB streaming, 2.7 MB non-streaming), 18 textures
+[2014.11.23-00.00.45:202][596]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 62 textures
+[2014.11.23-00.00.51:126][597]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.23-00.00.51:132][597]MapCheck: New page: Level1 - 23 Nov 2014 02:00:51
+[2014.11.23-00.00.51:133][597]MapCheck:Warning: Warning Run 'Clean BSP Materials' to clear 2 unnecessary materal references 
+[2014.11.23-00.00.52:752][597]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [1.626,214ms] ==========
+[2014.11.23-00.09.08:707][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.23-00.09.34:886][600]LogSavePackage: Save=17578.707031ms
+[2014.11.23-00.09.34:887][600]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto8F26C6431492C66CEAAEA13ADD4F47D43.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto8.umap'
+[2014.11.23-00.09.38:563][600]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 30.042
+[2014.11.23-00.09.38:563][600]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 30.042
+[2014.11.23-00.15.23:478][ 63]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.23-00.15.23:478][ 63]PIE: New page: PIE session: Level1 (23 Nov 2014 02:15:23)
+[2014.11.23-00.15.23:532][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054418s)
+[2014.11.23-00.15.23:558][ 63]LogPlayLevel: PIE: World Init took: (0.025325s)
+[2014.11.23-00.15.23:558][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.080025s)
+[2014.11.23-00.15.23:589][ 63]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.23-00.15.23:590][ 63]LogAIModule: Creating AISystem for world Level1
+[2014.11.23-00.15.23:595][ 63]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.23-01.15.23
+[2014.11.23-00.15.23:597][ 63]LogWorld: Bringing up level for play took: 0.005917
+[2014.11.23-00.15.23:600][ 63]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 -0,471
+[2014.11.23-00.15.47:728][185]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000004828B30680
+[2014.11.23-00.17.36:973][879]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.23-00.17.36:973][879]PIE: New page: PIE session: Level1 (23 Nov 2014 02:17:36)
+[2014.11.23-00.17.37:024][879]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050816s)
+[2014.11.23-00.17.37:042][879]LogPlayLevel: PIE: World Init took: (0.017885s)
+[2014.11.23-00.17.37:042][879]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.069006s)
+[2014.11.23-00.17.37:924][879]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.23-00.17.37:926][879]LogAIModule: Creating AISystem for world Level1
+[2014.11.23-00.17.37:931][879]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.23-01.17.37
+[2014.11.23-00.17.37:932][879]LogWorld: Bringing up level for play took: 0.006060
+[2014.11.23-00.17.37:934][879]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1,863
+[2014.11.23-00.17.48:217][342]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000482CAAFA60
+[2014.11.23-00.17.52:828][528]MapCheck: New page: Map Check
+[2014.11.23-00.17.52:852][528]LightingResults: New page: Lighting Build - 23 Nov 2014 02:17:52
+[2014.11.23-00.17.58:630][528]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.23-00.17.58:672][528]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.23-00.17.58:672][528]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.23-00.17.58:672][528]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.23-00.17.58:672][528]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.23-00.17.58:672][528]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.23-00.17.58:761][528]LogEditorBuildUtils: Build time 0:00:05
+[2014.11.23-00.20.17:668][119]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto9.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.23-00.20.27:640][119]LogSavePackage: Save=7478.025391ms
+[2014.11.23-00.20.27:642][119]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto9059AA79C44F6A2DDF45FA080237EFFEF.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto9.umap'
+[2014.11.23-00.20.30:274][119]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 12.671
+[2014.11.23-00.20.30:274][119]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 12.671
+[2014.11.23-00.22.29:935][398]Job is a success!
+[2014.11.23-00.22.30:906][399]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.23-00.22.31:445][399]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.11.23-00.22.31:462][399]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2014.11.23-00.22.31:479][399]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.11.23-00.22.31:531][399]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2014.11.23-00.22.31:578][399]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.23-00.22.31:616][399]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2014.11.23-00.22.31:672][399]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.11.23-00.22.31:715][399]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2014.11.23-00.22.31:776][399]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.11.23-00.22.31:819][399]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2014.11.23-00.22.31:872][399]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.11.23-00.22.31:913][399]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2014.11.23-00.22.31:969][399]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.11.23-00.22.32:021][399]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2014.11.23-00.22.32:169][399]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.11.23-00.22.32:557][399]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.23-00.22.33:446][399]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.23-00.22.34:755][399]LogTexture:Display: Building textures: ShadowMapTexture2D_69 (BGRA8)
+[2014.11.23-00.22.35:325][399]LogTexture:Display: Building textures: ShadowMapTexture2D_70 (BGRA8)
+[2014.11.23-00.22.35:378][399]LogTexture:Display: Building textures: ShadowMapTexture2D_71 (BGRA8)
+[2014.11.23-00.22.35:413][399]LogTexture:Display: Building textures: ShadowMapTexture2D_72 (BGRA8)
+[2014.11.23-00.22.35:461][399]LogTexture:Display: Building textures: ShadowMapTexture2D_73 (BGRA8)
+[2014.11.23-00.22.35:484][399]LogTexture:Display: Building textures: ShadowMapTexture2D_74 (BGRA8)
+[2014.11.23-00.22.35:509][399]LogTexture:Display: Building textures: ShadowMapTexture2D_75 (BGRA8)
+[2014.11.23-00.22.35:524][399]LogTexture:Display: Building textures: ShadowMapTexture2D_76 (BGRA8)
+[2014.11.23-00.22.35:633][399]Lightmass on ADAM: 4:35 min total, 1.54 sec importing, 11 ms setup, 56.4 sec photons, 3:37 min processing, 0 ms extra exporting [308/308 mappings]. Threads: 10:51 min total, 6:45 min processing.
+[2014.11.23-00.22.36:711][399]LogStaticLightingSystem:Warning: Illumination: 4:43 min (4.96 sec encoding lightmaps)
+[2014.11.23-00.22.36:712][399]LogStaticLightingSystem: Lightmap texture memory:  3.2 MB (0.5 MB streaming, 2.7 MB non-streaming), 18 textures
+[2014.11.23-00.22.36:712][399]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 70 textures
+[2014.11.23-00.22.41:462][400]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.23-00.22.41:463][400]MapCheck: New page: Level1 - 23 Nov 2014 02:22:41
+[2014.11.23-00.22.41:464][400]MapCheck:Warning: Warning Run 'Clean BSP Materials' to clear 2 unnecessary materal references 
+[2014.11.23-00.22.41:680][400]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [216,585ms] ==========
+[2014.11.23-00.22.59:669][ 91]Cmd: DELETE
+[2014.11.23-00.22.59:670][ 91]Cmd: ACTOR DELETE
+[2014.11.23-00.22.59:677][ 91]LogEditorActor: Deleted Actor: SpotLight
+[2014.11.23-00.22.59:714][ 91]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2014.11.23-00.23.46:345][ 52]MapCheck: New page: Map Check
+[2014.11.23-00.23.46:371][ 52]LightingResults: New page: Lighting Build - 23 Nov 2014 02:23:46
+[2014.11.23-00.23.51:921][ 52]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.23-00.23.51:964][ 52]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.23-00.23.51:964][ 52]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.23-00.23.51:964][ 52]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.23-00.23.51:964][ 52]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.23-00.23.51:964][ 52]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.23-00.23.52:053][ 52]LogEditorBuildUtils: Build time 0:00:05
+[2014.11.23-00.23.52:116][ 53]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2014.11.23-00.30.48:284][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto0.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.23-00.30.57:443][  6]LogSavePackage: Save=6439.652344ms
+[2014.11.23-00.30.57:444][  6]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto00EA48EAE49971F1548EB789EF7773C15.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto0.umap'
+[2014.11.23-00.30.57:479][  6]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 9.252
+[2014.11.23-00.30.57:480][  6]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 9.252
+[2014.11.23-00.36.10:119][489]Job is a success!
+[2014.11.23-00.36.11:158][490]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2014.11.23-00.36.11:721][490]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2014.11.23-00.36.11:728][490]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2014.11.23-00.36.11:738][490]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1)
+[2014.11.23-00.36.11:783][490]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT)
+[2014.11.23-00.36.11:843][490]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1)
+[2014.11.23-00.36.11:882][490]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT)
+[2014.11.23-00.36.11:935][490]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1)
+[2014.11.23-00.36.11:976][490]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT)
+[2014.11.23-00.36.12:027][490]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1)
+[2014.11.23-00.36.12:070][490]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT)
+[2014.11.23-00.36.12:119][490]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2014.11.23-00.36.12:161][490]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2014.11.23-00.36.12:211][490]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1)
+[2014.11.23-00.36.12:270][490]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT)
+[2014.11.23-00.36.12:425][490]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2014.11.23-00.36.12:825][490]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2014.11.23-00.36.13:487][490]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2014.11.23-00.36.14:711][490]LogTexture:Display: Building textures: ShadowMapTexture2D_77 (BGRA8)
+[2014.11.23-00.36.15:267][490]LogTexture:Display: Building textures: ShadowMapTexture2D_78 (BGRA8)
+[2014.11.23-00.36.15:289][490]LogTexture:Display: Building textures: ShadowMapTexture2D_79 (BGRA8)
+[2014.11.23-00.36.15:354][490]LogTexture:Display: Building textures: ShadowMapTexture2D_80 (BGRA8)
+[2014.11.23-00.36.15:399][490]LogTexture:Display: Building textures: ShadowMapTexture2D_81 (BGRA8)
+[2014.11.23-00.36.15:422][490]LogTexture:Display: Building textures: ShadowMapTexture2D_82 (BGRA8)
+[2014.11.23-00.36.15:445][490]LogTexture:Display: Building textures: ShadowMapTexture2D_83 (BGRA8)
+[2014.11.23-00.36.15:454][490]LogTexture:Display: Building textures: ShadowMapTexture2D_84 (BGRA8)
+[2014.11.23-00.36.15:588][490]Lightmass on ADAM: 12:22 min total, 2.20 sec importing, 5 ms setup, 4:47 min photons, 7:32 min processing, 0 ms extra exporting [308/308 mappings]. Threads: 22:37 min total, 14:12 min processing.
+[2014.11.23-00.36.16:187][490]LogStaticLightingSystem:Warning: Illumination: 12:29 min (4.67 sec encoding lightmaps)
+[2014.11.23-00.36.16:187][490]LogStaticLightingSystem: Lightmap texture memory:  3.2 MB (0.5 MB streaming, 2.7 MB non-streaming), 18 textures
+[2014.11.23-00.36.16:187][490]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 78 textures
+[2014.11.23-00.36.21:145][491]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.23-00.36.21:146][491]MapCheck: New page: Level1 - 23 Nov 2014 02:36:21
+[2014.11.23-00.36.21:146][491]MapCheck:Warning: Warning Run 'Clean BSP Materials' to clear 2 unnecessary materal references 
+[2014.11.23-00.36.21:329][491]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [183,272ms] ==========
+[2014.11.23-00.41.09:790][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2014.11.23-00.41.22:606][463]LogSavePackage: Save=9297.284180ms
+[2014.11.23-00.41.22:607][463]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level1_Auto1B3015ACE48FAA5DCD577FE848FDBA1E0.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Autosaves/Game/Maps/Level1_Auto1.umap'
+[2014.11.23-00.41.23:538][463]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Level1' took 13.822
+[2014.11.23-00.41.23:538][463]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 13.822
+[2014.11.23-00.43.32:253][675]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.23-00.43.32:253][675]PIE: New page: PIE session: Level1 (23 Nov 2014 02:43:32)
+[2014.11.23-00.43.32:302][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048296s)
+[2014.11.23-00.43.32:316][675]LogPlayLevel: PIE: World Init took: (0.014447s)
+[2014.11.23-00.43.32:316][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.063052s)
+[2014.11.23-00.43.33:198][675]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.23-00.43.33:200][675]LogAIModule: Creating AISystem for world Level1
+[2014.11.23-00.43.33:205][675]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.23-01.43.33
+[2014.11.23-00.43.33:206][675]LogWorld: Bringing up level for play took: 0.005597
+[2014.11.23-00.43.33:208][675]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 1,137
+[2014.11.23-00.43.57:711][851]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000482CAAC7C0
+[2014.11.23-00.44.01:447][  1]Cmd: DELETE
+[2014.11.23-00.44.01:447][  1]Cmd: ACTOR DELETE
+[2014.11.23-00.44.01:457][  1]LogEditorActor: Deleted Actor: DirectionalLight
+[2014.11.23-00.44.01:495][  1]LogEditorActor: Deleted 1 Actors (0.048 secs)
+[2014.11.23-00.44.09:091][370]MapCheck: New page: Map Check
+[2014.11.23-00.44.09:121][370]LightingResults: New page: Lighting Build - 23 Nov 2014 02:44:09
+[2014.11.23-00.44.14:678][370]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2014.11.23-00.44.14:721][370]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2014.11.23-00.44.14:721][370]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2014.11.23-00.44.14:721][370]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2014.11.23-00.44.14:721][370]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2014.11.23-00.44.14:721][370]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2014.11.23-00.44.14:812][370]LogEditorBuildUtils: Build time 0:00:05
+[2014.11.23-00.48.49:137][350]Job is a success!
+[2014.11.23-00.48.50:579][351]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2014.11.23-00.48.51:496][351]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2014.11.23-00.48.51:513][351]LogTexture:Display: Building textures: HQ_Lightmap2_9 (AutoDXT)
+[2014.11.23-00.48.51:540][351]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2014.11.23-00.48.51:596][351]LogTexture:Display: Building textures: HQ_Lightmap2_8 (AutoDXT)
+[2014.11.23-00.48.51:652][351]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2014.11.23-00.48.51:698][351]LogTexture:Display: Building textures: HQ_Lightmap2_7 (AutoDXT)
+[2014.11.23-00.48.51:766][351]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2014.11.23-00.48.51:820][351]LogTexture:Display: Building textures: HQ_Lightmap2_6 (AutoDXT)
+[2014.11.23-00.48.51:887][351]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2014.11.23-00.48.51:936][351]LogTexture:Display: Building textures: HQ_Lightmap2_5 (AutoDXT)
+[2014.11.23-00.48.51:994][351]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2014.11.23-00.48.52:048][351]LogTexture:Display: Building textures: HQ_Lightmap2_4 (AutoDXT)
+[2014.11.23-00.48.52:166][351]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2014.11.23-00.48.52:267][351]LogTexture:Display: Building textures: HQ_Lightmap2_3 (AutoDXT)
+[2014.11.23-00.48.52:411][351]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2014.11.23-00.48.53:029][351]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2014.11.23-00.48.54:091][351]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2014.11.23-00.48.55:484][351]LogTexture:Display: Building textures: ShadowMapTexture2D_85 (BGRA8)
+[2014.11.23-00.48.56:114][351]LogTexture:Display: Building textures: ShadowMapTexture2D_86 (BGRA8)
+[2014.11.23-00.48.56:160][351]LogTexture:Display: Building textures: ShadowMapTexture2D_87 (BGRA8)
+[2014.11.23-00.48.56:251][351]LogTexture:Display: Building textures: ShadowMapTexture2D_88 (BGRA8)
+[2014.11.23-00.48.56:295][351]LogTexture:Display: Building textures: ShadowMapTexture2D_89 (BGRA8)
+[2014.11.23-00.48.56:325][351]LogTexture:Display: Building textures: ShadowMapTexture2D_90 (BGRA8)
+[2014.11.23-00.48.56:359][351]LogTexture:Display: Building textures: ShadowMapTexture2D_91 (BGRA8)
+[2014.11.23-00.48.56:410][351]LogTexture:Display: Building textures: ShadowMapTexture2D_92 (BGRA8)
+[2014.11.23-00.48.56:535][351]Lightmass on ADAM: 4:39 min total, 1.53 sec importing, 20 ms setup, 1:04 min photons, 3:33 min processing, 0 ms extra exporting [308/308 mappings]. Threads: 10:41 min total, 6:36 min processing.
+[2014.11.23-00.48.57:164][351]LogStaticLightingSystem:Warning: Illumination: 4:47 min (6.30 sec encoding lightmaps)
+[2014.11.23-00.48.57:164][351]LogStaticLightingSystem: Lightmap texture memory:  3.2 MB (0.5 MB streaming, 2.7 MB non-streaming), 18 textures
+[2014.11.23-00.48.57:164][351]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 86 textures
+[2014.11.23-00.49.03:106][352]Cmd: MAP CHECK NOTIFYRESULTS
+[2014.11.23-00.49.03:107][352]MapCheck: New page: Level1 - 23 Nov 2014 02:49:03
+[2014.11.23-00.49.03:108][352]MapCheck:Warning: Warning Run 'Clean BSP Materials' to clear 2 unnecessary materal references 
+[2014.11.23-00.49.03:350][352]MapCheck: Info ========== Map Check: 0 Error(s), 1 Warning(s), [243,39ms] ==========
+[2014.11.23-00.49.59:873][333]LogMaterial: Missing cached shader map for material M_Concrete_Tiles, compiling.
+[2014.11.23-00.51.56:349][954]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2014.11.23-00.51.56:349][954]PIE: New page: PIE session: Level1 (23 Nov 2014 02:51:56)
+[2014.11.23-00.51.56:405][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055161s)
+[2014.11.23-00.51.56:407][954]LogPlayLevel: PIE: World Init took: (0.002291s)
+[2014.11.23-00.51.56:407][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Level1.Level1 to /Game/Maps/UEDPIE_0_Level1.Level1 (0.057815s)
+[2014.11.23-00.52.01:759][954]LogWorld: Game class is 'BP_TrybGry_C'
+[2014.11.23-00.52.01:764][954]LogAIModule: Creating AISystem for world Level1
+[2014.11.23-00.52.01:773][954]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2014.11.23-01.52.01
+[2014.11.23-00.52.01:774][954]LogWorld: Bringing up level for play took: 0.010202
+[2014.11.23-00.52.01:777][954]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Level1 5,705
+[2014.11.23-00.52.12:336][389]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2014.11.23-00.52.12:465][390]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048252CE0C0
+[2014.11.23-00.52.16:116][494]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Level1" FILE="I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2014.11.23-00.52.52:673][494]LogSavePackage: Save=22746.648438ms
+[2014.11.23-00.52.52:692][494]LogSavePackage: Moving 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Saved/Level12551303E42005EE6DB4825A16056342A.tmp' to 'I:/UNREAL_AKTUALNY_PROJEKT/Jablo/Content/Maps/Level1.umap'
+[2014.11.23-00.53.02:448][494]LogFileHelpers: Saving map 'Level1' took 46.599
+[2014.11.23-00.53.26:638][595]Cmd: QUIT_EDITOR
+[2014.11.23-00.53.27:477][595]LogWindowsTextInputMethodSystem:Error: Terminating failed while unadvising the language notification sink from the TSF source.
+[2014.11.23-00.53.27:558][595]LogExit: Preparing to exit.
+[2014.11.23-00.53.29:086][595]LogExit: Editor shut down
+[2014.11.23-00.53.29:105][595]LogExit: Transaction tracking system shut down
+[2014.11.23-00.53.29:113][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000485F1CDB20
+[2014.11.23-00.53.29:131][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000485F1CD940
+[2014.11.23-00.53.29:131][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000486B8FF600
+[2014.11.23-00.53.29:131][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000485EBD5760
+[2014.11.23-00.53.29:132][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000487072ED40
+[2014.11.23-00.53.30:688][595]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000048695A9EE0
+[2014.11.23-00.53.30:688][595]LogExit: Object subsystem successfully closed.
+[2014.11.23-00.53.32:154][595]LogModuleManager: Shutting down and abandoning module MaterialEditor (154)
+[2014.11.23-00.53.32:173][595]LogModuleManager: Shutting down and abandoning module HTTP (153)
+[2014.11.23-00.53.32:193][595]LogModuleManager: Shutting down and abandoning module CrashTracker (152)
+[2014.11.23-00.53.32:193][595]LogModuleManager: Shutting down and abandoning module SuperSearch (151)
+[2014.11.23-00.53.32:204][595]LogModuleManager: Shutting down and abandoning module SceneOutliner (150)
+[2014.11.23-00.53.32:204][595]LogModuleManager: Shutting down and abandoning module EditorWidgets (149)
+[2014.11.23-00.53.32:204][595]LogModuleManager: Shutting down and abandoning module CollectionManager (148)
+[2014.11.23-00.53.32:210][595]LogModuleManager: Shutting down and abandoning module StatsViewer (147)
+[2014.11.23-00.53.32:224][595]LogModuleManager: Shutting down and abandoning module FoliageEdit (146)
+[2014.11.23-00.53.32:233][595]LogModuleManager: Shutting down and abandoning module LandscapeEditor (145)
+[2014.11.23-00.53.32:249][595]LogModuleManager: Shutting down and abandoning module MeshPaint (144)
+[2014.11.23-00.53.32:249][595]LogModuleManager: Shutting down and abandoning module ActorPickerMode (143)
+[2014.11.23-00.53.32:249][595]LogModuleManager: Shutting down and abandoning module GeometryMode (142)
+[2014.11.23-00.53.32:249][595]LogModuleManager: Shutting down and abandoning module TextureAlignMode (141)
+[2014.11.23-00.53.32:249][595]LogModuleManager: Shutting down and abandoning module BspMode (140)
+[2014.11.23-00.53.32:249][595]LogModuleManager: Shutting down and abandoning module PlacementMode (139)
+[2014.11.23-00.53.32:249][595]LogModuleManager: Shutting down and abandoning module DesktopPlatform (138)
+[2014.11.23-00.53.32:282][595]LogModuleManager: Shutting down and abandoning module AutomationWorker (137)
+[2014.11.23-00.53.32:282][595]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (136)
+[2014.11.23-00.53.32:296][595]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (135)
+[2014.11.23-00.53.32:296][595]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (134)
+[2014.11.23-00.53.32:305][595]LogModuleManager: Shutting down and abandoning module UndoHistory (133)
+[2014.11.23-00.53.32:305][595]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (132)
+[2014.11.23-00.53.32:305][595]LogModuleManager: Shutting down and abandoning module UserFeedback (131)
+[2014.11.23-00.53.32:305][595]LogModuleManager: Shutting down and abandoning module XmlParser (130)
+[2014.11.23-00.53.32:318][595]LogModuleManager: Shutting down and abandoning module Blutility (129)
+[2014.11.23-00.53.32:318][595]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (128)
+[2014.11.23-00.53.32:318][595]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (127)
+[2014.11.23-00.53.32:318][595]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (124)
+[2014.11.23-00.53.32:326][595]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (123)
+[2014.11.23-00.53.32:326][595]LogModuleManager: Shutting down and abandoning module InputBindingEditor (122)
+[2014.11.23-00.53.32:353][595]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (121)
+[2014.11.23-00.53.32:353][595]LogModuleManager: Shutting down and abandoning module SettingsEditor (120)
+[2014.11.23-00.53.32:366][595]LogModuleManager: Shutting down and abandoning module SessionLauncher (119)
+[2014.11.23-00.53.32:399][595]LogModuleManager: Shutting down and abandoning module SessionFrontend (118)
+[2014.11.23-00.53.32:405][595]LogModuleManager: Shutting down and abandoning module ProfilerClient (117)
+[2014.11.23-00.53.32:415][595]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (116)
+[2014.11.23-00.53.32:416][595]LogModuleManager: Shutting down and abandoning module DeviceManager (115)
+[2014.11.23-00.53.32:429][595]LogModuleManager: Shutting down and abandoning module AutomationController (114)
+[2014.11.23-00.53.32:436][595]LogModuleManager: Shutting down and abandoning module AutomationWindow (113)
+[2014.11.23-00.53.32:446][595]LogModuleManager: Shutting down and abandoning module Layers (112)
+[2014.11.23-00.53.32:446][595]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (111)
+[2014.11.23-00.53.32:446][595]LogModuleManager: Shutting down and abandoning module DetailCustomizations (110)
+[2014.11.23-00.53.32:456][595]LogModuleManager: Shutting down and abandoning module PackagesDialog (109)
+[2014.11.23-00.53.32:456][595]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (108)
+[2014.11.23-00.53.32:463][595]LogModuleManager: Shutting down and abandoning module AssetRegistry (107)
+[2014.11.23-00.53.36:786][595]LogModuleManager: Shutting down and abandoning module Persona (106)
+[2014.11.23-00.53.36:845][595]LogModuleManager: Shutting down and abandoning module GraphEditor (105)
+[2014.11.23-00.53.36:845][595]LogModuleManager: Shutting down and abandoning module ClassViewer (104)
+[2014.11.23-00.53.36:845][595]LogModuleManager: Shutting down and abandoning module Toolbox (103)
+[2014.11.23-00.53.36:845][595]LogModuleManager: Shutting down and abandoning module ModuleUI (102)
+[2014.11.23-00.53.36:854][595]LogModuleManager: Shutting down and abandoning module MovieSceneTools (101)
+[2014.11.23-00.53.36:922][595]LogModuleManager: Shutting down and abandoning module OutputLog (100)
+[2014.11.23-00.53.36:922][595]LogModuleManager: Shutting down and abandoning module GammaUI (99)
+[2014.11.23-00.53.37:732][595]LogModuleManager: Shutting down and abandoning module Documentation (98)
+[2014.11.23-00.53.37:732][595]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (97)
+[2014.11.23-00.53.37:742][595]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (96)
+[2014.11.23-00.53.37:754][595]LogModuleManager: Shutting down and abandoning module AnalyticsET (95)
+[2014.11.23-00.53.37:754][595]LogModuleManager: Shutting down and abandoning module Analytics (94)
+[2014.11.23-00.53.37:754][595]LogModuleManager: Shutting down and abandoning module GameplayDebugger (93)
+[2014.11.23-00.53.37:754][595]LogModuleManager: Shutting down and abandoning module AIModule (92)
+[2014.11.23-00.53.37:754][595]LogModuleManager: Shutting down and abandoning module ProfilerService (91)
+[2014.11.23-00.53.37:821][595]LogModuleManager: Shutting down and abandoning module TaskGraph (90)
+[2014.11.23-00.53.37:832][595]LogModuleManager: Shutting down and abandoning module SlateRemote (89)
+[2014.11.23-00.53.37:832][595]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (88)
+[2014.11.23-00.53.37:832][595]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (87)
+[2014.11.23-00.53.37:832][595]LogModuleManager: Shutting down and abandoning module CableComponent (86)
+[2014.11.23-00.53.37:832][595]LogModuleManager: Shutting down and abandoning module MessagingDebugger (85)
+[2014.11.23-00.53.37:863][595]LogModuleManager: Shutting down and abandoning module ViewportSnapping (84)
+[2014.11.23-00.53.37:863][595]LogModuleManager: Shutting down and abandoning module SmartSnapping (83)
+[2014.11.23-00.53.37:863][595]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (82)
+[2014.11.23-00.53.37:863][595]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (81)
+[2014.11.23-00.53.37:863][595]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (80)
+[2014.11.23-00.53.37:863][595]LogModuleManager: Shutting down and abandoning module Matinee (79)
+[2014.11.23-00.53.37:884][595]LogModuleManager: Shutting down and abandoning module Kismet (78)
+[2014.11.23-00.53.37:902][595]LogModuleManager: Shutting down and abandoning module SlateReflector (77)
+[2014.11.23-00.53.37:918][595]LogModuleManager: Shutting down and abandoning module LevelEditor (76)
+[2014.11.23-00.53.37:958][595]LogModuleManager: Shutting down and abandoning module IntroTutorials (75)
+[2014.11.23-00.53.37:978][595]LogModuleManager: Shutting down and abandoning module ContentBrowser (74)
+[2014.11.23-00.53.37:978][595]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2014.11.23-00.53.37:978][595]LogModuleManager: Shutting down and abandoning module Paper2DEditor (72)
+[2014.11.23-00.53.38:013][595]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (71)
+[2014.11.23-00.53.38:024][595]LogModuleManager: Shutting down and abandoning module PluginsEditor (70)
+[2014.11.23-00.53.38:035][595]LogModuleManager: Shutting down and abandoning module MainFrame (69)
+[2014.11.23-00.53.38:035][595]LogModuleManager: Shutting down and abandoning module EpicSurvey (68)
+[2014.11.23-00.53.38:045][595]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (67)
+[2014.11.23-00.53.38:052][595]LogModuleManager: Shutting down and abandoning module UObjectPlugin (66)
+[2014.11.23-00.53.38:052][595]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (65)
+[2014.11.23-00.53.38:068][595]LogModuleManager: Shutting down and abandoning module SourceControl (64)
+[2014.11.23-00.53.38:084][595]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (63)
+[2014.11.23-00.53.38:102][595]LogModuleManager: Shutting down and abandoning module BlankPlugin (62)
+[2014.11.23-00.53.38:102][595]LogModuleManager: Shutting down and abandoning module ScriptPlugin (61)
+[2014.11.23-00.53.38:114][595]LogModuleManager: Shutting down and abandoning module UdpMessaging (60)
+[2014.11.23-00.53.38:215][595]LogModuleManager: Shutting down and abandoning module Paper2D (59)
+[2014.11.23-00.53.38:227][595]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (58)
+[2014.11.23-00.53.38:279][595]LogModuleManager: Shutting down and abandoning module ImageWrapper (57)
+[2014.11.23-00.53.38:279][595]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (56)
+[2014.11.23-00.53.38:279][595]LogModuleManager: Shutting down and abandoning module FunctionalTesting (55)
+[2014.11.23-00.53.38:287][595]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (54)
+[2014.11.23-00.53.38:311][595]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (53)
+[2014.11.23-00.53.38:312][595]LogModuleManager: Shutting down and abandoning module MessageLog (52)
+[2014.11.23-00.53.38:312][595]LogModuleManager: Shutting down and abandoning module Sequencer (51)
+[2014.11.23-00.53.38:333][595]LogModuleManager: Shutting down and abandoning module AssetTools (50)
+[2014.11.23-00.53.38:371][595]LogModuleManager: Shutting down and abandoning module UMGEditor (49)
+[2014.11.23-00.53.38:400][595]LogModuleManager: Shutting down and abandoning module UMG (48)
+[2014.11.23-00.53.38:411][595]LogModuleManager: Shutting down and abandoning module Slate (47)
+[2014.11.23-00.53.38:411][595]LogModuleManager: Shutting down and abandoning module EditorStyle (46)
+[2014.11.23-00.53.38:512][595]LogModuleManager: Shutting down and abandoning module SessionServices (45)
+[2014.11.23-00.53.38:512][595]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (44)
+[2014.11.23-00.53.38:512][595]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (43)
+[2014.11.23-00.53.38:526][595]LogModuleManager: Shutting down and abandoning module XAudio2 (42)
+[2014.11.23-00.53.38:526][595]LogModuleManager: Shutting down and abandoning module Networking (40)
+[2014.11.23-00.53.38:526][595]LogModuleManager: Shutting down and abandoning module Core (39)
+[2014.11.23-00.53.38:526][595]LogModuleManager: Shutting down and abandoning module KismetCompiler (38)
+[2014.11.23-00.53.38:531][595]LogModuleManager: Shutting down and abandoning module PhysXFormats (37)
+[2014.11.23-00.53.38:531][595]LogModuleManager: Shutting down and abandoning module MeshUtilities (36)
+[2014.11.23-00.53.38:554][595]LogModuleManager: Shutting down and abandoning module DerivedDataCache (35)
+[2014.11.23-00.53.38:626][595]LogDerivedDataCache: Shutdown
+[2014.11.23-00.53.38:626][595]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (34)
+[2014.11.23-00.53.38:635][595]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (33)
+[2014.11.23-00.53.38:639][595]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (32)
+[2014.11.23-00.53.38:648][595]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (31)
+[2014.11.23-00.53.38:648][595]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (30)
+[2014.11.23-00.53.38:655][595]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (29)
+[2014.11.23-00.53.38:655][595]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (28)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (27)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (26)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module Messaging (25)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (24)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (23)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (22)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (21)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (20)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module TargetPlatform (19)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module InputCore (18)
+[2014.11.23-00.53.38:661][595]LogModuleManager: Shutting down and abandoning module Settings (17)
+[2014.11.23-00.53.38:668][595]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2014.11.23-00.53.38:669][595]LogModuleManager: Shutting down and abandoning module OculusRift (13)
+[2014.11.23-00.53.38:679][595]LogModuleManager: Shutting down and abandoning module TextureCompressor (12)
+[2014.11.23-00.53.38:679][595]LogModuleManager: Shutting down and abandoning module ShaderCore (11)
+[2014.11.23-00.53.38:679][595]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2014.11.23-00.53.38:688][595]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2014.11.23-00.53.38:688][595]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (8)
+[2014.11.23-00.53.38:688][595]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2014.11.23-00.53.38:703][595]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2014.11.23-00.53.38:703][595]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2014.11.23-00.53.38:703][595]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2014.11.23-00.53.38:708][595]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2014.11.23-00.53.38:721][595]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2014.11.23-00.53.38:722][595]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2014.11.23-00.53.38:774][595]LogExit: Exiting.
+[2014.11.23-00.53.40:814][595]Log file closed, 11/23/14 01:53:40
