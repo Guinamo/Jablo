@@ -1,0 +1,519 @@
+﻿Log file open, 02/17/15 19:18:13
+LogInit:Display: Running engine for game: MyProject4
+LogInit: Version: 4.6.1-2386410+++depot+UE4-Releases+4.6
+LogInit: API Version: 2369412
+LogInit: Compiled (64-bit): Dec 11 2014 21:31:39
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.6
+LogInit: Command line:  
+LogInit: Base directory: D:/Programs/UE4/Epic Games/4.6/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.02.17-18.18.13:455][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2015.02.17-18.18.13:499][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.02.17-18.18.13:535][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.02.17-18.18.13:552][  0]LogInit: Object subsystem initialized
+[2015.02.17-18.18.13:556][  0]LogInit: Selected Device Profile: [Windows]
+[2015.02.17-18.18.13:556][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.02.17-18.18.13:566][  0]LogInit: Computer: WHDR522
+[2015.02.17-18.18.13:566][  0]LogInit: User: Whitehead
+[2015.02.17-18.18.13:566][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.02.17-18.18.13:566][  0]LogInit: High frequency timer resolution =2.045712 MHz
+[2015.02.17-18.18.13:566][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2015.02.17-18.18.13:567][  0]LogMemory: Platform Memory Stats for Windows
+[2015.02.17-18.18.13:567][  0]LogMemory: Process Physical Memory: 48.56 MB used, 48.56 MB peak
+[2015.02.17-18.18.13:567][  0]LogMemory: Process Virtual Memory: 24.50 MB used, 24.50 MB peak
+[2015.02.17-18.18.13:567][  0]LogMemory: Physical Memory: 2106.64 MB used, 4060.61 MB total
+[2015.02.17-18.18.13:567][  0]LogMemory: Virtual Memory: 262.42 MB used, 8388608.00 MB total
+[2015.02.17-18.18.13:657][  0]LogD3D11RHI: Found D3D11 adapter 0: ATI Mobility Radeon HD 4300 Series (Feature Level 10_0)
+[2015.02.17-18.18.13:658][  0]LogD3D11RHI: Adapter has 505MB of dedicated video memory, 0MB of dedicated system memory, and 1774MB of shared system memory, 2 output[s]
+[2015.02.17-18.18.13:658][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.02.17-18.18.13:671][  0]LogRHI: Texture pool is 353 MB (70% of 505 MB)
+[2015.02.17-18.18.13:693][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.02.17-18.18.13:766][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.02.17-18.18.14:109][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.02.17-18.18.25:783][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.17-18.18.26:848][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.17-18.18.26:953][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.02.17-18.18.27:087][  0]LogDerivedDataCache: Loaded boot cache 0.13s 36MB C:/Users/Whitehead/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.17-18.18.27:087][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Whitehead/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc
+[2015.02.17-18.18.27:087][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../../Jablo/Git/Jablo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.02.17-18.18.27:087][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.02.17-18.18.27:215][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/DDC.ddp.
+[2015.02.17-18.18.27:228][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Whitehead/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.02.17-18.18.27:537][  0]LogCollisionProfile:Warning: Profile (UI) - Custom Channel Name = 'Weapon' hasn't been found
+[2015.02.17-18.18.27:850][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.02.17-18.18.27:850][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.02.17-18.18.28:738][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.02.17-18.18.28:842][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.02.17-18.18.30:600][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.02.17-18.18.30:895][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for D:/Jablo/Git/Jablo/Binaries/Win64. Error: 0
+[2015.02.17-18.18.31:236][  0]SourceControl: Info Source control is disabled
+[2015.02.17-18.18.31:236][  0]SourceControl: Info Source control is disabled
+[2015.02.17-18.18.31:249][  0]SourceControl: Info Source control is disabled
+[2015.02.17-18.18.31:512][  0]LogObj: 23754 objects as part of root set at end of initial load.
+[2015.02.17-18.18.31:512][  0]LogUObjectAllocator: 5168136 out of 0 bytes used by permanent object pool.
+[2015.02.17-18.18.31:612][  0]LogEngine: Initializing Engine...
+[2015.02.17-18.18.31:952][  0]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.02.17-18.18.31:963][  0]LogInit: FAudioDevice initialized.
+[2015.02.17-18.18.32:006][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.02.17-18.18.32:078][  0]LogDerivedDataCache: Saved boot cache 0.07s 36MB C:/Users/Whitehead/AppData/Local/UnrealEngine/4.6/DerivedDataCache/Boot.ddc.
+[2015.02.17-18.18.32:099][  0]LogInit: Texture streaming: Enabled
+[2015.02.17-18.18.32:158][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.02.17-18.18.32:158][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.6.1-2386410+++depot+UE4-Releases+4.6
+[2015.02.17-18.18.32:164][  0]LogAnalytics: SetUserId 54b78d189652c377b8934a9b375ad504
+[2015.02.17-18.18.32:164][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.02.17-18.18.32:200][  0]LogInit: Transaction tracking system initialized
+[2015.02.17-18.18.32:400][  0]BlueprintLog: New page: Editor Load
+[2015.02.17-18.18.32:446][  0]LogAssetRegistry: FAssetRegistry took 0.0100 seconds to start up
+[2015.02.17-18.18.32:447][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.02.17-18.18.33:766][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.17-18.18.34:722][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.02.17-18.18.35:178][  0]LogConsoleResponse:Display: 
+[2015.02.17-18.18.35:320][  0]LogLinker:Warning: Asset '../../../Engine/Content/Functions/Engine_MaterialFunctions03/Procedurals/ComputeFilterWidth.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.35:752][  0]SourceControl: Info Source control is disabled
+[2015.02.17-18.18.35:752][  0]Cmd: MAP LOAD FILE="../../../../../../../Jablo/Git/Jablo/Content/Maps/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.17-18.18.35:893][  0]LightingResults: New page: Lighting Build
+[2015.02.17-18.18.35:910][  0]MapCheck: New page: Map Check
+[2015.02.17-18.18.35:910][  0]LightingResults: New page: Lighting Build
+[2015.02.17-18.18.36:036][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012B89760
+[2015.02.17-18.18.36:039][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Maps/Level1.umap' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.36:079][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/wrogowie/BP_Wrog1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.36:148][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/AI/BP_AI_Controller.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.36:171][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/AI/BT_AI_Wrog.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.36:203][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/AI/BB_AI_Wrog.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.36:239][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/AI/BTService_DystansDoCelu.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.36:685][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/AI/BTT_AI_Obrazenia.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.36:838][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/AI/BTT_Set_BB_Actor.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.37:012][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/AI/BTT_Set_BB_Bool.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.37:261][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/HeroTPP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.37:330][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/HeroTPP_Skeleton.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.38:669][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Props/drewniana_skrzynia.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.38:676][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Props/drewniana_skrzynia2.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.38:683][  0]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Props/swietlowka.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.18.42:898][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.17-18.18.42:969][  0]LogAIModule: Creating AISystem for world Level1
+[2015.02.17-18.18.42:989][  0]Cmd: MAP CHECKDEP
+[2015.02.17-18.18.42:990][  0]MapCheck: New page: Level1 - Feb 17, 2015, 8:18:42 PM
+[2015.02.17-18.18.43:213][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 223.019ms to complete.
+[2015.02.17-18.18.43:213][  0]LogFileHelpers: Loading map 'Level1' took 7.461
+[2015.02.17-18.18.44:045][  0]LogCollectionManager: Loaded 0 collections in 0.002111 seconds
+[2015.02.17-18.18.48:590][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.02.17-18.18.48:703][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.02.17-18.18.48:763][  0]LogLoad: Full Startup: 38.98 seconds (BP compile: 0.31 seconds)
+[2015.02.17-18.18.49:159][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/Blueprints/Postać'
+[2015.02.17-18.18.49:793][  0]LogRenderer:Warning: Reallocating scene render targets to support 808x760.
+[2015.02.17-18.18.53:042][  6]LogAssetRegistry: Asset discovery search completed in 20.6070 seconds
+[2015.02.17-18.18.53:063][  6]LogAnalytics: Event Editor.Usage.AssetClasses has too many attributes (43). May be truncated at the collector.
+[2015.02.17-18.19.05:012][162]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.02.17-18.19.05:095][162]Cmd: MAP LOAD FILE="../../../../../../../Jablo/Git/Jablo/Content/Maps/0_TestingRoom.umap" TEMPLATE=0 SHOWPROGRESS=1
+[2015.02.17-18.19.05:112][162]LightingResults: New page: Lighting Build
+[2015.02.17-18.19.05:200][162]LoadErrors: New page: Loading map: 0_TestingRoom.umap
+[2015.02.17-18.19.05:254][162]MapCheck: New page: Map Check
+[2015.02.17-18.19.05:254][162]LightingResults: New page: Lighting Build
+[2015.02.17-18.19.05:303][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE7A5C0
+[2015.02.17-18.19.05:962][162]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.02.17-18.19.05:963][162]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.17-18.19.06:121][162]Cmd: MAP CHECKDEP
+[2015.02.17-18.19.06:121][162]MapCheck: New page: 0_TestingRoom - Feb 17, 2015, 8:19:06 PM
+[2015.02.17-18.19.06:277][162]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 155.82ms to complete.
+[2015.02.17-18.19.06:277][162]LogFileHelpers: Loading map '0_TestingRoom' took 1.186
+[2015.02.17-18.19.23:595][289]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2015.02.17-18.19.23:844][289]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.17-18.19.30:818][379]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.02.17-18.19.30:856][379]PIE: New page: PIE session: 0_TestingRoom (Feb 17, 2015, 8:19:30 PM)
+[2015.02.17-18.19.30:862][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004839s)
+[2015.02.17-18.19.30:864][379]LogPlayLevel: PIE: World Init took: (0.002289s)
+[2015.02.17-18.19.30:864][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/0_TestingRoom.0_TestingRoom to /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom (0.007459s)
+[2015.02.17-18.19.31:008][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/BP_TrybGry.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:022][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/Interfejs/BP_HUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:155][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/HeroTPP_AnimBlueprint.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:180][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Animations/Idle_Pistol.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:190][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Animations/Jump_End.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:202][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Animations/Jump_Loop.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:208][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Animations/Jump_Start.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:220][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Animations/Run.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:239][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/IdleRun_TPP.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:241][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Animations/Idle.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:258][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Animations/Walk.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.31:601][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2015.02.17-18.19.31:601][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:601][379]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip
+[2015.02.17-18.19.31:602][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2015.02.17-18.19.31:602][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:602][379]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Idle_Rifle_Hip
+[2015.02.17-18.19.31:603][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2015.02.17-18.19.31:603][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:603][379]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Jog
+[2015.02.17-18.19.31:604][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2015.02.17-18.19.31:604][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:604][379]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Stand
+[2015.02.17-18.19.31:605][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2015.02.17-18.19.31:605][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:605][379]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/R_CrouchWalk
+[2015.02.17-18.19.31:606][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2015.02.17-18.19.31:606][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:607][379]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/R_Jog
+[2015.02.17-18.19.31:607][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:608][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:608][379]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/ASP_Character
+[2015.02.17-18.19.31:608][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:609][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:610][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:610][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:625][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:625][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:626][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2015.02.17-18.19.31:626][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:627][379]LoadErrors:Error: Error /Game/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint : Can't find file for asset. /Game/AnimStarterPack/Character/HeroTPP_Skeleton
+[2015.02.17-18.19.31:627][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2015.02.17-18.19.31:627][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:628][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2015.02.17-18.19.31:628][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:629][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2015.02.17-18.19.31:629][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:630][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2015.02.17-18.19.31:630][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:631][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2015.02.17-18.19.31:631][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:631][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2015.02.17-18.19.31:632][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:635][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2015.02.17-18.19.31:635][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/ASP_HeroTPP_AnimBlueprint.uasset.
+[2015.02.17-18.19.31:655][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2015.02.17-18.19.31:655][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.17-18.19.31:656][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:656][379]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/HeroTPP_Skeleton
+[2015.02.17-18.19.31:674][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:674][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_AsASP_Character_C
+[2015.02.17-18.19.31:674][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:675][379]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/ASP_Character
+[2015.02.17-18.19.31:676][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:676][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_AsASP_Character_C2
+[2015.02.17-18.19.31:677][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:679][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2015.02.17-18.19.31:680][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_CrouchWalk.R_CrouchWalk Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.17-18.19.31:680][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:680][379]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/R_CrouchWalk
+[2015.02.17-18.19.31:681][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2015.02.17-18.19.31:681][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.17-18.19.31:681][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:682][379]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip
+[2015.02.17-18.19.31:682][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2015.02.17-18.19.31:682][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.17-18.19.31:683][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:683][379]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Idle_Rifle_Hip
+[2015.02.17-18.19.31:683][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2015.02.17-18.19.31:684][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.17-18.19.31:684][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:684][379]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Jog
+[2015.02.17-18.19.31:685][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2015.02.17-18.19.31:685][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.17-18.19.31:686][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:686][379]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Jump_From_Stand
+[2015.02.17-18.19.31:687][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2015.02.17-18.19.31:687][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_Jog.R_Jog Referenced by ASP_HeroTPP_AnimBlueprint_C
+[2015.02.17-18.19.31:687][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:688][379]LoadErrors:Error: Error /Game/Blueprints/Postać/BP_Postac : Can't find file for asset. /Game/AnimStarterPack/Character/R_Jog
+[2015.02.17-18.19.31:688][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/HeroTPP_Skeleton'
+[2015.02.17-18.19.31:688][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/HeroTPP_Skeleton.HeroTPP_Skeleton Referenced by ASP_HeroTPP_AnimBlueprint
+[2015.02.17-18.19.31:689][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/HeroTPP_Skeleton' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:709][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:709][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_38
+[2015.02.17-18.19.31:709][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:711][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:712][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5026
+[2015.02.17-18.19.31:712][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:713][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:713][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableGet_350
+[2015.02.17-18.19.31:714][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:715][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:715][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5038
+[2015.02.17-18.19.31:716][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:725][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:726][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableGet_645
+[2015.02.17-18.19.31:726][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:727][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:727][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5044
+[2015.02.17-18.19.31:728][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:729][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:729][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_DynamicCast_338
+[2015.02.17-18.19.31:729][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:731][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:731][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5053
+[2015.02.17-18.19.31:732][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:733][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:733][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by K2Node_VariableSet_997
+[2015.02.17-18.19.31:733][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:735][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/ASP_Character'
+[2015.02.17-18.19.31:735][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/ASP_Character.ASP_Character_C Referenced by EdGraphPin_5067
+[2015.02.17-18.19.31:735][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/ASP_Character' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:745][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_Jog'
+[2015.02.17-18.19.31:745][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_Jog.R_Jog Referenced by AnimGraphNode_BlendSpacePlayer_12
+[2015.02.17-18.19.31:745][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_Jog' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:750][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Stand'
+[2015.02.17-18.19.31:751][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Stand.Jump_From_Stand Referenced by AnimGraphNode_SequencePlayer_100
+[2015.02.17-18.19.31:751][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Stand' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:754][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Jump_From_Jog'
+[2015.02.17-18.19.31:754][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Jump_From_Jog.Jump_From_Jog Referenced by AnimGraphNode_SequencePlayer_222
+[2015.02.17-18.19.31:755][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Jump_From_Jog' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:764][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Idle_Rifle_Hip'
+[2015.02.17-18.19.31:765][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip Referenced by AnimGraphNode_SequencePlayer_39
+[2015.02.17-18.19.31:765][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:780][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip'
+[2015.02.17-18.19.31:781][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Crouch_Idle_Rifle_Hip.Crouch_Idle_Rifle_Hip Referenced by AnimGraphNode_SequencePlayer_170
+[2015.02.17-18.19.31:781][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Crouch_Idle_Rifle_Hip' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:788][379]LogLinker:Warning: Can't find file '/Game/AnimStarterPack/Character/R_CrouchWalk'
+[2015.02.17-18.19.31:788][379]LoadErrors: Info Failed to load /Game/AnimStarterPack/Character/R_CrouchWalk.R_CrouchWalk Referenced by AnimGraphNode_BlendSpacePlayer_67
+[2015.02.17-18.19.31:789][379]LogLinker:Warning: Can't find file for asset '/Game/AnimStarterPack/Character/R_CrouchWalk' while loading ../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Postać/BP_Postac.uasset.
+[2015.02.17-18.19.31:910][379]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Jump Button Down' variable not found. Base class was probably changed.
+[2015.02.17-18.19.31:913][379]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Crouch Button Down' variable not found. Base class was probably changed.
+[2015.02.17-18.19.31:913][379]LogBlueprint:Warning: [ASP_HeroTPP_AnimBlueprint] CreatePinForVariable: 'Jump Button Down' variable not found. Base class was probably changed.
+[2015.02.17-18.19.31:970][379]LogBlueprint:Error: [compiler] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.02.17-18.19.31:970][379]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.02.17-18.19.31:971][379]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.02.17-18.19.31:972][379]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.02.17-18.19.31:972][379]LogBlueprint:Error: [compiler] Error  Play (None)  references an unknown sequence
+[2015.02.17-18.19.31:973][379]LogBlueprint:Error: [compiler] Error  Blendspace Player '(None)'  references an unknown blend space
+[2015.02.17-18.19.31:979][379]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.02.17-18.19.31:981][379]LogBlueprint:Error: [compiler] Error ICE: Player node  Play (None)  was not processed prior to handling a transition getter  K2Node_TransitionRuleGetter  that used it
+[2015.02.17-18.19.31:985][379]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Jump Button Down" in 'ASP_HeroTPP_AnimBlueprint'.
+Make sure 'ASP_HeroTPP_AnimBlueprint' has been compiled for  Set Jump Button Down 
+[2015.02.17-18.19.31:985][379]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Crouch Button Down" in 'ASP_HeroTPP_AnimBlueprint'.
+Make sure 'ASP_HeroTPP_AnimBlueprint' has been compiled for  Get Crouch Button Down 
+[2015.02.17-18.19.31:987][379]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "Jump Button Down" in 'ASP_HeroTPP_AnimBlueprint'.
+Make sure 'ASP_HeroTPP_AnimBlueprint' has been compiled for  Get Jump Button Down 
+[2015.02.17-18.19.31:996][379]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2015.02.17-18.19.31:996][379]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2015.02.17-18.19.31:996][379]LogBlueprint:Error: [compiler] Error ' Target ' must have a connection
+[2015.02.17-18.19.31:998][379]LogBlueprint:Error: [compiler] Error The property associated with  Jump Button Down  could not be found
+[2015.02.17-18.19.31:999][379]LogBlueprint:Error: [compiler] Error The property associated with  Crouch Button Down  could not be found
+[2015.02.17-18.19.31:999][379]LogBlueprint:Error: [compiler] Error The property associated with  Jump Button Down  could not be found
+[2015.02.17-18.19.32:041][379]LogBlueprint:Warning: [compiler] Warning [0082.26] Compile of ASP_HeroTPP_AnimBlueprint failed. 14 Fatal Issue(s) 3 Warning(s) [in 126 ms]
+[2015.02.17-18.19.32:062][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Animations/Reload_Pistol.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.32:083][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/Interfejs/HUD_States.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.32:148][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Audio/Broń/Glock/glock18-1.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.32:162][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Audio/Broń/Glock/glock_reload_sound.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.32:189][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/Spis_Broni.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.32:209][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Broń/dubeltowka.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.32:218][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Broń/glock.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.32:224][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Broń/knife.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.32:241][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Broń/uzi.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.32:267][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Props/HeroTPP_Physics.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.33:953][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Blueprints/Mechanika/Interfejs/BB_UI_HP_Widget.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.34:406][379]LogLinker:Warning: Asset '../../../../../../../Jablo/Git/Jablo/Content/Textures/6dtE3.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.02.17-18.19.35:456][379]LogWorld: Game class is 'BP_TrybGry_C'
+[2015.02.17-18.19.35:528][379]LogAIModule: Creating AISystem for world 0_TestingRoom
+[2015.02.17-18.19.35:530][379]LogWorld: Bringing World /Game/Maps/UEDPIE_0_0_TestingRoom.0_TestingRoom up for play (max tick rate 60) at 2015.02.17-19.19.35
+[2015.02.17-18.19.35:531][379]LogWorld: Bringing up level for play took: 0.002289
+[2015.02.17-18.19.36:284][379]LogBlueprintUserMessages: Nóż
+[2015.02.17-18.19.36:340][379]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_0_TestingRoom 5.356
+[2015.02.17-18.19.44:116][568]LogBlueprintUserMessages: Glocky
+[2015.02.17-18.20.04:994][200]LogBlueprintUserMessages: Dubeltówka
+[2015.02.17-18.20.13:765][473]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.14:282][489]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.18:073][607]LogBlueprintUserMessages: Pistolet maszynowy
+[2015.02.17-18.20.23:937][789]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.24:065][793]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.24:194][797]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.24:322][801]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.29:471][961]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.29:599][965]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.30:724][  0]LogBlueprintUserMessages: Pistolet maszynowy
+[2015.02.17-18.20.32:850][ 66]LogBlueprintUserMessages: Kałach
+[2015.02.17-18.20.33:696][ 91]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.17-18.20.34:071][102]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.34:136][104]LogBlueprintUserMessages: Magazynek pusty!
+[2015.02.17-18.20.34:645][119]LogBlueprintUserMessages: Zabrakło amunicji!
+[2015.02.17-18.20.35:766][152]LogBlueprintUserMessages: Nóż
+[2015.02.17-18.20.36:744][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.02.17-18.20.36:744][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.02.17-18.20.36:744][180]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnNoiseEmitterComponent_0) Not registered. Aborting.
+[2015.02.17-18.20.38:554][229]LogBlueprintUserMessages: Glocky
+[2015.02.17-18.20.40:119][270]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.17-18.20.40:194][270]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000AE32520
+[2015.02.17-18.21.03:163][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Template_Map_Floor)
+[2015.02.17-18.21.03:181][589]LogPropertyNode:Warning: UI Min (0.001) >= UI Max () for Ranged Numeric
+[2015.02.17-18.21.36:043][848]Cmd: QUIT_EDITOR
+[2015.02.17-18.21.36:782][848]LogExit: Preparing to exit.
+[2015.02.17-18.21.37:825][848]LogExit: Editor shut down
+[2015.02.17-18.21.37:825][848]LogExit: Transaction tracking system shut down
+[2015.02.17-18.21.37:828][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DA60AE0
+[2015.02.17-18.21.37:828][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D6FE840
+[2015.02.17-18.21.37:892][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C2525C0
+[2015.02.17-18.21.37:892][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001C2DBE20
+[2015.02.17-18.21.37:892][848]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C349440
+[2015.02.17-18.21.37:892][848]LogExit: Object subsystem successfully closed.
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (173)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (172)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module CrashTracker (171)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module SuperSearch (170)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module SceneOutliner (169)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module EditorWidgets (168)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module CollectionManager (167)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module StatsViewer (166)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module FoliageEdit (165)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module LandscapeEditor (164)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module MeshPaint (163)
+[2015.02.17-18.21.37:963][848]LogModuleManager: Shutting down and abandoning module ActorPickerMode (162)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module GeometryMode (161)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module TextureAlignMode (160)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module BspMode (159)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module PlacementMode (158)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module AutomationWorker (157)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module CharacterAI (156)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (155)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module IntroTutorials (154)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (153)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module HardwareTargeting (152)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (151)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module UndoHistory (150)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (149)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module UserFeedback (148)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module XmlParser (147)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module Blutility (146)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (145)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (144)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (143)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (142)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (141)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (140)
+[2015.02.17-18.21.37:964][848]LogModuleManager: Shutting down and abandoning module InputBindingEditor (139)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (138)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module SettingsEditor (137)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module ProjectLauncher (136)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module SessionFrontend (135)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module ProfilerClient (134)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (133)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module DeviceManager (132)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module AutomationController (131)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module AutomationWindow (130)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module Layers (129)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (128)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module DetailCustomizations (127)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module PackagesDialog (126)
+[2015.02.17-18.21.37:965][848]LogModuleManager: Shutting down and abandoning module AssetRegistry (125)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module Persona (124)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.02.17-18.21.38:044][848]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.02.17-18.21.38:045][848]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.02.17-18.21.38:045][848]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.02.17-18.21.38:045][848]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.02.17-18.21.38:045][848]LogModuleManager: Shutting down and abandoning module AIModule (108)
+[2015.02.17-18.21.38:045][848]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module EpicSurvey (96)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module DesktopPlatform (95)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (94)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module UObjectPlugin (93)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (92)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module SourceControl (91)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (90)
+[2015.02.17-18.21.38:081][848]LogModuleManager: Shutting down and abandoning module BlankPlugin (89)
+[2015.02.17-18.21.38:082][848]LogModuleManager: Shutting down and abandoning module SlateReflector (88)
+[2015.02.17-18.21.38:082][848]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (87)
+[2015.02.17-18.21.38:082][848]LogModuleManager: Shutting down and abandoning module HotReload (86)
+[2015.02.17-18.21.38:082][848]LogModuleManager: Shutting down and abandoning module MainFrame (85)
+[2015.02.17-18.21.38:083][848]LogModuleManager: Shutting down and abandoning module LevelEditor (84)
+[2015.02.17-18.21.38:085][848]LogModuleManager: Shutting down and abandoning module ViewportSnapping (83)
+[2015.02.17-18.21.38:085][848]LogModuleManager: Shutting down and abandoning module SmartSnapping (82)
+[2015.02.17-18.21.38:085][848]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (81)
+[2015.02.17-18.21.38:085][848]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (80)
+[2015.02.17-18.21.38:085][848]LogModuleManager: Shutting down and abandoning module ContentBrowser (79)
+[2015.02.17-18.21.38:085][848]LogModuleManager: Shutting down and abandoning module Paper2DEditor (78)
+[2015.02.17-18.21.38:085][848]LogModuleManager: Shutting down and abandoning module ScriptPlugin (77)
+[2015.02.17-18.21.38:085][848]LogModuleManager: Shutting down and abandoning module UdpMessaging (76)
+[2015.02.17-18.21.38:185][848]LogModuleManager: Shutting down and abandoning module Paper2D (75)
+[2015.02.17-18.21.38:185][848]LogModuleManager: Shutting down and abandoning module UE4Game (74)
+[2015.02.17-18.21.38:185][848]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (73)
+[2015.02.17-18.21.38:190][848]LogModuleManager: Shutting down and abandoning module Media (72)
+[2015.02.17-18.21.38:190][848]LogModuleManager: Shutting down and abandoning module WmfMedia (71)
+[2015.02.17-18.21.38:190][848]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (70)
+[2015.02.17-18.21.38:190][848]LogModuleManager: Shutting down and abandoning module PropertyEditor (69)
+[2015.02.17-18.21.38:190][848]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (68)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module FunctionalTesting (67)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (66)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (65)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module MessageLog (64)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module Sequencer (63)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module AssetTools (62)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module UMGEditor (61)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module UMG (60)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module Slate (59)
+[2015.02.17-18.21.38:191][848]LogModuleManager: Shutting down and abandoning module EditorStyle (58)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module SessionServices (57)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (56)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (55)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module XAudio2 (54)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module Networking (52)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module Core (51)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module KismetCompiler (50)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module PhysXFormats (49)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module MeshUtilities (48)
+[2015.02.17-18.21.38:198][848]LogModuleManager: Shutting down and abandoning module DerivedDataCache (47)
+[2015.02.17-18.21.38:284][848]LogDerivedDataCache: Shutdown
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (46)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (45)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (44)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (43)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (42)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (41)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (40)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (39)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (38)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (37)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (36)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (35)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (34)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module Messaging (33)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (32)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (28)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (27)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.02.17-18.21.38:284][848]LogModuleManager: Shutting down and abandoning module TargetPlatform (21)
+[2015.02.17-18.21.38:285][848]LogModuleManager: Shutting down and abandoning module InputCore (20)
+[2015.02.17-18.21.38:285][848]LogModuleManager: Shutting down and abandoning module Settings (19)
+[2015.02.17-18.21.38:285][848]LogModuleManager: Shutting down and abandoning module ImageWrapper (18)
+[2015.02.17-18.21.38:285][848]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.02.17-18.21.38:285][848]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.02.17-18.21.38:285][848]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.02.17-18.21.38:285][848]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.02.17-18.21.38:285][848]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.02.17-18.21.38:285][848]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.02.17-18.21.38:288][848]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.02.17-18.21.38:288][848]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.02.17-18.21.38:288][848]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.02.17-18.21.38:288][848]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.02.17-18.21.38:288][848]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.02.17-18.21.38:288][848]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.02.17-18.21.38:288][848]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.02.17-18.21.38:288][848]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.02.17-18.21.38:288][848]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.02.17-18.21.38:289][848]LogExit: Exiting.
+[2015.02.17-18.21.38:352][848]Log file closed, 02/17/15 19:21:38

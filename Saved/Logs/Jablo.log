@@ -1,0 +1,24 @@
+Log file open, 11/21/14 00:30:53
+LogInit:Display: Running engine for game: Jablo
+LogInit:Warning: Game name case not detected for 'Jablo'. The engine ini should contain an entry [URL]GameName with the name of the game in the correct case.
+LogWindows:Error: appError called: Assertion failed: AsyncIOThread [File:E:\My Documents\Downloads\Unreal\Source\443\Build\UnrealEngine-4.4.3-release\Engine\Source\Runtime\Core\Private\Serialization\AsyncIOSystemBase.cpp] [Line: 773]
+
+Stack:
+FWindowsPlatformStackWalk::StackWalkAndDump() 0xdd333716 + 0 bytes [File=e:\my documents\downloads\unreal\source\443\build\unrealengine-4.4.3-release\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:177] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FDebug::AssertFailed() 0xdd1d42f5 + 0 bytes [File=e:\my documents\downloads\unreal\source\443\build\unrealengine-4.4.3-release\engine\source\runtime\core\private\misc\outputdevice.cpp:203] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FIOSystem::Get() 0xdd24d79e + 0 bytes [File=e:\my documents\downloads\unreal\source\443\build\unrealengine-4.4.3-release\engine\source\runtime\core\private\serialization\asynciosystembase.cpp:775] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FPakPlatformFile::~FPakPlatformFile() 0xd64ea580 + 0 bytes [File=e:\my documents\downloads\unreal\source\443\build\unrealengine-4.4.3-release\engine\source\runtime\pakfile\private\iplatformfilepak.cpp:494] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+FPakPlatformFile::`vector deleting destructor'() Address = 0xd64ed157 (filename not found) [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+`FPakFileModule::GetPlatformFile'::`2'::`dynamic atexit destructor for 'AutoDestroySingleton''() Address = 0xd650186a (filename not found) [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+_CRT_INIT() 0xd64ff0a4 + 0 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtdll.c:416] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+__DllMainCRTStartup() 0xd64ff326 + 13 bytes [File=f:\dd\vctools\crt\crtw32\dllstuff\crtdll.c:522] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor-PakFile.dll]
+Address = 0xf9a9dcf4 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0xf9a9d102 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0xf9a99718 (filename not found) [in C:\WINDOWS\SYSTEM32\ntdll.dll]
+Address = 0xf96f516a (filename not found) [in C:\WINDOWS\system32\KERNEL32.DLL]
+Address = 0xe23f29a7 (filename not found) [in C:\WINDOWS\SYSTEM32\MSVCR120.dll]
+FConfigCacheIni::InitializeConfigSystem() 0xdd184a6a + 11 bytes [File=e:\my documents\downloads\unreal\source\443\build\unrealengine-4.4.3-release\engine\source\runtime\core\private\misc\configcacheini.cpp:2720] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor-Core.dll]
+FEngineLoop::AppInit() 0xfb8b82f7 + 0 bytes [File=e:\my documents\downloads\unreal\source\443\build\unrealengine-4.4.3-release\engine\source\runtime\launch\private\launchengineloop.cpp:2328] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor.exe]
+FEngineLoop::PreInit() 0xfb8c2aab + 5 bytes [File=e:\my documents\downloads\unreal\source\443\build\unrealengine-4.4.3-release\engine\source\runtime\launch\private\launchengineloop.cpp:999] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMain() 0xfb8bd13c + 15 bytes [File=e:\my documents\downloads\unreal\source\443\build\unrealengine-4.4.3-release\engine\source\runtime\launch\private\launch.cpp:112] [in D:\Developer\UnrealEngine-4.4.3-release\UnrealEngine-4.4.3-release\Engine\Binaries\Win64\UE4Editor.exe]
+GuardedMainWrapper() 0xfb8bd29a + 5 bytes [File=e:\my documents\downloads\unreal\source\443\build\unrealengine-4.4.3-release
